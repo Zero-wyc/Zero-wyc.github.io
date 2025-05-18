@@ -1,3 +1,14 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b5078804492371524011c5c95bd160507666e887776c284ce3c6965ad410db31
-size 470
+<script lang="ts" setup>
+import { useScriptTag } from '@vueuse/core'
+import YunFooter from 'valaxy-theme-yun/components/YunFooter.vue'
+
+useScriptTag('//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js')
+</script>
+
+<template>
+  <YunFooter>
+    <!-- 自定义页脚内容 -->
+    <div>本站总访问量 <span id="busuanzi_value_site_pv" /> 次</div>
+    <div>本站访客数 <span id="busuanzi_value_site_uv" /> 人次</div>
+  </YunFooter>
+</template>

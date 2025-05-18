@@ -1,3 +1,10 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a9840423b76156a2d19a76d6ea18dbbdc57188a998fa222445fec9682de37b77
-size 152
+---
+hide: false
+title: 咕咕咕 - Alist
+date: 2025-04-03
+updated: 2025-04-03
+categories: 搞机日志
+tags:
+  - 搞机日志
+  - 咕咕咕
+---

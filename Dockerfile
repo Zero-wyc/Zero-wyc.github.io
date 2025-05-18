@@ -1,3 +1,19 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:4a4cab4cc0499bba2e58b6ae148039c8a929bee72bb1c80dcc1db2f191564e2a
-size 424
+FROM node:20-alpine as build-stage
+
+WORKDIR /app
+RUN corepack enable
+
+COPY .npmrc package.json pnpm-lock.yaml ./
+RUN --mount=type=cache,id=pnpm-store,target=/root/.pnpm-store \
+    pnpm install --frozen-lockfile
+
+COPY . .
+RUN pnpm build
+
+FROM nginx:stable-alpine as production-stage
+
+COPY nginx.conf /etc/nginx/nginx.conf
+COPY --from=build-stage /app/dist /usr/share/nginx/html
+EXPOSE 80
+
+CMD ["nginx", "-g", "daemon off;"]

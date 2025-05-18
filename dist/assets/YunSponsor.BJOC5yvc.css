@@ -1,3 +1,1 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:77bb290f6c9ccb64ef47cbdec0c63540c83a5356554f128b2c513afeb42c7512
-size 654
+.sponsor-button{background-color:#ffffff1a}.sponsor-button div{transform:scale(1.1);transition:transform var(--va-transition-duration) ease-in-out}.sponsor-button:hover{background-color:#ffffffe6}.sponsor-button:hover div{transform:scale(1.2)}.sponsor-button a:hover{border:none}.qrcode-container{--height: 200px;overflow:hidden;height:0;opacity:0;transition:all var(--va-transition-duration) cubic-bezier(.77,0,.17,1.02)}.qrcode-container.show{height:var(--height);opacity:1}@media screen and (min-width: 768px){.qrcode-container{--height: 260px}}.sponsor-description{color:var(--va-c-gray)}.sponsor-method-img{width:12rem;max-width:90%;aspect-ratio:1}

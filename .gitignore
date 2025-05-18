@@ -1,3 +1,32 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:fff7285d4f9a500232c6138edcc4f6b38aacf972f0d57091abac4ad79b757d7c
-size 298
+# valaxy
+
+valaxy-fuse-list.json
+
+# vite-ssg
+
+.vite-ssg-dist
+.vite-ssg-temp
+
+temp/
+
+.DS_Store
+*.local
+dist
+dist-ssr
+node_modules
+.idea/
+*.log
+
+components.d.ts
+
+# valaxy fuse
+public/valaxy-fuse-list.json
+
+# valaxy rss
+public/feed.xml
+
+# valaxy rss
+public/atom.xml
+
+# valaxy rss
+public/feed.json

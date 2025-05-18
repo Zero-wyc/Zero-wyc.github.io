@@ -1,3 +1,37 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ecf1d6205eb02836a0c54df84779f61a951530a4d9d98a32dead89f3a424ebc4
-size 838
+{
+  "name": "Zero_wyc_blog",
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "npm run build:ssg",
+    "build:spa": "valaxy build",
+    "build:ssg": "valaxy build --ssg",
+    "dev": "valaxy",
+    "rss": "valaxy rss",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "valaxy": "0.23.3",
+    "valaxy-addon-bangumi": "^0.2.2",
+    "valaxy-addon-lightgallery": "^0.0.4",
+    "valaxy-addon-live2d": "^0.3.0",
+    "valaxy-addon-meting": "^0.1.4",
+    "valaxy-addon-vercount": "^0.0.5",
+    "valaxy-addon-waline": "^0.2.1",
+    "valaxy-theme-yun": "0.23.3"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  },
+  "pnpm": {
+    "ignoredBuiltDependencies": [
+      "@parcel/watcher",
+      "esbuild"
+    ],
+    "onlyBuiltDependencies": [
+      "@parcel/watcher",
+      "esbuild"
+    ]
+  }
+}

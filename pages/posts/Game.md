@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a1537f01351b6622b3ec1266c90c8605898a97160d6ae31b69809d617d5eead7
-size 309
+---
+hide: true
+title: Game
+date: 2025-03-23
+updated: 2025-03-23
+categories: Game
+---
+
+1. **Genshin：145554675**
+2. **Star Rail：107141070**
+3. **ZenlessZoneZero：16084430**
+4. **Honkai Impact 3RD：274406689**
+5. **ARKNIGHTS：892757927**
+6. **Blue Archive：yli94ea**
+
+**More are coming**

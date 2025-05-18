@@ -1,3 +1,3 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:229199edd61c2cbcf48ca07f900b749640e54046af0d2b5f6c9c53cfefe4b6b5
-size 71
+/assets/*
+  cache-control: max-age=31536000
+  cache-control: immutable

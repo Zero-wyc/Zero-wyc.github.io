@@ -1,3 +1,242 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:708539cb254388f221f0dec1cbb18e8264c5ad80f1b3fc7a6b5a348f183bd349
-size 10264
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Zero_wyc的窝",
+    "home_page_url": "https://zero251.xyz/",
+    "feed_url": "https://zero251.xyz/feed.json",
+    "description": "Zero_wyc的公式化",
+    "icon": "https://p.zero251.xyz/i/2025/03/28/辛.webp",
+    "author": {
+        "name": "Zero-无常",
+        "url": "https://valaxy.site"
+    },
+    "items": [
+        {
+            "id": "",
+            "content_html": "<h1>《在寄宿制学校中使用点读笔进行任何的答案的自由校对》---点读笔-如何在开机时自动启动WIFI热点</h1>\n<ul>\n<li>\n<p>众所周知在一个寄宿制高中，手机要么就是有一点点或没有</p>\n<p>那么如何解决在答案</p>\n</li>\n</ul>\n<br/><p>访问 <a href=\"https://zero251.xyz/posts/点读笔-如何在开机时自动启动WIFI热点\" target=\"_blank\">https://zero251.xyz/posts/点读笔-如何在开机时自动启动WIFI热点</a> 阅读全文。</p>",
+            "url": "https://zero251.xyz/posts/点读笔-如何在开机时自动启动WIFI热点",
+            "title": "点读笔-如何在开机时自动启动WIFI热点",
+            "date_modified": "2025-04-03T00:00:00.000Z",
+            "date_published": "2025-05-18T00:00:00.000Z",
+            "author": {
+                "name": "Zero-无常",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h1>Frp配置</h1>\n<ul>\n<li>\n<h2>Linux环境下</h2>\n<ul>\n<li>\n<h2>FRPC</h2>\n</li>\n<li>\n<h4>运行命令 在frpc目录下</h4>\n<pre><code class=\"language-toml\">./frpc -c ./</code></pre>\n</li>\n</ul>\n</li>\n</ul>\n<br/><p>访问 <a href=\"https://zero251.xyz/posts/FRP配置\" target=\"_blank\">https://zero251.xyz/posts/FRP配置</a> 阅读全文。</p>",
+            "url": "https://zero251.xyz/posts/FRP配置",
+            "title": "FRP配置",
+            "date_modified": "2025-05-16T00:00:00.000Z",
+            "date_published": "2025-05-16T00:00:00.000Z",
+            "author": {
+                "name": "Zero-无常",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h1>Lethal-company之如何使用内网穿透或者反向代理进行联机（免费使用）</h1>\n<hr>\n<ul>\n<li>\n<h6>由于我们惊喜的发现，致命公司只在steam联机端的steam启动端</h6>\n</li>\n</ul>\n<br/><p>访问 <a href=\"https://zero251.xyz/posts/致命公司自建局域网服务器，反代联机（破解）\" target=\"_blank\">https://zero251.xyz/posts/致命公司自建局域网服务器，反代联机（破解）</a> 阅读全文。</p>",
+            "url": "https://zero251.xyz/posts/致命公司自建局域网服务器，反代联机（破解）",
+            "title": "致命公司自建局域网服务器，内网穿透联机（免费使用）",
+            "date_modified": "2025-05-16T00:00:00.000Z",
+            "date_published": "2025-05-16T00:00:00.000Z",
+            "author": {
+                "name": "Zero-无常",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<p>1.[<a href=\"https://typing.zero251.xyz/\">https://typing.zero251.xyz/</a>]  FORK自Barneyzhao并加以修改了许多的东西<br>\n![](../posts/Zero-Typing/zero-typing.</p>\n<br/><p>访问 <a href=\"https://zero251.xyz/posts/Zero-Typing - 一个美观的打字网站\" target=\"_blank\">https://zero251.xyz/posts/Zero-Typing - 一个美观的打字网站</a> 阅读全文。</p>",
+            "url": "https://zero251.xyz/posts/Zero-Typing - 一个美观的打字网站",
+            "title": "Zero-Typing - 一个美观的打字网站",
+            "date_modified": "2025-04-12T16:00:00.000Z",
+            "date_published": "2025-04-12T16:00:00.000Z",
+            "author": {
+                "name": "Zero-无常",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<br/><p>访问 <a href=\"https://zero251.xyz/posts/咕咕咕 - EasyImage图床\" target=\"_blank\">https://zero251.xyz/posts/咕咕咕 - EasyImage图床</a> 阅读全文。</p>",
+            "url": "https://zero251.xyz/posts/咕咕咕 - EasyImage图床",
+            "title": "咕咕咕 - EasyImage图床",
+            "date_modified": "2025-04-04T00:00:00.000Z",
+            "date_published": "2025-04-04T00:00:00.000Z",
+            "author": {
+                "name": "Zero-无常",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h1>Intel MAC使用MAA进行明日方舟挂机</h1>\n<hr>\n<ol>\n<li>\n<p>前往此处下载最后支持Intel MAC的mumu模拟器</p>\n<p>![image-20250516231829115]</p>\n</li>\n</ol>\n<br/><p>访问 <a href=\"https://zero251.xyz/posts/Intel MAC使用MAA进行明日方舟挂机\" target=\"_blank\">https://zero251.xyz/posts/Intel MAC使用MAA进行明日方舟挂机</a> 阅读全文。</p>",
+            "url": "https://zero251.xyz/posts/Intel MAC使用MAA进行明日方舟挂机",
+            "title": "咕咕咕 - Intel MAC使用MAA进行明日方舟挂机",
+            "date_modified": "2025-04-03T00:00:00.000Z",
+            "date_published": "2025-04-03T00:00:00.000Z",
+            "author": {
+                "name": "Zero-无常",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<br/><p>访问 <a href=\"https://zero251.xyz/posts/咕咕咕 - Alist\" target=\"_blank\">https://zero251.xyz/posts/咕咕咕 - Alist</a> 阅读全文。</p>",
+            "url": "https://zero251.xyz/posts/咕咕咕 - Alist",
+            "title": "咕咕咕 - Alist",
+            "date_modified": "2025-04-03T00:00:00.000Z",
+            "date_published": "2025-04-03T00:00:00.000Z",
+            "author": {
+                "name": "Zero-无常",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<br/><p>访问 <a href=\"https://zero251.xyz/posts/咕咕咕 - Android刷机\" target=\"_blank\">https://zero251.xyz/posts/咕咕咕 - Android刷机</a> 阅读全文。</p>",
+            "url": "https://zero251.xyz/posts/咕咕咕 - Android刷机",
+            "title": "咕咕咕 - Android刷机",
+            "date_modified": "2025-04-03T00:00:00.000Z",
+            "date_published": "2025-04-03T00:00:00.000Z",
+            "author": {
+                "name": "Zero-无常",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<br/><p>访问 <a href=\"https://zero251.xyz/posts/咕咕咕 - Minecraft服务器\" target=\"_blank\">https://zero251.xyz/posts/咕咕咕 - Minecraft服务器</a> 阅读全文。</p>",
+            "url": "https://zero251.xyz/posts/咕咕咕 - Minecraft服务器",
+            "title": "咕咕咕 - Minecraft Server",
+            "date_modified": "2025-04-03T00:00:00.000Z",
+            "date_published": "2025-04-03T00:00:00.000Z",
+            "author": {
+                "name": "Zero-无常",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<br/><p>访问 <a href=\"https://zero251.xyz/posts/咕咕咕 - Windows桌面美化\" target=\"_blank\">https://zero251.xyz/posts/咕咕咕 - Windows桌面美化</a> 阅读全文。</p>",
+            "url": "https://zero251.xyz/posts/咕咕咕 - Windows桌面美化",
+            "title": "咕咕咕 - Windows桌面美化",
+            "date_modified": "2025-04-03T00:00:00.000Z",
+            "date_published": "2025-04-03T00:00:00.000Z",
+            "author": {
+                "name": "Zero-无常",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<br/><p>访问 <a href=\"https://zero251.xyz/posts/咕咕咕 - XDF N1\" target=\"_blank\">https://zero251.xyz/posts/咕咕咕 - XDF N1</a> 阅读全文。</p>",
+            "url": "https://zero251.xyz/posts/咕咕咕 - XDF N1",
+            "title": "咕咕咕 - XDF N1",
+            "date_modified": "2025-04-03T00:00:00.000Z",
+            "date_published": "2025-04-03T00:00:00.000Z",
+            "author": {
+                "name": "Zero-无常",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<br/><p>访问 <a href=\"https://zero251.xyz/posts/咕咕咕 - 子腾手表\" target=\"_blank\">https://zero251.xyz/posts/咕咕咕 - 子腾手表</a> 阅读全文。</p>",
+            "url": "https://zero251.xyz/posts/咕咕咕 - 子腾手表",
+            "title": "咕咕咕 - 子腾手表",
+            "date_modified": "2025-04-03T00:00:00.000Z",
+            "date_published": "2025-04-03T00:00:00.000Z",
+            "author": {
+                "name": "Zero-无常",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<br/><p>访问 <a href=\"https://zero251.xyz/posts/咕咕咕 - 小米Watch1\" target=\"_blank\">https://zero251.xyz/posts/咕咕咕 - 小米Watch1</a> 阅读全文。</p>",
+            "url": "https://zero251.xyz/posts/咕咕咕 - 小米Watch1",
+            "title": "咕咕咕 - 小米Watch1",
+            "date_modified": "2025-04-03T00:00:00.000Z",
+            "date_published": "2025-04-03T00:00:00.000Z",
+            "author": {
+                "name": "Zero-无常",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<br/><p>访问 <a href=\"https://zero251.xyz/posts/咕咕咕 - 小米手环\" target=\"_blank\">https://zero251.xyz/posts/咕咕咕 - 小米手环</a> 阅读全文。</p>",
+            "url": "https://zero251.xyz/posts/咕咕咕 - 小米手环",
+            "title": "咕咕咕 - 小米手环",
+            "date_modified": "2025-04-03T00:00:00.000Z",
+            "date_published": "2025-04-03T00:00:00.000Z",
+            "author": {
+                "name": "Zero-无常",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<br/><p>访问 <a href=\"https://zero251.xyz/posts/咕咕咕 - 希沃\" target=\"_blank\">https://zero251.xyz/posts/咕咕咕 - 希沃</a> 阅读全文。</p>",
+            "url": "https://zero251.xyz/posts/咕咕咕 - 希沃",
+            "title": "咕咕咕 - 希沃",
+            "date_modified": "2025-04-03T00:00:00.000Z",
+            "date_published": "2025-04-03T00:00:00.000Z",
+            "author": {
+                "name": "Zero-无常",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h1>FRIGHT AGAIN ！</h1>\n<br/><p>访问 <a href=\"https://zero251.xyz/posts/评论杂烩QAQ\" target=\"_blank\">https://zero251.xyz/posts/评论杂烩QAQ</a> 阅读全文。</p>",
+            "url": "https://zero251.xyz/posts/评论杂烩QAQ",
+            "title": "评论杂烩QAQ",
+            "date_modified": "2025-04-03T00:00:00.000Z",
+            "date_published": "2025-04-03T00:00:00.000Z",
+            "author": {
+                "name": "Zero-无常",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<br/><p>访问 <a href=\"https://zero251.xyz/posts/咕咕咕 - OpenWRT配置 copy\" target=\"_blank\">https://zero251.xyz/posts/咕咕咕 - OpenWRT配置 copy</a> 阅读全文。</p>",
+            "url": "https://zero251.xyz/posts/咕咕咕 - OpenWRT配置 copy",
+            "title": "咕咕咕 - OpenWRT配置",
+            "date_modified": "2025-03-23T00:00:00.000Z",
+            "date_published": "2025-03-23T00:00:00.000Z",
+            "author": {
+                "name": "Zero-无常",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<br/><p>访问 <a href=\"https://zero251.xyz/posts/咕咕咕 - 常用命令\" target=\"_blank\">https://zero251.xyz/posts/咕咕咕 - 常用命令</a> 阅读全文。</p>",
+            "url": "https://zero251.xyz/posts/咕咕咕 - 常用命令",
+            "title": "咕咕咕 - 常用命令",
+            "date_modified": "2025-03-23T00:00:00.000Z",
+            "date_published": "2025-03-23T00:00:00.000Z",
+            "author": {
+                "name": "Zero-无常",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h1>关于元旦晚会体艺馆场控问题及使用报告</h1>\n<hr>\n<blockquote>\n<p><strong>PS</strong>：</p>\n<ul>\n<li>体艺馆场控室采用全新配备的软硬件系统</li>\n<li>本文包含操作指南与问题解决方案</li>\n<li>~</li>\n</ul>\n</blockquote>\n<br/><p>访问 <a href=\"https://zero251.xyz/posts/FZBZ-Test\" target=\"_blank\">https://zero251.xyz/posts/FZBZ-Test</a> 阅读全文。</p>",
+            "url": "https://zero251.xyz/posts/FZBZ-Test",
+            "title": "TEST - FZBZ",
+            "date_modified": "2024-12-31T00:00:00.000Z",
+            "date_published": "2025-01-01T00:00:00.000Z",
+            "author": {
+                "name": "Zero-无常",
+                "url": "https://valaxy.site"
+            }
+        }
+    ]
+}

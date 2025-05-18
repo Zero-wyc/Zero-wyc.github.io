@@ -1,3 +1,10 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:4778519e787dda0cf40a6510d6e99f3335b9dc8aee3058fce45695ed7efe27a1
-size 162
+---
+hide: false
+title: 咕咕咕 - EasyImage图床
+date: 2025-04-04
+updated: 2025-04-04
+categories: 搞机日志
+tags:
+  - 搞机日志
+  - 咕咕咕
+---

@@ -1,3 +1,25 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c17d78b98428178010be49ab55d0386415843f6bc344fcfadd78f64a453332e1
-size 502
+:root {
+  --cursor-default: url('https://p.zero251.xyz/i/2025/04/04/Normal.cur');
+  --cursor-pointer: url('https://p.zero251.xyz/i/2025/04/04/Link.cur');
+  --cursor-text: url('https://p.zero251.xyz/i/2025/04/04/Text.cur');
+}
+
+body {
+  cursor: var(--cursor-default), auto;
+}
+
+a {
+  cursor: var(--cursor-pointer), auto;
+
+  &:hover {
+    cursor: var(--cursor-pointer), auto;
+  }
+}
+
+button {
+  cursor: var(--cursor-pointer), pointer;
+}
+
+input {
+  cursor: var(--cursor-text), text;
+}

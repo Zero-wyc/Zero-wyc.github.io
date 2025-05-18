@@ -1,3 +1,14 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3efd85224f273a1263cdd961b25d3a068ac6b769b7012d721b1b35dbc7979601
-size 333
+---
+title: SIKADI
+layout: gallery
+nav: false
+toc: false
+aside: false
+photos:			# 照片
+  - caption: KS89504775
+    src: https://p.zero251.xyz/i/2025/03/29/K.S.89504775.webp
+    desc: KS89504775
+  - caption: LeriaV109467473
+    src: https://p.zero251.xyz/i/2025/03/29/Leria_V-109467473.webp
+    desc: LeriaV109467473
+---

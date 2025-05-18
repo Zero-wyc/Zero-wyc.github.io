@@ -1,3 +1,10 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6c65daaddaaf05a3c4fe4cad7cc881062d1c516fdd5392ebf317dfe109fd58c4
-size 159
+---
+hide: false
+title: 咕咕咕 - 小米Watch1
+date: 2025-04-03
+updated: 2025-04-03
+categories: 搞机日志
+tags:
+  - 搞机日志
+  - 咕咕咕
+---

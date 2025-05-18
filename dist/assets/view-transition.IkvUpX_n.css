@@ -1,3 +1,1 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:322fdf7dd5888874067e7793c0485e9805e4e0287e0090a703b918d6509fc895
-size 262
+::view-transition-old(root),::view-transition-new(root){animation:none;mix-blend-mode:normal}.dark::view-transition-old(root){z-index:9999}.dark::view-transition-new(root){z-index:1}::view-transition-old(root){z-index:1}::view-transition-new(root){z-index:9999}

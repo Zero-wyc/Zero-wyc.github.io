@@ -1,3 +1,11 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:34c7be8dd820d5713794c6f7a04fc87c37e3e6768dbccf522e1ae245113850ec
-size 143
+---
+title: 关于我
+aside: false	# 关闭目录边栏
+---
+
+一个高一的学生
+---
+普通而不幸的命运
+---
+让我在此与您相会
+---

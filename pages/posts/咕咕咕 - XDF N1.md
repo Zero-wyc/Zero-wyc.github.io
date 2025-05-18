@@ -1,3 +1,10 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:41d301de6efebc9f4affd6b6a44fe80dee9d036d640f90fabd5341320cc3e0ff
-size 153
+---
+hide: false
+title: 咕咕咕 - XDF N1
+date: 2025-04-03
+updated: 2025-04-03
+categories: 搞机日志
+tags:
+  - 搞机日志
+  - 咕咕咕
+---

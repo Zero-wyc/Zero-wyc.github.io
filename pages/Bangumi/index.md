@@ -1,3 +1,11 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9ddbba61d2bc8c28c200a9eef03e968810061dff572b4e29900bf9022c5666ca
-size 189
+---
+title: Bangumi 追番列表
+keywords: Bangumi
+description: Bangumi 追番列表
+aside: false	# 关闭目录边栏
+---
+### 此页面可能需要VPN或移动网络
+
+***
+
+<ValaxyBangumi />

@@ -1,3 +1,17 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:96a9c770b2f7fa7f9aa95b7f129275cf45bb27d934aab1c2f65f381d1136ea65
-size 256
+[build]
+publish = "dist"
+command = "pnpm run build"
+
+[build.environment]
+NODE_VERSION = "20"
+
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200
+
+[[headers]]
+for = "/manifest.webmanifest"
+
+[headers.values]
+Content-Type = "application/manifest+json"

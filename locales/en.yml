@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:60009f576811615fba92ce18c88f0dc51c38a753e79874c6d1cb467fe8e57798
-size 75
+# you can custom locale
+intro:
+  desc: Valaxy Template
+  hi: Hello, WORLD!

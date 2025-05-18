@@ -1,3 +1,315 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:25fe40503a54ffa936b27819146e67c8f3a77f07d039474532606ba3d70cf2ac
-size 12444
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://zero251.xyz/</id>
+    <title>Zero_wyc的窝</title>
+    <updated>2025-05-18T01:37:25.729Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <author>
+        <name>Zero-无常</name>
+        <email>i@valaxy.site</email>
+        <uri>https://valaxy.site</uri>
+    </author>
+    <link rel="alternate" href="https://zero251.xyz/"/>
+    <link rel="self" href="https://zero251.xyz/atom.xml"/>
+    <subtitle>Zero_wyc的公式化</subtitle>
+    <logo>https://p.zero251.xyz/i/2025/03/28/辛.webp</logo>
+    <icon>https://zero251.xyz/favicon.svg</icon>
+    <rights>CC BY-NC-SA 4.0 2025 © Zero-无常</rights>
+    <entry>
+        <title type="html"><![CDATA[点读笔-如何在开机时自动启动WIFI热点]]></title>
+        <id>https://zero251.xyz/posts/点读笔-如何在开机时自动启动WIFI热点</id>
+        <link href="https://zero251.xyz/posts/点读笔-如何在开机时自动启动WIFI热点"/>
+        <updated>2025-04-03T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h1>《在寄宿制学校中使用点读笔进行任何的答案的自由校对》---点读笔-如何在开机时自动启动WIFI热点</h1>
+<ul>
+<li>
+<p>众所周知在一个寄宿制高中，手机要么就是有一点点或没有</p>
+<p>那么如何解决在答案</p>
+</li>
+</ul>
+<br/><p>访问 <a href="https://zero251.xyz/posts/点读笔-如何在开机时自动启动WIFI热点" target="_blank">https://zero251.xyz/posts/点读笔-如何在开机时自动启动WIFI热点</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Zero-无常</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-05-18T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[FRP配置]]></title>
+        <id>https://zero251.xyz/posts/FRP配置</id>
+        <link href="https://zero251.xyz/posts/FRP配置"/>
+        <updated>2025-05-16T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h1>Frp配置</h1>
+<ul>
+<li>
+<h2>Linux环境下</h2>
+<ul>
+<li>
+<h2>FRPC</h2>
+</li>
+<li>
+<h4>运行命令 在frpc目录下</h4>
+<pre><code class="language-toml">./frpc -c ./</code></pre>
+</li>
+</ul>
+</li>
+</ul>
+<br/><p>访问 <a href="https://zero251.xyz/posts/FRP配置" target="_blank">https://zero251.xyz/posts/FRP配置</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Zero-无常</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-05-16T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[致命公司自建局域网服务器，内网穿透联机（免费使用）]]></title>
+        <id>https://zero251.xyz/posts/致命公司自建局域网服务器，反代联机（破解）</id>
+        <link href="https://zero251.xyz/posts/致命公司自建局域网服务器，反代联机（破解）"/>
+        <updated>2025-05-16T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h1>Lethal-company之如何使用内网穿透或者反向代理进行联机（免费使用）</h1>
+<hr>
+<ul>
+<li>
+<h6>由于我们惊喜的发现，致命公司只在steam联机端的steam启动端</h6>
+</li>
+</ul>
+<br/><p>访问 <a href="https://zero251.xyz/posts/致命公司自建局域网服务器，反代联机（破解）" target="_blank">https://zero251.xyz/posts/致命公司自建局域网服务器，反代联机（破解）</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Zero-无常</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-05-16T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Zero-Typing - 一个美观的打字网站]]></title>
+        <id>https://zero251.xyz/posts/Zero-Typing - 一个美观的打字网站</id>
+        <link href="https://zero251.xyz/posts/Zero-Typing - 一个美观的打字网站"/>
+        <updated>2025-04-12T16:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p>1.[<a href="https://typing.zero251.xyz/">https://typing.zero251.xyz/</a>]  FORK自Barneyzhao并加以修改了许多的东西<br>
+![](../posts/Zero-Typing/zero-typing.</p>
+<br/><p>访问 <a href="https://zero251.xyz/posts/Zero-Typing - 一个美观的打字网站" target="_blank">https://zero251.xyz/posts/Zero-Typing - 一个美观的打字网站</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Zero-无常</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-04-12T16:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[咕咕咕 - EasyImage图床]]></title>
+        <id>https://zero251.xyz/posts/咕咕咕 - EasyImage图床</id>
+        <link href="https://zero251.xyz/posts/咕咕咕 - EasyImage图床"/>
+        <updated>2025-04-04T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<br/><p>访问 <a href="https://zero251.xyz/posts/咕咕咕 - EasyImage图床" target="_blank">https://zero251.xyz/posts/咕咕咕 - EasyImage图床</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Zero-无常</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-04-04T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[咕咕咕 - Intel MAC使用MAA进行明日方舟挂机]]></title>
+        <id>https://zero251.xyz/posts/Intel MAC使用MAA进行明日方舟挂机</id>
+        <link href="https://zero251.xyz/posts/Intel MAC使用MAA进行明日方舟挂机"/>
+        <updated>2025-04-03T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h1>Intel MAC使用MAA进行明日方舟挂机</h1>
+<hr>
+<ol>
+<li>
+<p>前往此处下载最后支持Intel MAC的mumu模拟器</p>
+<p>![image-20250516231829115]</p>
+</li>
+</ol>
+<br/><p>访问 <a href="https://zero251.xyz/posts/Intel MAC使用MAA进行明日方舟挂机" target="_blank">https://zero251.xyz/posts/Intel MAC使用MAA进行明日方舟挂机</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Zero-无常</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-04-03T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[咕咕咕 - Alist]]></title>
+        <id>https://zero251.xyz/posts/咕咕咕 - Alist</id>
+        <link href="https://zero251.xyz/posts/咕咕咕 - Alist"/>
+        <updated>2025-04-03T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<br/><p>访问 <a href="https://zero251.xyz/posts/咕咕咕 - Alist" target="_blank">https://zero251.xyz/posts/咕咕咕 - Alist</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Zero-无常</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-04-03T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[咕咕咕 - Android刷机]]></title>
+        <id>https://zero251.xyz/posts/咕咕咕 - Android刷机</id>
+        <link href="https://zero251.xyz/posts/咕咕咕 - Android刷机"/>
+        <updated>2025-04-03T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<br/><p>访问 <a href="https://zero251.xyz/posts/咕咕咕 - Android刷机" target="_blank">https://zero251.xyz/posts/咕咕咕 - Android刷机</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Zero-无常</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-04-03T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[咕咕咕 - Minecraft Server]]></title>
+        <id>https://zero251.xyz/posts/咕咕咕 - Minecraft服务器</id>
+        <link href="https://zero251.xyz/posts/咕咕咕 - Minecraft服务器"/>
+        <updated>2025-04-03T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<br/><p>访问 <a href="https://zero251.xyz/posts/咕咕咕 - Minecraft服务器" target="_blank">https://zero251.xyz/posts/咕咕咕 - Minecraft服务器</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Zero-无常</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-04-03T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[咕咕咕 - Windows桌面美化]]></title>
+        <id>https://zero251.xyz/posts/咕咕咕 - Windows桌面美化</id>
+        <link href="https://zero251.xyz/posts/咕咕咕 - Windows桌面美化"/>
+        <updated>2025-04-03T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<br/><p>访问 <a href="https://zero251.xyz/posts/咕咕咕 - Windows桌面美化" target="_blank">https://zero251.xyz/posts/咕咕咕 - Windows桌面美化</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Zero-无常</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-04-03T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[咕咕咕 - XDF N1]]></title>
+        <id>https://zero251.xyz/posts/咕咕咕 - XDF N1</id>
+        <link href="https://zero251.xyz/posts/咕咕咕 - XDF N1"/>
+        <updated>2025-04-03T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<br/><p>访问 <a href="https://zero251.xyz/posts/咕咕咕 - XDF N1" target="_blank">https://zero251.xyz/posts/咕咕咕 - XDF N1</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Zero-无常</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-04-03T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[咕咕咕 - 子腾手表]]></title>
+        <id>https://zero251.xyz/posts/咕咕咕 - 子腾手表</id>
+        <link href="https://zero251.xyz/posts/咕咕咕 - 子腾手表"/>
+        <updated>2025-04-03T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<br/><p>访问 <a href="https://zero251.xyz/posts/咕咕咕 - 子腾手表" target="_blank">https://zero251.xyz/posts/咕咕咕 - 子腾手表</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Zero-无常</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-04-03T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[咕咕咕 - 小米Watch1]]></title>
+        <id>https://zero251.xyz/posts/咕咕咕 - 小米Watch1</id>
+        <link href="https://zero251.xyz/posts/咕咕咕 - 小米Watch1"/>
+        <updated>2025-04-03T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<br/><p>访问 <a href="https://zero251.xyz/posts/咕咕咕 - 小米Watch1" target="_blank">https://zero251.xyz/posts/咕咕咕 - 小米Watch1</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Zero-无常</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-04-03T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[咕咕咕 - 小米手环]]></title>
+        <id>https://zero251.xyz/posts/咕咕咕 - 小米手环</id>
+        <link href="https://zero251.xyz/posts/咕咕咕 - 小米手环"/>
+        <updated>2025-04-03T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<br/><p>访问 <a href="https://zero251.xyz/posts/咕咕咕 - 小米手环" target="_blank">https://zero251.xyz/posts/咕咕咕 - 小米手环</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Zero-无常</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-04-03T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[咕咕咕 - 希沃]]></title>
+        <id>https://zero251.xyz/posts/咕咕咕 - 希沃</id>
+        <link href="https://zero251.xyz/posts/咕咕咕 - 希沃"/>
+        <updated>2025-04-03T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<br/><p>访问 <a href="https://zero251.xyz/posts/咕咕咕 - 希沃" target="_blank">https://zero251.xyz/posts/咕咕咕 - 希沃</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Zero-无常</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-04-03T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[评论杂烩QAQ]]></title>
+        <id>https://zero251.xyz/posts/评论杂烩QAQ</id>
+        <link href="https://zero251.xyz/posts/评论杂烩QAQ"/>
+        <updated>2025-04-03T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h1>FRIGHT AGAIN ！</h1>
+<br/><p>访问 <a href="https://zero251.xyz/posts/评论杂烩QAQ" target="_blank">https://zero251.xyz/posts/评论杂烩QAQ</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Zero-无常</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-04-03T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[咕咕咕 - OpenWRT配置]]></title>
+        <id>https://zero251.xyz/posts/咕咕咕 - OpenWRT配置 copy</id>
+        <link href="https://zero251.xyz/posts/咕咕咕 - OpenWRT配置 copy"/>
+        <updated>2025-03-23T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<br/><p>访问 <a href="https://zero251.xyz/posts/咕咕咕 - OpenWRT配置 copy" target="_blank">https://zero251.xyz/posts/咕咕咕 - OpenWRT配置 copy</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Zero-无常</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-03-23T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[咕咕咕 - 常用命令]]></title>
+        <id>https://zero251.xyz/posts/咕咕咕 - 常用命令</id>
+        <link href="https://zero251.xyz/posts/咕咕咕 - 常用命令"/>
+        <updated>2025-03-23T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<br/><p>访问 <a href="https://zero251.xyz/posts/咕咕咕 - 常用命令" target="_blank">https://zero251.xyz/posts/咕咕咕 - 常用命令</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Zero-无常</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-03-23T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TEST - FZBZ]]></title>
+        <id>https://zero251.xyz/posts/FZBZ-Test</id>
+        <link href="https://zero251.xyz/posts/FZBZ-Test"/>
+        <updated>2024-12-31T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h1>关于元旦晚会体艺馆场控问题及使用报告</h1>
+<hr>
+<blockquote>
+<p><strong>PS</strong>：</p>
+<ul>
+<li>体艺馆场控室采用全新配备的软硬件系统</li>
+<li>本文包含操作指南与问题解决方案</li>
+<li>~</li>
+</ul>
+</blockquote>
+<br/><p>访问 <a href="https://zero251.xyz/posts/FZBZ-Test" target="_blank">https://zero251.xyz/posts/FZBZ-Test</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Zero-无常</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-01-01T00:00:00.000Z</published>
+    </entry>
+</feed>

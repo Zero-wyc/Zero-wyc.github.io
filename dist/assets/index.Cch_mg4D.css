@@ -1,3 +1,1 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:751e2c7232f27b603e95f7d683e7695f86a29834e7531a73f89aaa561aa78871
-size 194
+:root[class~=light] bilibili-bangumi{--bbc-primary-color: #425aef;--bbc-text-base-color: #24292e}:root[class~=dark] bilibili-bangumi{--bbc-primary-color: #2fd8d8;--bbc-text-base-color: #f2f2f2}

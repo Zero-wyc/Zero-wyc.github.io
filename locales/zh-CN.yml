@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:1aef09c1533a6bb4cab1c95d4c285db44447e3060c0cb5e67e6d9b49972ab0d7
-size 86
+# 你可以像这样自定义 i18n
+intro:
+  desc: Valaxy 模版
+  hi: 你好，Valaxy

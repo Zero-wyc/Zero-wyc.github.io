@@ -1,3 +1,1 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:75354ff9f1cfe9cfc7e12f2e32b70f1c6b6c2ac7dcd452255cc713c1c6f4f3de
-size 259
+const e="virtual:valaxy-addons:empty",n=e;function o(t){return t&&t.name===e}const a={name:n},d=Object.freeze(Object.defineProperty({__proto__:null,default:a,emptyAddonName:e,isEmptyAddon:o,name:n},Symbol.toStringTag,{value:"Module"}));export{d as a,o as i};

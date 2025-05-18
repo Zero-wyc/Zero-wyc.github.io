@@ -1,3 +1,220 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d257cc2aff94d00c73cc2c34bf7ce8516cac14ec4bf5d0ac4e2112662090f413
-size 10556
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Zero_wyc的窝</title>
+        <link>https://zero251.xyz/</link>
+        <description>Zero_wyc的公式化</description>
+        <lastBuildDate>Sun, 18 May 2025 01:37:25 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <image>
+            <title>Zero_wyc的窝</title>
+            <url>https://p.zero251.xyz/i/2025/03/28/辛.webp</url>
+            <link>https://zero251.xyz/</link>
+        </image>
+        <copyright>CC BY-NC-SA 4.0 2025 © Zero-无常</copyright>
+        <atom:link href="https://zero251.xyz/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[点读笔-如何在开机时自动启动WIFI热点]]></title>
+            <link>https://zero251.xyz/posts/点读笔-如何在开机时自动启动WIFI热点</link>
+            <guid>https://zero251.xyz/posts/点读笔-如何在开机时自动启动WIFI热点</guid>
+            <pubDate>Sun, 18 May 2025 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>《在寄宿制学校中使用点读笔进行任何的答案的自由校对》---点读笔-如何在开机时自动启动WIFI热点</h1>
+<ul>
+<li>
+<p>众所周知在一个寄宿制高中，手机要么就是有一点点或没有</p>
+<p>那么如何解决在答案</p>
+</li>
+</ul>
+<br/><p>访问 <a href="https://zero251.xyz/posts/点读笔-如何在开机时自动启动WIFI热点" target="_blank">https://zero251.xyz/posts/点读笔-如何在开机时自动启动WIFI热点</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Zero-无常)</author>
+        </item>
+        <item>
+            <title><![CDATA[FRP配置]]></title>
+            <link>https://zero251.xyz/posts/FRP配置</link>
+            <guid>https://zero251.xyz/posts/FRP配置</guid>
+            <pubDate>Fri, 16 May 2025 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>Frp配置</h1>
+<ul>
+<li>
+<h2>Linux环境下</h2>
+<ul>
+<li>
+<h2>FRPC</h2>
+</li>
+<li>
+<h4>运行命令 在frpc目录下</h4>
+<pre><code class="language-toml">./frpc -c ./</code></pre>
+</li>
+</ul>
+</li>
+</ul>
+<br/><p>访问 <a href="https://zero251.xyz/posts/FRP配置" target="_blank">https://zero251.xyz/posts/FRP配置</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Zero-无常)</author>
+        </item>
+        <item>
+            <title><![CDATA[致命公司自建局域网服务器，内网穿透联机（免费使用）]]></title>
+            <link>https://zero251.xyz/posts/致命公司自建局域网服务器，反代联机（破解）</link>
+            <guid>https://zero251.xyz/posts/致命公司自建局域网服务器，反代联机（破解）</guid>
+            <pubDate>Fri, 16 May 2025 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>Lethal-company之如何使用内网穿透或者反向代理进行联机（免费使用）</h1>
+<hr>
+<ul>
+<li>
+<h6>由于我们惊喜的发现，致命公司只在steam联机端的steam启动端</h6>
+</li>
+</ul>
+<br/><p>访问 <a href="https://zero251.xyz/posts/致命公司自建局域网服务器，反代联机（破解）" target="_blank">https://zero251.xyz/posts/致命公司自建局域网服务器，反代联机（破解）</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Zero-无常)</author>
+        </item>
+        <item>
+            <title><![CDATA[Zero-Typing - 一个美观的打字网站]]></title>
+            <link>https://zero251.xyz/posts/Zero-Typing - 一个美观的打字网站</link>
+            <guid>https://zero251.xyz/posts/Zero-Typing - 一个美观的打字网站</guid>
+            <pubDate>Sat, 12 Apr 2025 16:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>1.[<a href="https://typing.zero251.xyz/">https://typing.zero251.xyz/</a>]  FORK自Barneyzhao并加以修改了许多的东西<br>
+![](../posts/Zero-Typing/zero-typing.</p>
+<br/><p>访问 <a href="https://zero251.xyz/posts/Zero-Typing - 一个美观的打字网站" target="_blank">https://zero251.xyz/posts/Zero-Typing - 一个美观的打字网站</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Zero-无常)</author>
+        </item>
+        <item>
+            <title><![CDATA[咕咕咕 - EasyImage图床]]></title>
+            <link>https://zero251.xyz/posts/咕咕咕 - EasyImage图床</link>
+            <guid>https://zero251.xyz/posts/咕咕咕 - EasyImage图床</guid>
+            <pubDate>Fri, 04 Apr 2025 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<br/><p>访问 <a href="https://zero251.xyz/posts/咕咕咕 - EasyImage图床" target="_blank">https://zero251.xyz/posts/咕咕咕 - EasyImage图床</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Zero-无常)</author>
+        </item>
+        <item>
+            <title><![CDATA[咕咕咕 - Intel MAC使用MAA进行明日方舟挂机]]></title>
+            <link>https://zero251.xyz/posts/Intel MAC使用MAA进行明日方舟挂机</link>
+            <guid>https://zero251.xyz/posts/Intel MAC使用MAA进行明日方舟挂机</guid>
+            <pubDate>Thu, 03 Apr 2025 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>Intel MAC使用MAA进行明日方舟挂机</h1>
+<hr>
+<ol>
+<li>
+<p>前往此处下载最后支持Intel MAC的mumu模拟器</p>
+<p>![image-20250516231829115]</p>
+</li>
+</ol>
+<br/><p>访问 <a href="https://zero251.xyz/posts/Intel MAC使用MAA进行明日方舟挂机" target="_blank">https://zero251.xyz/posts/Intel MAC使用MAA进行明日方舟挂机</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Zero-无常)</author>
+        </item>
+        <item>
+            <title><![CDATA[咕咕咕 - Alist]]></title>
+            <link>https://zero251.xyz/posts/咕咕咕 - Alist</link>
+            <guid>https://zero251.xyz/posts/咕咕咕 - Alist</guid>
+            <pubDate>Thu, 03 Apr 2025 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<br/><p>访问 <a href="https://zero251.xyz/posts/咕咕咕 - Alist" target="_blank">https://zero251.xyz/posts/咕咕咕 - Alist</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Zero-无常)</author>
+        </item>
+        <item>
+            <title><![CDATA[咕咕咕 - Android刷机]]></title>
+            <link>https://zero251.xyz/posts/咕咕咕 - Android刷机</link>
+            <guid>https://zero251.xyz/posts/咕咕咕 - Android刷机</guid>
+            <pubDate>Thu, 03 Apr 2025 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<br/><p>访问 <a href="https://zero251.xyz/posts/咕咕咕 - Android刷机" target="_blank">https://zero251.xyz/posts/咕咕咕 - Android刷机</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Zero-无常)</author>
+        </item>
+        <item>
+            <title><![CDATA[咕咕咕 - Minecraft Server]]></title>
+            <link>https://zero251.xyz/posts/咕咕咕 - Minecraft服务器</link>
+            <guid>https://zero251.xyz/posts/咕咕咕 - Minecraft服务器</guid>
+            <pubDate>Thu, 03 Apr 2025 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<br/><p>访问 <a href="https://zero251.xyz/posts/咕咕咕 - Minecraft服务器" target="_blank">https://zero251.xyz/posts/咕咕咕 - Minecraft服务器</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Zero-无常)</author>
+        </item>
+        <item>
+            <title><![CDATA[咕咕咕 - Windows桌面美化]]></title>
+            <link>https://zero251.xyz/posts/咕咕咕 - Windows桌面美化</link>
+            <guid>https://zero251.xyz/posts/咕咕咕 - Windows桌面美化</guid>
+            <pubDate>Thu, 03 Apr 2025 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<br/><p>访问 <a href="https://zero251.xyz/posts/咕咕咕 - Windows桌面美化" target="_blank">https://zero251.xyz/posts/咕咕咕 - Windows桌面美化</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Zero-无常)</author>
+        </item>
+        <item>
+            <title><![CDATA[咕咕咕 - XDF N1]]></title>
+            <link>https://zero251.xyz/posts/咕咕咕 - XDF N1</link>
+            <guid>https://zero251.xyz/posts/咕咕咕 - XDF N1</guid>
+            <pubDate>Thu, 03 Apr 2025 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<br/><p>访问 <a href="https://zero251.xyz/posts/咕咕咕 - XDF N1" target="_blank">https://zero251.xyz/posts/咕咕咕 - XDF N1</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Zero-无常)</author>
+        </item>
+        <item>
+            <title><![CDATA[咕咕咕 - 子腾手表]]></title>
+            <link>https://zero251.xyz/posts/咕咕咕 - 子腾手表</link>
+            <guid>https://zero251.xyz/posts/咕咕咕 - 子腾手表</guid>
+            <pubDate>Thu, 03 Apr 2025 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<br/><p>访问 <a href="https://zero251.xyz/posts/咕咕咕 - 子腾手表" target="_blank">https://zero251.xyz/posts/咕咕咕 - 子腾手表</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Zero-无常)</author>
+        </item>
+        <item>
+            <title><![CDATA[咕咕咕 - 小米Watch1]]></title>
+            <link>https://zero251.xyz/posts/咕咕咕 - 小米Watch1</link>
+            <guid>https://zero251.xyz/posts/咕咕咕 - 小米Watch1</guid>
+            <pubDate>Thu, 03 Apr 2025 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<br/><p>访问 <a href="https://zero251.xyz/posts/咕咕咕 - 小米Watch1" target="_blank">https://zero251.xyz/posts/咕咕咕 - 小米Watch1</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Zero-无常)</author>
+        </item>
+        <item>
+            <title><![CDATA[咕咕咕 - 小米手环]]></title>
+            <link>https://zero251.xyz/posts/咕咕咕 - 小米手环</link>
+            <guid>https://zero251.xyz/posts/咕咕咕 - 小米手环</guid>
+            <pubDate>Thu, 03 Apr 2025 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<br/><p>访问 <a href="https://zero251.xyz/posts/咕咕咕 - 小米手环" target="_blank">https://zero251.xyz/posts/咕咕咕 - 小米手环</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Zero-无常)</author>
+        </item>
+        <item>
+            <title><![CDATA[咕咕咕 - 希沃]]></title>
+            <link>https://zero251.xyz/posts/咕咕咕 - 希沃</link>
+            <guid>https://zero251.xyz/posts/咕咕咕 - 希沃</guid>
+            <pubDate>Thu, 03 Apr 2025 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<br/><p>访问 <a href="https://zero251.xyz/posts/咕咕咕 - 希沃" target="_blank">https://zero251.xyz/posts/咕咕咕 - 希沃</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Zero-无常)</author>
+        </item>
+        <item>
+            <title><![CDATA[评论杂烩QAQ]]></title>
+            <link>https://zero251.xyz/posts/评论杂烩QAQ</link>
+            <guid>https://zero251.xyz/posts/评论杂烩QAQ</guid>
+            <pubDate>Thu, 03 Apr 2025 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>FRIGHT AGAIN ！</h1>
+<br/><p>访问 <a href="https://zero251.xyz/posts/评论杂烩QAQ" target="_blank">https://zero251.xyz/posts/评论杂烩QAQ</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Zero-无常)</author>
+        </item>
+        <item>
+            <title><![CDATA[咕咕咕 - OpenWRT配置]]></title>
+            <link>https://zero251.xyz/posts/咕咕咕 - OpenWRT配置 copy</link>
+            <guid>https://zero251.xyz/posts/咕咕咕 - OpenWRT配置 copy</guid>
+            <pubDate>Sun, 23 Mar 2025 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<br/><p>访问 <a href="https://zero251.xyz/posts/咕咕咕 - OpenWRT配置 copy" target="_blank">https://zero251.xyz/posts/咕咕咕 - OpenWRT配置 copy</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Zero-无常)</author>
+        </item>
+        <item>
+            <title><![CDATA[咕咕咕 - 常用命令]]></title>
+            <link>https://zero251.xyz/posts/咕咕咕 - 常用命令</link>
+            <guid>https://zero251.xyz/posts/咕咕咕 - 常用命令</guid>
+            <pubDate>Sun, 23 Mar 2025 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<br/><p>访问 <a href="https://zero251.xyz/posts/咕咕咕 - 常用命令" target="_blank">https://zero251.xyz/posts/咕咕咕 - 常用命令</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Zero-无常)</author>
+        </item>
+        <item>
+            <title><![CDATA[TEST - FZBZ]]></title>
+            <link>https://zero251.xyz/posts/FZBZ-Test</link>
+            <guid>https://zero251.xyz/posts/FZBZ-Test</guid>
+            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>关于元旦晚会体艺馆场控问题及使用报告</h1>
+<hr>
+<blockquote>
+<p><strong>PS</strong>：</p>
+<ul>
+<li>体艺馆场控室采用全新配备的软硬件系统</li>
+<li>本文包含操作指南与问题解决方案</li>
+<li>~</li>
+</ul>
+</blockquote>
+<br/><p>访问 <a href="https://zero251.xyz/posts/FZBZ-Test" target="_blank">https://zero251.xyz/posts/FZBZ-Test</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Zero-无常)</author>
+        </item>
+    </channel>
+</rss>

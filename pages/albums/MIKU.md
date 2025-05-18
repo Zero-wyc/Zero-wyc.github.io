@@ -1,3 +1,14 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:41ef1e32e8a5a58b0278cab7cbc24e88f8ddb1110e774ff0c0318f752d4425b2
-size 339
+---
+title: MIKU
+layout: gallery
+nav: false
+toc: false
+aside: false
+photos:			# 照片
+  - caption: kieed92389224p3
+    src: https://p.zero251.xyz/i/2025/03/29/kieed-92389224p3.webp
+    desc: kieed92389224p3
+  - caption: 1MeIoN84049481
+    src: https://p.zero251.xyz/i/2025/03/29/MeIoN-84049481.webp
+    desc: MeIoN84049481
+---

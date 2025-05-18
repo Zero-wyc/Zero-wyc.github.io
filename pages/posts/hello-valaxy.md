@@ -1,3 +1,21 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:24e6197a70e0dad002eb7c59b029ab633cf15bdc6c1f0fc8cca91526ddd803f8
-size 272
+---
+hide: true
+title: Hello, Valaxy!
+date: 2022-04-01
+updated: 2022-04-01
+categories: Valaxy 笔记
+tags:
+  - valaxy
+  - 笔记
+top: 1
+---
+
+## Valaxy
+
+Next Generation Static Blog Framework.
+
+Write your first post!
+
+## Usage
+
+Modify `valaxy.config.ts` to custom your blog.
