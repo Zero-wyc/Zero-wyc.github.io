@@ -73,6 +73,8 @@ tags:
 > 配置Live2d小人
 >
 > 更换卜蒜子为Vercount进行网站计数，但是计数重置了 (⊙︿⊙)
+>
+> ~~后来发现上线了配置网站，并将原来的计数添加回去了~~
 
 #### 2025.7.17
 
@@ -106,14 +108,14 @@ tags:
 
 > 在Github推送了pages，并部署了博客，也就是在Github上部署了自己的博客（~~md，之前不行是因为我自己把.github目录删了，我说为什么找不到~~）[Github Zero‘s Blog](https://zero-wyc.github.io/)
 >
-> 当日晚上10点，再了套一个Cloudflare CDN，套过的地址为 [Blog.zero251.xyz](https://blog.zero251.xyz/)
+> 当日晚上10点，再了套一个Cloudflare CDN，套过的地址为 [Blog.Zero251.xyz](https://blog.zero251.xyz/)
 >
 > 大概率阿里云服务器的Blog会延迟更新，~~因为Github的自动推送自动打包太方便了~~
 >
 > 目前可访问的地址有
 >
-> [Github Zero‘s Blog](https://zero-wyc.github.io/)
+> [Github Pages](https://zero-wyc.github.io/)
 >
-> [Blog.zero251.xyz](https://blog.zero251.xyz/)
+> [Cloudflare](https://blog.zero251.xyz/)
 >
-> [Zero251.xyz](Zero251.xyz)
+> [阿里云](Zero251.xyz)
