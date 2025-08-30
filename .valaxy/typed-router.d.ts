@@ -32,34 +32,6 @@ declare module 'vue-router/auto-routes' {
     '/links/': RouteRecordInfo<'/links/', '/links', Record<never, never>, Record<never, never>>,
     '/page/[page]': RouteRecordInfo<'/page/[page]', '/page/:page', { page: ParamValue<true> }, { page: ParamValue<false> }>,
     '/posts/': RouteRecordInfo<'/posts/', '/posts', Record<never, never>, Record<never, never>>,
-    '/posts/点读笔-如何在开机时自动启动WIFI热点': RouteRecordInfo<'/posts/点读笔-如何在开机时自动启动WIFI热点', '/posts/点读笔-如何在开机时自动启动WIFI热点', Record<never, never>, Record<never, never>>,
-    '/posts/个人BLOG更新更新日志': RouteRecordInfo<'/posts/个人BLOG更新更新日志', '/posts/个人BLOG更新更新日志', Record<never, never>, Record<never, never>>,
-    '/posts/咕咕咕 - 常用命令': RouteRecordInfo<'/posts/咕咕咕 - 常用命令', '/posts/咕咕咕 - 常用命令', Record<never, never>, Record<never, never>>,
-    '/posts/咕咕咕 - 希沃': RouteRecordInfo<'/posts/咕咕咕 - 希沃', '/posts/咕咕咕 - 希沃', Record<never, never>, Record<never, never>>,
-    '/posts/咕咕咕 - 小米手环': RouteRecordInfo<'/posts/咕咕咕 - 小米手环', '/posts/咕咕咕 - 小米手环', Record<never, never>, Record<never, never>>,
-    '/posts/咕咕咕 - 小米Watch1': RouteRecordInfo<'/posts/咕咕咕 - 小米Watch1', '/posts/咕咕咕 - 小米Watch1', Record<never, never>, Record<never, never>>,
-    '/posts/咕咕咕 - 子腾手表': RouteRecordInfo<'/posts/咕咕咕 - 子腾手表', '/posts/咕咕咕 - 子腾手表', Record<never, never>, Record<never, never>>,
-    '/posts/咕咕咕 - Alist': RouteRecordInfo<'/posts/咕咕咕 - Alist', '/posts/咕咕咕 - Alist', Record<never, never>, Record<never, never>>,
-    '/posts/咕咕咕 - Android刷机': RouteRecordInfo<'/posts/咕咕咕 - Android刷机', '/posts/咕咕咕 - Android刷机', Record<never, never>, Record<never, never>>,
-    '/posts/咕咕咕 - EasyImage图床': RouteRecordInfo<'/posts/咕咕咕 - EasyImage图床', '/posts/咕咕咕 - EasyImage图床', Record<never, never>, Record<never, never>>,
-    '/posts/咕咕咕 - Minecraft服务器': RouteRecordInfo<'/posts/咕咕咕 - Minecraft服务器', '/posts/咕咕咕 - Minecraft服务器', Record<never, never>, Record<never, never>>,
-    '/posts/咕咕咕 - OpenWRT配置 copy': RouteRecordInfo<'/posts/咕咕咕 - OpenWRT配置 copy', '/posts/咕咕咕 - OpenWRT配置 copy', Record<never, never>, Record<never, never>>,
-    '/posts/咕咕咕 - PicList+Github图床': RouteRecordInfo<'/posts/咕咕咕 - PicList+Github图床', '/posts/咕咕咕 - PicList+Github图床', Record<never, never>, Record<never, never>>,
-    '/posts/咕咕咕 - Windows桌面美化': RouteRecordInfo<'/posts/咕咕咕 - Windows桌面美化', '/posts/咕咕咕 - Windows桌面美化', Record<never, never>, Record<never, never>>,
-    '/posts/咕咕咕 - XDF N1': RouteRecordInfo<'/posts/咕咕咕 - XDF N1', '/posts/咕咕咕 - XDF N1', Record<never, never>, Record<never, never>>,
-    '/posts/咕咕咕 - Zen浏览器': RouteRecordInfo<'/posts/咕咕咕 - Zen浏览器', '/posts/咕咕咕 - Zen浏览器', Record<never, never>, Record<never, never>>,
-    '/posts/关于Steam AutoCrack的使用方法': RouteRecordInfo<'/posts/关于Steam AutoCrack的使用方法', '/posts/关于Steam AutoCrack的使用方法', Record<never, never>, Record<never, never>>,
-    '/posts/解决npm或pnpm无法更新的问题': RouteRecordInfo<'/posts/解决npm或pnpm无法更新的问题', '/posts/解决npm或pnpm无法更新的问题', Record<never, never>, Record<never, never>>,
-    '/posts/免费VPSClawCloudRun使用3XUI面板进行隧道搭建': RouteRecordInfo<'/posts/免费VPSClawCloudRun使用3XUI面板进行隧道搭建', '/posts/免费VPSClawCloudRun使用3XUI面板进行隧道搭建', Record<never, never>, Record<never, never>>,
-    '/posts/评论杂烩QAQ': RouteRecordInfo<'/posts/评论杂烩QAQ', '/posts/评论杂烩QAQ', Record<never, never>, Record<never, never>>,
-    '/posts/求生之路2之使用FRP反代获得低延迟体验': RouteRecordInfo<'/posts/求生之路2之使用FRP反代获得低延迟体验', '/posts/求生之路2之使用FRP反代获得低延迟体验', Record<never, never>, Record<never, never>>,
-    '/posts/如何让想要的软件在开机的时候自动启动': RouteRecordInfo<'/posts/如何让想要的软件在开机的时候自动启动', '/posts/如何让想要的软件在开机的时候自动启动', Record<never, never>, Record<never, never>>,
-    '/posts/如何自定义Typora的背景': RouteRecordInfo<'/posts/如何自定义Typora的背景', '/posts/如何自定义Typora的背景', Record<never, never>, Record<never, never>>,
-    '/posts/使用Vercount替代不蒜子 - Valaxy': RouteRecordInfo<'/posts/使用Vercount替代不蒜子 - Valaxy', '/posts/使用Vercount替代不蒜子 - Valaxy', Record<never, never>, Record<never, never>>,
-    '/posts/小米手环910 开启心率广播 投屏OBS直播': RouteRecordInfo<'/posts/小米手环910 开启心率广播 投屏OBS直播', '/posts/小米手环910 开启心率广播 投屏OBS直播', Record<never, never>, Record<never, never>>,
-    '/posts/硬件日志': RouteRecordInfo<'/posts/硬件日志', '/posts/硬件日志', Record<never, never>, Record<never, never>>,
-    '/posts/致命公司自建局域网服务器，反代联机（破解）': RouteRecordInfo<'/posts/致命公司自建局域网服务器，反代联机（破解）', '/posts/致命公司自建局域网服务器，反代联机（破解）', Record<never, never>, Record<never, never>>,
-    '/posts/主板BIOS开机动画更改': RouteRecordInfo<'/posts/主板BIOS开机动画更改', '/posts/主板BIOS开机动画更改', Record<never, never>, Record<never, never>>,
     '/posts/BLOG网页部署live2d小人 - 使用Vercount替代不蒜子 - Valaxy': RouteRecordInfo<'/posts/BLOG网页部署live2d小人 - 使用Vercount替代不蒜子 - Valaxy', '/posts/BLOG网页部署live2d小人 - 使用Vercount替代不蒜子 - Valaxy', Record<never, never>, Record<never, never>>,
     '/posts/CentOS配置DNS': RouteRecordInfo<'/posts/CentOS配置DNS', '/posts/CentOS配置DNS', Record<never, never>, Record<never, never>>,
     '/posts/Directory Opus': RouteRecordInfo<'/posts/Directory Opus', '/posts/Directory Opus', Record<never, never>, Record<never, never>>,
@@ -76,6 +48,294 @@ declare module 'vue-router/auto-routes' {
     '/posts/MydockFinder MAC式的底栏和顶栏': RouteRecordInfo<'/posts/MydockFinder MAC式的底栏和顶栏', '/posts/MydockFinder MAC式的底栏和顶栏', Record<never, never>, Record<never, never>>,
     '/posts/Valaxy个人博客如何添加一个音乐播放器': RouteRecordInfo<'/posts/Valaxy个人博客如何添加一个音乐播放器', '/posts/Valaxy个人博客如何添加一个音乐播放器', Record<never, never>, Record<never, never>>,
     '/posts/Zero-Typing - 一个美观的打字网站': RouteRecordInfo<'/posts/Zero-Typing - 一个美观的打字网站', '/posts/Zero-Typing - 一个美观的打字网站', Record<never, never>, Record<never, never>>,
+    '/posts/个人BLOG更新更新日志': RouteRecordInfo<'/posts/个人BLOG更新更新日志', '/posts/个人BLOG更新更新日志', Record<never, never>, Record<never, never>>,
+    '/posts/主板BIOS开机动画更改': RouteRecordInfo<'/posts/主板BIOS开机动画更改', '/posts/主板BIOS开机动画更改', Record<never, never>, Record<never, never>>,
+    '/posts/使用Vercount替代不蒜子 - Valaxy': RouteRecordInfo<'/posts/使用Vercount替代不蒜子 - Valaxy', '/posts/使用Vercount替代不蒜子 - Valaxy', Record<never, never>, Record<never, never>>,
+    '/posts/免费VPSClawCloudRun使用3XUI面板进行隧道搭建': RouteRecordInfo<'/posts/免费VPSClawCloudRun使用3XUI面板进行隧道搭建', '/posts/免费VPSClawCloudRun使用3XUI面板进行隧道搭建', Record<never, never>, Record<never, never>>,
+    '/posts/关于Steam AutoCrack的使用方法': RouteRecordInfo<'/posts/关于Steam AutoCrack的使用方法', '/posts/关于Steam AutoCrack的使用方法', Record<never, never>, Record<never, never>>,
+    '/posts/咕咕咕 - Alist': RouteRecordInfo<'/posts/咕咕咕 - Alist', '/posts/咕咕咕 - Alist', Record<never, never>, Record<never, never>>,
+    '/posts/咕咕咕 - Android刷机': RouteRecordInfo<'/posts/咕咕咕 - Android刷机', '/posts/咕咕咕 - Android刷机', Record<never, never>, Record<never, never>>,
+    '/posts/咕咕咕 - EasyImage图床': RouteRecordInfo<'/posts/咕咕咕 - EasyImage图床', '/posts/咕咕咕 - EasyImage图床', Record<never, never>, Record<never, never>>,
+    '/posts/咕咕咕 - Minecraft服务器': RouteRecordInfo<'/posts/咕咕咕 - Minecraft服务器', '/posts/咕咕咕 - Minecraft服务器', Record<never, never>, Record<never, never>>,
+    '/posts/咕咕咕 - OpenWRT配置 copy': RouteRecordInfo<'/posts/咕咕咕 - OpenWRT配置 copy', '/posts/咕咕咕 - OpenWRT配置 copy', Record<never, never>, Record<never, never>>,
+    '/posts/咕咕咕 - PicList+Github图床': RouteRecordInfo<'/posts/咕咕咕 - PicList+Github图床', '/posts/咕咕咕 - PicList+Github图床', Record<never, never>, Record<never, never>>,
+    '/posts/咕咕咕 - Windows桌面美化': RouteRecordInfo<'/posts/咕咕咕 - Windows桌面美化', '/posts/咕咕咕 - Windows桌面美化', Record<never, never>, Record<never, never>>,
+    '/posts/咕咕咕 - XDF N1': RouteRecordInfo<'/posts/咕咕咕 - XDF N1', '/posts/咕咕咕 - XDF N1', Record<never, never>, Record<never, never>>,
+    '/posts/咕咕咕 - Zen浏览器': RouteRecordInfo<'/posts/咕咕咕 - Zen浏览器', '/posts/咕咕咕 - Zen浏览器', Record<never, never>, Record<never, never>>,
+    '/posts/咕咕咕 - 子腾手表': RouteRecordInfo<'/posts/咕咕咕 - 子腾手表', '/posts/咕咕咕 - 子腾手表', Record<never, never>, Record<never, never>>,
+    '/posts/咕咕咕 - 小米Watch1': RouteRecordInfo<'/posts/咕咕咕 - 小米Watch1', '/posts/咕咕咕 - 小米Watch1', Record<never, never>, Record<never, never>>,
+    '/posts/咕咕咕 - 小米手环': RouteRecordInfo<'/posts/咕咕咕 - 小米手环', '/posts/咕咕咕 - 小米手环', Record<never, never>, Record<never, never>>,
+    '/posts/咕咕咕 - 希沃': RouteRecordInfo<'/posts/咕咕咕 - 希沃', '/posts/咕咕咕 - 希沃', Record<never, never>, Record<never, never>>,
+    '/posts/咕咕咕 - 常用命令': RouteRecordInfo<'/posts/咕咕咕 - 常用命令', '/posts/咕咕咕 - 常用命令', Record<never, never>, Record<never, never>>,
+    '/posts/如何自定义Typora的背景': RouteRecordInfo<'/posts/如何自定义Typora的背景', '/posts/如何自定义Typora的背景', Record<never, never>, Record<never, never>>,
+    '/posts/如何让想要的软件在开机的时候自动启动': RouteRecordInfo<'/posts/如何让想要的软件在开机的时候自动启动', '/posts/如何让想要的软件在开机的时候自动启动', Record<never, never>, Record<never, never>>,
+    '/posts/小米手环910 开启心率广播 投屏OBS直播': RouteRecordInfo<'/posts/小米手环910 开启心率广播 投屏OBS直播', '/posts/小米手环910 开启心率广播 投屏OBS直播', Record<never, never>, Record<never, never>>,
+    '/posts/求生之路2之使用FRP反代获得低延迟体验': RouteRecordInfo<'/posts/求生之路2之使用FRP反代获得低延迟体验', '/posts/求生之路2之使用FRP反代获得低延迟体验', Record<never, never>, Record<never, never>>,
+    '/posts/点读笔-如何在开机时自动启动WIFI热点': RouteRecordInfo<'/posts/点读笔-如何在开机时自动启动WIFI热点', '/posts/点读笔-如何在开机时自动启动WIFI热点', Record<never, never>, Record<never, never>>,
+    '/posts/硬件日志': RouteRecordInfo<'/posts/硬件日志', '/posts/硬件日志', Record<never, never>, Record<never, never>>,
+    '/posts/致命公司自建局域网服务器，反代联机（破解）': RouteRecordInfo<'/posts/致命公司自建局域网服务器，反代联机（破解）', '/posts/致命公司自建局域网服务器，反代联机（破解）', Record<never, never>, Record<never, never>>,
+    '/posts/解决npm或pnpm无法更新的问题': RouteRecordInfo<'/posts/解决npm或pnpm无法更新的问题', '/posts/解决npm或pnpm无法更新的问题', Record<never, never>, Record<never, never>>,
+    '/posts/评论杂烩QAQ': RouteRecordInfo<'/posts/评论杂烩QAQ', '/posts/评论杂烩QAQ', Record<never, never>, Record<never, never>>,
     '/tags/': RouteRecordInfo<'/tags/', '/tags', Record<never, never>, Record<never, never>>,
   }
+
+  /**
+   * Route file to route info map by unplugin-vue-router.
+   * Used by the volar plugin to automatically type useRoute()
+   *
+   * Each key is a file path relative to the project root with 2 properties:
+   * - routes: union of route names of the possible routes when in this page (passed to useRoute<...>())
+   * - views: names of nested views (can be passed to <RouterView name="...">)
+   *
+   * @internal
+   */
+  export interface _RouteFileInfoMap {
+    'node_modules/.pnpm/valaxy-theme-yun@0.26.5_vue@3.5.13_typescript@5.9.2_/node_modules/valaxy-theme-yun/pages/index.vue': {
+      routes: '/'
+      views: never
+    }
+    'node_modules/.pnpm/valaxy@0.26.5_@babel+parser_de9eeb9313cc2caaf51046f22c428ffe/node_modules/valaxy/client/pages/[...path].vue': {
+      routes: '/[...path]'
+      views: never
+    }
+    'pages/404.md': {
+      routes: '/404'
+      views: never
+    }
+    'pages/about/index.md': {
+      routes: '/about/'
+      views: never
+    }
+    'pages/about/site.md': {
+      routes: '/about/site'
+      views: never
+    }
+    'pages/albums/index.md': {
+      routes: '/albums/'
+      views: never
+    }
+    'pages/albums/MIKU.md': {
+      routes: '/albums/MIKU'
+      views: never
+    }
+    'pages/albums/SIKADI.md': {
+      routes: '/albums/SIKADI'
+      views: never
+    }
+    'pages/archives/index.md': {
+      routes: '/archives/'
+      views: never
+    }
+    'pages/Bangumi/index.md': {
+      routes: '/Bangumi/'
+      views: never
+    }
+    'pages/categories/index.md': {
+      routes: '/categories/'
+      views: never
+    }
+    'pages/links/index.md': {
+      routes: '/links/'
+      views: never
+    }
+    'node_modules/.pnpm/valaxy-theme-yun@0.26.5_vue@3.5.13_typescript@5.9.2_/node_modules/valaxy-theme-yun/pages/page/[page].vue': {
+      routes: '/page/[page]'
+      views: never
+    }
+    'node_modules/.pnpm/valaxy-theme-yun@0.26.5_vue@3.5.13_typescript@5.9.2_/node_modules/valaxy-theme-yun/pages/posts/index.vue': {
+      routes: '/posts/'
+      views: never
+    }
+    'pages/posts/BLOG网页部署live2d小人 - 使用Vercount替代不蒜子 - Valaxy.md': {
+      routes: '/posts/BLOG网页部署live2d小人 - 使用Vercount替代不蒜子 - Valaxy'
+      views: never
+    }
+    'pages/posts/CentOS配置DNS.md': {
+      routes: '/posts/CentOS配置DNS'
+      views: never
+    }
+    'pages/posts/Directory Opus.md': {
+      routes: '/posts/Directory Opus'
+      views: never
+    }
+    'pages/posts/Email.md': {
+      routes: '/posts/Email'
+      views: never
+    }
+    'pages/posts/FRP配置.md': {
+      routes: '/posts/FRP配置'
+      views: never
+    }
+    'pages/posts/FZBZ-F.md': {
+      routes: '/posts/FZBZ-F'
+      views: never
+    }
+    'pages/posts/Game.md': {
+      routes: '/posts/Game'
+      views: never
+    }
+    'pages/posts/GRUB2配置以及自定义主题以及添加Windows引导.md': {
+      routes: '/posts/GRUB2配置以及自定义主题以及添加Windows引导'
+      views: never
+    }
+    'pages/posts/HackBGRT更改Windows开机动画.md': {
+      routes: '/posts/HackBGRT更改Windows开机动画'
+      views: never
+    }
+    'pages/posts/hello-valaxy.md': {
+      routes: '/posts/hello-valaxy'
+      views: never
+    }
+    'pages/posts/Intel MAC使用MAA进行明日方舟挂机.md': {
+      routes: '/posts/Intel MAC使用MAA进行明日方舟挂机'
+      views: never
+    }
+    'pages/posts/MarkdownTypora的基本用法与常用操作.md': {
+      routes: '/posts/MarkdownTypora的基本用法与常用操作'
+      views: never
+    }
+    'pages/posts/MToolBox 枫の美化工具箱 - Win美化的集大成者.md': {
+      routes: '/posts/MToolBox 枫の美化工具箱 - Win美化的集大成者'
+      views: never
+    }
+    'pages/posts/MydockFinder MAC式的底栏和顶栏.md': {
+      routes: '/posts/MydockFinder MAC式的底栏和顶栏'
+      views: never
+    }
+    'pages/posts/Valaxy个人博客如何添加一个音乐播放器.md': {
+      routes: '/posts/Valaxy个人博客如何添加一个音乐播放器'
+      views: never
+    }
+    'pages/posts/Zero-Typing - 一个美观的打字网站.md': {
+      routes: '/posts/Zero-Typing - 一个美观的打字网站'
+      views: never
+    }
+    'pages/posts/个人BLOG更新更新日志.md': {
+      routes: '/posts/个人BLOG更新更新日志'
+      views: never
+    }
+    'pages/posts/主板BIOS开机动画更改.md': {
+      routes: '/posts/主板BIOS开机动画更改'
+      views: never
+    }
+    'pages/posts/使用Vercount替代不蒜子 - Valaxy.md': {
+      routes: '/posts/使用Vercount替代不蒜子 - Valaxy'
+      views: never
+    }
+    'pages/posts/免费VPSClawCloudRun使用3XUI面板进行隧道搭建.md': {
+      routes: '/posts/免费VPSClawCloudRun使用3XUI面板进行隧道搭建'
+      views: never
+    }
+    'pages/posts/关于Steam AutoCrack的使用方法.md': {
+      routes: '/posts/关于Steam AutoCrack的使用方法'
+      views: never
+    }
+    'pages/posts/咕咕咕 - Alist.md': {
+      routes: '/posts/咕咕咕 - Alist'
+      views: never
+    }
+    'pages/posts/咕咕咕 - Android刷机.md': {
+      routes: '/posts/咕咕咕 - Android刷机'
+      views: never
+    }
+    'pages/posts/咕咕咕 - EasyImage图床.md': {
+      routes: '/posts/咕咕咕 - EasyImage图床'
+      views: never
+    }
+    'pages/posts/咕咕咕 - Minecraft服务器.md': {
+      routes: '/posts/咕咕咕 - Minecraft服务器'
+      views: never
+    }
+    'pages/posts/咕咕咕 - OpenWRT配置 copy.md': {
+      routes: '/posts/咕咕咕 - OpenWRT配置 copy'
+      views: never
+    }
+    'pages/posts/咕咕咕 - PicList+Github图床.md': {
+      routes: '/posts/咕咕咕 - PicList+Github图床'
+      views: never
+    }
+    'pages/posts/咕咕咕 - Windows桌面美化.md': {
+      routes: '/posts/咕咕咕 - Windows桌面美化'
+      views: never
+    }
+    'pages/posts/咕咕咕 - XDF N1.md': {
+      routes: '/posts/咕咕咕 - XDF N1'
+      views: never
+    }
+    'pages/posts/咕咕咕 - Zen浏览器.md': {
+      routes: '/posts/咕咕咕 - Zen浏览器'
+      views: never
+    }
+    'pages/posts/咕咕咕 - 子腾手表.md': {
+      routes: '/posts/咕咕咕 - 子腾手表'
+      views: never
+    }
+    'pages/posts/咕咕咕 - 小米Watch1.md': {
+      routes: '/posts/咕咕咕 - 小米Watch1'
+      views: never
+    }
+    'pages/posts/咕咕咕 - 小米手环.md': {
+      routes: '/posts/咕咕咕 - 小米手环'
+      views: never
+    }
+    'pages/posts/咕咕咕 - 希沃.md': {
+      routes: '/posts/咕咕咕 - 希沃'
+      views: never
+    }
+    'pages/posts/咕咕咕 - 常用命令.md': {
+      routes: '/posts/咕咕咕 - 常用命令'
+      views: never
+    }
+    'pages/posts/如何自定义Typora的背景.md': {
+      routes: '/posts/如何自定义Typora的背景'
+      views: never
+    }
+    'pages/posts/如何让想要的软件在开机的时候自动启动.md': {
+      routes: '/posts/如何让想要的软件在开机的时候自动启动'
+      views: never
+    }
+    'pages/posts/小米手环910 开启心率广播 投屏OBS直播.md': {
+      routes: '/posts/小米手环910 开启心率广播 投屏OBS直播'
+      views: never
+    }
+    'pages/posts/求生之路2之使用FRP反代获得低延迟体验.md': {
+      routes: '/posts/求生之路2之使用FRP反代获得低延迟体验'
+      views: never
+    }
+    'pages/posts/点读笔-如何在开机时自动启动WIFI热点.md': {
+      routes: '/posts/点读笔-如何在开机时自动启动WIFI热点'
+      views: never
+    }
+    'pages/posts/硬件日志.md': {
+      routes: '/posts/硬件日志'
+      views: never
+    }
+    'pages/posts/致命公司自建局域网服务器，反代联机（破解）.md': {
+      routes: '/posts/致命公司自建局域网服务器，反代联机（破解）'
+      views: never
+    }
+    'pages/posts/解决npm或pnpm无法更新的问题.md': {
+      routes: '/posts/解决npm或pnpm无法更新的问题'
+      views: never
+    }
+    'pages/posts/评论杂烩QAQ.md': {
+      routes: '/posts/评论杂烩QAQ'
+      views: never
+    }
+    'pages/tags/index.md': {
+      routes: '/tags/'
+      views: never
+    }
+  }
+
+  /**
+   * Get a union of possible route names in a certain route component file.
+   * Used by the volar plugin to automatically type useRoute()
+   *
+   * @internal
+   */
+  export type _RouteNamesForFilePath<FilePath extends string> =
+    _RouteFileInfoMap extends Record<FilePath, infer Info>
+      ? Info['routes']
+      : keyof RouteNamedMap
 }
