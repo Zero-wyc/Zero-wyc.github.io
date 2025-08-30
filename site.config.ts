@@ -1,7 +1,7 @@
 import { defineSiteConfig } from 'valaxy'
 
 export default defineSiteConfig({
-  url: 'https://zero251.xyz',
+  url: 'https://zero251.xyz/',
   favicon: "https://p.zero251.xyz/i/2025/03/28/甘城.svg", // 网页图标链接
   lang: 'zh-CN',
   title: 'Zero_wyc的窝',
@@ -59,7 +59,7 @@ export default defineSiteConfig({
     },
     {
       name: 'Twitter',
-      link: 'https://x.com/Zero_200956',
+      link: 'https://x.com/Zero_wyc0721',
       icon: 'i-ri-twitter-x-fill',
       color: 'black',
     },
@@ -105,7 +105,15 @@ export default defineSiteConfig({
       icon: 'i-ri-mail-line',
       color: '#8E71C1',
     },
+    {
+      name: 'RSS',
+      link: '/atom.xml',
+      icon: 'i-ri-rss-line',
+      color: 'orange',
+    },
   ],
+  // 图片预览（Medium Zoom） 
+  mediumZoom: { enable: true },
 
   search: {
     enable: true,
@@ -126,9 +134,12 @@ export default defineSiteConfig({
         en: 200,
       },
     },
-  }
+  },
 
-  // 代码块高度限制 并自动折叠codeHeightLimit: 300,
+  // 代码块高度限制 并自动折叠 odeHeightLimit: 300
+
+
+  
   /*
   sponsor: {
     enable: false,

@@ -1,18 +1,17 @@
 ---
 hide: false
-title: 点读笔-如何在开机时自动启动WIFI热点
+title: 《在寄宿制学校中使用点读笔进行任何的答案的自由校对》---点读笔-如何在开机时自动启动WIFI热点
 date: 2025-04-03
-updated: 2025-05-18
+updated: 2025-8-4
 categories: 搞机日志
+cover: https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250804191315012.png
 tags:
   - 搞机日志
 ---
 
-# 《在寄宿制学校中使用点读笔进行任何的答案的自由校对》---点读笔-如何在开机时自动启动WIFI热点
-
 - 众所周知在一个寄宿制高中，手机要么就是有一点点或没有
 
-  那么如何解决在答案匮乏，而老师不愿讲评或自己不愿和老师对线或xx
+  ~~那么如何解决在答案匮乏，而老师不愿讲评或自己不愿和老师对线或xx~~**<!-- more -->**
 
 - 那么可以这么实现，购买一支支持扫题的点读笔
 
@@ -24,17 +23,16 @@ tags:
 ---
 
 - ### 大致思路为
-  
   1. 使用无线网卡进行WIFI共享
   2. 使用ps脚本在开机时自动启动wifi
 
 1. ### 打开开发者模式
 
-   ![PixPin_2025-05-16_23-39-31](../posts/点读笔/image-20250516234104001.png)
+   ![PixPin_2025-05-16_23-39-31](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250718181236522.png)
 
 2. ### 打开这俩个
 
-   ![image-20250516234104001](../posts/点读笔/image-20250516234104001.png)
+   ![image-20250516234104001](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250718181238255.png)
 
 3. ### 自动开启热点
 
@@ -46,7 +44,7 @@ tags:
 
    2. 等待一会，将出现如下的提示。输入：a。然后按下回车键（Enter按键）。（Windows11的终端中可能不显示提示，这是正常的。）
 
-      <img src="../posts/点读笔/3892fa16-7079-4c99-9092-0f7e8e1afe09.png" alt="3892fa16-7079-4c99-9092-0f7e8e1afe09" style="zoom:100%;" />
+      <img src="https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250718181242694.png" alt="3892fa16-7079-4c99-9092-0f7e8e1afe09" style="zoom:100%;" />
 
    3. 关闭Windows PowerShell窗口。打开资源管理器，并在地址栏输入：
 

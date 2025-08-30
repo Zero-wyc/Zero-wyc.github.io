@@ -2,25 +2,20 @@
 hide: false
 title: 咕咕咕 - Intel MAC使用MAA进行明日方舟挂机
 date: 2025-04-03
-updated: 2025-04-03
+updated: 2025-8-4
 categories: 搞机日志
+cover: https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250718181314196.png
 tags:
   - 搞机日志
   - 咕咕咕
 ---
 
-# Intel MAC使用MAA进行明日方舟挂机
+1. 前往此处下载最后支持Intel MAC的mumu模拟器<!-- more -->
 
----
-
-1. 前往此处下载最后支持Intel MAC的mumu模拟器
-
-   ![image-20250516231829115](..\posts\Intel MAC使用MAA进行明日方舟挂机\image-20250516231829115.png)
+   ![image-20250516231829115](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250718181314196.png)
    
 1. waiting
 
-   
-   
    
 
 

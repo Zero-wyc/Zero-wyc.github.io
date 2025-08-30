@@ -1,15 +1,18 @@
 import type { UserThemeConfig } from 'valaxy-theme-yun'
 import { addonLightGallery } from 'valaxy-addon-lightgallery'
 import { defineValaxyConfig } from 'valaxy'
-import { addonWaline } from 'valaxy-addon-waline'
 import { addonLive2d } from 'valaxy-addon-live2d'
 import { addonBangumi } from 'valaxy-addon-bangumi'
+import { addonMeting } from 'valaxy-addon-meting'
+import { addonVercount } from 'valaxy-addon-vercount'
+import { addonTwikoo } from 'valaxy-addon-twikoo'
 
 // add icons what you will need 
 // 添加您需要的图标
 const safelist = [
   'i-ri-home-line',
 ]
+
 
 /**
   User Config 
@@ -32,22 +35,31 @@ export default defineValaxyConfig<UserThemeConfig>({
   */
 
   theme: 'yun',
-
   themeConfig: {
     banner: {
       enable: true,
       title: 'Zero_wyc的小窝',
+      cloud: {
+        enable: true,
+      },
     },
-
+    nav: [
+      { text: '标签', link: '/tags/', icon: 'i-ri-price-tag-3-line' },
+      { text: '分类', link: '/categories/', icon: 'i-ri-list-unordered' },
+      { text: 'OpenList', link: '/links/', icon: 'i-ri-triangle-line' },
+      { text: '相册', link: '/albums/', icon: 'i-ri-gallery-line' },
+      { text: '追番列表', link: '/Bangumi/', icon: 'i-ri-folder-video-line' },
+    ],
+    
     pages: [
       {
-        name: '分类',
-        url: '/categories/',
-        icon: 'i-ri-list-unordered',
+        name: '标签',
+        url: '/tags/',
+        icon: 'i-ri-price-tag-3-line',
         color: '#43abee',
       },
       {
-        name: 'Alist下载站',
+        name: 'OpenList下载站',
         url: '/links/',
         icon: 'i-ri-triangle-line',
         color: 'dodgerblue',
@@ -64,14 +76,6 @@ export default defineValaxyConfig<UserThemeConfig>({
         icon: 'i-ri-folder-video-line',
         color: '#05AEEC',
       },
-      /*
-      {
-        name: '喜欢的女孩子',
-        url: '/girls/',
-        icon: 'i-ri-women-line',
-        color: 'hotpink',
-      }, 
-      */
     ],
 
     //主题色
@@ -88,8 +92,8 @@ export default defineValaxyConfig<UserThemeConfig>({
     //网站背景图片
     bg_image: {
       enable: true,
-      url: "https://p.zero251.xyz/i/2025/03/28/刺团模糊白透明度低.webp",	// 白日模式背景
-      dark: "https://p.zero251.xyz/i/2025/03/28/刺团模糊黑透明度低.webp",	// 夜间模式背景
+      url: "https://p.zero251.xyz/i/2025/07/14/甘城2白_1.webp",	// 白日模式背景
+      dark: "https://p.zero251.xyz/i/2025/07/14/甘城主图290黑_1.webp",	// 夜间模式背景
     },
     
     footer: {
@@ -100,32 +104,6 @@ export default defineValaxyConfig<UserThemeConfig>({
       },
     },
   },
-  /*
-  //valaxy-addon-live2d
-  addons: [
-    addonLive2d({
-      enableLive2D: ['XiaoYun', 'Tia', 'Pio'],
-      live2DCollection: {
-        XiaoYun: {
-          message: '来自云游君的小云 ~',
-          models: ['https://cdn.jsdelivr.net/npm/@yunyoujun/live2d@latest/小云.model3.json'],
-        },
-        // https://github.com/fghrsh/live2d_api
-        Tia: {
-          message: '来自 Potion Maker 的 Tia 酱 ~',
-          models: 'https://cdn.jsdelivr.net/gh/fghrsh/live2d_api/model/Potion-Maker/Tia/index.json',
-          textures: 'https://api.github.com/repos/fghrsh/live2d_api/contents/model/Potion-Maker/Tia/textures',
-        },
-        Pio: {
-          message: '来自 Potion Maker 的 Pio 酱 ~',
-          models: 'https://cdn.jsdelivr.net/gh/fghrsh/live2d_api/model/Potion-Maker/Pio/index.json',
-          textures: 'https://api.github.com/repos/fghrsh/live2d_api/contents/model/Potion-Maker/Pio/textures',
-        },
-      },
-      skipHello: true
-    })
-  ],
-  */
   unocss: { safelist },
 
   addons: [
@@ -139,23 +117,343 @@ export default defineValaxyConfig<UserThemeConfig>({
 
     addonLightGallery(),//相册配置
       
-      // 设置 valaxy-addon-waline 配置项
-    addonWaline({
-      // Waline 配置项，参考 https://waline.js.org/reference/client/props.html
-      serverURL: 'https://waline-umber.vercel.app/',
-      locale: {
-        placeholder: "评论可能需要VPN或者移动网络，填写qq邮箱或点击登录，可以展示个人头像",
-      },
-      comment: true,
-      pageview: true,
+    addonTwikoo({ 
+      envId: 'https://twikoo.zero251.xyz', // 替换为您的 Twikoo 环境 ID
     }),
-  
+
+    addonMeting({
+      global: true, // 是否全局启用播放器
+      props: {
+        id: '5176495148',    // 音乐的 ID，可以是网易云或其他支持的平台
+        server: 'netease',   // 支持 'netease' | 'tencent' | 'kugou' 等
+        type: 'playlist',    // 类型可以是 'song', 'album', 'artist', 'playlist'
+        theme: "#4FBCCD", // 播放器主题色
+        preload: 'auto', // 是否预加载音乐
+        mutex: true, // 是否互斥播放
+        autoplay: false, // 是否自动播放
+        fixed: true, // 是否固定在页面底部
+        lyricColor: '#4FBCCD', // 歌词颜色
+        volume: 0.3, // 初始音量大小
+      },
+      options: {
+        lyricHidden: true,  // 是否默认隐藏歌词
+        animationIn: true,  // 是否启动时有动画效果
+        autoHidden: true,   // 是否自动隐藏播放器界面
+      }
+    }),
+
+    addonVercount({
+      api: 'cn'
+    }),
+    
     addonLive2d({
-      enableLive2D: ['XiaoYun', 'Tia', 'Pio','ShizukuTalk','BiliBili22','BiliBili33'],
+      skipHello: false, // 是否跳过控制台的初始问候
+      widthLimit: 400, // 设置 Live2D 宽度限制
+      randomCharacter: false, // 是否随机选择 Live2D 模型
+      randomSkin: false, // 是否随机选择 Live2D 皮肤	
+      safetyMargin: 0, // 安全边距，单位为像素
+      enableLive2D: ['bcy','yazakura','BlackCat','pa15','Type95','kewei','beierfasite','chaijun','edu','bisimai','ankeleiqi','mori_miko','shengluyisi','nabulesi','ougen','qiye','aijier','dafeng','naximofu','HK416','guanghui','xingdengbao','wuqi','innong','hemin','tiancheng','sitelasibao','siwanshi','tianlangxing','zhaohe','yanusi','xinzexi','wuzang','yingrui','yingxianzuo','yunxian','zengkehaijunshangjiang','aersasi','luyijiushi','jianye','aerbien','mojiaduoer','BiliBili22','BiliBili33'],
+      live2DCollection: {
+        aerbien:{
+          message: '来自 Azun Lane 的阿尔比恩 ~',
+          models: ['https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/aerbien_3/aerbien.model3.json'],
+        },
+        aersasi:{
+          message: '来自 Azun Lane 的阿尔萨斯 ~',
+          models: ['https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/aersasi_2/aersasi_2.model3.json'],
+        },
+        chaijun: {
+          message: '来自碧蓝航线的柴郡 ~',
+          models: [
+            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/chaijun_3/chaijun_3.model3.json',
+            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/chaijun_5/chaijun_5.model3.json'
+          ],
+        },
+        // https://github.com/fghrsh/live2d_api
+        beierfasite:{
+          message: '来自碧蓝航线的贝尔法斯特 ~',
+          models: ['https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/beierfasite_2/beierfasite_2.model3.json'],
+        },
+        ankeleiqi:{
+          message: '来自 Azun Lane 的安克雷奇 ~',
+          models: ['https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/ankeleiqi_3/ankeleiqi_3.model3.json'],
+        },
+        bisimai:{
+          message: '来自 Azun Lane 的匹斯麦 ~',
+          models: [
+            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/bisimai_2_hx/bisimai_2_hx.model3.json',
+            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/bisimai_4/bisimai_4.model3.json',
+          ],
+        },
+        aijier:{
+          message: '来自碧蓝航线的埃吉尔 ~',
+          models: [
+            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/aijier_3_hx/aijier_3_hx.model3.json',
+            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/aijier_2/aijier_2.model3.json',
+            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/aijier_4/aijier_4.model3.json',
+          ],
+        },
+        mori_miko: {
+          message: '来自 Fox Hime Zero 的 MoriMiko ~',
+          models: ['https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/galgame live2d/Fox Hime Zero/mori_miko/mori_miko.model3.json'],
+        },
+        dafeng: {
+          message: '来自 Azun Lane 的大凤 ~',
+          models: [
+            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/dafeng_2/dafeng_2.model3.json',
+            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/dafeng_3/dafeng_3.model3.json',
+            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/dafeng_4/dafeng_4.model3.json',
+            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/dafeng_6/dafeng_6.model3.json',
+            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/dafeng_7/dafeng_7.model3.json',
+          ],
+        },
+        edu: {
+          message: '来自 Azun Lane 的恶毒 ~',
+          models: [
+            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/edu_3/edu_3.model3.json',
+            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/edu_4/edu_4.model3.json',
+          ],
+        },
+        guanghui:{
+          message: '来自 Azun Lane 的光辉 ~',
+          models: [
+            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/guanghui_7/guanghui_7.model3.json',
+          ],
+        },
+        bcy:{
+          message: '来自崩坏2的八重樱 ~',
+          models: ['https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/崩坏学园2/BYC/model.json'],
+        },
+        guangrong:{
+          message: '来自 Azun Lane 的光荣 ~',
+          models: ['https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/guangrong_3/guangrong_3.model3.json'],
+        },  
+        hemin:{
+          message: '来自 Azun Lane 的赫敏 ~',
+          models: [
+            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/hemin_2/hemin_2.model3.json',
+            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/hemin_3/hemin_3.model3.json',
+          ],
+        },
+        yazakura:{
+          message: '来自崩坏2的八重樱 ~',
+          models: ['https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/崩坏学园2/yazakura/model.json'],
+        },
+        BlackCat: {
+          message: '来自 LOVE³-LOVE CUBE- 的黑猫 ~',
+          models: ['https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/galgame live2d/LOVE³-LOVE CUBE-/live2d/kuroneko/kuroneko.model3.json'],
+        },
+        luyijiushi: {
+          message: '来自 Azun Lane 的路易九世 ~',
+          models: ['https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/luyijiushi_2/luyijiushi_2.model3.json'],
+        },
+        pa15: {
+          message: '来自少女前线的 PA-15 ~',
+          models: [
+            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/少女前线 girls Frontline/live2dnew/pa15_4202/normal/normal.model3.json',
+            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/少女前线 girls Frontline/live2dnew/pa15_4202/destroy/destroy.model3.json',
+          ],
+        },  
+        ougen:{
+          message: '来自 Azun Lane 的欧根亲王 ~',
+          models: [
+            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/ougen_6/ougen_6.model3.json',
+            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/ougen_5/ougen_5.model3.json',
+          ],
+        },
+        qiye:{
+          message: '来自 Azun Lane 的企业 ~',
+          models: [
+            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/qiye_7/qiye_7.model3.json',
+            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/qiye_9/qiye_9.model3.json',
+          ],
+        },
+        shengluyisi:{
+          message: '来自 Azun Lane 的圣路易斯 ~',
+          models: [
+            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/shengluyisi_2/shengluyisi_2.model3.json',
+            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/shengluyisi_5/shengluyisi_5.model3.json',
+          ],
+        },
+        BiliBili22: {
+          models: [
+            // https://github.com/summerscar/live2dDemo/tree/master/assets/22.2017.cba-normal
+            'https://registry.npmmirror.com/weblive2d/latest/files/model/bilibili-live/22/index.json',
+            'https://summerscar.me/live2dDemo/assets/22.2017.cba-normal/22.2017.cba-normal.model.json',
+            'https://summerscar.me/live2dDemo/assets/22.2017.cba-normal/22.2017.newyear.model.json',
+            'https://summerscar.me/live2dDemo/assets/22.2017.cba-normal/22.2017.school.model.json',
+            'https://summerscar.me/live2dDemo/assets/22.2017.cba-normal/22.2017.summer.normal.1.model.json',
+            'https://summerscar.me/live2dDemo/assets/22.2017.cba-normal/22.2017.summer.normal.2.model.json',
+            'https://summerscar.me/live2dDemo/assets/22.2017.cba-normal/22.2017.tomo-bukatsu.high.model.json',
+            'https://summerscar.me/live2dDemo/assets/22.2017.cba-normal/22.2017.tomo-bukatsu.low.model.json',
+            'https://summerscar.me/live2dDemo/assets/22.2017.cba-normal/22.2017.valley.model.json',
+            'https://summerscar.me/live2dDemo/assets/22.2017.cba-normal/22.2017.vdays.model.json',
+            'https://summerscar.me/live2dDemo/assets/22.2017.cba-normal/22.2018.lover.model.json',
+            'https://summerscar.me/live2dDemo/assets/22.2017.cba-normal/22.2018.spring.model.json',
+            'https://summerscar.me/live2dDemo/assets/22.2017.cba-normal/22.default.model.json',
+            'https://summerscar.me/live2dDemo/assets/22.2017.cba-normal/22.xmas.1.model.json',
+            'https://summerscar.me/live2dDemo/assets/22.2017.cba-normal/22.xmas.2.model.json',
+          ],
+        },
+        BiliBili33: {
+          models: [
+            'https://registry.npmmirror.com/weblive2d/latest/files/model/bilibili-live/33/index.json',
+            'https://summerscar.me/live2dDemo/assets/33.default/model.2016.xmas.1.json',
+            'https://summerscar.me/live2dDemo/assets/33.default/model.2016.xmas.2.json',
+            'https://summerscar.me/live2dDemo/assets/33.default/model.2017.cba-normal.json',
+            'https://summerscar.me/live2dDemo/assets/33.default/model.2017.newyear.json',
+            'https://summerscar.me/live2dDemo/assets/33.default/model.2017.school.json',
+            'https://summerscar.me/live2dDemo/assets/33.default/model.2017.summer.normal.1.json',
+            'https://summerscar.me/live2dDemo/assets/33.default/model.2017.summer.normal.2.json',
+            'https://summerscar.me/live2dDemo/assets/33.default/model.2017.tomo-bukatsu.high.json',
+            'https://summerscar.me/live2dDemo/assets/33.default/model.2017.tomo-bukatsu.low.json',
+            'https://summerscar.me/live2dDemo/assets/33.default/model.2017.valley.json',
+            'https://summerscar.me/live2dDemo/assets/33.default/model.2017.vdays.json',
+            'https://summerscar.me/live2dDemo/assets/33.default/model.2018.lover.json',
+            'https://summerscar.me/live2dDemo/assets/33.defaultmodel.2018.spring.json',
+          ],
+        },
+        mojiaduoer: {
+          message: '来自 Azun Lane 的莫加多尔 ~',
+          models: [
+            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/mojiaduoer_2/mojiaduoer_2.model3.json',
+            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/mojiaduoer_3/mojiaduoer_3.model3.json',
+          ],
+        },
+        naximofu:{
+          message: '来自 Azun Lane 的纳希莫夫 ~',
+          models: ['https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/naximofu_2/naximofu_2.model3.json'],
+        },
+        nabulesi:{
+          message: '来自 Azun Lane 的那不勒斯 ~',
+          models: ['https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/nabulesi_2/nabulesi_2.model3.json'],
+        },
+        Type95: {
+          models: [
+            'https://registry.npmmirror.com/weblive2d/latest/files/model/95type/95type_3702/normal/index.json',
+            'https://registry.npmmirror.com/weblive2d/latest/files/model/95type/95type_3702/destroy/index.json',
+          ],
+        },
+        HK416: {
+          models: [
+            'https://registry.npmmirror.com/weblive2d/latest/files/model/HK416/HK416_805/normal/index.json',
+            'https://registry.npmmirror.com/weblive2d/latest/files/model/HK416/HK416_3401/destroy/index.json',
+            'https://registry.npmmirror.com/weblive2d/latest/files/model/HK416/HK416_3401/normal/index.json',
+            'https://registry.npmmirror.com/weblive2d/latest/files/model/HK416/HK416_805/destroy/index.json',
+          ],
+        },
+        jianye: {
+          message: '来自 Azun Lane 的樫野 ~',
+          models: [
+            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/jianye_2/jianye_2.model3.json',
+            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/jianye_3/jianye_3.model3.json',  
+            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/jianye_4/jianye_4.model3.json',
+          ],
+        },
+        kewei: {
+          message: '来自 Azun Lane 的可畏 ~',
+          models: [
+            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/kewei_4/kewei_4.model3.json',
+            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/kewei_6/kewei_6.model3.json',
+          ],
+        },
+        sitelasibao:{
+          message: '来自 Azun Lane 的斯特拉斯堡 ~',
+          models: ['https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/sitelasibao_2/sitelasibao_2.model3.json'],
+        },
+        siwanshi:{
+          message: '来自 Azun Lane 的四万十 ~',
+          models: ['https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/siwanshi_3/siwanshi_3.model3.json'],
+        },
+        tianlangxing:{
+          message: '来自 Azun Lane 的天狼星 ~',
+          models: [
+            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/tianlangxing_5/tianlangxing_5.model3.json',
+            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/tianlangxing_3/tianlangxing_3.model3.json',
+          ],
+        },
+        tiancheng:{
+          message: '来自 Azun Lane 的天城 ~',
+          models: [
+            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/tiancheng_3/tiancheng_3.model3.json',            
+            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/tiancheng_2/tiancheng_2.model3.json',
+          ],
+        },
+        wuqi:{
+          message: '来自 Azun Lane 的吾妻 ~',
+          models: [
+            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/wuqi_2/wuqi_2.model3.json',
+            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/wuqi_3/wuqi_3.model3.json',
+          ],
+        },
+        xingdengbao:{
+          message: '来自 Azun Lane 的兴登堡 ~',
+          models: [
+            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/xingdengbao_2/xingdengbao_2.model3.json',
+          ],
+        },
+        xinnong:{
+          message: '来自 Azun Lane 的信浓 ~',
+          models: [
+            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/xinnong_3/xinnong_3.model3.json',
+            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/xinnong_5/xinnong_5.model3.json',            
+            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/xinnong_4/xinnong_4.model3.json',
+          ],
+        },
+        xinzexi:{
+          message: '来自 Azun Lane 的新泽西 ~',
+          models: [
+            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/xinzexi_3/xinzexi_3.model3.json',
+          ],
+        },
+        yanusi:{
+          message: '来自 Azun Lane 的雅努斯 ~',
+          models: [
+            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/yanusi_3/yanusi_3.model3.json',
+          ],
+        },
+        wuzang:{
+          message: '来自 Azun Lane 的武藏 ~',
+          models: [
+            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/wuzang_3/wuzang_3.model3.json',
+          ],
+        },
+        yingrui:{
+          message: '来自 Azun Lane 的应瑞 ~',
+          models: [
+            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/yingrui_3/yingrui_3.model3.json',
+          ],
+        },
+        yingxianzuo:{
+          message: '来自 Azun Lane 的英仙座 ~',
+          models: [
+            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/yingxianzuo_3/yingxianzuo_3.model3.json',
+          ],
+        },
+        yunxian:{
+          message: '来自 Azun Lane 的云仙 ~',
+          models: [
+            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/yunxian_2/yunxian_2.model3.json',
+          ],
+        },
+        zengkehaijunshangjiang:{
+          message: '来自 Azun Lane 的曾克海军上将 ~',
+          models: [
+            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/zengkehaijunshangjiang_2/zengkehaijunshangjiang_2.model3.json',
+          ],
+        },
+        zhaohe:{
+          message: '来自 Azun Lane 的昭和 ~',
+          models: [
+            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/zhaohe_3/zhaohe_3.model3.json',
+          ],
+        },
+      },
+
       live2dTips:{
         mouseover: [{
           selector: '#live2d-canvas',
-          text: ['干嘛呢你，快把手拿开～～', '鼠…鼠标放错地方了！', '你要干嘛呀？', '喵喵喵？', '怕怕(ノ≧∇≦)ノ', '非礼呀！救命！', '这样的话，只能使用武力了！', '我要生气了哦', '不要动手动脚的！', '真…真的是不知羞耻！', 'Hentai！'],
+          text: ['现在总计有45个人物哦,还有皮肤可探索~','点击Char换人,Skin换衣服哦~','我们一起加油吧！','摸摸头，你已经很棒了！','要保持微笑哦~','今天天气真好呢！','你好呀~','干嘛呢你，快把手拿开～～', '鼠…鼠标放错地方了！', '你要干嘛呀？', '喵喵喵？', '怕怕(ノ≧∇≦)ノ', '非礼呀！救命！', '这样的话，只能使用武力了！', '我要生气了哦', '不要动手动脚的！', '真…真的是不知羞耻！', 'Hentai！'],
         }, {
           selector: '#live2d-tool-hitokoto',
           text: ['猜猜我要说些什么？', '我从青蛙王子那里听到了不少人生经验。'],
@@ -179,7 +477,7 @@ export default defineValaxyConfig<UserThemeConfig>({
           text: ['到了要说再见的时候了吗？', '呜呜 QAQ 后会有期……', '不要抛弃我呀……', '我们，还能再见面吗……', '哼，你会后悔的！'],
         }, {
           selector: '.menu-item-home a',
-          text: ['点击前往首页，想回到上一页可以使用浏览器的后退功能哦。', '点它就可以回到首页啦！', '回首页看看吧。'],
+          text: ['点击回到首页~', '让我们重新开始吧！','点击前往首页，想回到上一页可以使用浏览器的后退功能哦。', '点它就可以回到首页啦！', '回首页看看吧。'],
         }, {
           selector: '.menu-item-about a',
           text: ['你想知道我家主人是谁吗？', '这里有一些关于我家主人的秘密哦，要不要看看呢？', '发现主人出没地点！'],
@@ -204,7 +502,10 @@ export default defineValaxyConfig<UserThemeConfig>({
         }, {
           selector: '.site-author',
           text: ['我家主人好看吗？', '这是我家主人(*´∇｀*)'],
-        }, {
+        },{
+          selector: '.site-title',
+          text: ['欢迎来到我的小站！','欢迎来到我的小窝！', '这是我的小窝，欢迎光临～', '欢迎来到我的博客！'],
+        },{
           selector: '.site-state',
           text: ['这是文章的统计信息～', '要不要点进去看看？'],
         }, {
@@ -330,7 +631,7 @@ export default defineValaxyConfig<UserThemeConfig>({
         }],
         click: [{
           selector: '#live2d',
-          text: ['是…是不小心碰到了吧…', '萝莉控是什么呀？', '你看到我的小熊了吗？', '再摸的话我可要报警了！⌇●﹏●⌇', '110 吗，这里有个变态一直在摸我(ó﹏ò｡)', '不要摸我了，我会告诉老婆来打你的！', '干嘛动我呀！小心我咬你！', '别摸我，有什么好摸的！'],
+          text: ['主人说过要好好爱护我的！','我们来聊天吧！','再摸我就生气了！','哎呀！轻点点~','是…是不小心碰到了吧…', '萝莉控是什么呀？', '你看到我的小熊了吗？', '再摸的话我可要报警了！⌇●﹏●⌇', '110 吗，这里有个变态一直在摸我(ó﹏ò｡)', '不要摸我了，我会告诉老婆来打你的！', '干嘛动我呀！小心我咬你！', '别摸我，有什么好摸的！'],
         }, {
           selector: '.veditor',
           text: ['要吐槽些什么呢？', '一定要认真填写喵～', '有什么想说的吗？'],
@@ -401,82 +702,18 @@ export default defineValaxyConfig<UserThemeConfig>({
           text: '你是夜猫子呀？这么晚还不睡觉，明天起的来嘛？',
         }],
         message: {
-          default: ['好久不见，日子过得好快呢……', '大坏蛋！你都多久没理人家了呀，嘤嘤嘤～', '嗨～快来逗我玩吧！', '拿小拳拳锤你胸口！', '记得把小家加入收藏夹哦！'],
+          default: ['今天也要元气满满哦！','好久不见，日子过得好快呢……', '大坏蛋！你都多久没理人家了呀，嘤嘤嘤～', '嗨～快来逗我玩吧！', '拿小拳拳锤你胸口！', '记得把小家加入收藏夹哦！'],
           console: '哈哈，你打开了控制台，是想要看看我的小秘密吗？',
           copy: '你都复制了些什么呀，转载要记得加上出处哦！',
-          visibilitychange: '哇，你终于回来了～',
+          visibilitychange: '欢迎回来，主人！',
           clothes: ['我还没有其他衣服呢！'],
         },
         tool: {
-          camera: ['照好了嘛，是不是很可爱呢？'],
-          display: ['愿你有一天能与重要的人重逢'],
+          camera: ['照好了嘛，是不是很可爱呢？','茄子~拍得好看吗？'],
+          display: ['愿你有一天能与重要的人重逢','想我了吗？我一直都在这里哦！'],
         },
       },
-      
-      live2DCollection: {
-        XiaoYun: {
-          message: '来自云游君的小云 ~',
-          models: ['https://cdn.jsdelivr.net/npm/@yunyoujun/live2d@latest/小云.model3.json'],
-        },
-        // https://github.com/fghrsh/live2d_api
-        Tia: {
-          message: '来自 Potion Maker 的 Tia 酱 ~',
-          models: 'https://cdn.jsdelivr.net/gh/fghrsh/live2d_api/model/Potion-Maker/Tia/index.json',
-          textures: 'https://api.github.com/repos/fghrsh/live2d_api/contents/model/Potion-Maker/Tia/textures',
-        },
-        Pio: {
-          message: '来自 Potion Maker 的 Pio 酱 ~',
-          models: 'https://cdn.jsdelivr.net/gh/fghrsh/live2d_api/model/Potion-Maker/Pio/index.json',
-          textures: 'https://api.github.com/repos/fghrsh/live2d_api/contents/model/Potion-Maker/Pio/textures',
-        },
-        ShizukuTalk: {
-          models: [
-            'https://registry.npmmirror.com/weblive2d/latest/files/model/ShizukuTalk/shizuku-48/index.json',
-            'https://registry.npmmirror.com/weblive2d/latest/files/model/ShizukuTalk/shizuku-pajama/index.json',
-          ],
-        },
-        BiliBili22: {
-          models: [
-            // https://github.com/summerscar/live2dDemo/tree/master/assets/22.2017.cba-normal
-            'https://registry.npmmirror.com/weblive2d/latest/files/model/bilibili-live/22/index.json',
-            'https://summerscar.me/live2dDemo/assets/22.2017.cba-normal/22.2017.cba-normal.model.json',
-            'https://summerscar.me/live2dDemo/assets/22.2017.cba-normal/22.2017.newyear.model.json',
-            'https://summerscar.me/live2dDemo/assets/22.2017.cba-normal/22.2017.school.model.json',
-            'https://summerscar.me/live2dDemo/assets/22.2017.cba-normal/22.2017.summer.normal.1.model.json',
-            'https://summerscar.me/live2dDemo/assets/22.2017.cba-normal/22.2017.summer.normal.2.model.json',
-            'https://summerscar.me/live2dDemo/assets/22.2017.cba-normal/22.2017.tomo-bukatsu.high.model.json',
-            'https://summerscar.me/live2dDemo/assets/22.2017.cba-normal/22.2017.tomo-bukatsu.low.model.json',
-            'https://summerscar.me/live2dDemo/assets/22.2017.cba-normal/22.2017.valley.model.json',
-            'https://summerscar.me/live2dDemo/assets/22.2017.cba-normal/22.2017.vdays.model.json',
-            'https://summerscar.me/live2dDemo/assets/22.2017.cba-normal/22.2018.lover.model.json',
-            'https://summerscar.me/live2dDemo/assets/22.2017.cba-normal/22.2018.spring.model.json',
-            'https://summerscar.me/live2dDemo/assets/22.2017.cba-normal/22.default.model.json',
-            'https://summerscar.me/live2dDemo/assets/22.2017.cba-normal/22.xmas.1.model.json',
-            'https://summerscar.me/live2dDemo/assets/22.2017.cba-normal/22.xmas.2.model.json',
-          ],
-        },
-        BiliBili33: {
-          models: [
-            'https://registry.npmmirror.com/weblive2d/latest/files/model/bilibili-live/33/index.json',
-            'https://summerscar.me/live2dDemo/assets/33.default/model.2016.xmas.1.json',
-            'https://summerscar.me/live2dDemo/assets/33.default/model.2016.xmas.2.json',
-            'https://summerscar.me/live2dDemo/assets/33.default/model.2017.cba-normal.json',
-            'https://summerscar.me/live2dDemo/assets/33.default/model.2017.newyear.json',
-            'https://summerscar.me/live2dDemo/assets/33.default/model.2017.school.json',
-            'https://summerscar.me/live2dDemo/assets/33.default/model.2017.summer.normal.1.json',
-            'https://summerscar.me/live2dDemo/assets/33.default/model.2017.summer.normal.2.json',
-            'https://summerscar.me/live2dDemo/assets/33.default/model.2017.tomo-bukatsu.high.json',
-            'https://summerscar.me/live2dDemo/assets/33.default/model.2017.tomo-bukatsu.low.json',
-            'https://summerscar.me/live2dDemo/assets/33.default/model.2017.valley.json',
-            'https://summerscar.me/live2dDemo/assets/33.default/model.2017.vdays.json',
-            'https://summerscar.me/live2dDemo/assets/33.default/model.2018.lover.json',
-            'https://summerscar.me/live2dDemo/assets/33.defaultmodel.2018.spring.json',
-          ],
-        },
-      },
-      skipHello: true
     }),
   ],  
-
 })
 

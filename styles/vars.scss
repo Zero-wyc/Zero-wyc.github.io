@@ -2,24 +2,23 @@
   --cursor-default: url('https://p.zero251.xyz/i/2025/04/04/Normal.cur');
   --cursor-pointer: url('https://p.zero251.xyz/i/2025/04/04/Link.cur');
   --cursor-text: url('https://p.zero251.xyz/i/2025/04/04/Text.cur');
+  /* 背景图片 */
+  --yun-bg-img: url("https://cdn.yunyoujun.cn/img/bg/stars-timing-0-blur-30px.jpg");
+  /* 侧边栏背景图片 */
+  --yun-sidebar-bg-img: url("https://cdn.yunyoujun.cn/img/bg/alpha-stars-timing-1.webp");
 }
-
 body {
   cursor: var(--cursor-default), auto;
 }
-
 a {
   cursor: var(--cursor-pointer), auto;
-
   &:hover {
     cursor: var(--cursor-pointer), auto;
   }
 }
-
 button {
   cursor: var(--cursor-pointer), pointer;
 }
-
 input {
   cursor: var(--cursor-text), text;
 }

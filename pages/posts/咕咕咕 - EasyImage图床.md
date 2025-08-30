@@ -1,5 +1,5 @@
 ---
-hide: false
+hide: index
 title: 咕咕咕 - EasyImage图床
 date: 2025-04-04
 updated: 2025-04-04

@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Sitemap: https://zero251.xyz/sitemap.xml
+Disallow: /private/
+Disallow: /*?*

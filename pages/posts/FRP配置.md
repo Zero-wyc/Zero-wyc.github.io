@@ -2,24 +2,37 @@
 hide: false
 title: FRP配置
 date: 2025-05-16
-updated: 2025-05-16
+updated: 2025-8-4
 categories: 搞机日志
+cover: https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250804193828764.png
 tags:
   - 搞机日志
 ---
+frp 是什么？
+frp 是一款高性能的反向代理应用，专注于内网穿透。它支持多种协议，包括 TCP、UDP、HTTP、HTTPS 等，<!-- more -->并且具备 P2P 通信功能。使用 frp，您可以安全、便捷地将内网服务暴露到公网，通过拥有公网 IP 的节点进行中转。
 
-# Frp配置
+---
 
-- ## Linux环境下
+下载地址：[fatedier/frp: A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.](https://github.com/fatedier/frp)
 
-  - ## FRPC
+---
+
+
+
+### Frp配置
+
+---
+
+
+- #### Linux环境下
+
+  - #### FRPC
 
   - #### 运行命令 在frpc目录下
 
     ```toml
     ./frpc -c ./frpc.toml  #frpc.toml为运行配置文件
     ```
-
   - #### frpc.toml配置文件
 
     ```toml
@@ -103,7 +116,7 @@ tags:
       sudo systemctl enable frps
       ```
 
-  - ## FRPS
+  - ### FRPS
 
     - #### frps的启动命令
 
@@ -133,6 +146,6 @@ tags:
       log_max_days = 3
       ```
 
-  - ## Windows环境
+  - ### Windows环境
 
     - #### frpc和frps与linux相同只是启动不需要打./
