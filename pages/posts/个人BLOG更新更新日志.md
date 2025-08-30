@@ -101,3 +101,9 @@ tags:
 ### 2025.8.29
 
 > 阿里云服务器从基于CentOS的Alibaba3迁移至Debian12以修复每次重启后DNS错误的问题，以及centos是真的不好用（unbuntu的snap惹人恨）
+
+### 2025.8.30
+
+> 在Github推送了pages，并部署了博客，也就是在Github上部署了自己的博客（~~md，之前不行是因为我自己把.github目录删了，我说为什么找不到~~）[Github Zero‘s Blog](https://zero-wyc.github.io/)
+>
+> 再套一个Cloudflare CDN
