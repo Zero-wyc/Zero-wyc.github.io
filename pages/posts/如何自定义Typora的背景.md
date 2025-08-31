@@ -8,6 +8,7 @@ cover: https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/%25E5%25B1%258F%25
 tags:
   - 搞机日志
   - 美化
+  - 甘城なつき/Nachoneko
 ---
 
 找到主题文件夹
@@ -32,3 +33,7 @@ tags:
 ---
 
 附上主题链接:[切尔诺贝利 --- Chernobyl](https://theme.typoraio.cn/theme/Chernobyl/)
+
+以及上图壁纸：![主图290](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250831113151050.webp)
+
+![甘城主图290黑](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250831113203392.webp)

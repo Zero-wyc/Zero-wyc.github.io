@@ -7,6 +7,7 @@ categories: 搞机日志
 cover: https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250804193603686.png
 tags:
   - 搞机日志
+  - Linux
 ---
 
 > #### 在我们安装node的时候，会默认安装npm和pnpm

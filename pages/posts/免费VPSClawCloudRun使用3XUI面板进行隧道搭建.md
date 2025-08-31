@@ -7,6 +7,8 @@ categories: 搞机日志
 cover: https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250824221619820.gif
 tags:
   - 搞机日志
+  - WEB
+  - Linux
 ---
 
 > ​	==CLAW CLOUD RUN 云服务商如果使用Github超过180天的账户注册可以获得每月5美刀的服务器额度，额度十分充裕且无需绑定银行卡==

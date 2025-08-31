@@ -8,10 +8,10 @@ cover: https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250804193109903.
 tags:
   - 搞机日志
   - WEB
-  - Valay
+  - Valaxy
 ---
 
-> 卜蒜子的访问子6月以来一直502，故更换计数器
+> 卜蒜子的访问自6月以来一直502，故更换计数器
 >
 > 看到Evan Luo大佬的[Vercount: 一个比不蒜子更好的网站计数器 | EvanNotFound's Blog](https://ohevan.com/vercount-website-counter-busuanzi-alternative.html)，<!-- more -->而Valaxy的插件仓库正好也提供了这个插件
 >

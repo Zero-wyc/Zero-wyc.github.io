@@ -9,7 +9,7 @@ top: 1
 tags:
   - 搞机日志
   - WEB
-  - Valax
+  - Valaxy
   - Daily life
 ---
 

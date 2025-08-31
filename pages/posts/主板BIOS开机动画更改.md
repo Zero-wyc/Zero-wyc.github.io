@@ -9,6 +9,7 @@ tags:
   - 搞机日志
   - 美化
   - 甘城なつき/Nachoneko
+  - Windows美化
 ---
 
 > 这次BIOS开机动画以及GRUB2和Windows启动动画自定义联动是我很久以前就想做的，但一直卡在BIOS上，

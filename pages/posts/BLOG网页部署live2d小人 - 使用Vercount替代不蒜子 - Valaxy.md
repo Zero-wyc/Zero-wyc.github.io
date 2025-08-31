@@ -9,7 +9,7 @@ cover: https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250804193428959.
 tags:
   - 搞机日志
   - WEB
-  - Valay
+  - Valaxy
 ---
 
 > 刚部署BLOG的时候其实就已经把live2d放上去了，但是受困于如何查找live2d模型和配置文件，当我找到模型之后，如何部署又成为了问题，我尝试通过我的服务器直接挂载直链引用models.json文件，<!-- more -->却一直不行，直到我看到官方的配置文件中有特殊说明jsDelivr这个工具，我才恍然大悟

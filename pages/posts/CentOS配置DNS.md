@@ -7,6 +7,8 @@ categories: 搞机日志
 cover: https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250824221751222.webp
 tags:
   - 搞机日志
+  - WEB
+  - Linux
 ---
 
 > - 阿里云的Alibaba Cloud 3 基于Cent OS，却在我这多次有DNS问题，每次却都想不来为什么访问不了
