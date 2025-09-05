@@ -71,7 +71,7 @@ export default defineSiteConfig({
     },
     {
       name: 'Telegram',
-      link: 'https://t.me/zero200956',
+      link: 'https://t.me/zero_wyc',
       icon: 'i-ri-telegram-line',
       color: '#0088CC',
     },
