@@ -2,7 +2,7 @@
 hide: false
 title: 个人BLOG更新更新日志
 date: 2025-3-14
-updated: 2025-8-30
+updated: 2025-9-6
 categories: 搞机日志
 cover: https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250804192855060.jpg
 top: 1
