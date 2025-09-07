@@ -130,4 +130,4 @@ tags:
 
 > 迁移Typing至GitHubPages并使用CloudflareCDN代理，域名不变
 >
-> 原先阿里云服务器部署的Typing网址定向为 [keyboard.zero251.xyz](keyboard.zero251.xyz)，同样的，版本可能落后
+> 原先阿里云服务器部署的Typing网址定向为 [keyboard.zero251.xyz](https://keyboard.zero251.xyz)，同样的，版本可能落后
