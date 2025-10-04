@@ -7,6 +7,8 @@ categories: 搞机日志
 cover: https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250804193828764.png
 tags:
   - 搞机日志
+  - Linux
+  - Windows
 ---
 frp 是什么？
 frp 是一款高性能的反向代理应用，专注于内网穿透。它支持多种协议，包括 TCP、UDP、HTTP、HTTPS 等，<!-- more -->并且具备 P2P 通信功能。使用 frp，您可以安全、便捷地将内网服务暴露到公网，通过拥有公网 IP 的节点进行中转。

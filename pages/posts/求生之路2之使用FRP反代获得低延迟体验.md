@@ -8,6 +8,7 @@ cover: https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/PixPin_2025-06-08_
 tags:
   - 搞机日志
   - Game
+  - Steam
 ---
 
 - ###### 本篇文档算是故技重施，算是在先前的致命公司FRP的基础之上进行的相似操作**<!-- more -->**

@@ -7,10 +7,8 @@ categories: 搞机日志
 cover: https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250718181029571.gif
 tags:
   - 搞机日志
-  - 美化
-  - 软件推荐
   - Windows
-
+  - 软件推荐
 ---
 
 > 我这里仅做推荐和功能展示，不讲使用教程了（很简单），也可以去作者的发布页看<!-- more -->
