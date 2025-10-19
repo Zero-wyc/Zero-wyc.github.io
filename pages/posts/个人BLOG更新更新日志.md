@@ -116,7 +116,7 @@ tags:
 >
 > [Github Pages](https://zero-wyc.github.io/)
 >
-> [Cloudflare](https://zero251.xyz/)~~因为CDN的缘故，可能会延迟2~3小时更细，因该也没人在意这个吧~~
+> [Cloudflare](https://zero251.xyz/)
 >
 > [阿里云](https://blog.zero251.xyz/)不定时更新
 >
