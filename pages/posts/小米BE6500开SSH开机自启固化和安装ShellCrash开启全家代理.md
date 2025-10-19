@@ -20,7 +20,7 @@ tags:
 
 ==顺带提一嘴，lucky里的Web服务里的域名不要绑定到一个ipv6域名加端口，不要问我为什么，问就是2天的痛==
 
-#### 配到最后，最终还是重置几回，Shellclash交给NAS做单臂路由，BE6500只留下Lucky，毕竟性能摆在那，而且还要做主路由的，总不能==ALL IN BONE==吧？
+#### 配到最后，最终还是重置几回，Shellclash交给NAS做单臂路由，BE6500只留下Lucky，毕竟性能摆在那，而且还要做主路由的，总不能==ALL IN BOOM==吧？
 
 #### TM的我是真觉得米家做的有问题，路由器改成192.168.1.1来分配DHCP（只要改过就绑不了米家），不论改SSH密码，root密码，米家都死活绑不上了艹，PPPOE拨号要指定Wan口才能拨号上网，甚至使用5G频段的Wifi都绑不了，害我研究好久
 
@@ -46,10 +46,10 @@ curl -X POST "http://192.168.31.1/cgi-bin/luci/;stok={STOK}/api/xqsystem/start_b
 这里附上我自己的例子（自己改过路由地址）
 
 ```cmd
-curl -X POST "http://192.168.31.1/cgi-bin/luci/;stok=79e816981092298fc3c8e930769a7af3/api/xqsystem/start_binding" -d "uid=1234&key=1234'%0Anvram%20set%20ssh_en%3D1'"
-curl -X POST "http://192.168.31.1/cgi-bin/luci/;stok=79e816981092298fc3c8e930769a7af3/api/xqsystem/start_binding" -d "uid=1234&key=1234'%0Anvram%20commit'"
-curl -X POST "http://192.168.31.1/cgi-bin/luci/;stok=79e816981092298fc3c8e930769a7af3/api/xqsystem/start_binding" -d "uid=1234&key=1234'%0Ased%20-i%20's%2Fchannel%3D.*%2Fchannel%3D%22debug%22%2Fg'%20%2Fetc%2Finit.d%2Fdropbear'"
-curl -X POST "http://192.168.31.1/cgi-bin/luci/;stok=79e816981092298fc3c8e930769a7af3/api/xqsystem/start_binding" -d  "uid=1234&key=1234'%0A%2Fetc%2Finit.d%2Fdropbear%20start'"
+curl -X POST "http://192.168.31.1/cgi-bin/luci/;stok=c871f402bd1ec23c01199c60eb4ab5d0/api/xqsystem/start_binding" -d "uid=1234&key=1234'%0Anvram%20set%20ssh_en%3D1'"
+curl -X POST "http://192.168.31.1/cgi-bin/luci/;stok=c871f402bd1ec23c01199c60eb4ab5d0/api/xqsystem/start_binding" -d "uid=1234&key=1234'%0Anvram%20commit'"
+curl -X POST "http://192.168.31.1/cgi-bin/luci/;stok=c871f402bd1ec23c01199c60eb4ab5d0/api/xqsystem/start_binding" -d "uid=1234&key=1234'%0Ased%20-i%20's%2Fchannel%3D.*%2Fchannel%3D%22debug%22%2Fg'%20%2Fetc%2Finit.d%2Fdropbear'"
+curl -X POST "http://192.168.31.1/cgi-bin/luci/;stok=c871f402bd1ec23c01199c60eb4ab5d0/api/xqsystem/start_binding" -d  "uid=1234&key=1234'%0A%2Fetc%2Finit.d%2Fdropbear%20start'"
 ```
 
 -  ssh 即可打开，但是重启后就会失效
@@ -68,16 +68,15 @@ curl -X POST "http://192.168.31.1/cgi-bin/luci/;stok=79e816981092298fc3c8e930769
 
 3. #### 固化SSH（在每次升级后都保留SSH）
 
-   1. 用 SSH 工具登录路由器后分别执行以下指令，每次执行指令后路由器会重启
+   1. 用 SSH 工具登录路由器后分别执行以下指令
 
       ```bash
       zz=$(dd if=/dev/zero bs=1 count=2 2>/dev/null) ; printf '\xA5\x5A%c%c' $zz $zz | mtd write - crash
-      reboot
       ```
-
-   2. 执行指令后路由器会重启
-
-      ```bash
+      
+2. 执行指令
+   
+   ```bash
       nvram set ssh_en=1
       nvram set telnet_en=1
       nvram set uart_en=1
@@ -88,16 +87,15 @@ curl -X POST "http://192.168.31.1/cgi-bin/luci/;stok=79e816981092298fc3c8e930769
       bdata set uart_en=1
       bdata set boot_wait=on
       bdata commit
-      reboot
       ```
-
+      
    3. 执行指令后路由器会重启，重启后固化完成
 
       ```bash
-      mtd erase crash
+   mtd erase crash
       reboot
       ```
-
+   
       
 
 4. #### 安装ShellCrash
@@ -149,11 +147,19 @@ curl -X POST "http://192.168.31.1/cgi-bin/luci/;stok=79e816981092298fc3c8e930769
             /etc/init.d/firewall restart
             ```
 
+         - 安装lucky配置DDNS
+
+           - ```
+             URL="http://release.66666.host"; curl -o /tmp/install.sh "$URL/install.sh" && sh /tmp/install.sh "$URL"
+             ```
+
+             
+         
          ---
-
+         
          引用链接：
-
+         
          [[Redmi AC2100 路由器 官方固件允许IPv6外网访问下游设备](https://www.cnblogs.com/wx2020/p/16028098.html)](https://www.cnblogs.com/wx2020/p/16028098.html)
-
+         
          [[小米AX3000开启SSH 暴露IPV6公网IP](https://dragonfly.fun/code/miwifi.html)](https://dragonfly.fun/code/miwifi.html)
 

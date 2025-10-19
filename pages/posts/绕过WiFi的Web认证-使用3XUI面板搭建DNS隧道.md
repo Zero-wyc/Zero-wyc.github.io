@@ -113,29 +113,29 @@ tags:
       2. #### 将系统默认的DNS解析切换为TCP53端口，几乎不影响VPSDNS解析
 
          - ```bash
-           sudo mkdir -p /etc/systemd/resolved.conf.d
-           sudo nano /etc/systemd/resolved.conf.d/10-tcp-only.conf
+           sudo vim /etc/systemd/resolved.conf
            ```
-
+   
          - #### 写入内容
-
+   
          - ```bash
            [Resolve]
-           DNSStubListenerExtra=tcp://127.0.0.1:53
            DNSStubListener=no        # 关闭默认 UDP+TCP 混合监听
            ```
-
+   
          - #### 重启服务
 
          - ```bash
            sudo systemctl restart systemd-resolved
            ```
-
+   
          - #### 验证，如果udp53端口出现xray即成功
 
          - ```bash
            sudo ss -tulnp | grep :53
            ```
+   
+         - 提醒，如此以来服务器无法解析网站地址，但是入站不影响 ，所以无伤大雅
 
    7. ### 在3XUI面板导出链接并导入代理软件
 
