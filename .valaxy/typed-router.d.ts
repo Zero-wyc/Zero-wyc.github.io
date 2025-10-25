@@ -41,7 +41,6 @@ declare module 'vue-router/auto-routes' {
     '/posts/Game': RouteRecordInfo<'/posts/Game', '/posts/Game', Record<never, never>, Record<never, never>>,
     '/posts/GRUB2配置以及自定义主题以及添加Windows引导': RouteRecordInfo<'/posts/GRUB2配置以及自定义主题以及添加Windows引导', '/posts/GRUB2配置以及自定义主题以及添加Windows引导', Record<never, never>, Record<never, never>>,
     '/posts/HackBGRT更改Windows开机动画': RouteRecordInfo<'/posts/HackBGRT更改Windows开机动画', '/posts/HackBGRT更改Windows开机动画', Record<never, never>, Record<never, never>>,
-    '/posts/hello-valaxy': RouteRecordInfo<'/posts/hello-valaxy', '/posts/hello-valaxy', Record<never, never>, Record<never, never>>,
     '/posts/Intel MAC使用MAA进行明日方舟挂机': RouteRecordInfo<'/posts/Intel MAC使用MAA进行明日方舟挂机', '/posts/Intel MAC使用MAA进行明日方舟挂机', Record<never, never>, Record<never, never>>,
     '/posts/MarkdownTypora的基本用法与常用操作': RouteRecordInfo<'/posts/MarkdownTypora的基本用法与常用操作', '/posts/MarkdownTypora的基本用法与常用操作', Record<never, never>, Record<never, never>>,
     '/posts/MToolBox 枫の美化工具箱 - Win美化的集大成者': RouteRecordInfo<'/posts/MToolBox 枫の美化工具箱 - Win美化的集大成者', '/posts/MToolBox 枫の美化工具箱 - Win美化的集大成者', Record<never, never>, Record<never, never>>,
@@ -69,10 +68,14 @@ declare module 'vue-router/auto-routes' {
     '/posts/咕咕咕 - 常用命令': RouteRecordInfo<'/posts/咕咕咕 - 常用命令', '/posts/咕咕咕 - 常用命令', Record<never, never>, Record<never, never>>,
     '/posts/如何自定义Typora的背景': RouteRecordInfo<'/posts/如何自定义Typora的背景', '/posts/如何自定义Typora的背景', Record<never, never>, Record<never, never>>,
     '/posts/如何让想要的软件在开机的时候自动启动': RouteRecordInfo<'/posts/如何让想要的软件在开机的时候自动启动', '/posts/如何让想要的软件在开机的时候自动启动', Record<never, never>, Record<never, never>>,
+    '/posts/小米BE6500开SSH开机自启固化和安装ShellCrash开启全家代理': RouteRecordInfo<'/posts/小米BE6500开SSH开机自启固化和安装ShellCrash开启全家代理', '/posts/小米BE6500开SSH开机自启固化和安装ShellCrash开启全家代理', Record<never, never>, Record<never, never>>,
     '/posts/小米手环910 开启心率广播 投屏OBS直播': RouteRecordInfo<'/posts/小米手环910 开启心率广播 投屏OBS直播', '/posts/小米手环910 开启心率广播 投屏OBS直播', Record<never, never>, Record<never, never>>,
+    '/posts/模版': RouteRecordInfo<'/posts/模版', '/posts/模版', Record<never, never>, Record<never, never>>,
     '/posts/求生之路2之使用FRP反代获得低延迟体验': RouteRecordInfo<'/posts/求生之路2之使用FRP反代获得低延迟体验', '/posts/求生之路2之使用FRP反代获得低延迟体验', Record<never, never>, Record<never, never>>,
+    '/posts/流量卡-授人以鱼不如授人以渔': RouteRecordInfo<'/posts/流量卡-授人以鱼不如授人以渔', '/posts/流量卡-授人以鱼不如授人以渔', Record<never, never>, Record<never, never>>,
     '/posts/点读笔-如何在开机时自动启动WIFI热点': RouteRecordInfo<'/posts/点读笔-如何在开机时自动启动WIFI热点', '/posts/点读笔-如何在开机时自动启动WIFI热点', Record<never, never>, Record<never, never>>,
     '/posts/硬件日志': RouteRecordInfo<'/posts/硬件日志', '/posts/硬件日志', Record<never, never>, Record<never, never>>,
+    '/posts/绕过WiFi的Web认证-使用3XUI面板搭建DNS隧道': RouteRecordInfo<'/posts/绕过WiFi的Web认证-使用3XUI面板搭建DNS隧道', '/posts/绕过WiFi的Web认证-使用3XUI面板搭建DNS隧道', Record<never, never>, Record<never, never>>,
     '/posts/致命公司自建局域网服务器，反代联机（破解）': RouteRecordInfo<'/posts/致命公司自建局域网服务器，反代联机（破解）', '/posts/致命公司自建局域网服务器，反代联机（破解）', Record<never, never>, Record<never, never>>,
     '/posts/解决npm或pnpm无法更新的问题': RouteRecordInfo<'/posts/解决npm或pnpm无法更新的问题', '/posts/解决npm或pnpm无法更新的问题', Record<never, never>, Record<never, never>>,
     '/posts/评论杂烩QAQ': RouteRecordInfo<'/posts/评论杂烩QAQ', '/posts/评论杂烩QAQ', Record<never, never>, Record<never, never>>,
@@ -90,11 +93,11 @@ declare module 'vue-router/auto-routes' {
    * @internal
    */
   export interface _RouteFileInfoMap {
-    'node_modules/.pnpm/valaxy-theme-yun@0.26.5_vue@3.5.13_typescript@5.9.2_/node_modules/valaxy-theme-yun/pages/index.vue': {
+    'node_modules/valaxy-theme-yun/pages/index.vue': {
       routes: '/'
       views: never
     }
-    'node_modules/.pnpm/valaxy@0.26.5_@babel+parser_de9eeb9313cc2caaf51046f22c428ffe/node_modules/valaxy/client/pages/[...path].vue': {
+    'node_modules/valaxy/client/pages/[...path].vue': {
       routes: '/[...path]'
       views: never
     }
@@ -138,11 +141,11 @@ declare module 'vue-router/auto-routes' {
       routes: '/links/'
       views: never
     }
-    'node_modules/.pnpm/valaxy-theme-yun@0.26.5_vue@3.5.13_typescript@5.9.2_/node_modules/valaxy-theme-yun/pages/page/[page].vue': {
+    'node_modules/valaxy-theme-yun/pages/page/[page].vue': {
       routes: '/page/[page]'
       views: never
     }
-    'node_modules/.pnpm/valaxy-theme-yun@0.26.5_vue@3.5.13_typescript@5.9.2_/node_modules/valaxy-theme-yun/pages/posts/index.vue': {
+    'node_modules/valaxy-theme-yun/pages/posts/index.vue': {
       routes: '/posts/'
       views: never
     }
@@ -180,10 +183,6 @@ declare module 'vue-router/auto-routes' {
     }
     'pages/posts/HackBGRT更改Windows开机动画.md': {
       routes: '/posts/HackBGRT更改Windows开机动画'
-      views: never
-    }
-    'pages/posts/hello-valaxy.md': {
-      routes: '/posts/hello-valaxy'
       views: never
     }
     'pages/posts/Intel MAC使用MAA进行明日方舟挂机.md': {
@@ -294,12 +293,24 @@ declare module 'vue-router/auto-routes' {
       routes: '/posts/如何让想要的软件在开机的时候自动启动'
       views: never
     }
+    'pages/posts/小米BE6500开SSH开机自启固化和安装ShellCrash开启全家代理.md': {
+      routes: '/posts/小米BE6500开SSH开机自启固化和安装ShellCrash开启全家代理'
+      views: never
+    }
     'pages/posts/小米手环910 开启心率广播 投屏OBS直播.md': {
       routes: '/posts/小米手环910 开启心率广播 投屏OBS直播'
       views: never
     }
+    'pages/posts/模版.md': {
+      routes: '/posts/模版'
+      views: never
+    }
     'pages/posts/求生之路2之使用FRP反代获得低延迟体验.md': {
       routes: '/posts/求生之路2之使用FRP反代获得低延迟体验'
+      views: never
+    }
+    'pages/posts/流量卡-授人以鱼不如授人以渔.md': {
+      routes: '/posts/流量卡-授人以鱼不如授人以渔'
       views: never
     }
     'pages/posts/点读笔-如何在开机时自动启动WIFI热点.md': {
@@ -308,6 +319,10 @@ declare module 'vue-router/auto-routes' {
     }
     'pages/posts/硬件日志.md': {
       routes: '/posts/硬件日志'
+      views: never
+    }
+    'pages/posts/绕过WiFi的Web认证-使用3XUI面板搭建DNS隧道.md': {
+      routes: '/posts/绕过WiFi的Web认证-使用3XUI面板搭建DNS隧道'
       views: never
     }
     'pages/posts/致命公司自建局域网服务器，反代联机（破解）.md': {
