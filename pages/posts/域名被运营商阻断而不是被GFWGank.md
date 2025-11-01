@@ -14,6 +14,8 @@ tags:
 
 > 事情是这样的，我趁着腾讯云年终特惠购买了一台日本的服务器
 >
+> 刚好去年买的美国服务器也到期了
+>
 > 但是当我绑定上域名的时候却被阻断，IP地址却可以直接访问<!-- more -->
 
 ![image-20251101235231254](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20251101235237271.webp)
@@ -36,7 +38,7 @@ tags:
 >
 > 所以我更换了DNS
 
-![image-20251102001432168](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20251102001432312.webp)
+![image-20251102005707600](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20251102005707773.webp)
 
 > 结果是ping能ping到，但是奇怪的是用域名仍然无法访问
 >
