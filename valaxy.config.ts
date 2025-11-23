@@ -49,6 +49,7 @@ export default defineValaxyConfig<UserThemeConfig>({
       { text: 'OpenList', link: '/links/', icon: 'i-ri-triangle-line' },
       { text: '相册', link: '/albums/', icon: 'i-ri-gallery-line' },
       { text: '追番列表', link: '/Bangumi/', icon: 'i-ri-folder-video-line' },
+      { text: '站点状态', link: '/status/', icon: 'i-ri-loader-2-line' },
     ],
     
     pages: [
@@ -75,6 +76,12 @@ export default defineValaxyConfig<UserThemeConfig>({
         url: '/Bangumi/',
         icon: 'i-ri-folder-video-line',
         color: '#05AEEC',
+      },
+      {
+        name: '站点状态',
+        url: '/status/',
+        icon: 'i-ri-loader-2-line',
+        color: '#1BA15A',
       },
     ],
 
