@@ -125,7 +125,7 @@ export default defineValaxyConfig<UserThemeConfig>({
     addonLightGallery(),//相册配置
       
     addonTwikoo({ 
-      envId: 'https://zerotwikoo.netlify.app', // 替换为您的 Twikoo 环境 ID
+      envId: 'https://zerotwikoo.netlify.app/.netlify/functions/twikoo', // 替换为您的 Twikoo 环境 ID
     }),
 
     addonMeting({
