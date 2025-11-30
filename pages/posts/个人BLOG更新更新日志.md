@@ -143,3 +143,11 @@ tags:
 > 鉴于有前面迁移的经验，所以迁移的很快
 >
 > 现在[BLOG](blog.zero251.xyz)和[根域名](zero251.xyz)都使用了EdgeOne进行加速
+
+### 2025.11.30
+
+> 使用EdgeOne的Pages功能进行自动构建
+>
+> 发现访问速度别样的快
+>
+> 遂将[Blog](blog.zero251.xyz)域名从JP服务器迁移至EdgeOne构建部署下，并考虑是否将blog设为博客主域名
