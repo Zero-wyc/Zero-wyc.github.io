@@ -150,4 +150,8 @@ tags:
 >
 > 发现访问速度别样的快
 >
-> 遂将[Blog](blog.zero251.xyz)域名从JP服务器迁移至EdgeOne构建部署下，并考虑是否将blog设为博客主域名
+> 遂将[Blog](blog.zero251.xyz)域名从JP服务器迁移至EdgeOne构建部署下，并将blog设为博客主域名
+>
+> Twikoo评论功能已经坏了一个月了
+>
+> 现修复并将Twikoo从Vercel迁移至Netlify以支持国内评论

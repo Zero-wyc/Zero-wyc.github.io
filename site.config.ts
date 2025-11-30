@@ -1,7 +1,7 @@
 import { defineSiteConfig } from 'valaxy'
 
 export default defineSiteConfig({
-  url: 'https://zero251.xyz/',
+  url: 'https://blog.zero251.xyz/',
   favicon: "https://p.zero251.xyz/i/2025/03/28/甘城.svg", // 网页图标链接
   lang: 'zh-CN',
   title: 'Zero_wyc的窝',
