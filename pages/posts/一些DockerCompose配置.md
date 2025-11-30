@@ -5,7 +5,6 @@ date: 2025-11-29
 updated: 2025-11-29
 categories: 搞机日志
 cover: https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20251129232547423.webp
-aside: false	# 关闭目录边栏
 codeHeightLimit: 300 # 代码块限高
 tags:
   - 搞机日志

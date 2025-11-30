@@ -233,6 +233,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/一些DockerCompose配置': RouteRecordInfo<
+      '/posts/一些DockerCompose配置',
+      '/posts/一些DockerCompose配置',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/个人BLOG更新更新日志': RouteRecordInfo<
       '/posts/个人BLOG更新更新日志',
       '/posts/个人BLOG更新更新日志',
@@ -668,6 +675,12 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/Zero-Typing - 一个美观的打字网站.md': {
       routes:
         | '/posts/Zero-Typing - 一个美观的打字网站'
+      views:
+        | never
+    }
+    'pages/posts/一些DockerCompose配置.md': {
+      routes:
+        | '/posts/一些DockerCompose配置'
       views:
         | never
     }
