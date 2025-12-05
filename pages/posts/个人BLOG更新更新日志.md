@@ -155,3 +155,9 @@ tags:
 > Twikoo评论功能已经坏了一个月了
 >
 > 现修复并将Twikoo从Vercel迁移至Netlify以支持国内评论
+
+### 2025.12.5
+
+> 竟发现阿里云阻断我的 openlist 文件，现停止guest用户访问，等待解封，遂改回之
+
+![406a6d1525cd68db120ad040888c3f43](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20251205234944456.webp)
