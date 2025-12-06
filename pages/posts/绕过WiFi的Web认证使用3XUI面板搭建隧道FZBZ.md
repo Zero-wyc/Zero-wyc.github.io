@@ -1,6 +1,6 @@
 ---
 hide: false
-title: FZBZ-绕过WiFi的Web认证-使用3XUI面板搭建DNS隧道
+title: 绕过WiFi的Web认证-使用3XUI面板搭建隧道-FZBZ
 date: 2025-9-20
 updated: 2025-12-6
 categories: 搞机日志
@@ -10,6 +10,10 @@ tags:
   - FZBZ
   - WEB
 ---
+
+> 我这个方法是我参考网络并自己研究出来的，~~这方法其实跟搭建VP*没区别~~，相较于网上流行的OpenVpn，我认为我的方法更为简单，小白都可以学会，且可以Windows，安卓，苹果通用
+>
+> 经我测试，稳定运行3个月，~~在学校我甚至可以贩卖网络费~~，打游戏的话除非你能忍受100~300毫秒的延迟，刷视频看网页等对延迟没要求的就非常流畅
 
 > 原理说明：
 >
@@ -46,7 +50,7 @@ tags:
 
    1. #### Windows使用nslookup用于dns解析的，没有认证的情况下可以成功的解析到结果，说明dns的端口53是开放的
 
-      ![image-20250920214513089](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250920214520249.webp)
+      ![image-20251206203957629](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20251206203957746.webp)
 
    2. #### 安卓使用Termux终端测试
 
