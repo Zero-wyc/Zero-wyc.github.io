@@ -104,12 +104,14 @@ tags:
    
       4. 跟随配置向导配置端口，获得地址，用户名和密码并访问
    
+         ![image-20251206193211308](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20251206193218549.webp)
+   
    4. ### 配置3XUI面板，添加如下隧道
    
       1. 记得协议选vmess，传输协议选mkcp
       2. 伪装DNS可以不选，但如同上面的绑定域名般，可以提升成功率，但对大部分的web验证来说，足以通过
       3. ![image-20250920221642818](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250920221643074.webp)
-   
+
    5. ### 如果显示53端口被占用，先在终端查看是否真的被占用
 
       1. ```bash
@@ -124,7 +126,7 @@ tags:
            ```
    
          - #### 写入内容
-   
+
          - ```bash
            [Resolve]
            DNSStubListener=no        # 关闭默认 UDP+TCP 混合监听
