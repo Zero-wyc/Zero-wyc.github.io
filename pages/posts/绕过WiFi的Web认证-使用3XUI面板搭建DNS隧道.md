@@ -2,7 +2,7 @@
 hide: false
 title: FZBZ-绕过WiFi的Web认证-使用3XUI面板搭建DNS隧道
 date: 2025-9-20
-updated: 2025-9-20
+updated: 2025-12-6
 categories: 搞机日志
 cover: https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250920223900030.webp
 tags:
@@ -89,8 +89,18 @@ tags:
    
    2. 方法2：本地搭建的话 [下载链接](https://github.com/MHSanaei/3x-ui/wiki/Installation#install-in-one-line-recommended)
    
-   3. #### 打开网址 `http：//<your-ip>：2053` 并登录面板。凭据如下：
+      1. 安装运行脚本所需的工具：`curl`
    
+      2. 打开 shell 并输入此命令
+
+      3. ```bash
+         bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)
+         ```
+
+         
+
+   3. #### 打开网址 `http：//<your-ip>：2053` 并登录面板。凭据如下：
+
       - 👤 用户名: `admin`
 
       - 🔑 密码: `admin`
@@ -98,13 +108,13 @@ tags:
       - #### 在域名方面配置，这里以Cloudflare为例
 
         - ![image-20250920221218274](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250920221218430.webp)
-
+   
         - 然后在宝塔面板配置反向代理
-
+   
       - ![image-20250920221329626](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250920221329884.webp)
-
+   
    4. ### 配置3XUI面板，添加如下隧道
-
+   
       1. 记得协议选vmess，传输协议选mkcp
       2. 伪装DNS可以不选，但如同上面的绑定域名般，可以提升成功率，但对大部分的web验证来说，足以通过
       3. ![image-20250920221642818](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250920221643074.webp)
@@ -128,15 +138,15 @@ tags:
            [Resolve]
            DNSStubListener=no        # 关闭默认 UDP+TCP 混合监听
            ```
-   
+
          - #### 重启服务
-   
+
          - ```bash
            sudo systemctl restart systemd-resolved
            ```
-   
+
          - #### 验证，如果udp53端口出现xray即成功
-   
+
          - ```bash
            sudo ss -tulnp | grep :53
            ```
@@ -154,15 +164,15 @@ tags:
       - ![7c9a26a84c047b55dd91e6ee21c9eefa](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250920223258257.webp)
 
       - #### 进去之后找到路由选项然后全部关掉
-
+   
         - ![2281d7f1750bb0c961a6975a02f2f45c](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250920223416161.webp)
-
+   
       - #### 将设置改为这样，最终要的是那个DNS代理解析按钮
-
+   
         - ![78a44de4860a92f1a8f082558f5a9dc4](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250920223453947.webp)
-
+   
       - #### 点击主页右下角的小飞机开起来，去浏览器或者软件上上网，看看然后去3XUI面板看看是否全局流量通过
-
+   
       - #### 如果有即可成功
    
    8. ### 电脑端我就不细说了，使用V2rayN（使用xray核心，不要用sing-box核心，复制导入地址，导入开全局模式即可）
