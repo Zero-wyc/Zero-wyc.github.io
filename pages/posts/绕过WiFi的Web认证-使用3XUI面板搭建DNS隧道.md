@@ -36,7 +36,8 @@ tags:
 > 实现的工具：
 >
 > - [3x-Ui面板(一个基于Xray的网页编辑面板)](https://github.com/MHSanaei/3x-ui)
-> - [V2rayNG(安卓代理软件)](https://github.com/2dust/v2rayNG)（clash和singbox不行）
+> - [V2rayNG(安卓代理软件)](https://github.com/2dust/v2rayNG)（注：clash和singbox不行）
+> - [V2rayN(电脑端代理软件)](https://github.com/2dust/v2rayN/releases/)
 > - [Termux(安卓测试DNS端口是否可以访问)](https://github.com/termux/termux-app)
 
 ### 教程开始
