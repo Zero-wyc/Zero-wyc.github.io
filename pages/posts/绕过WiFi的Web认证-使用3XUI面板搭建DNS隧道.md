@@ -87,27 +87,20 @@ tags:
    
       ![image-20250920220924177](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250920220944331.webp)
    
-   2. #### 方法2：实体搭建
+   2. #### 打开网址 `http：//<your-ip>：2053` 并登录面板，默认密码和账户如下：
+   
+      1. 👤 用户名: `admin`
+      2. 🔑 密码: `admin`
+   
+   3. ### 方法2：实体搭建
    
       1. 安装运行脚本所需的工具：`curl`
    
       2. 打开 shell 并输入此命令
-
+   
       3. ```bash
          bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)
          ```
-
-   3. #### 打开网址 `http：//<your-ip>：2053` 并登录面板，默认密码和账户如下：
-
-      - 👤 用户名: `admin`
-
-      - 🔑 密码: `admin`
-      - 在配置域名方面，这里以Cloudflare为例（如果需要）
-        - ![image-20250920221218274](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250920221218430.webp)
-
-        - 然后在宝塔面板配置反向代理
-
-      - ![image-20250920221329626](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250920221329884.webp)
    
    4. ### 配置3XUI面板，添加如下隧道
    
@@ -140,29 +133,29 @@ tags:
          - ```bash
            sudo systemctl restart systemd-resolved
            ```
-
+   
          - #### 验证，如果udp53端口出现xray即成功
-
+   
          - ```bash
            sudo ss -tulnp | grep :53
            ```
-
+   
          - ==Warning== : 如此以来服务器无法解析域名，但是入站和提供网站服务不影响 
-
+   
    6. ### 在3XUI面板导出链接并导入代理软件
-
+   
       - ![image-20250920223149463](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250920223149620.webp)
-
+   
    7. #### 导入V2Ray（~~这里用Neko-ray，V2ray的二刺猿改版为例~~）
-
+   
       - 导入
-
+   
       - ![7c9a26a84c047b55dd91e6ee21c9eefa](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250920223258257.webp)
-
+   
       - #### 进去之后找到路由选项然后全部关掉
-
+   
         - ![2281d7f1750bb0c961a6975a02f2f45c](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250920223416161.webp)
-
+   
       - #### 将设置改为这样，最终要的是那个DNS代理解析按钮
    
         - ![78a44de4860a92f1a8f082558f5a9dc4](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250920223453947.webp)
