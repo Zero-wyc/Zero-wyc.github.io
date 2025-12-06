@@ -63,7 +63,7 @@ tags:
 
 2. ### 使用3X-UI面板进行隧道搭建
 
-   1. ####方法1:使用宝塔以及docker的3xui面板方便后续管理
+   1. #### 方法1:使用宝塔以及docker的3xui面板方便后续管理
 
       1. #### `docker-compose`
 
@@ -87,7 +87,7 @@ tags:
    
       ![image-20250920220924177](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250920220944331.webp)
    
-   2. 方法2：本地搭建的话 [下载链接](https://github.com/MHSanaei/3x-ui/wiki/Installation#install-in-one-line-recommended)
+   2. #### 方法2：实体搭建
    
       1. 安装运行脚本所需的工具：`curl`
    
@@ -97,20 +97,16 @@ tags:
          bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)
          ```
 
-         
-
-   3. #### 打开网址 `http：//<your-ip>：2053` 并登录面板。凭据如下：
+   3. #### 打开网址 `http：//<your-ip>：2053` 并登录面板，默认密码和账户如下：
 
       - 👤 用户名: `admin`
 
       - 🔑 密码: `admin`
-
-      - #### 在域名方面配置，这里以Cloudflare为例
-
+      - 在配置域名方面，这里以Cloudflare为例（如果需要）
         - ![image-20250920221218274](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250920221218430.webp)
-   
+
         - 然后在宝塔面板配置反向代理
-   
+
       - ![image-20250920221329626](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250920221329884.webp)
    
    4. ### 配置3XUI面板，添加如下隧道
@@ -138,9 +134,9 @@ tags:
            [Resolve]
            DNSStubListener=no        # 关闭默认 UDP+TCP 混合监听
            ```
-
+   
          - #### 重启服务
-
+   
          - ```bash
            sudo systemctl restart systemd-resolved
            ```
@@ -164,9 +160,9 @@ tags:
       - ![7c9a26a84c047b55dd91e6ee21c9eefa](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250920223258257.webp)
 
       - #### 进去之后找到路由选项然后全部关掉
-   
+
         - ![2281d7f1750bb0c961a6975a02f2f45c](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250920223416161.webp)
-   
+
       - #### 将设置改为这样，最终要的是那个DNS代理解析按钮
    
         - ![78a44de4860a92f1a8f082558f5a9dc4](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250920223453947.webp)
