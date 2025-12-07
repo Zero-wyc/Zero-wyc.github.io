@@ -161,3 +161,9 @@ tags:
 > 竟发现阿里云阻断我的 openlist 文件，现停止guest用户访问，等待解封，遂改回之
 
 ![406a6d1525cd68db120ad040888c3f43](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20251205234944456.webp)
+
+### 2025.12.7
+
+> [Upptime](upptime.zero251.xyz)改为[Upptime kuma](http://status.zero251.xyz/status/all)并使用日本服务器运行
+>
+> 更新主页状态链接指向

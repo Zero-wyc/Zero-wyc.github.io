@@ -30,7 +30,7 @@ export default defineValaxyConfig<UserThemeConfig>({
   },
 
   /*server: {
-    allowedHosts: ['zero251.xyz'], // 添加允许的域名
+    allowedHosts: ['blog.zero251.xyz'], // 添加允许的域名
   },
   */
 
