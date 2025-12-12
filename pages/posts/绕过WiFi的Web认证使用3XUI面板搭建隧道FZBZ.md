@@ -11,6 +11,8 @@ tags:
   - WEB
 ---
 
+> #### [视频版教程 绕过校园网Web网络认证限制，绕过…](https://www.bilibili.com/video/BV1Vg2XBnE7m/?share_source=copy_web&vd_source=7a0f959e33c3900a64437993cfdb6999)
+
 > 我这个方法是我参考网络并自己研究出来的，~~这方法其实跟搭建VP*没区别~~，相较于网上流行的OpenVpn等，我认为我的方法更为简单，小白都可以学会，且可以Windows，安卓，苹果通用
 >
 > 经我测试，稳定运行3个月，~~在学校我甚至可以贩卖网络费~~，打游戏的话除非你能忍受100~300毫秒的延迟，刷视频看网页等对延迟没要求的就非常流畅
@@ -50,7 +52,11 @@ tags:
 
    1. #### Windows使用nslookup用于dns解析的，没有认证的情况下可以成功的解析到结果，说明dns的端口53是开放的
 
-      ![image-20251206203957629](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20251206203957746.webp)
+      ```cmd
+      nslookup baidu.com 223.5.5.5
+      ```
+      
+      ​	![image-20251206203957629](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20251212232220373.webp)
 
    2. #### 安卓使用Termux终端测试
 
@@ -59,7 +65,7 @@ tags:
          ```
 
       2. ```bash
-         nslookup baidu.com #测试是否可以DNS解析
+         nslookup baidu.com 223.5.5.5 #测试是否可以DNS解析
          ```
 
       3. 出现如下类似结果，即是成功
@@ -173,7 +179,7 @@ tags:
    
       - #### 如果有即可成功
    
-   8. ### 电脑端我就不细说了，使用V2rayN（使用xray核心，不要用sing-box核心，复制导入地址，导入开全局模式即可）
+   8. ### 电脑端我就不细说了，使用V2rayN（使用xray核心，不要用sing-box核心，复制导入地址，导入并开全局模式即可）
    
    9. ### 现在连上有Web登录限制的网络试试吧，享受世界! MAKE THE WORLD GREAT AGAIN
 
