@@ -174,7 +174,7 @@ tags:
 >
 > 使用EdgeOne配置加速Github图床，放弃JSDELIVER
 >
-> 经测试速度极快，遂也准备放弃Easyimage全面使用EdgeOne加速的GitHub图床
+> 经测试速度极快，完全解决网站国内访问问题，遂也准备放弃使用服务器的EasyImage，全面拥抱EdgeOne加速的GitHub图床
 >
 > 注意，配置加速时回源要写`raw.githubusercontent.com`(这是Github的文件服务器地址)回源host头需定向至这里，不然直接404
 >
@@ -186,4 +186,5 @@ tags:
 > https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/PixPin_2025-07-13_19-36-40.gif
 > ```
 >
-> ![image-20251213225621142](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20251213225621247.webp)
+
+![image-20251213225621142](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20251214002632611.webp)
