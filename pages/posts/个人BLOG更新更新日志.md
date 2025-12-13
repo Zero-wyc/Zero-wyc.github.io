@@ -84,7 +84,7 @@ tags:
 
 ### 2025.7.18
 
-> 重新配置，全新安装EasyImage2.0，并配置PicList，将全站以及以后的图片变为Github图床，并使用Jsdelivr作为加速，虽图片访问速度变慢（有些家庭宽带直接无法使用，但是移动网络可以用）
+> 重新配置，全新安装EasyImage2.0，并配置PicList，将全站以及以后的图片变为Github图床，并使用JSDELIVER作为加速，虽图片访问速度变慢（有些家庭宽带直接无法使用，但是移动网络可以用）
 >
 > 减少服务器带宽使用（~~为以后全站挂载云服务作准备~~）
 
@@ -134,7 +134,7 @@ tags:
 
 ### 2025.11.23
 
-> 主页添加站点状态(upptime)跳转链接
+> 主页添加站点状态[upptime](upptime.zero251.xyz)跳转链接
 
 ### 2025.11.29
 
@@ -150,7 +150,7 @@ tags:
 >
 > 发现访问速度别样的快
 >
-> 遂将[Blog](blog.zero251.xyz)域名从JP服务器迁移至EdgeOne构建部署下，并将blog设为博客主域名
+> 遂将[Blog](blog.zero251.xyz)域名从JP服务器迁移至EdgeOne构建部署下，并将Blog设为博客主域名(防止主域名出问题导致整个域名直接报废)
 >
 > Twikoo评论功能已经坏了一个月了
 >
@@ -158,7 +158,7 @@ tags:
 
 ### 2025.12.5
 
-> 竟发现阿里云阻断我的 openlist 文件，现停止guest用户访问，等待解封，遂改回之
+> 竟发现阿里云阻断我的 Openlist 文件，现停止Guest用户访问，等待解封，遂改回之
 
 ![406a6d1525cd68db120ad040888c3f43](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20251205234944456.webp)
 
@@ -167,3 +167,21 @@ tags:
 > [Upptime](upptime.zero251.xyz)改为[Upptime kuma](http://status.zero251.xyz/status/all)并使用日本服务器运行
 >
 > 更新主页状态链接指向
+
+### 2025.12.13
+
+> 使用EdgeOne配置加速Github图床，放弃JSDELIVER
+>
+> 经测试速度极快，遂也准备放弃Easyimage全面使用EdgeOne加速的GitHub图床
+>
+> 注意，配置加速时回源要写`raw.githubusercontent.com`(这是Github的文件服务器地址)回源host头需定向至这里，不然直接404
+>
+> 之后配置加速像这样即可
+>
+> ```html
+> https://github.cdn.zero251.xyz/用户名/仓库/分支/文件地址
+> eg:
+> https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/PixPin_2025-07-13_19-36-40.gif
+> ```
+>
+> ![image-20251213225621142](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20251213225621247.webp)
