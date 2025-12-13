@@ -99,8 +99,8 @@ export default defineValaxyConfig<UserThemeConfig>({
     //网站背景图片
     bg_image: {
       enable: true,
-      url: "https://p.zero251.xyz/i/2025/07/14/甘城2白_1.webp",	// 白日模式背景
-      dark: "https://p.zero251.xyz/i/2025/07/14/甘城主图290黑_1.webp",	// 夜间模式背景
+      url: "https://github.cdn.zero251.xyz/Zero-wyc/Image/main/General/甘城2白_1.webp",	// 白日模式背景
+      dark: "https://github.cdn.zero251.xyz/Zero-wyc/Image/main/General/甘城主图290黑_1.webp",	// 夜间模式背景
     },
     
     footer: {

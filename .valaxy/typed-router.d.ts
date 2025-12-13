@@ -443,9 +443,9 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/posts/绕过WiFi的Web认证-使用3XUI面板搭建DNS隧道': RouteRecordInfo<
-      '/posts/绕过WiFi的Web认证-使用3XUI面板搭建DNS隧道',
-      '/posts/绕过WiFi的Web认证-使用3XUI面板搭建DNS隧道',
+    '/posts/绕过WiFi的Web认证使用3XUI面板搭建隧道FZBZ': RouteRecordInfo<
+      '/posts/绕过WiFi的Web认证使用3XUI面板搭建隧道FZBZ',
+      '/posts/绕过WiFi的Web认证使用3XUI面板搭建隧道FZBZ',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -858,9 +858,9 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'pages/posts/绕过WiFi的Web认证-使用3XUI面板搭建DNS隧道.md': {
+    'pages/posts/绕过WiFi的Web认证使用3XUI面板搭建隧道FZBZ.md': {
       routes:
-        | '/posts/绕过WiFi的Web认证-使用3XUI面板搭建DNS隧道'
+        | '/posts/绕过WiFi的Web认证使用3XUI面板搭建隧道FZBZ'
       views:
         | never
     }

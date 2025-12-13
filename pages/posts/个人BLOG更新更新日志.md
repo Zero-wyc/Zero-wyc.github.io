@@ -170,6 +170,8 @@ tags:
 
 ### 2025.12.13
 
+> 修复部分live2D链接错误
+>
 > 使用EdgeOne配置加速Github图床，放弃JSDELIVER
 >
 > 经测试速度极快，遂也准备放弃Easyimage全面使用EdgeOne加速的GitHub图床

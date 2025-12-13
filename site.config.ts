@@ -2,13 +2,13 @@ import { defineSiteConfig } from 'valaxy'
 
 export default defineSiteConfig({
   url: 'https://blog.zero251.xyz/',
-  favicon: "https://p.zero251.xyz/i/2025/03/28/甘城.svg", // 网页图标链接
+  favicon: "https://github.cdn.zero251.xyz/Zero-wyc/Image/main/General/甘城.svg", // 网页图标链接
   lang: 'zh-CN',
   title: 'Zero_wyc的窝',
   subtitle: '二向无常', //副标题
   author: {
     name: 'Zero-无常',
-    avatar: "https://p.zero251.xyz/i/2025/03/28/辛.webp",	//头像链接
+    avatar: "https://github.cdn.zero251.xyz/Zero-wyc/Image/main/General/辛.webp",	//头像链接
     status: {
       emoji: '🖥️'	// 头像旁边的emoji
     },
@@ -139,8 +139,7 @@ export default defineSiteConfig({
   // 代码块高度限制 并自动折叠 odeHeightLimit: 300
 
 
-  
-  /*
+
   sponsor: {
     enable: false,
     title: '我很可爱，请给我钱！',
@@ -165,5 +164,4 @@ export default defineSiteConfig({
       },
     ],
   },
-  */
 })
