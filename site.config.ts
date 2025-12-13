@@ -83,7 +83,7 @@ export default defineSiteConfig({
     },
     {
       name: 'GAME Account',
-      link: 'https://zero251.xyz/posts/Game',
+      link: 'https://blog.zero251.xyz/posts/Game',
       icon: 'i-ri-gamepad-line',
       color: '#409A45',
     },
@@ -101,7 +101,7 @@ export default defineSiteConfig({
     },
     {
       name: 'E-Mail',
-      link: 'https://zero251.xyz/posts/Email',
+      link: 'https://blog.zero251.xyz/posts/Email',
       icon: 'i-ri-mail-line',
       color: '#8E71C1',
     },

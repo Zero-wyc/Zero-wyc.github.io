@@ -4,7 +4,7 @@ title: GRUB2配置以及自定义主题以及添加Windows引导 - 甘城なつ�
 date: 2025-8-4
 updated: 2025-8-19
 categories: 搞机日志
-cover: https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250804190850199.png
+cover: https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250804190850199.png
 tags:
   - 搞机日志
   - Linux
@@ -72,7 +72,7 @@ tags:
 
 1. #### 打开GRUB Custommizer
 
-   ![image-20250804154309150](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250804154309238.png)
+   ![image-20250804154309150](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250804154309238.png)
 
 > ### GRUB 如何添加Windows引导
 
@@ -82,17 +82,17 @@ tags:
 
       1. 进入Ventoy界面后按F2
 
-         ![image-20250804154707063](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250804154707140.png)
+         ![image-20250804154707063](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250804154707140.png)
 
       2. 查找`EFI`分区，一般300MB且进入的目录里面EFI目录的就是``HD2，msdos1`实际则为`（HD2，GPT1）`（`msdos`这个文字不用管都是GPT，除非你现在还在用`MBR`格式的硬盘）
 
-         ![image-20250804154740543](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250804154740628.png)
+         ![image-20250804154740543](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250804154740628.png)
 
    2. #### 使用`GRUB`查看
 
       1. 在GRUB引导下按ESC进入类命令行界面
 
-         ![image-20250804155447723](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250804155447801.png)
+         ![image-20250804155447723](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250804155447801.png)
 
       2. 输入ls来确认EFI分区
 
@@ -100,7 +100,7 @@ tags:
 
       1. 比如我这里ESP（即EFI）分区位于HD1的第一个分区也就是（`HD1,GPT1`）
 
-         ![image-20250804155600494](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250804155600566.png)
+         ![image-20250804155600494](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250804155600566.png)
 
 2. 确认硬盘UUID值
 
@@ -139,7 +139,7 @@ tags:
    
            
    
-           ![image-20250804165827834](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250804165835035.png)
+           ![image-20250804165827834](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250804165835035.png)
    
         3. 点击确定并保存重启查看是否有这个Windows引导条目
    
@@ -175,7 +175,7 @@ tags:
 
     
 
-  - ![image-20250804171239575](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250804171239724.png)
+  - ![image-20250804171239575](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250804171239724.png)
 
   - 确定并保存以应用更改
 
@@ -202,8 +202,8 @@ tags:
 > ### GRUB Custommizer和`/etc/default/grub`配置文件的等待时间无效的解决办法
 
 - 我们在GRUB Custommizer和`/etc/default/grub`配置文件的时间配置如果无效，如下图所示，更改之后仍然是30s的等待时间的话，可按照如下解决
-- ![image-20250804171859178](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250804171859303.png)
-- ![image-20250804171931601](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250804171931682.png)
+- ![image-20250804171859178](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250804171859303.png)
+- ![image-20250804171931601](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250804171931682.png)
 
 1. #### 打开`/etc/default/grub`文件
 
@@ -214,7 +214,7 @@ tags:
    #此处的**为自己想要的时间
    ```
 
-   ![image-20250804172342063](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250804172342140.png)
+   ![image-20250804172342063](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250804172342140.png)
 
 3. #### 应用更改，然后重启查看是否生效
 
@@ -226,5 +226,5 @@ tags:
 >
 > [主题链接](https://pan.quark.cn/s/102e7bbf4a94)
 
-![background](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250804172733930.png)
+![background](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250804172733930.png)
 

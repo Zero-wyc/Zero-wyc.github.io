@@ -4,7 +4,7 @@ title: 关于Steam AutoCrack的使用方法
 date: 2025-7-13
 updated: 2025-8-4
 categories: Game
-cover: https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250718181000904.png
+cover: https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250718181000904.png
 tags:
   - Game
   - Steam
@@ -24,20 +24,20 @@ tags:
 
    - #### 填入游戏路径，记得使用文件夹
 
-   <img src="https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250718181000904.png" alt="PixPin_2025-07-06_01-17-59"  />
+   <img src="https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250718181000904.png" alt="PixPin_2025-07-06_01-17-59"  />
 
    - #### 输入应用名称即可出现ID（也可使用StreamDB）
 
-   ![PixPin_2025-07-06_01-18-11](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250718181002892.png)
+   ![PixPin_2025-07-06_01-18-11](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250718181002892.png)
 
    - #### 点击设置，下载goldberg并强制更新steam应用列表
 
-     ![PixPin_2025-07-06_01-18-15](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250718181006226.png)
+     ![PixPin_2025-07-06_01-18-15](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250718181006226.png)
 
    - #### 勾选1.2.3.4即可
 
-     ![PixPin_2025-07-06_01-24-36](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250718181007974.png)
+     ![PixPin_2025-07-06_01-24-36](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250718181007974.png)
 
 - #### 大功告成，最后点击开始即可，如不出现任何报错（不是warm），大概率即可使用
 
-  ![PixPin_2025-07-06_01-25-10](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250718181010138.png)
+  ![PixPin_2025-07-06_01-25-10](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250718181010138.png)

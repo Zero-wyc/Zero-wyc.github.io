@@ -4,7 +4,7 @@ title: MydockFinder MAC式的底栏和顶栏
 date: 2025-7-14
 updated: 2025-8-4
 categories: 搞机日志
-cover: https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/PixPin_2025-07-14_20-46-40.gif
+cover: https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/PixPin_2025-07-14_20-46-40.gif
 tags:
   - 搞机日志
   - Windows美化
@@ -21,23 +21,23 @@ tags:
 
 > #### 音乐播放器歌词（它的实现原理应该是截取播放器的桌面歌词，然后投放到Finder上）
 
-![PixPin_2025-07-14_20-42-47](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/PixPin_2025-07-14_20-42-47.gif)
+![PixPin_2025-07-14_20-42-47](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/PixPin_2025-07-14_20-42-47.gif)
 
 > #### 优雅的打开关闭动画
 
-![PixPin_2025-07-14_20-46-40](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/PixPin_2025-07-14_20-46-40.gif)
+![PixPin_2025-07-14_20-46-40](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/PixPin_2025-07-14_20-46-40.gif)
 
 > #### 台前调度（u1s1,这个功能在普通的电脑上没什么用，但是在学校的希沃等可触摸大屏用上就很爽了）
 
-![PixPin_2025-07-14_20-50-14](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/PixPin_2025-07-14_20-50-14.gif)
+![PixPin_2025-07-14_20-50-14](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/PixPin_2025-07-14_20-50-14.gif)
 
 > #### 启动台
 
-![PixPin_2025-07-14_20-54-05](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/PixPin_2025-07-14_20-54-05.gif)
+![PixPin_2025-07-14_20-54-05](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/PixPin_2025-07-14_20-54-05.gif)
 
 > #### Finder控件展示
 
-![PixPin_2025-07-14_20-58-46](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/PixPin_2025-07-14_20-58-46.gif)
+![PixPin_2025-07-14_20-58-46](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/PixPin_2025-07-14_20-58-46.gif)
 
 > #### 还有创意工坊QAQ
 
@@ -80,4 +80,4 @@ tags:
 - 音量变化提示
 - 沉浸式显示更好的融合窗口背景
 
-<img src="https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/%25E4%25B8%25BB%25E5%259B%25BE005.png" alt="主图005" style="zoom: 67%;" />
+<img src="https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/%25E4%25B8%25BB%25E5%259B%25BE005.png" alt="主图005" style="zoom: 67%;" />

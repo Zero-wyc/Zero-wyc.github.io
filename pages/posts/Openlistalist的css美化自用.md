@@ -4,7 +4,7 @@ title: Openlistalist的css美化自用
 date: 2025-10-25
 updated: 2025-10-25
 categories: 搞机日志
-cover: https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250804193109903.jpg
+cover: https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250804193109903.jpg
 aside: false	# 关闭目录边栏
 codeHeightLimit: 300 # 代码块限高
 tags:

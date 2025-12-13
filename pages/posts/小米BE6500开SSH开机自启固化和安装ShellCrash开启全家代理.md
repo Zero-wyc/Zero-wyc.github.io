@@ -4,7 +4,7 @@ title: 小米BE6500开SSH,开机自启,固化和安装ShellCrash开启全家代�
 date: 2025-10-2
 updated: 2025-10-4
 categories: 搞机日志
-cover: https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20251004231711657.webp
+cover: https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20251004231711657.webp
 tags:
   - 搞机日志
   - 硬件
@@ -117,7 +117,7 @@ curl -X POST "http://192.168.31.1/cgi-bin/luci/;stok=c871f402bd1ec23c01199c60eb4
 
       2. 将文件中`defaults` 闭包下 `disable_ipv6` 的值改为 `0`，`zone` 闭包下 `forward` 的值改为 `ACCEPT`
 
-         1. ![img](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20251003200004829.webp)
+         1. ![img](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20251003200004829.webp)
 
       3. 在原有的`Rule` 中添加一个闭包，允许IPv6外网访问路由器下游设备
 
@@ -133,13 +133,13 @@ curl -X POST "http://192.168.31.1/cgi-bin/luci/;stok=c871f402bd1ec23c01199c60eb4
 
             
 
-         2. ![img](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20251003200017955.webp)
+         2. ![img](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20251003200017955.webp)
 
          3. 修改完毕，保存文件并退出修改
 
          4. 路由器配置界面记得选择自动/Native
 
-            ![image-20251003204230278](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20251003204230389.webp)
+            ![image-20251003204230278](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20251003204230389.webp)
 
       4. 终端执行命令，重启路由器防火墙：
 

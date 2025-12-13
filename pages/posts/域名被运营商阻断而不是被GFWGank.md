@@ -4,7 +4,7 @@ title: 域名被运营商阻断而不是被GFWGank了？腾讯还是很有力量
 date: 2025-11-2
 updated: 2025-11-2
 categories: 搞机日志
-cover: https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20251101235237271.webp
+cover: https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20251101235237271.webp
 tags:
   - 搞机日志
   - Daily life
@@ -18,7 +18,7 @@ tags:
 >
 > 但是当我绑定上域名的时候却被阻断，IP地址却可以直接访问<!-- more -->
 
-![image-20251101235231254](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20251101235237271.webp)
+![image-20251101235231254](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20251101235237271.webp)
 
 > 这个被阻断的特征很显然是被GWF阻断的特征
 >
@@ -38,7 +38,7 @@ tags:
 >
 > 所以我更换了DNS
 
-![image-20251102005707600](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20251102005707773.webp)
+![image-20251102005707600](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20251102005707773.webp)
 
 > 结果是ping能ping到，但是奇怪的是用域名仍然无法访问
 >
@@ -76,10 +76,10 @@ tags:
 >
 > 将我的域名从封堵列表移出了，真是帮了大忙
 
-![PixPin_2025-11-01_23-28-45](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20251102003644294.webp)
+![PixPin_2025-11-01_23-28-45](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20251102003644294.webp)
 
 ---
 
-1. ![PixPin_2025-11-01_23-14-23](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20251102003703453.webp)
-2. ![PixPin_2025-11-01_23-17-47](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20251102003712580.webp)
+1. ![PixPin_2025-11-01_23-14-23](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20251102003703453.webp)
+2. ![PixPin_2025-11-01_23-17-47](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20251102003712580.webp)
 

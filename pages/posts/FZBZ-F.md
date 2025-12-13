@@ -5,7 +5,7 @@ date: 2024-12-31
 updated: 2025-8-4
 categories: FZBZ
 codeHeightLimit: 10
-cover: https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250804194104561.jpg
+cover: https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250804194104561.jpg
 tags:
   - FZBZ
 ---
@@ -22,7 +22,7 @@ tags:
 ## 一、场控硬件及组织架构
 
 ### 1. 主机配置
-![](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250718181140432.png)
+![](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250718181140432.png)
 - **职责**：使用Hirender编辑节目工程
 - **稳定性保障**：禁止运行其他程序
 
@@ -45,40 +45,40 @@ tags:
   - 现场对接员
 
 ### 5. 系统架构图
-![](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250718181143305.png)
+![](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250718181143305.png)
 
 ---
 
 ## 二、软件系统详解
 
 ### 1. 主控软件 Hiredner
-![](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250718181146214.png)
+![](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250718181146214.png)
 *（2024元旦晚会放映工程示意图)*
 
 #### 关键操作指南
 1. **节目衔接**  
-   ![](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250718181151457.png)  
+   ![](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250718181151457.png)  
    - 使用预监功能提前准备下个节目
    - 建议在节目播放至80%时启动预加载
 
 2. **PPT处理规范**  
-   ![](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250718181154448.png)  
+   ![](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250718181154448.png)  
    - 必须勾选"从头播放PPT"
    - 推荐导出为图片格式（避免字体/兼容性问题）
    - 动画需求时选择动画模式
 
 3. **播放设置**  
-   ![](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250718181156553.png)  
+   ![](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250718181156553.png)  
    - 触发结束动作 → 停止播放
    - 播放模式选择 → 按需使用定格/停止
 
 4. **显示输出**  
-   ![](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250718181158394.png)  
+   ![](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250718181158394.png)  
    - 三屏输出验证
    - `Win + P` 切换扩展模式
 
 5. **工程保存**  
-   ![](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250718181159871.png)  
+   ![](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250718181159871.png)  
    - 手动保存：`Ctrl + S` 每5分钟
    - 自动备份：10分钟间隔存档
 
@@ -91,7 +91,7 @@ tags:
 ### 2. 文件传输系统
 
 #### CHFSGUI 解决方案
-![](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250718181201985.png)
+![](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250718181201985.png)
 
 **优势特性**：
 - 零配置快速部署
@@ -114,7 +114,7 @@ tags:
 ### 3. 视频处理套件
 
 #### 格式工厂（去水印）
-![](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250718181204425.png)
+![](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250718181204425.png)
 - **推荐设置**：
   - 输出格式：MP4/H.264
   - 分辨率：1920x1080

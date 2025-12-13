@@ -4,7 +4,7 @@ title: Valaxy个人博客如何添加一个音乐播放器 - 基于 APlayer 和 
 date: 2025-7-15
 updated: 2025-8-4
 categories: 搞机日志
-cover: https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250718180948060.gif
+cover: https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250718180948060.gif
 tags:
   - 搞机日志
   - WEB
@@ -13,7 +13,7 @@ tags:
 
 ### 实际效果
 
-![效果](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250718180948060.gif)
+![效果](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250718180948060.gif)
 
 <!-- more -->
 

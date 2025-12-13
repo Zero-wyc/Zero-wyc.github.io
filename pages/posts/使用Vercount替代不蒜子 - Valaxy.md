@@ -4,7 +4,7 @@ title: 使用Vercount替代不蒜子 - Valaxy
 date: 2025-7-16
 updated: 2025-8-4
 categories: 搞机日志
-cover: https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250804193109903.jpg
+cover: https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250804193109903.jpg
 tags:
   - 搞机日志
   - WEB

@@ -4,7 +4,7 @@ title: 《在寄宿制学校中使用点读笔进行任何的答案的自由校�
 date: 2025-04-03
 updated: 2025-8-4
 categories: 搞机日志
-cover: https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250804191315012.png
+cover: https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250804191315012.png
 tags:
   - 搞机日志
 ---
@@ -28,11 +28,11 @@ tags:
 
 1. ### 打开开发者模式
 
-   ![PixPin_2025-05-16_23-39-31](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250718181236522.png)
+   ![PixPin_2025-05-16_23-39-31](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250718181236522.png)
 
 2. ### 打开这俩个
 
-   ![image-20250516234104001](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250718181238255.png)
+   ![image-20250516234104001](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250718181238255.png)
 
 3. ### 自动开启热点
 
@@ -44,7 +44,7 @@ tags:
 
    2. 等待一会，将出现如下的提示。输入：a。然后按下回车键（Enter按键）。（Windows11的终端中可能不显示提示，这是正常的。）
 
-      <img src="https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250718181242694.png" alt="3892fa16-7079-4c99-9092-0f7e8e1afe09" style="zoom:100%;" />
+      <img src="https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250718181242694.png" alt="3892fa16-7079-4c99-9092-0f7e8e1afe09" style="zoom:100%;" />
 
    3. 关闭Windows PowerShell窗口。打开资源管理器，并在地址栏输入：
 

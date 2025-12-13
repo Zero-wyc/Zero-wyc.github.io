@@ -4,7 +4,7 @@ title: 更强大的可替代Win11的资源管理器的软件“Directory Opus 13
 date: 2025-7-13
 updated: 2025-8-4
 categories: 搞机日志
-cover: https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/image-20250713185544104.png
+cover: https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/image-20250713185544104.png
 tags:
   - 搞机日志
   - 美化
@@ -38,7 +38,7 @@ tags:
 
 ### 多说无益，上截图
 
-<img src="https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/image-20250713185544104.png" alt="t" style="zoom:100%;" />
+<img src="https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/image-20250713185544104.png" alt="t" style="zoom:100%;" />
 
 > 主界面美化后还是很好看的，将功能和观感很好的集成在一起
 
@@ -46,31 +46,31 @@ tags:
 
 > ####  顶栏功能
 
-<img src="https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/PixPin_2025-07-13_19-12-18.gif" alt="t" style="zoom:100%;" />
+<img src="https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/PixPin_2025-07-13_19-12-18.gif" alt="t" style="zoom:100%;" />
 
 > ####  多窗口
 
-<img src="https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/PixPin_2025-07-13_19-16-44.gif" alt="t" style="zoom:100%;" />
+<img src="https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/PixPin_2025-07-13_19-16-44.gif" alt="t" style="zoom:100%;" />
 
 > ####  文件夹下一级预览
 
-<img src="https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/PixPin_2025-07-13_19-18-34.gif" alt="t" style="zoom:100%;" />
+<img src="https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/PixPin_2025-07-13_19-18-34.gif" alt="t" style="zoom:100%;" />
 
 > ####  大量文件夹之打开速度
 
-<img src="https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/PixPin_2025-07-13_19-22-59.gif" alt="t" style="zoom:100%;" />
+<img src="https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/PixPin_2025-07-13_19-22-59.gif" alt="t" style="zoom:100%;" />
 
 > ####  缩略图加载（无缓存）
 
-<img src="https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/PixPin_2025-07-13_19-27-09.gif" alt="PixPin_2025-07-13_19-27-09" style="zoom:100%;" />
+<img src="https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/PixPin_2025-07-13_19-27-09.gif" alt="PixPin_2025-07-13_19-27-09" style="zoom:100%;" />
 
 > #### 超快搜索（接入Everything）
 
-<img src="https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/PixPin_2025-07-13_19-36-40.gif" alt="t" style="zoom:100%;" />
+<img src="https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/PixPin_2025-07-13_19-36-40.gif" alt="t" style="zoom:100%;" />
 
 > #### 大量快捷功能
 
-<img src="https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/PixPin_2025-07-13_19-30-48.gif" alt="t" style="zoom:100%;" />
+<img src="https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/PixPin_2025-07-13_19-30-48.gif" alt="t" style="zoom:100%;" />
 
 - 长期使用，稳定性强，自带解压，FTP，多文件重命名，批量新建文件夹，双开，三开窗口等等，
 
@@ -80,17 +80,17 @@ tags:
 
 > #### 替换默认的Explore
 
-<img src="https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/PixPin_2025-07-13_19-34-52.gif" alt="t" style="zoom:100%;" />
+<img src="https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/PixPin_2025-07-13_19-34-52.gif" alt="t" style="zoom:100%;" />
 
 > 推荐一个主题[Derwish Theme13 - Themes - Directory Opus Resource Centre](https://resource.dopus.com/t/derwish-theme13/33161)
 >
 > 我的美化就是基于这个主题
 
-<img src="https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/PixPin_2025-07-13_19-36-40.gif" alt="t" style="zoom:100%;" />
+<img src="https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/PixPin_2025-07-13_19-36-40.gif" alt="t" style="zoom:100%;" />
 
 > #### 推荐设置项，自行下载GIF使用特定查看器逐帧观看
 
-<img src="https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/image-20250713194328263.png" alt="t" style="zoom:100%;" />
+<img src="https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/image-20250713194328263.png" alt="t" style="zoom:100%;" />
 
 ---
 
@@ -100,7 +100,7 @@ tags:
 
 - 主题顾名思义，配置图标，文件夹颜色等等
 
-<img src="https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/PixPin_2025-07-13_19-46-38.gif" alt="t" style="zoom:100%;" />
+<img src="https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/PixPin_2025-07-13_19-46-38.gif" alt="t" style="zoom:100%;" />
 
 - #### 图片，即为显示底层的图片
 
@@ -110,13 +110,13 @@ tags:
   >
   > 工具栏使用共享，其他不使用
 
-  <img src="https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/image-20250713194930092.png" alt="t" style="zoom:100%;" />
+  <img src="https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/image-20250713194930092.png" alt="t" style="zoom:100%;" />
 
-<img src="https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/PixPin_2025-07-13_19-51-00.gif" alt="t" style="zoom:100%;" />
+<img src="https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/PixPin_2025-07-13_19-51-00.gif" alt="t" style="zoom:100%;" />
 
 > #### 调节文件边距
 
-<img src="https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/image-20250713195753921.png" alt="t" style="zoom:100%;" />
+<img src="https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/image-20250713195753921.png" alt="t" style="zoom:100%;" />
 
 > #### 启动过渡动画
 
@@ -130,8 +130,8 @@ tags:
 
 #### 	我给上我调节的配置文件和可爱的甘城主题
 
-<img src="https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/image-20250713200207547.png" alt="t" style="zoom:100%;" />
+<img src="https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/image-20250713200207547.png" alt="t" style="zoom:100%;" />
 
 > 主题：[DO甘城主题](https://pan.quark.cn/s/be4e111868d3?pwd=M44X)
 
-<img src="https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/%25E7%258C%25AB%25E7%25BE%25BD%25E9%259B%25AB016.png" alt="t" style="zoom:100%;" />
+<img src="https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/%25E7%258C%25AB%25E7%25BE%25BD%25E9%259B%25AB016.png" alt="t" style="zoom:100%;" />

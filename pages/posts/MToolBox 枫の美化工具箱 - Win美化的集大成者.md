@@ -4,7 +4,7 @@ title: MToolBox 枫の美化工具箱 - Win美化的集大成者
 date: 2025-7-14
 updated: 2025-8-4
 categories: 搞机日志
-cover: https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250718181029571.gif
+cover: https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250718181029571.gif
 tags:
   - 搞机日志
   - Windows
@@ -19,21 +19,21 @@ tags:
 
 > #### 主界面展示
 
-![PixPin_2025-07-14_19-59-33](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250718181029571.gif)
+![PixPin_2025-07-14_19-59-33](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250718181029571.gif)
 
 ### 现在展示其中最好用的几个功能
 
 > #### 资源管理器模糊
 
-![PixPin_2025-07-14_20-07-28](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250718181040075.png)
+![PixPin_2025-07-14_20-07-28](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250718181040075.png)
 
 > #### 云母材质
 
-![PixPin_2025-07-14_20-14-22](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250718181041795.png)
+![PixPin_2025-07-14_20-14-22](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250718181041795.png)
 
 > #### 亚克力
 
-![PixPin_2025-07-14_20-15-36](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250718181053497.png)
+![PixPin_2025-07-14_20-15-36](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250718181053497.png)
 
 > #### 开始菜单模糊
 
@@ -45,13 +45,13 @@ tags:
 >
 > #### 以及资源管理器工具栏的样式
 
-![PixPin_2025-07-14_20-19-46](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250718181055422.gif)
+![PixPin_2025-07-14_20-19-46](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250718181055422.gif)
 
 ### 最好用的，自定义资源管理器背景和系统设置背景
 
-![](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250718181108679.gif)
+![](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250718181108679.gif)
 
-![PixPin_2025-07-14_20-23-50](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250718181116409.gif)
+![PixPin_2025-07-14_20-23-50](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250718181116409.gif)
 
-![PixPin_2025-07-14_20-24-31](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250718181121087.png)
+![PixPin_2025-07-14_20-24-31](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250718181121087.png)
 

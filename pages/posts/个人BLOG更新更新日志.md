@@ -4,7 +4,7 @@ title: 个人BLOG更新更新日志
 date: 2025-3-14
 updated: 2025-11-30
 categories: 搞机日志
-cover: https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250804192855060.jpg
+cover: https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250804192855060.jpg
 top: 1
 tags:
   - 搞机日志
@@ -160,7 +160,7 @@ tags:
 
 > 竟发现阿里云阻断我的 openlist 文件，现停止guest用户访问，等待解封，遂改回之
 
-![406a6d1525cd68db120ad040888c3f43](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20251205234944456.webp)
+![406a6d1525cd68db120ad040888c3f43](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20251205234944456.webp)
 
 ### 2025.12.7
 

@@ -4,7 +4,7 @@ title: 求生之路2之使用FRP反代获得低延迟体验
 date: 2025-5-16
 updated: 2025-8-4
 categories: 搞机日志
-cover: https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/PixPin_2025-06-08_13-29-52.png
+cover: https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/PixPin_2025-06-08_13-29-52.png
 tags:
   - 搞机日志
   - Game
@@ -24,7 +24,7 @@ tags:
 
 1. #### 基础的FRP文件，我这里简要写了个.bat文件方便一键开启
    
-   ![](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/PixPin_2025-06-08_13-29-52.png)
+   ![](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/PixPin_2025-06-08_13-29-52.png)
    
 2. #### FRPC的文件内容
 

@@ -4,7 +4,7 @@ title: Markdown/Typora的基本用法与常用操作
 date: 2025-7-13
 updated: 2025-8-4
 categories: 搞机日志
-cover: https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250804193808522.png
+cover: https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250804193808522.png
 tags:
   - 搞机日志
   - 经验
@@ -33,12 +33,12 @@ tags:
   1. ####  有序列表：
 
      - 快捷键：Ctrl+Shift+[
-     - 效果：<img src="https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250718181359993.png" alt="2003718-20250113095243042-825335410" style="zoom: 67%;" />
+     - 效果：<img src="https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250718181359993.png" alt="2003718-20250113095243042-825335410" style="zoom: 67%;" />
 
   2. ####  无序列表:
 
      - 快捷键：Ctrl + Shift + ]
-     - 效果：<img src="https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250718181402988.png" alt="2003718-20250113095358281-1741849967" style="zoom:67%;" />
+     - 效果：<img src="https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250718181402988.png" alt="2003718-20250113095358281-1741849967" style="zoom:67%;" />
 
   3. #### 代码块
 
@@ -60,7 +60,7 @@ tags:
 
      - 普通段落：回车
      - 窄段落：Shift+回车(两行间无空行)
-     - 效果：<img src="https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250718181404883.png" alt="2003718-20250113095707839-1769894941" style="zoom: 67%;" />
+     - 效果：<img src="https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250718181404883.png" alt="2003718-20250113095707839-1769894941" style="zoom: 67%;" />
        - 段落（有）
        - 段落（无）
          段落
@@ -127,7 +127,7 @@ tags:
 
 - 语法：#(一级大纲)##(二级大纲)…
 
-- 快捷键：Ctrl+1~6 建立 1~6级大纲 ; Ctrl+”+” “-“调节标题等级 ; Ctrl+0 将选中文字调为普通文本![2003718-20250113095243042-825335410](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250718181407992.png)
+- 快捷键：Ctrl+1~6 建立 1~6级大纲 ; Ctrl+”+” “-“调节标题等级 ; Ctrl+0 将选中文字调为普通文本![2003718-20250113095243042-825335410](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250718181407992.png)
 
 #### 2. 列表格式
 
@@ -136,21 +136,21 @@ tags:
 - 语法：数字+点号+空格
 
 - 快捷键：Ctrl+Shift+[
-- 效果：![2003718-20250113095358281-1741849967](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250718181409668.png)
+- 效果：![2003718-20250113095358281-1741849967](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250718181409668.png)
 
 ② 无序列表:
 
 - 语法：*/-/+ + 空格,使用 -、* 或 + 表示无序列表。
 
 - 快捷键：Ctrl + Shift + ]
-- 效果：![2003718-20250113095308471-1198379001](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250718181411457.png)
+- 效果：![2003718-20250113095308471-1198379001](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250718181411457.png)
 
 ③ 任务列表：
 
 - 语法：无序列表+中间有空格的中括号+空格
 
 - 快捷键：暂无
-- 效果：![2003718-20250113095418176-1615186333](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250718181413113.png)
+- 效果：![2003718-20250113095418176-1615186333](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250718181413113.png)
 
 - 基本操作同其它列表
 
@@ -160,7 +160,7 @@ tags:
 - 语法：> + 回车/空格（“ > ”数量控制区块层级）
 
 - 快捷键：暂无
-- 效果：![2003718-20250113095511359-770281378](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250718181414640.png)
+- 效果：![2003718-20250113095511359-770281378](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250718181414640.png)
 
 ## 4. 代码显示
 
@@ -169,27 +169,27 @@ tags:
 - 语法：用一对`包裹(键位在ESC下)
 
 - 快捷键：Ctrl+Shift+
-- 效果：![2003718-20250113095531977-52494440](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250718181416219.png)
+- 效果：![2003718-20250113095531977-52494440](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250718181416219.png)
 
 ###### ② 代码块
 
 - 语法：```+回车
 
 - 快捷键：Ctrl+Shift+K
-- 效果：![2003718-20250113095556652-1051549267](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250718181417746.png)
+- 效果：![2003718-20250113095556652-1051549267](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250718181417746.png)
 
 ## 5. 段落格式
 
 - 普通段落：回车
 
 - 窄段落：Shift+回车(两行间无空行)
-- 效果:![2003718-20250113095707839-1769894941](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250718181419232.png)
+- 效果:![2003718-20250113095707839-1769894941](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250718181419232.png)
 
 ## 6. 分割线
 
 - 语法：三个“-”或者“+“ 加回车(用减号较方便)
 
-- 效果:![2003718-20250113095737765-709194762](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250718181420659.png)
+- 效果:![2003718-20250113095737765-709194762](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250718181420659.png)
 
 ### 字体格式
 
@@ -205,9 +205,9 @@ tags:
 - 注：输入“ \ “可使输入的“ * ”等显现
 - 如：\*------\\*
 
-![2003718-20250113100211901-1237169725](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250718181423153.png)
+![2003718-20250113100211901-1237169725](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250718181423153.png)
 
-![2003718-20250113100152402-520506417](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250718181427292.png)
+![2003718-20250113100152402-520506417](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250718181427292.png)
 
 #### 2. 上下标
 
@@ -215,11 +215,11 @@ tags:
 上标:用一对尖方号包裹 如x2 —x2
 下标:用一对波浪线包裹 如H2O—H2O
 
-![2003718-20250113100039059-1141024648](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250718181430520.png)
+![2003718-20250113100039059-1141024648](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250718181430520.png)
 
 #### 3. 注释
 
-效果：![2003718-20250113100544810-1712919794](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250718181435778.png)
+效果：![2003718-20250113100544810-1712919794](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250718181435778.png)
 
 ### 插入特殊格式
 
@@ -227,7 +227,7 @@ tags:
 
 链接都要Ctrl+点击打开
 
-![2003718-20250113100230210-245623172](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250718181439809.png)
+![2003718-20250113100230210-245623172](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250718181439809.png)
 
 #### 2. 图片
 
@@ -236,13 +236,13 @@ tags:
 图片路径：可直接输入/选择文件夹文件打开/复制粘贴为地址
 注：可以直接拖动图片放入
 
-![2003718-20250113100708393-812748131](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250718181443397.png)
+![2003718-20250113100708393-812748131](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250718181443397.png)
 
 #### 3. 表格
 
 语法：比较复杂，平时使用不建议
 快捷键：Ctrl+T
-效果：![2003718-20250113100722803-1352934023](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250718181446456.png)
+效果：![2003718-20250113100722803-1352934023](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250718181446456.png)
 
 表格内操作快捷键
 
@@ -259,7 +259,7 @@ tags:
 可以插入表情 / 颜文字 / GIF / 货币标点数学符号 / 编辑标题符号
 ①②③④⑤⑥⑴⑵⑶⑷⑸⑹⑺⑻⑼（常用的标题编辑符号)
 
-![2003718-20250113100321485-523209546](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250718181449524.png)
+![2003718-20250113100321485-523209546](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250718181449524.png)
 
 #### 5. 补充操作
 

@@ -163,123 +163,123 @@ export default defineValaxyConfig<UserThemeConfig>({
       live2DCollection: {
         aerbien:{
           message: '来自 Azun Lane 的阿尔比恩 ~',
-          models: ['https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/aerbien_3/aerbien.model3.json'],
+          models: ['https://github.cdn.zero251.xyz/Zero-wyc/Live2d-model/master/碧蓝航线 Azue Lane/Azue Lane(JP)/aerbien_3/aerbien.model3.json'],
         },
         aersasi:{
           message: '来自 Azun Lane 的阿尔萨斯 ~',
-          models: ['https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/aersasi_2/aersasi_2.model3.json'],
+          models: ['https://github.cdn.zero251.xyz/Zero-wyc/Live2d-model/master/碧蓝航线 Azue Lane/Azue Lane(JP)/aersasi_2/aersasi_2.model3.json'],
         },
         chaijun: {
           message: '来自碧蓝航线的柴郡 ~',
           models: [
-            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/chaijun_3/chaijun_3.model3.json',
-            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/chaijun_5/chaijun_5.model3.json'
+            'https://github.cdn.zero251.xyz/Zero-wyc/Live2d-model/master/碧蓝航线 Azue Lane/Azue Lane(JP)/chaijun_3/chaijun_3.model3.json',
+            'https://github.cdn.zero251.xyz/Zero-wyc/Live2d-model/master/碧蓝航线 Azue Lane/Azue Lane(JP)/chaijun_5/chaijun_5.model3.json'
           ],
         },
         // https://github.com/fghrsh/live2d_api
         beierfasite:{
           message: '来自碧蓝航线的贝尔法斯特 ~',
-          models: ['https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/beierfasite_2/beierfasite_2.model3.json'],
+          models: ['https://github.cdn.zero251.xyz/Zero-wyc/Live2d-model/master/碧蓝航线 Azue Lane/Azue Lane(JP)/beierfasite_2/beierfasite_2.model3.json'],
         },
         ankeleiqi:{
           message: '来自 Azun Lane 的安克雷奇 ~',
-          models: ['https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/ankeleiqi_3/ankeleiqi_3.model3.json'],
+          models: ['https://github.cdn.zero251.xyz/Zero-wyc/Live2d-model/master/碧蓝航线 Azue Lane/Azue Lane(JP)/ankeleiqi_3/ankeleiqi_3.model3.json'],
         },
         bisimai:{
           message: '来自 Azun Lane 的匹斯麦 ~',
           models: [
-            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/bisimai_2_hx/bisimai_2_hx.model3.json',
-            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/bisimai_4/bisimai_4.model3.json',
+            'https://github.cdn.zero251.xyz/Zero-wyc/Live2d-model/master/碧蓝航线 Azue Lane/Azue Lane(JP)/bisimai_2_hx/bisimai_2_hx.model3.json',
+            'https://github.cdn.zero251.xyz/Zero-wyc/Live2d-model/master/碧蓝航线 Azue Lane/Azue Lane(JP)/bisimai_4/bisimai_4.model3.json',
           ],
         },
         aijier:{
           message: '来自碧蓝航线的埃吉尔 ~',
           models: [
-            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/aijier_3_hx/aijier_3_hx.model3.json',
-            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/aijier_2/aijier_2.model3.json',
-            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/aijier_4/aijier_4.model3.json',
+            'https://github.cdn.zero251.xyz/Zero-wyc/Live2d-model/master/碧蓝航线 Azue Lane/Azue Lane(JP)/aijier_3_hx/aijier_3_hx.model3.json',
+            'https://github.cdn.zero251.xyz/Zero-wyc/Live2d-model/master/碧蓝航线 Azue Lane/Azue Lane(JP)/aijier_2/aijier_2.model3.json',
+            'https://github.cdn.zero251.xyz/Zero-wyc/Live2d-model/master/碧蓝航线 Azue Lane/Azue Lane(JP)/aijier_4/aijier_4.model3.json',
           ],
         },
         mori_miko: {
           message: '来自 Fox Hime Zero 的 MoriMiko ~',
-          models: ['https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/galgame live2d/Fox Hime Zero/mori_miko/mori_miko.model3.json'],
+          models: ['https://github.cdn.zero251.xyz/Zero-wyc/Live2d-model/master/galgame live2d/Fox Hime Zero/mori_miko/mori_miko.model3.json'],
         },
         dafeng: {
           message: '来自 Azun Lane 的大凤 ~',
           models: [
-            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/dafeng_2/dafeng_2.model3.json',
-            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/dafeng_3/dafeng_3.model3.json',
-            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/dafeng_4/dafeng_4.model3.json',
-            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/dafeng_6/dafeng_6.model3.json',
-            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/dafeng_7/dafeng_7.model3.json',
+            'https://github.cdn.zero251.xyz/Zero-wyc/Live2d-model/master/碧蓝航线 Azue Lane/Azue Lane(JP)/dafeng_2/dafeng_2.model3.json',
+            'https://github.cdn.zero251.xyz/Zero-wyc/Live2d-model/master/碧蓝航线 Azue Lane/Azue Lane(JP)/dafeng_3/dafeng_3.model3.json',
+            'https://github.cdn.zero251.xyz/Zero-wyc/Live2d-model/master/碧蓝航线 Azue Lane/Azue Lane(JP)/dafeng_4/dafeng_4.model3.json',
+            'https://github.cdn.zero251.xyz/Zero-wyc/Live2d-model/master/碧蓝航线 Azue Lane/Azue Lane(JP)/dafeng_6/dafeng_6.model3.json',
+            'https://github.cdn.zero251.xyz/Zero-wyc/Live2d-model/master/碧蓝航线 Azue Lane/Azue Lane(JP)/dafeng_7/dafeng_7.model3.json',
           ],
         },
         edu: {
           message: '来自 Azun Lane 的恶毒 ~',
           models: [
-            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/edu_3/edu_3.model3.json',
-            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/edu_4/edu_4.model3.json',
+            'https://github.cdn.zero251.xyz/Zero-wyc/Live2d-model/master/碧蓝航线 Azue Lane/Azue Lane(JP)/edu_3/edu_3.model3.json',
+            'https://github.cdn.zero251.xyz/Zero-wyc/Live2d-model/master/碧蓝航线 Azue Lane/Azue Lane(JP)/edu_4/edu_4.model3.json',
           ],
         },
         guanghui:{
           message: '来自 Azun Lane 的光辉 ~',
           models: [
-            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/guanghui_7/guanghui_7.model3.json',
+            'https://github.cdn.zero251.xyz/Zero-wyc/Live2d-model/master/碧蓝航线 Azue Lane/Azue Lane(JP)/guanghui_7/guanghui_7.model3.json',
           ],
         },
         bcy:{
           message: '来自崩坏2的八重樱 ~',
-          models: ['https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/崩坏学园2/BYC/model.json'],
+          models: ['https://github.cdn.zero251.xyz/Zero-wyc/Live2d-model/master/崩坏学园2/BYC/model.json'],
         },
         guangrong:{
           message: '来自 Azun Lane 的光荣 ~',
-          models: ['https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/guangrong_3/guangrong_3.model3.json'],
+          models: ['https://github.cdn.zero251.xyz/Zero-wyc/Live2d-model/master/碧蓝航线 Azue Lane/Azue Lane(JP)/guangrong_3/guangrong_3.model3.json'],
         },  
         hemin:{
           message: '来自 Azun Lane 的赫敏 ~',
           models: [
-            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/hemin_2/hemin_2.model3.json',
-            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/hemin_3/hemin_3.model3.json',
+            'https://github.cdn.zero251.xyz/Zero-wyc/Live2d-model/master/碧蓝航线 Azue Lane/Azue Lane(JP)/hemin_2/hemin_2.model3.json',
+            'https://github.cdn.zero251.xyz/Zero-wyc/Live2d-model/master/碧蓝航线 Azue Lane/Azue Lane(JP)/hemin_3/hemin_3.model3.json',
           ],
         },
         yazakura:{
           message: '来自崩坏2的八重樱 ~',
-          models: ['https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/崩坏学园2/yazakura/model.json'],
+          models: ['https://github.cdn.zero251.xyz/Zero-wyc/Live2d-model/master/崩坏学园2/yazakura/model.json'],
         },
         BlackCat: {
           message: '来自 LOVE³-LOVE CUBE- 的黑猫 ~',
-          models: ['https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/galgame live2d/LOVE³-LOVE CUBE-/live2d/kuroneko/kuroneko.model3.json'],
+          models: ['https://github.cdn.zero251.xyz/Zero-wyc/Live2d-model/master/galgame live2d/LOVE³-LOVE CUBE-/live2d/kuroneko/kuroneko.model3.json'],
         },
         luyijiushi: {
           message: '来自 Azun Lane 的路易九世 ~',
-          models: ['https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/luyijiushi_2/luyijiushi_2.model3.json'],
+          models: ['https://github.cdn.zero251.xyz/Zero-wyc/Live2d-model/master/碧蓝航线 Azue Lane/Azue Lane(JP)/luyijiushi_2/luyijiushi_2.model3.json'],
         },
         pa15: {
           message: '来自少女前线的 PA-15 ~',
           models: [
-            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/少女前线 girls Frontline/live2dnew/pa15_4202/normal/normal.model3.json',
-            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/少女前线 girls Frontline/live2dnew/pa15_4202/destroy/destroy.model3.json',
+            'https://github.cdn.zero251.xyz/Zero-wyc/Live2d-model/master/少女前线 girls Frontline/live2dnew/pa15_4202/normal/normal.model3.json',
+            'https://github.cdn.zero251.xyz/Zero-wyc/Live2d-model/master/少女前线 girls Frontline/live2dnew/pa15_4202/destroy/destroy.model3.json',
           ],
         },  
         ougen:{
           message: '来自 Azun Lane 的欧根亲王 ~',
           models: [
-            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/ougen_6/ougen_6.model3.json',
-            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/ougen_5/ougen_5.model3.json',
+            'https://github.cdn.zero251.xyz/Zero-wyc/Live2d-model/master/碧蓝航线 Azue Lane/Azue Lane(JP)/ougen_6/ougen_6.model3.json',
+            'https://github.cdn.zero251.xyz/Zero-wyc/Live2d-model/master/碧蓝航线 Azue Lane/Azue Lane(JP)/ougen_5/ougen_5.model3.json',
           ],
         },
         qiye:{
           message: '来自 Azun Lane 的企业 ~',
           models: [
-            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/qiye_7/qiye_7.model3.json',
-            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/qiye_9/qiye_9.model3.json',
+            'https://github.cdn.zero251.xyz/Zero-wyc/Live2d-model/master/碧蓝航线 Azue Lane/Azue Lane(JP)/qiye_7/qiye_7.model3.json',
+            'https://github.cdn.zero251.xyz/Zero-wyc/Live2d-model/master/碧蓝航线 Azue Lane/Azue Lane(JP)/qiye_9/qiye_9.model3.json',
           ],
         },
         shengluyisi:{
           message: '来自 Azun Lane 的圣路易斯 ~',
           models: [
-            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/shengluyisi_2/shengluyisi_2.model3.json',
-            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/shengluyisi_5/shengluyisi_5.model3.json',
+            'https://github.cdn.zero251.xyz/Zero-wyc/Live2d-model/master/碧蓝航线 Azue Lane/Azue Lane(JP)/shengluyisi_2/shengluyisi_2.model3.json',
+            'https://github.cdn.zero251.xyz/Zero-wyc/Live2d-model/master/碧蓝航线 Azue Lane/Azue Lane(JP)/shengluyisi_5/shengluyisi_5.model3.json',
           ],
         },
         BiliBili22: {
@@ -323,17 +323,17 @@ export default defineValaxyConfig<UserThemeConfig>({
         mojiaduoer: {
           message: '来自 Azun Lane 的莫加多尔 ~',
           models: [
-            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/mojiaduoer_2/mojiaduoer_2.model3.json',
-            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/mojiaduoer_3/mojiaduoer_3.model3.json',
+            'https://github.cdn.zero251.xyz/Zero-wyc/Live2d-model/master/碧蓝航线 Azue Lane/Azue Lane(JP)/mojiaduoer_2/mojiaduoer_2.model3.json',
+            'https://github.cdn.zero251.xyz/Zero-wyc/Live2d-model/master/碧蓝航线 Azue Lane/Azue Lane(JP)/mojiaduoer_3/mojiaduoer_3.model3.json',
           ],
         },
         naximofu:{
           message: '来自 Azun Lane 的纳希莫夫 ~',
-          models: ['https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/naximofu_2/naximofu_2.model3.json'],
+          models: ['https://github.cdn.zero251.xyz/Zero-wyc/Live2d-model/master/碧蓝航线 Azue Lane/Azue Lane(JP)/naximofu_2/naximofu_2.model3.json'],
         },
         nabulesi:{
           message: '来自 Azun Lane 的那不勒斯 ~',
-          models: ['https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/nabulesi_2/nabulesi_2.model3.json'],
+          models: ['https://github.cdn.zero251.xyz/Zero-wyc/Live2d-model/master/碧蓝航线 Azue Lane/Azue Lane(JP)/nabulesi_2/nabulesi_2.model3.json'],
         },
         Type95: {
           models: [
@@ -352,107 +352,107 @@ export default defineValaxyConfig<UserThemeConfig>({
         jianye: {
           message: '来自 Azun Lane 的樫野 ~',
           models: [
-            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/jianye_2/jianye_2.model3.json',
-            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/jianye_3/jianye_3.model3.json',  
-            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/jianye_4/jianye_4.model3.json',
+            'https://github.cdn.zero251.xyz/Zero-wyc/Live2d-model/master/碧蓝航线 Azue Lane/Azue Lane(JP)/jianye_2/jianye_2.model3.json',
+            'https://github.cdn.zero251.xyz/Zero-wyc/Live2d-model/master/碧蓝航线 Azue Lane/Azue Lane(JP)/jianye_3/jianye_3.model3.json',  
+            'https://github.cdn.zero251.xyz/Zero-wyc/Live2d-model/master/碧蓝航线 Azue Lane/Azue Lane(JP)/jianye_4/jianye_4.model3.json',
           ],
         },
         kewei: {
           message: '来自 Azun Lane 的可畏 ~',
           models: [
-            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/kewei_4/kewei_4.model3.json',
-            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/kewei_6/kewei_6.model3.json',
+            'https://github.cdn.zero251.xyz/Zero-wyc/Live2d-model/master/碧蓝航线 Azue Lane/Azue Lane(JP)/kewei_4/kewei_4.model3.json',
+            'https://github.cdn.zero251.xyz/Zero-wyc/Live2d-model/master/碧蓝航线 Azue Lane/Azue Lane(JP)/kewei_6/kewei_6.model3.json',
           ],
         },
         sitelasibao:{
           message: '来自 Azun Lane 的斯特拉斯堡 ~',
-          models: ['https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/sitelasibao_2/sitelasibao_2.model3.json'],
+          models: ['https://github.cdn.zero251.xyz/Zero-wyc/Live2d-model/master/碧蓝航线 Azue Lane/Azue Lane(JP)/sitelasibao_2/sitelasibao_2.model3.json'],
         },
         siwanshi:{
           message: '来自 Azun Lane 的四万十 ~',
-          models: ['https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/siwanshi_3/siwanshi_3.model3.json'],
+          models: ['https://github.cdn.zero251.xyz/Zero-wyc/Live2d-model/master/碧蓝航线 Azue Lane/Azue Lane(JP)/siwanshi_3/siwanshi_3.model3.json'],
         },
         tianlangxing:{
           message: '来自 Azun Lane 的天狼星 ~',
           models: [
-            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/tianlangxing_5/tianlangxing_5.model3.json',
-            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/tianlangxing_3/tianlangxing_3.model3.json',
+            'https://github.cdn.zero251.xyz/Zero-wyc/Live2d-model/master/碧蓝航线 Azue Lane/Azue Lane(JP)/tianlangxing_5/tianlangxing_5.model3.json',
+            'https://github.cdn.zero251.xyz/Zero-wyc/Live2d-model/master/碧蓝航线 Azue Lane/Azue Lane(JP)/tianlangxing_3/tianlangxing_3.model3.json',
           ],
         },
         tiancheng:{
           message: '来自 Azun Lane 的天城 ~',
           models: [
-            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/tiancheng_3/tiancheng_3.model3.json',            
-            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/tiancheng_2/tiancheng_2.model3.json',
+            'https://github.cdn.zero251.xyz/Zero-wyc/Live2d-model/master/碧蓝航线 Azue Lane/Azue Lane(JP)/tiancheng_3/tiancheng_3.model3.json',            
+            'https://github.cdn.zero251.xyz/Zero-wyc/Live2d-model/master/碧蓝航线 Azue Lane/Azue Lane(JP)/tiancheng_2/tiancheng_2.model3.json',
           ],
         },
         wuqi:{
           message: '来自 Azun Lane 的吾妻 ~',
           models: [
-            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/wuqi_2/wuqi_2.model3.json',
-            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/wuqi_3/wuqi_3.model3.json',
+            'https://github.cdn.zero251.xyz/Zero-wyc/Live2d-model/master/碧蓝航线 Azue Lane/Azue Lane(JP)/wuqi_2/wuqi_2.model3.json',
+            'https://github.cdn.zero251.xyz/Zero-wyc/Live2d-model/master/碧蓝航线 Azue Lane/Azue Lane(JP)/wuqi_3/wuqi_3.model3.json',
           ],
         },
         xingdengbao:{
           message: '来自 Azun Lane 的兴登堡 ~',
           models: [
-            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/xingdengbao_2/xingdengbao_2.model3.json',
+            'https://github.cdn.zero251.xyz/Zero-wyc/Live2d-model/master/碧蓝航线 Azue Lane/Azue Lane(JP)/xingdengbao_2/xingdengbao_2.model3.json',
           ],
         },
         xinnong:{
           message: '来自 Azun Lane 的信浓 ~',
           models: [
-            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/xinnong_3/xinnong_3.model3.json',
-            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/xinnong_5/xinnong_5.model3.json',            
-            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/xinnong_4/xinnong_4.model3.json',
+            'https://github.cdn.zero251.xyz/Zero-wyc/Live2d-model/master/碧蓝航线 Azue Lane/Azue Lane(JP)/xinnong_3/xinnong_3.model3.json',
+            'https://github.cdn.zero251.xyz/Zero-wyc/Live2d-model/master/碧蓝航线 Azue Lane/Azue Lane(JP)/xinnong_5/xinnong_5.model3.json',            
+            'https://github.cdn.zero251.xyz/Zero-wyc/Live2d-model/master/碧蓝航线 Azue Lane/Azue Lane(JP)/xinnong_4/xinnong_4.model3.json',
           ],
         },
         xinzexi:{
           message: '来自 Azun Lane 的新泽西 ~',
           models: [
-            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/xinzexi_3/xinzexi_3.model3.json',
+            'https://github.cdn.zero251.xyz/Zero-wyc/Live2d-model/master/碧蓝航线 Azue Lane/Azue Lane(JP)/xinzexi_3/xinzexi_3.model3.json',
           ],
         },
         yanusi:{
           message: '来自 Azun Lane 的雅努斯 ~',
           models: [
-            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/yanusi_3/yanusi_3.model3.json',
+            'https://github.cdn.zero251.xyz/Zero-wyc/Live2d-model/master/碧蓝航线 Azue Lane/Azue Lane(JP)/yanusi_3/yanusi_3.model3.json',
           ],
         },
         wuzang:{
           message: '来自 Azun Lane 的武藏 ~',
           models: [
-            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/wuzang_3/wuzang_3.model3.json',
+            'https://github.cdn.zero251.xyz/Zero-wyc/Live2d-model/master/碧蓝航线 Azue Lane/Azue Lane(JP)/wuzang_3/wuzang_3.model3.json',
           ],
         },
         yingrui:{
           message: '来自 Azun Lane 的应瑞 ~',
           models: [
-            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/yingrui_3/yingrui_3.model3.json',
+            'https://github.cdn.zero251.xyz/Zero-wyc/Live2d-model/master/碧蓝航线 Azue Lane/Azue Lane(JP)/yingrui_3/yingrui_3.model3.json',
           ],
         },
         yingxianzuo:{
           message: '来自 Azun Lane 的英仙座 ~',
           models: [
-            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/yingxianzuo_3/yingxianzuo_3.model3.json',
+            'https://github.cdn.zero251.xyz/Zero-wyc/Live2d-model/master/碧蓝航线 Azue Lane/Azue Lane(JP)/yingxianzuo_3/yingxianzuo_3.model3.json',
           ],
         },
         yunxian:{
           message: '来自 Azun Lane 的云仙 ~',
           models: [
-            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/yunxian_2/yunxian_2.model3.json',
+            'https://github.cdn.zero251.xyz/Zero-wyc/Live2d-model/master/碧蓝航线 Azue Lane/Azue Lane(JP)/yunxian_2/yunxian_2.model3.json',
           ],
         },
         zengkehaijunshangjiang:{
           message: '来自 Azun Lane 的曾克海军上将 ~',
           models: [
-            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/zengkehaijunshangjiang_2/zengkehaijunshangjiang_2.model3.json',
+            'https://github.cdn.zero251.xyz/Zero-wyc/Live2d-model/master/碧蓝航线 Azue Lane/Azue Lane(JP)/zengkehaijunshangjiang_2/zengkehaijunshangjiang_2.model3.json',
           ],
         },
         zhaohe:{
           message: '来自 Azun Lane 的昭和 ~',
           models: [
-            'https://cdn.jsdelivr.net/gh/Zero-wyc/Live2d-model@master/碧蓝航线 Azue Lane/Azue Lane(JP)/zhaohe_3/zhaohe_3.model3.json',
+            'https://github.cdn.zero251.xyz/Zero-wyc/Live2d-model/master/碧蓝航线 Azue Lane/Azue Lane(JP)/zhaohe_3/zhaohe_3.model3.json',
           ],
         },
       },

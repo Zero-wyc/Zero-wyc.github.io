@@ -5,7 +5,7 @@ date: 2025-7-16
 updated: 2025-8-4
 categories: 搞机日志
 codeHeightLimit: 300
-cover: https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250804193428959.gif
+cover: https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250804193428959.gif
 tags:
   - 搞机日志
   - WEB
@@ -467,9 +467,9 @@ https://cdn.jsdelivr.net/gh/user/repo@version/file
 
 例如我们要配置一个HK416的模型，找到仓库中的文件，复制目录和网址
 
-![PixPin_2025-07-16_14-27-37](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/PixPin_2025-07-16_14-27-37.png)
+![PixPin_2025-07-16_14-27-37](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/PixPin_2025-07-16_14-27-37.png)
 
-![PixPin_2025-07-16_14-29-15](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250718201110433.png)
+![PixPin_2025-07-16_14-29-15](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250718201110433.png)
 
 ```typescript
 https://cdn.jsdelivr.net/gh/user/repo@version/file
@@ -505,10 +505,10 @@ export default defineValaxyConfig({
 
 #### 现在去BLOG查看是否成功吧~
 
-![PixPin_2025-07-16_14-39-22](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/PixPin_2025-07-16_14-39-22.png)
+![PixPin_2025-07-16_14-39-22](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/PixPin_2025-07-16_14-39-22.png)
 
 ---
 
 #### 想要预览Live2d模型的话去[Live2DViewerEX](https://store.steampowered.com/app/616720/Live2DViewerEX/)自行添加查看（[DownGit | 下载Github指定的目录](https://downgit.github.io/#/home)）
 
-![PixPin_2025-07-16_14-47-23](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/PixPin_2025-07-16_14-47-23.png)
+![PixPin_2025-07-16_14-47-23](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/PixPin_2025-07-16_14-47-23.png)

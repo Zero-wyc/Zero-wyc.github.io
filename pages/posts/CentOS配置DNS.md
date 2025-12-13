@@ -4,7 +4,7 @@ title: CentOS配置DNS
 date: 2025-8-23
 updated: 2025-8-23
 categories: 搞机日志
-cover: https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250824221751222.webp
+cover: https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250824221751222.webp
 tags:
   - 搞机日志
   - WEB

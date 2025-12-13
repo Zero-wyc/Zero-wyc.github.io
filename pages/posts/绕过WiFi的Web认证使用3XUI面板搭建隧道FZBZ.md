@@ -4,7 +4,7 @@ title: 绕过WiFi的Web认证-使用3XUI面板搭建隧道-FZBZ
 date: 2025-9-20
 updated: 2025-12-6
 categories: 搞机日志
-cover: https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250920223900030.webp
+cover: https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250920223900030.webp
 tags:
   - 搞机日志
   - FZBZ
@@ -56,7 +56,7 @@ tags:
       nslookup baidu.com 223.5.5.5
       ```
       
-      ​	![image-20251206203957629](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20251212232220373.webp)
+      ​	![image-20251206203957629](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20251212232220373.webp)
 
    2. #### 安卓使用Termux终端测试
 
@@ -70,7 +70,7 @@ tags:
 
       3. 出现如下类似结果，即是成功
 
-         1. ![Screenshot_2025-09-20-21-58-49-559_com.termux](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250920215905034.webp)
+         1. ![Screenshot_2025-09-20-21-58-49-559_com.termux](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250920215905034.webp)
 
 2. ### 使用3X-UI面板进行隧道搭建
 
@@ -96,7 +96,7 @@ tags:
           restart: unless-stopped
       ```
    
-      ![image-20250920220924177](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250920220944331.webp)
+      ![image-20250920220924177](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250920220944331.webp)
    
    2. #### 打开网址 `http：//<your-ip>：2053` 并登录面板，DOCKER版本的默认密码和账户如下：
    
@@ -115,13 +115,13 @@ tags:
    
       4. 跟随配置向导配置端口，获得地址，用户名和密码并访问
    
-         ![image-20251206193211308](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20251206193218549.webp)
+         ![image-20251206193211308](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20251206193218549.webp)
    
    4. ### 配置3XUI面板，添加如下隧道
    
       1. 记得协议选vmess，传输协议选mkcp
       2. 伪装DNS可以不选，但如同上面的绑定域名般，可以提升成功率，但对大部分的web验证来说，足以通过
-      3. ![image-20250920221642818](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250920221643074.webp)
+      3. ![image-20250920221642818](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250920221643074.webp)
 
    5. ### 如果显示53端口被占用，先在终端查看是否真的被占用
 
@@ -159,21 +159,21 @@ tags:
    
    6. ### 在3XUI面板导出链接并导入代理软件
    
-      - ![image-20250920223149463](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250920223149620.webp)
+      - ![image-20250920223149463](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250920223149620.webp)
    
    7. #### 导入V2Ray（~~这里用Neko-ray，V2ray的二刺猿改版为例~~）
    
       - 导入
    
-      - ![7c9a26a84c047b55dd91e6ee21c9eefa](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250920223258257.webp)
+      - ![7c9a26a84c047b55dd91e6ee21c9eefa](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250920223258257.webp)
    
       - #### 进去之后找到路由选项然后全部关掉
    
-        - ![2281d7f1750bb0c961a6975a02f2f45c](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250920223416161.webp)
+        - ![2281d7f1750bb0c961a6975a02f2f45c](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250920223416161.webp)
    
       - #### 将设置改为这样，最重要的是那个DNS代理解析按钮
    
-        - ![78a44de4860a92f1a8f082558f5a9dc4](https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250920223453947.webp)
+        - ![78a44de4860a92f1a8f082558f5a9dc4](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250920223453947.webp)
    
       - #### 点击主页右下角的小飞机开起来，去浏览器或者软件上上网，看看然后去3XUI面板看看是否全局流量通过
    

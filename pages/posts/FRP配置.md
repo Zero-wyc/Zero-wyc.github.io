@@ -4,7 +4,7 @@ title: FRP配置
 date: 2025-05-16
 updated: 2025-8-4
 categories: 搞机日志
-cover: https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250804193828764.png
+cover: https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250804193828764.png
 tags:
   - 搞机日志
   - Linux
