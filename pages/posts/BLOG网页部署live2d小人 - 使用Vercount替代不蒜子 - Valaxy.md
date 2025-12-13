@@ -2,7 +2,7 @@
 hide: false
 title: BLOG网页部署live2d小人 - Valaxy
 date: 2025-7-16
-updated: 2025-8-4
+updated: 2025-12-14
 categories: 搞机日志
 codeHeightLimit: 300
 cover: https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250804193428959.gif
@@ -12,7 +12,11 @@ tags:
   - Valaxy
 ---
 
-> 刚部署BLOG的时候其实就已经把live2d放上去了，但是受困于如何查找live2d模型和配置文件，当我找到模型之后，如何部署又成为了问题，我尝试通过我的服务器直接挂载直链引用models.json文件，<!-- more -->却一直不行，直到我看到官方的配置文件中有特殊说明jsDelivr这个工具，我才恍然大悟
+> 刚部署BLOG的时候其实就已经把live2d放上去了，但是受困于如何查找live2d模型和配置文件，当我找到模型之后，如何部署又成为了问题，我尝试通过我的服务器直接挂载直链引用models.json文件，<!-- more -->~~却一直不行，直到我看到官方的配置文件中有特殊说明jsDelivr这个工具，我才恍然大悟~~
+>
+> 2025-12-14 回过头来看，觉得那时的我好清纯
+>
+> 其实就是一个github的存储服务器位于`raw.githubusercontent.com`的问题，只要在这个域名后面加上 用户名/仓库/分支/文件路径 即可下载，配上一个CDN即可流畅访问
 ---
 ### 使用的一些页面的链接
 
