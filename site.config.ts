@@ -139,7 +139,7 @@ export default defineSiteConfig({
   // 代码块高度限制 并自动折叠 odeHeightLimit: 300
 
 
-
+/*
   sponsor: {
     enable: false,
     title: '我很可爱，请给我钱！',
@@ -162,6 +162,7 @@ export default defineSiteConfig({
         color: '#2DC100',
         icon: 'i-ri-wechat-pay-line',
       },
-    ],
+    ], 
   },
+*/
 })

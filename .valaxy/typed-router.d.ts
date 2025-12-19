@@ -58,27 +58,6 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/albums/': RouteRecordInfo<
-      '/albums/',
-      '/albums',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/albums/MIKU': RouteRecordInfo<
-      '/albums/MIKU',
-      '/albums/MIKU',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/albums/SIKADI': RouteRecordInfo<
-      '/albums/SIKADI',
-      '/albums/SIKADI',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
     '/archives/': RouteRecordInfo<
       '/archives/',
       '/archives',
@@ -103,6 +82,48 @@ declare module 'vue-router/auto-routes' {
     '/links/': RouteRecordInfo<
       '/links/',
       '/links',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/love/': RouteRecordInfo<
+      '/love/',
+      '/love',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/love/MIKU': RouteRecordInfo<
+      '/love/MIKU',
+      '/love/MIKU',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/love/Nachoneko': RouteRecordInfo<
+      '/love/Nachoneko',
+      '/love/Nachoneko',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/love/SIKADI': RouteRecordInfo<
+      '/love/SIKADI',
+      '/love/SIKADI',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/love/WX': RouteRecordInfo<
+      '/love/WX',
+      '/love/WX',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/love/ZFB': RouteRecordInfo<
+      '/love/ZFB',
+      '/love/ZFB',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -240,6 +261,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/一些咕咕咕JPG': RouteRecordInfo<
+      '/posts/一些咕咕咕JPG',
+      '/posts/一些咕咕咕JPG',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/个人BLOG更新更新日志': RouteRecordInfo<
       '/posts/个人BLOG更新更新日志',
       '/posts/个人BLOG更新更新日志',
@@ -271,104 +299,6 @@ declare module 'vue-router/auto-routes' {
     '/posts/关于Steam AutoCrack的使用方法': RouteRecordInfo<
       '/posts/关于Steam AutoCrack的使用方法',
       '/posts/关于Steam AutoCrack的使用方法',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/咕咕咕 - Alist': RouteRecordInfo<
-      '/posts/咕咕咕 - Alist',
-      '/posts/咕咕咕 - Alist',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/咕咕咕 - Android刷机': RouteRecordInfo<
-      '/posts/咕咕咕 - Android刷机',
-      '/posts/咕咕咕 - Android刷机',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/咕咕咕 - EasyImage图床': RouteRecordInfo<
-      '/posts/咕咕咕 - EasyImage图床',
-      '/posts/咕咕咕 - EasyImage图床',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/咕咕咕 - Minecraft服务器': RouteRecordInfo<
-      '/posts/咕咕咕 - Minecraft服务器',
-      '/posts/咕咕咕 - Minecraft服务器',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/咕咕咕 - OpenWRT配置 copy': RouteRecordInfo<
-      '/posts/咕咕咕 - OpenWRT配置 copy',
-      '/posts/咕咕咕 - OpenWRT配置 copy',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/咕咕咕 - PicList+Github图床': RouteRecordInfo<
-      '/posts/咕咕咕 - PicList+Github图床',
-      '/posts/咕咕咕 - PicList+Github图床',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/咕咕咕 - Windows桌面美化': RouteRecordInfo<
-      '/posts/咕咕咕 - Windows桌面美化',
-      '/posts/咕咕咕 - Windows桌面美化',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/咕咕咕 - XDF N1': RouteRecordInfo<
-      '/posts/咕咕咕 - XDF N1',
-      '/posts/咕咕咕 - XDF N1',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/咕咕咕 - Zen浏览器': RouteRecordInfo<
-      '/posts/咕咕咕 - Zen浏览器',
-      '/posts/咕咕咕 - Zen浏览器',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/咕咕咕 - 子腾手表': RouteRecordInfo<
-      '/posts/咕咕咕 - 子腾手表',
-      '/posts/咕咕咕 - 子腾手表',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/咕咕咕 - 小米Watch1': RouteRecordInfo<
-      '/posts/咕咕咕 - 小米Watch1',
-      '/posts/咕咕咕 - 小米Watch1',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/咕咕咕 - 小米手环': RouteRecordInfo<
-      '/posts/咕咕咕 - 小米手环',
-      '/posts/咕咕咕 - 小米手环',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/咕咕咕 - 希沃': RouteRecordInfo<
-      '/posts/咕咕咕 - 希沃',
-      '/posts/咕咕咕 - 希沃',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/咕咕咕 - 常用命令': RouteRecordInfo<
-      '/posts/咕咕咕 - 常用命令',
-      '/posts/咕咕咕 - 常用命令',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -528,24 +458,6 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'pages/albums/index.md': {
-      routes:
-        | '/albums/'
-      views:
-        | never
-    }
-    'pages/albums/MIKU.md': {
-      routes:
-        | '/albums/MIKU'
-      views:
-        | never
-    }
-    'pages/albums/SIKADI.md': {
-      routes:
-        | '/albums/SIKADI'
-      views:
-        | never
-    }
     'pages/archives/index.md': {
       routes:
         | '/archives/'
@@ -567,6 +479,42 @@ declare module 'vue-router/auto-routes' {
     'pages/links/index.md': {
       routes:
         | '/links/'
+      views:
+        | never
+    }
+    'pages/love/index.md': {
+      routes:
+        | '/love/'
+      views:
+        | never
+    }
+    'pages/love/MIKU.md': {
+      routes:
+        | '/love/MIKU'
+      views:
+        | never
+    }
+    'pages/love/Nachoneko.md': {
+      routes:
+        | '/love/Nachoneko'
+      views:
+        | never
+    }
+    'pages/love/SIKADI.md': {
+      routes:
+        | '/love/SIKADI'
+      views:
+        | never
+    }
+    'pages/love/WX.md': {
+      routes:
+        | '/love/WX'
+      views:
+        | never
+    }
+    'pages/love/ZFB.md': {
+      routes:
+        | '/love/ZFB'
       views:
         | never
     }
@@ -684,6 +632,12 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
+    'pages/posts/一些咕咕咕JPG.md': {
+      routes:
+        | '/posts/一些咕咕咕JPG'
+      views:
+        | never
+    }
     'pages/posts/个人BLOG更新更新日志.md': {
       routes:
         | '/posts/个人BLOG更新更新日志'
@@ -711,90 +665,6 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/关于Steam AutoCrack的使用方法.md': {
       routes:
         | '/posts/关于Steam AutoCrack的使用方法'
-      views:
-        | never
-    }
-    'pages/posts/咕咕咕 - Alist.md': {
-      routes:
-        | '/posts/咕咕咕 - Alist'
-      views:
-        | never
-    }
-    'pages/posts/咕咕咕 - Android刷机.md': {
-      routes:
-        | '/posts/咕咕咕 - Android刷机'
-      views:
-        | never
-    }
-    'pages/posts/咕咕咕 - EasyImage图床.md': {
-      routes:
-        | '/posts/咕咕咕 - EasyImage图床'
-      views:
-        | never
-    }
-    'pages/posts/咕咕咕 - Minecraft服务器.md': {
-      routes:
-        | '/posts/咕咕咕 - Minecraft服务器'
-      views:
-        | never
-    }
-    'pages/posts/咕咕咕 - OpenWRT配置 copy.md': {
-      routes:
-        | '/posts/咕咕咕 - OpenWRT配置 copy'
-      views:
-        | never
-    }
-    'pages/posts/咕咕咕 - PicList+Github图床.md': {
-      routes:
-        | '/posts/咕咕咕 - PicList+Github图床'
-      views:
-        | never
-    }
-    'pages/posts/咕咕咕 - Windows桌面美化.md': {
-      routes:
-        | '/posts/咕咕咕 - Windows桌面美化'
-      views:
-        | never
-    }
-    'pages/posts/咕咕咕 - XDF N1.md': {
-      routes:
-        | '/posts/咕咕咕 - XDF N1'
-      views:
-        | never
-    }
-    'pages/posts/咕咕咕 - Zen浏览器.md': {
-      routes:
-        | '/posts/咕咕咕 - Zen浏览器'
-      views:
-        | never
-    }
-    'pages/posts/咕咕咕 - 子腾手表.md': {
-      routes:
-        | '/posts/咕咕咕 - 子腾手表'
-      views:
-        | never
-    }
-    'pages/posts/咕咕咕 - 小米Watch1.md': {
-      routes:
-        | '/posts/咕咕咕 - 小米Watch1'
-      views:
-        | never
-    }
-    'pages/posts/咕咕咕 - 小米手环.md': {
-      routes:
-        | '/posts/咕咕咕 - 小米手环'
-      views:
-        | never
-    }
-    'pages/posts/咕咕咕 - 希沃.md': {
-      routes:
-        | '/posts/咕咕咕 - 希沃'
-      views:
-        | never
-    }
-    'pages/posts/咕咕咕 - 常用命令.md': {
-      routes:
-        | '/posts/咕咕咕 - 常用命令'
       views:
         | never
     }
