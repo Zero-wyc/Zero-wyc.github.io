@@ -58,13 +58,6 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/archives/': RouteRecordInfo<
-      '/archives/',
-      '/archives',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
     '/Bangumi/': RouteRecordInfo<
       '/Bangumi/',
       '/Bangumi',
@@ -138,6 +131,13 @@ declare module 'vue-router/auto-routes' {
     '/posts/': RouteRecordInfo<
       '/posts/',
       '/posts',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/BLOG更新日志': RouteRecordInfo<
+      '/posts/BLOG更新日志',
+      '/posts/BLOG更新日志',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -264,13 +264,6 @@ declare module 'vue-router/auto-routes' {
     '/posts/一些咕咕咕JPG': RouteRecordInfo<
       '/posts/一些咕咕咕JPG',
       '/posts/一些咕咕咕JPG',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/个人BLOG更新更新日志': RouteRecordInfo<
-      '/posts/个人BLOG更新更新日志',
-      '/posts/个人BLOG更新更新日志',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -458,12 +451,6 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'pages/archives/index.md': {
-      routes:
-        | '/archives/'
-      views:
-        | never
-    }
     'pages/Bangumi/index.md': {
       routes:
         | '/Bangumi/'
@@ -527,6 +514,12 @@ declare module 'vue-router/auto-routes' {
     'node_modules/.pnpm/valaxy-theme-yun@0.26.10_vue@3.5.24_typescript@5.9.3_/node_modules/valaxy-theme-yun/pages/posts/index.vue': {
       routes:
         | '/posts/'
+      views:
+        | never
+    }
+    'pages/posts/BLOG更新日志.md': {
+      routes:
+        | '/posts/BLOG更新日志'
       views:
         | never
     }
@@ -635,12 +628,6 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/一些咕咕咕JPG.md': {
       routes:
         | '/posts/一些咕咕咕JPG'
-      views:
-        | never
-    }
-    'pages/posts/个人BLOG更新更新日志.md': {
-      routes:
-        | '/posts/个人BLOG更新更新日志'
       views:
         | never
     }

@@ -1,19 +1,115 @@
 {
     "version": "https://jsonfeed.org/version/1",
     "title": "Zero_wyc的窝",
-    "home_page_url": "https://zero251.xyz/",
-    "feed_url": "https://zero251.xyz/feed.json",
+    "home_page_url": "https://blog.zero251.xyz/",
+    "feed_url": "https://blog.zero251.xyz/feed.json",
     "description": "Zero_wyc的公式化",
-    "icon": "https://p.zero251.xyz/i/2025/03/28/辛.webp",
+    "icon": "https://github.cdn.zero251.xyz/Zero-wyc/Image/main/General/辛.webp",
     "author": {
         "name": "Zero-无常",
         "url": "https://valaxy.site"
     },
     "items": [
         {
-            "id": "https://zero251.xyz/posts/小米BE6500开SSH开机自启固化和安装ShellCrash开启全家代理",
-            "content_html": "<blockquote>\n<p>难蚌的预埋5类线，让我痛斥多年<br>\n光纤伟大，无需多言<br>\n顺带在这牵了光纤的时刻购入一台小米BE6500</p>\n</blockquote>\n<br/><p>访问 <a href=\"https://zero251.xyz/posts/小米BE6500开SSH开机自启固化和安装ShellCrash开启全家代理\" target=\"_blank\">https://zero251.xyz/posts/小米BE6500开SSH开机自启固化和安装ShellCrash开启全家代理</a> 阅读全文。</p>",
-            "url": "https://zero251.xyz/posts/小米BE6500开SSH开机自启固化和安装ShellCrash开启全家代理",
+            "id": "https://blog.zero251.xyz/posts/一些咕咕咕JPG",
+            "content_html": "<blockquote>\n<p>一些咕咕咕喽 : )</p>\n</blockquote>\n<br/><p>访问 <a href=\"https://blog.zero251.xyz/posts/一些咕咕咕JPG\" target=\"_blank\">https://blog.zero251.xyz/posts/一些咕咕咕JPG</a> 阅读全文。</p>",
+            "url": "https://blog.zero251.xyz/posts/一些咕咕咕JPG",
+            "title": "一些咕咕咕",
+            "date_modified": "2025-04-03T00:00:00.000Z",
+            "date_published": "2025-12-19T00:00:00.000Z",
+            "author": {
+                "name": "Zero-无常",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://blog.zero251.xyz/posts/BLOG网页部署live2d小人 - 使用Vercount替代不蒜子 - Valaxy",
+            "content_html": "<blockquote>\n<p>刚部署BLOG的时候其实就已经把live2d放上去了，但是受困于如何查找live2d模型和配置文件，当我找到模型之后，如何部署又成为了问题，我尝试通过我的服务器直接挂载直链引用models.json文件，</p>\n</blockquote>\n<br/><p>访问 <a href=\"https://blog.zero251.xyz/posts/BLOG网页部署live2d小人 - 使用Vercount替代不蒜子 - Valaxy\" target=\"_blank\">https://blog.zero251.xyz/posts/BLOG网页部署live2d小人 - 使用Vercount替代不蒜子 - Valaxy</a> 阅读全文。</p>",
+            "url": "https://blog.zero251.xyz/posts/BLOG网页部署live2d小人 - 使用Vercount替代不蒜子 - Valaxy",
+            "title": "BLOG网页部署live2d小人 - Valaxy",
+            "date_modified": "2025-07-15T16:00:00.000Z",
+            "date_published": "2025-12-14T00:00:00.000Z",
+            "author": {
+                "name": "Zero-无常",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://blog.zero251.xyz/posts/个人BLOG更新更新日志",
+            "content_html": "<blockquote>\n<p>一切的缘起**</p>\n</blockquote>\n<br/><p>访问 <a href=\"https://blog.zero251.xyz/posts/个人BLOG更新更新日志\" target=\"_blank\">https://blog.zero251.xyz/posts/个人BLOG更新更新日志</a> 阅读全文。</p>",
+            "url": "https://blog.zero251.xyz/posts/个人BLOG更新更新日志",
+            "title": "个人BLOG更新更新日志",
+            "date_modified": "2025-03-13T16:00:00.000Z",
+            "date_published": "2025-12-14T00:00:00.000Z",
+            "author": {
+                "name": "Zero-无常",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://blog.zero251.xyz/posts/硬件日志",
+            "content_html": "<h3>2025.11.28</h3>\n<blockquote>\n<p>购入一个弱水时砂寒武纪，网上吹的很响，实际到手却发现许多问题</p>\n<p>比如这个木质振膜，听起来有一种上世纪的感觉，或许是没煲久？</p>\n<p>正常环境下这个降噪确实很暴力，但是当到了汽车或者地铁这些有共振的地方，降噪就会完全不可用</p>\n<p>还会有刺耳的尖锐噪音</p>\n<p>这产品怎么说呢ENN</p>\n</blockquote>\n<p><img src=\"https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20251214001711676.webp\" alt=\"MVIMG_20251128_190326\"></p>\n<h3>2025.11.23</h3>\n<blockquote>\n<p>在社会实践回来后，换新的RX470D到货</p>\n<p>却又发现副机的500G msata疑似坏掉，时常无程序使用，占用100%</p>\n<p>拔下mstata转sata换NVME通道测试，仍如此，先凑合着吧，把MuMu模拟器迁移至另一个固态中，以继续完成每日的自动MAA工作</p>\n</blockquote>\n<p><img src=\"https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20251214001338235.webp\" alt=\"MVIMG_20251123_104424\"></p>\n<h3>2025.11.22</h3>\n<blockquote>\n<p>这该死的柚子社新作<s>逐光柠檬协奏曲</s>，让我竟然从国庆打到了现在才坎坎打完，我真是受不了了</p>\n<p>期间服务器都没怎么管，这几天才全面大修</p>\n</blockquote>\n<br/><p>访问 <a href=\"https://blog.zero251.xyz/posts/硬件日志\" target=\"_blank\">https://blog.zero251.xyz/posts/硬件日志</a> 阅读全文。</p>",
+            "url": "https://blog.zero251.xyz/posts/硬件日志",
+            "title": "硬件日志？",
+            "date_modified": "2020-04-17T16:00:00.000Z",
+            "date_published": "2025-12-14T00:00:00.000Z",
+            "author": {
+                "name": "Zero-无常",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://blog.zero251.xyz/posts/绕过WiFi的Web认证使用3XUI面板搭建隧道FZBZ",
+            "content_html": "<blockquote>\n<h4><a href=\"https://www.bilibili.com/video/BV1Vg2XBnE7m/?share_source=copy_web&amp;vd_source=7a0f959e33c3900a64437993cfdb6999\">视频版教程 绕过校园网Web网络认证限制，绕过…</a></h4>\n</blockquote>\n<blockquote>\n<p>我这个方法是我参考网络并自己研究出来的，<s>这方法其实跟搭建VP*没区别</s>，相较于网上流行的OpenVpn等，我认为我的方法更为简单，小白都可以学会，且可以Windows，安卓，苹果通用</p>\n<p>经我测试，稳定运行3个月，<s>在学校我甚至可以贩卖网络费</s>，打游戏的话除非你能忍受100~300毫秒的延迟，刷视频看网页等对延迟没要求的就非常流畅</p>\n</blockquote>\n<blockquote>\n<p>原理说明：</p>\n<p>当我们访问使用某个Web认证热点访问某个HTTP网站，网关会对这个<a href=\"https://so.csdn.net/so/search?q=HTTP%E5%93%8D%E5%BA%94&amp;spm=1001.2101.3001.7020\">HTTP响应</a>报文劫持并纂改302重定向给我们一个web认证界面。网关（或者说交换机）都默认放行DHCP（用于分配IP）和DNS（用于劫持用户数据报）。</p>\n</blockquote>\n<br/><p>访问 <a href=\"https://blog.zero251.xyz/posts/绕过WiFi的Web认证使用3XUI面板搭建隧道FZBZ\" target=\"_blank\">https://blog.zero251.xyz/posts/绕过WiFi的Web认证使用3XUI面板搭建隧道FZBZ</a> 阅读全文。</p>",
+            "url": "https://blog.zero251.xyz/posts/绕过WiFi的Web认证使用3XUI面板搭建隧道FZBZ",
+            "title": "绕过WiFi的Web认证-使用3XUI面板搭建隧道-FZBZ",
+            "date_modified": "2025-09-19T16:00:00.000Z",
+            "date_published": "2025-12-05T16:00:00.000Z",
+            "author": {
+                "name": "Zero-无常",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://blog.zero251.xyz/posts/一些DockerCompose配置",
+            "content_html": "<ol>\n<li>\n<p>FRPS</p>\n<ol>\n<li>\n<pre><code class=\"language-bash\">services:\n  frps_sSDC:\n    image: snowdreamtech/frps:${VERSION}\n    #    container_name: ${CONTAINER_NAME}\n    deploy:\n      resources:\n        limits:\n          cpus: ${CPUS}\n          memory: ${MEMORY_LIMIT}\n    network_mode: host\n    restart: always\n    volumes:\n      - ${APP_PATH}/data/frps.toml:/etc/frp/frps.toml\n      - ${APP_PATH}/data/ssl:/etc/frp/ssl\n    labels:\n      createdBy: &quot;bt_apps&quot;\n</code></pre>\n</li>\n</ol>\n</li>\n<li>\n<p>3X-UI</p>\n</li>\n</ol>\n<br/><p>访问 <a href=\"https://blog.zero251.xyz/posts/一些DockerCompose配置\" target=\"_blank\">https://blog.zero251.xyz/posts/一些DockerCompose配置</a> 阅读全文。</p>",
+            "url": "https://blog.zero251.xyz/posts/一些DockerCompose配置",
+            "title": "一些DockerCompose配置",
+            "date_modified": "2025-11-29T00:00:00.000Z",
+            "date_published": "2025-11-29T00:00:00.000Z",
+            "author": {
+                "name": "Zero-无常",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://blog.zero251.xyz/posts/域名被运营商阻断而不是被GFWGank",
+            "content_html": "<blockquote>\n<p>事情是这样的，我趁着腾讯云年终特惠购买了一台日本的服务器</p>\n<p>刚好去年买的美国服务器也到期了</p>\n<p>但是当我绑定上域名的时候却被阻断，IP地址却可以直接访问</p>\n</blockquote>\n<br/><p>访问 <a href=\"https://blog.zero251.xyz/posts/域名被运营商阻断而不是被GFWGank\" target=\"_blank\">https://blog.zero251.xyz/posts/域名被运营商阻断而不是被GFWGank</a> 阅读全文。</p>",
+            "url": "https://blog.zero251.xyz/posts/域名被运营商阻断而不是被GFWGank",
+            "title": "域名被运营商阻断而不是被GFWGank了？腾讯还是很有力量的",
+            "date_modified": "2025-11-01T16:00:00.000Z",
+            "date_published": "2025-11-01T16:00:00.000Z",
+            "author": {
+                "name": "Zero-无常",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://blog.zero251.xyz/posts/Openlistalist的css美化自用",
+            "content_html": "<blockquote>\n<p>openlist的容器版本的权限赋予太过复杂，以及docker镜像的跟踪源丢失，导致我不得不重新配置openlist，这期间导致了openlist停摆一个月，不断的在docker中重装配置，但仍然在新版本有权限问题无法完全挂载目录的问题<s>是我太菜了</s>，所以我不得不直接在实体环境中运行，鉴于之前的css美化已经随着一遍遍重装消失不见，我放一个我自用的copy的没有任何技术含量仅仅自我修改参数的版本</p>\n</blockquote>\n<br/><p>访问 <a href=\"https://blog.zero251.xyz/posts/Openlistalist的css美化自用\" target=\"_blank\">https://blog.zero251.xyz/posts/Openlistalist的css美化自用</a> 阅读全文。</p>",
+            "url": "https://blog.zero251.xyz/posts/Openlistalist的css美化自用",
+            "title": "Openlistalist的css美化自用",
+            "date_modified": "2025-10-25T00:00:00.000Z",
+            "date_published": "2025-10-25T00:00:00.000Z",
+            "author": {
+                "name": "Zero-无常",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://blog.zero251.xyz/posts/小米BE6500开SSH开机自启固化和安装ShellCrash开启全家代理",
+            "content_html": "<blockquote>\n<p>难蚌的预埋5类线，让我痛斥多年<br>\n光纤伟大，无需多言<br>\n顺带在这牵了光纤的时刻购入一台小米BE6500</p>\n</blockquote>\n<br/><p>访问 <a href=\"https://blog.zero251.xyz/posts/小米BE6500开SSH开机自启固化和安装ShellCrash开启全家代理\" target=\"_blank\">https://blog.zero251.xyz/posts/小米BE6500开SSH开机自启固化和安装ShellCrash开启全家代理</a> 阅读全文。</p>",
+            "url": "https://blog.zero251.xyz/posts/小米BE6500开SSH开机自启固化和安装ShellCrash开启全家代理",
             "title": "小米BE6500开SSH,开机自启,固化和安装ShellCrash开启全家代理，配置IPV6外网访问",
             "date_modified": "2025-10-01T16:00:00.000Z",
             "date_published": "2025-10-03T16:00:00.000Z",
@@ -23,33 +119,9 @@
             }
         },
         {
-            "id": "https://zero251.xyz/posts/硬件日志",
-            "content_html": "<h3>SHOW</h3>\n<p><img src=\"https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250824205221887.jpg\" alt=\"IMG_20250824_205112\"></p>\n<br/><p>访问 <a href=\"https://zero251.xyz/posts/硬件日志\" target=\"_blank\">https://zero251.xyz/posts/硬件日志</a> 阅读全文。</p>",
-            "url": "https://zero251.xyz/posts/硬件日志",
-            "title": "硬件日志",
-            "date_modified": "2020-04-17T16:00:00.000Z",
-            "date_published": "2025-09-19T16:00:00.000Z",
-            "author": {
-                "name": "Zero-无常",
-                "url": "https://valaxy.site"
-            }
-        },
-        {
-            "id": "https://zero251.xyz/posts/绕过WiFi的Web认证-使用3XUI面板搭建DNS隧道",
-            "content_html": "<blockquote>\n<p>原理说明：</p>\n<p>当我们访问使用某个Web认证热点访问某个HTTP网站，网关会对这个<a href=\"https://so.csdn.net/so/search?q=HTTP%E5%93%8D%E5%BA%94&amp;spm=1001.2101.3001.7020\">HTTP响应</a>报文劫持并纂改302重定向给我们一个web认证界面。网关（或者说交换机）都默认放行DHCP（用于分配IP）和DNS（用于劫持用户数据报）。</p>\n</blockquote>\n<br/><p>访问 <a href=\"https://zero251.xyz/posts/绕过WiFi的Web认证-使用3XUI面板搭建DNS隧道\" target=\"_blank\">https://zero251.xyz/posts/绕过WiFi的Web认证-使用3XUI面板搭建DNS隧道</a> 阅读全文。</p>",
-            "url": "https://zero251.xyz/posts/绕过WiFi的Web认证-使用3XUI面板搭建DNS隧道",
-            "title": "FZBZ-绕过WiFi的Web认证-使用3XUI面板搭建DNS隧道",
-            "date_modified": "2025-09-19T16:00:00.000Z",
-            "date_published": "2025-09-19T16:00:00.000Z",
-            "author": {
-                "name": "Zero-无常",
-                "url": "https://valaxy.site"
-            }
-        },
-        {
-            "id": "https://zero251.xyz/posts/流量卡-授人以鱼不如授人以渔",
-            "content_html": "<blockquote>\n<p>流量自古以来都是一个难题，自从上个月我花了快五十块钱冲流量我就受不了了</p>\n<p>市面上有多卖流量卡的人，这是为什么呢？**</p>\n</blockquote>\n<br/><p>访问 <a href=\"https://zero251.xyz/posts/流量卡-授人以鱼不如授人以渔\" target=\"_blank\">https://zero251.xyz/posts/流量卡-授人以鱼不如授人以渔</a> 阅读全文。</p>",
-            "url": "https://zero251.xyz/posts/流量卡-授人以鱼不如授人以渔",
+            "id": "https://blog.zero251.xyz/posts/流量卡-授人以鱼不如授人以渔",
+            "content_html": "<blockquote>\n<p>流量自古以来都是一个难题，自从上个月我花了快五十块钱冲流量我就受不了了</p>\n<p>市面上有多卖流量卡的人，这是为什么呢？**</p>\n</blockquote>\n<br/><p>访问 <a href=\"https://blog.zero251.xyz/posts/流量卡-授人以鱼不如授人以渔\" target=\"_blank\">https://blog.zero251.xyz/posts/流量卡-授人以鱼不如授人以渔</a> 阅读全文。</p>",
+            "url": "https://blog.zero251.xyz/posts/流量卡-授人以鱼不如授人以渔",
             "title": "流量卡 - 授人以鱼不如授人以渔",
             "date_modified": "2025-09-06T16:00:00.000Z",
             "date_published": "2025-09-06T16:00:00.000Z",
@@ -59,21 +131,9 @@
             }
         },
         {
-            "id": "https://zero251.xyz/posts/个人BLOG更新更新日志",
-            "content_html": "<blockquote>\n<p>一切的缘起**</p>\n</blockquote>\n<br/><p>访问 <a href=\"https://zero251.xyz/posts/个人BLOG更新更新日志\" target=\"_blank\">https://zero251.xyz/posts/个人BLOG更新更新日志</a> 阅读全文。</p>",
-            "url": "https://zero251.xyz/posts/个人BLOG更新更新日志",
-            "title": "个人BLOG更新更新日志",
-            "date_modified": "2025-03-13T16:00:00.000Z",
-            "date_published": "2025-09-05T16:00:00.000Z",
-            "author": {
-                "name": "Zero-无常",
-                "url": "https://valaxy.site"
-            }
-        },
-        {
-            "id": "https://zero251.xyz/posts/CentOS配置DNS",
-            "content_html": "<blockquote>\n<ul>\n<li>阿里云的Alibaba Cloud 3 基于Cent OS，却在我这多次有DNS问题，每次却都想不来为什么访问不了\n<ul>\n<li>特征为能访问其挂载的网页和服务，却无法续签HTTPS证书，在日常使用时没有差别很难判断出为什么<s>因为没有GUI</s></li>\n<li><s>md每次都以为是那个b阿里云的端口放行问题</s></li>\n</ul>\n</li>\n</ul>\n</blockquote>\n<br/><p>访问 <a href=\"https://zero251.xyz/posts/CentOS配置DNS\" target=\"_blank\">https://zero251.xyz/posts/CentOS配置DNS</a> 阅读全文。</p>",
-            "url": "https://zero251.xyz/posts/CentOS配置DNS",
+            "id": "https://blog.zero251.xyz/posts/CentOS配置DNS",
+            "content_html": "<blockquote>\n<ul>\n<li>阿里云的Alibaba Cloud 3 基于Cent OS，却在我这多次有DNS问题，每次却都想不来为什么访问不了\n<ul>\n<li>特征为能访问其挂载的网页和服务，却无法续签HTTPS证书，在日常使用时没有差别很难判断出为什么<s>因为没有GUI</s></li>\n<li><s>md每次都以为是那个b阿里云的端口放行问题</s></li>\n</ul>\n</li>\n</ul>\n</blockquote>\n<br/><p>访问 <a href=\"https://blog.zero251.xyz/posts/CentOS配置DNS\" target=\"_blank\">https://blog.zero251.xyz/posts/CentOS配置DNS</a> 阅读全文。</p>",
+            "url": "https://blog.zero251.xyz/posts/CentOS配置DNS",
             "title": "CentOS配置DNS",
             "date_modified": "2025-08-22T16:00:00.000Z",
             "date_published": "2025-08-22T16:00:00.000Z",
@@ -83,9 +143,9 @@
             }
         },
         {
-            "id": "https://zero251.xyz/posts/免费VPSClawCloudRun使用3XUI面板进行隧道搭建",
-            "content_html": "<blockquote>\n<p>​\t==CLAW CLOUD RUN 云服务商如果使用Github超过180天的账户注册可以获得每月5美刀的服务器额度，额度十分充裕且无需绑定银行卡==</p>\n<p>​\t每月10GB高速流量，之后限速，但是在我这仍然能跑到10MB+（据说到70GB为上限，但如果单一时间过量使用可能导致限速1mps，但是几小时之后就恢复了），十分能用，而且是对单个容器进行限速，也就是说创建多个容器可让流量翻翻</p>\n</blockquote>\n<br/><p>访问 <a href=\"https://zero251.xyz/posts/免费VPSClawCloudRun使用3XUI面板进行隧道搭建\" target=\"_blank\">https://zero251.xyz/posts/免费VPSClawCloudRun使用3XUI面板进行隧道搭建</a> 阅读全文。</p>",
-            "url": "https://zero251.xyz/posts/免费VPSClawCloudRun使用3XUI面板进行隧道搭建",
+            "id": "https://blog.zero251.xyz/posts/免费VPSClawCloudRun使用3XUI面板进行隧道搭建",
+            "content_html": "<blockquote>\n<p>​\t==CLAW CLOUD RUN 云服务商如果使用Github超过180天的账户注册可以获得每月5美刀的服务器额度，额度十分充裕且无需绑定银行卡==</p>\n<p>​\t每月10GB高速流量，之后限速，但是在我这仍然能跑到10MB+（据说到70GB为上限，但如果单一时间过量使用可能导致限速1mps，但是几小时之后就恢复了），十分能用，而且是对单个容器进行限速，也就是说创建多个容器可让流量翻翻</p>\n</blockquote>\n<br/><p>访问 <a href=\"https://blog.zero251.xyz/posts/免费VPSClawCloudRun使用3XUI面板进行隧道搭建\" target=\"_blank\">https://blog.zero251.xyz/posts/免费VPSClawCloudRun使用3XUI面板进行隧道搭建</a> 阅读全文。</p>",
+            "url": "https://blog.zero251.xyz/posts/免费VPSClawCloudRun使用3XUI面板进行隧道搭建",
             "title": "免费VPS ClawCloudRun使用3XUI面板进行隧道搭建",
             "date_modified": "2025-08-22T16:00:00.000Z",
             "date_published": "2025-08-22T16:00:00.000Z",
@@ -95,9 +155,9 @@
             }
         },
         {
-            "id": "https://zero251.xyz/posts/小米手环910 开启心率广播 投屏OBS直播",
-            "content_html": "<blockquote>\n<p>准备材料：</p>\n<p>一个带有蓝牙功能的电脑</p>\n<p>OBS软件</p>\n<p>支持心率广播的手表，这里以小米手环9为例</p>\n</blockquote>\n<br/><p>访问 <a href=\"https://zero251.xyz/posts/小米手环910 开启心率广播 投屏OBS直播\" target=\"_blank\">https://zero251.xyz/posts/小米手环910 开启心率广播 投屏OBS直播</a> 阅读全文。</p>",
-            "url": "https://zero251.xyz/posts/小米手环910 开启心率广播 投屏OBS直播",
+            "id": "https://blog.zero251.xyz/posts/小米手环910 开启心率广播 投屏OBS直播",
+            "content_html": "<blockquote>\n<p>准备材料：</p>\n<p>一个带有蓝牙功能的电脑</p>\n<p>OBS软件</p>\n<p>支持心率广播的手表，这里以小米手环9为例</p>\n</blockquote>\n<br/><p>访问 <a href=\"https://blog.zero251.xyz/posts/小米手环910 开启心率广播 投屏OBS直播\" target=\"_blank\">https://blog.zero251.xyz/posts/小米手环910 开启心率广播 投屏OBS直播</a> 阅读全文。</p>",
+            "url": "https://blog.zero251.xyz/posts/小米手环910 开启心率广播 投屏OBS直播",
             "title": "在直播/视频中显示心率让观众感同身受 小米手环9/10 开启心率广播 投屏OBS直播",
             "date_modified": "2025-08-20T16:00:00.000Z",
             "date_published": "2025-08-20T16:00:00.000Z",
@@ -107,9 +167,9 @@
             }
         },
         {
-            "id": "https://zero251.xyz/posts/GRUB2配置以及自定义主题以及添加Windows引导",
-            "content_html": "<blockquote>\n<p>建议配合视频一起食用：<a href=\"https://www.bilibili.com/video/BV1xZtJzpEoq\">简单易懂』主板BIOS开机动画图片更改，自定义你想要的角色LP吧！</a></p>\n<p>首先我们要拥有一个Linux系统，我这里以Ubuntu24.04 GUI版本为例，其他发行版同理</p>\n</blockquote>\n<br/><p>访问 <a href=\"https://zero251.xyz/posts/GRUB2配置以及自定义主题以及添加Windows引导\" target=\"_blank\">https://zero251.xyz/posts/GRUB2配置以及自定义主题以及添加Windows引导</a> 阅读全文。</p>",
-            "url": "https://zero251.xyz/posts/GRUB2配置以及自定义主题以及添加Windows引导",
+            "id": "https://blog.zero251.xyz/posts/GRUB2配置以及自定义主题以及添加Windows引导",
+            "content_html": "<blockquote>\n<p>建议配合视频一起食用：<a href=\"https://www.bilibili.com/video/BV1xZtJzpEoq\">简单易懂』主板BIOS开机动画图片更改，自定义你想要的角色LP吧！</a></p>\n<p>首先我们要拥有一个Linux系统，我这里以Ubuntu24.04 GUI版本为例，其他发行版同理</p>\n</blockquote>\n<br/><p>访问 <a href=\"https://blog.zero251.xyz/posts/GRUB2配置以及自定义主题以及添加Windows引导\" target=\"_blank\">https://blog.zero251.xyz/posts/GRUB2配置以及自定义主题以及添加Windows引导</a> 阅读全文。</p>",
+            "url": "https://blog.zero251.xyz/posts/GRUB2配置以及自定义主题以及添加Windows引导",
             "title": "GRUB2配置以及自定义主题以及添加Windows引导 - 甘城なつき主题",
             "date_modified": "2025-08-03T16:00:00.000Z",
             "date_published": "2025-08-18T16:00:00.000Z",
@@ -119,9 +179,9 @@
             }
         },
         {
-            "id": "https://zero251.xyz/posts/主板BIOS开机动画更改",
-            "content_html": "<blockquote>\n<p>这次BIOS开机动画以及GRUB2和Windows启动动画自定义联动是我很久以前就想做的，但一直卡在BIOS上，</p>\n<p><s>在手过4.5张主板且是碧海蓝天的原版BIOS之后也是过上好日子了</s></p>\n</blockquote>\n<br/><p>访问 <a href=\"https://zero251.xyz/posts/主板BIOS开机动画更改\" target=\"_blank\">https://zero251.xyz/posts/主板BIOS开机动画更改</a> 阅读全文。</p>",
-            "url": "https://zero251.xyz/posts/主板BIOS开机动画更改",
+            "id": "https://blog.zero251.xyz/posts/主板BIOS开机动画更改",
+            "content_html": "<blockquote>\n<p>这次BIOS开机动画以及GRUB2和Windows启动动画自定义联动是我很久以前就想做的，但一直卡在BIOS上，</p>\n<p><s>在手过4.5张主板且是碧海蓝天的原版BIOS之后也是过上好日子了</s></p>\n</blockquote>\n<br/><p>访问 <a href=\"https://blog.zero251.xyz/posts/主板BIOS开机动画更改\" target=\"_blank\">https://blog.zero251.xyz/posts/主板BIOS开机动画更改</a> 阅读全文。</p>",
+            "url": "https://blog.zero251.xyz/posts/主板BIOS开机动画更改",
             "title": "主板BIOS开机动画更改 - 技嘉为例 - 甘城なつき主题",
             "date_modified": "2025-08-03T16:00:00.000Z",
             "date_published": "2025-08-04T16:00:00.000Z",
@@ -131,21 +191,9 @@
             }
         },
         {
-            "id": "https://zero251.xyz/posts/BLOG网页部署live2d小人 - 使用Vercount替代不蒜子 - Valaxy",
-            "content_html": "<blockquote>\n<p>刚部署BLOG的时候其实就已经把live2d放上去了，但是受困于如何查找live2d模型和配置文件，当我找到模型之后，如何部署又成为了问题，我尝试通过我的服务器直接挂载直链引用models.json文件，</p>\n</blockquote>\n<br/><p>访问 <a href=\"https://zero251.xyz/posts/BLOG网页部署live2d小人 - 使用Vercount替代不蒜子 - Valaxy\" target=\"_blank\">https://zero251.xyz/posts/BLOG网页部署live2d小人 - 使用Vercount替代不蒜子 - Valaxy</a> 阅读全文。</p>",
-            "url": "https://zero251.xyz/posts/BLOG网页部署live2d小人 - 使用Vercount替代不蒜子 - Valaxy",
-            "title": "BLOG网页部署live2d小人 - Valaxy",
-            "date_modified": "2025-07-15T16:00:00.000Z",
-            "date_published": "2025-08-03T16:00:00.000Z",
-            "author": {
-                "name": "Zero-无常",
-                "url": "https://valaxy.site"
-            }
-        },
-        {
-            "id": "https://zero251.xyz/posts/Directory Opus",
-            "content_html": "<blockquote>\n<p>官网：<a href=\"https://www.gpsoft.com.au/\">Directory Opus</a></p>\n<p>PJ版：<a href=\"https://pan.quark.cn/s/be4e111868d3?pwd=M44X\">Directory Opus 夸克网盘</a></p>\n</blockquote>\n<br/><p>访问 <a href=\"https://zero251.xyz/posts/Directory Opus\" target=\"_blank\">https://zero251.xyz/posts/Directory Opus</a> 阅读全文。</p>",
-            "url": "https://zero251.xyz/posts/Directory Opus",
+            "id": "https://blog.zero251.xyz/posts/Directory Opus",
+            "content_html": "<blockquote>\n<p>官网：<a href=\"https://www.gpsoft.com.au/\">Directory Opus</a></p>\n<p>PJ版：<a href=\"https://pan.quark.cn/s/be4e111868d3?pwd=M44X\">Directory Opus 夸克网盘</a></p>\n</blockquote>\n<br/><p>访问 <a href=\"https://blog.zero251.xyz/posts/Directory Opus\" target=\"_blank\">https://blog.zero251.xyz/posts/Directory Opus</a> 阅读全文。</p>",
+            "url": "https://blog.zero251.xyz/posts/Directory Opus",
             "title": "更强大的可替代Win11的资源管理器的软件“Directory Opus 13” - 甘城なつき美化主题",
             "date_modified": "2025-07-12T16:00:00.000Z",
             "date_published": "2025-08-03T16:00:00.000Z",
@@ -155,9 +203,9 @@
             }
         },
         {
-            "id": "https://zero251.xyz/posts/FRP配置",
-            "content_html": "<p>frp 是什么？<br>\nfrp 是一款高性能的反向代理应用，专注于内网穿透。它支持多种协议，包括 TCP、UDP、HTTP、HTTPS 等，</p>\n<br/><p>访问 <a href=\"https://zero251.xyz/posts/FRP配置\" target=\"_blank\">https://zero251.xyz/posts/FRP配置</a> 阅读全文。</p>",
-            "url": "https://zero251.xyz/posts/FRP配置",
+            "id": "https://blog.zero251.xyz/posts/FRP配置",
+            "content_html": "<p>frp 是什么？<br>\nfrp 是一款高性能的反向代理应用，专注于内网穿透。它支持多种协议，包括 TCP、UDP、HTTP、HTTPS 等，</p>\n<br/><p>访问 <a href=\"https://blog.zero251.xyz/posts/FRP配置\" target=\"_blank\">https://blog.zero251.xyz/posts/FRP配置</a> 阅读全文。</p>",
+            "url": "https://blog.zero251.xyz/posts/FRP配置",
             "title": "FRP配置",
             "date_modified": "2025-05-16T00:00:00.000Z",
             "date_published": "2025-08-03T16:00:00.000Z",
@@ -167,9 +215,9 @@
             }
         },
         {
-            "id": "https://zero251.xyz/posts/FZBZ-F",
-            "content_html": "<h3>关于元旦晚会体艺馆场控问题及使用报告</h3>\n<hr>\n<blockquote>\n<p><strong>PS</strong>： So FUCK FZBZ XXXX STUDENTS UNION</p>\n</blockquote>\n<br/><p>访问 <a href=\"https://zero251.xyz/posts/FZBZ-F\" target=\"_blank\">https://zero251.xyz/posts/FZBZ-F</a> 阅读全文。</p>",
-            "url": "https://zero251.xyz/posts/FZBZ-F",
+            "id": "https://blog.zero251.xyz/posts/FZBZ-F",
+            "content_html": "<h3>关于元旦晚会体艺馆场控问题及使用报告</h3>\n<hr>\n<blockquote>\n<p><strong>PS</strong>： So FUCK FZBZ XXXX STUDENTS UNION</p>\n</blockquote>\n<br/><p>访问 <a href=\"https://blog.zero251.xyz/posts/FZBZ-F\" target=\"_blank\">https://blog.zero251.xyz/posts/FZBZ-F</a> 阅读全文。</p>",
+            "url": "https://blog.zero251.xyz/posts/FZBZ-F",
             "title": "FZBZ - F****",
             "date_modified": "2024-12-31T00:00:00.000Z",
             "date_published": "2025-08-03T16:00:00.000Z",
@@ -179,9 +227,9 @@
             }
         },
         {
-            "id": "https://zero251.xyz/posts/HackBGRT更改Windows开机动画",
-            "content_html": "<blockquote>\n<p>Hack BGRT 在2.0版本之后支持了安全启动（secure boot），而近期战地2042乃至将发售的战地6都必须强制开起安全启动来反外挂<s>明面上</s>，解决了开启了安全启动无法使用Hack BGRT的问题，</p>\n</blockquote>\n<br/><p>访问 <a href=\"https://zero251.xyz/posts/HackBGRT更改Windows开机动画\" target=\"_blank\">https://zero251.xyz/posts/HackBGRT更改Windows开机动画</a> 阅读全文。</p>",
-            "url": "https://zero251.xyz/posts/HackBGRT更改Windows开机动画",
+            "id": "https://blog.zero251.xyz/posts/HackBGRT更改Windows开机动画",
+            "content_html": "<blockquote>\n<p>Hack BGRT 在2.0版本之后支持了安全启动（secure boot），而近期战地2042乃至将发售的战地6都必须强制开起安全启动来反外挂<s>明面上</s>，解决了开启了安全启动无法使用Hack BGRT的问题，</p>\n</blockquote>\n<br/><p>访问 <a href=\"https://blog.zero251.xyz/posts/HackBGRT更改Windows开机动画\" target=\"_blank\">https://blog.zero251.xyz/posts/HackBGRT更改Windows开机动画</a> 阅读全文。</p>",
+            "url": "https://blog.zero251.xyz/posts/HackBGRT更改Windows开机动画",
             "title": "Hack BGRT 更改Windows开机动画 - 甘城なつき主题",
             "date_modified": "2025-08-03T16:00:00.000Z",
             "date_published": "2025-08-03T16:00:00.000Z",
@@ -191,9 +239,9 @@
             }
         },
         {
-            "id": "https://zero251.xyz/posts/Intel MAC使用MAA进行明日方舟挂机",
-            "content_html": "<ol>\n<li>前往此处下载最后支持Intel MAC的mumu模拟器</li>\n</ol>\n<br/><p>访问 <a href=\"https://zero251.xyz/posts/Intel MAC使用MAA进行明日方舟挂机\" target=\"_blank\">https://zero251.xyz/posts/Intel MAC使用MAA进行明日方舟挂机</a> 阅读全文。</p>",
-            "url": "https://zero251.xyz/posts/Intel MAC使用MAA进行明日方舟挂机",
+            "id": "https://blog.zero251.xyz/posts/Intel MAC使用MAA进行明日方舟挂机",
+            "content_html": "<ol>\n<li>前往此处下载最后支持Intel MAC的mumu模拟器</li>\n</ol>\n<br/><p>访问 <a href=\"https://blog.zero251.xyz/posts/Intel MAC使用MAA进行明日方舟挂机\" target=\"_blank\">https://blog.zero251.xyz/posts/Intel MAC使用MAA进行明日方舟挂机</a> 阅读全文。</p>",
+            "url": "https://blog.zero251.xyz/posts/Intel MAC使用MAA进行明日方舟挂机",
             "title": "咕咕咕 - Intel MAC使用MAA进行明日方舟挂机",
             "date_modified": "2025-04-03T00:00:00.000Z",
             "date_published": "2025-08-03T16:00:00.000Z",
@@ -203,9 +251,9 @@
             }
         },
         {
-            "id": "https://zero251.xyz/posts/MarkdownTypora的基本用法与常用操作",
-            "content_html": "<h3>常用操作</h3>\n<ul>\n<li>\n<h4>超链接：Ctrl + K</h4>\n<ul>\n<li><a href=\"https://zero251.xyz\">Zero_wyc的窝</a></li>\n</ul>\n</li>\n<li>\n<h4>文件内查找 / 替换：Ctrl + F / H</h4>\n</li>\n<li>\n<h4>清除样式：Ctrl + \\</h4>\n</li>\n</ul>\n<br/><p>访问 <a href=\"https://zero251.xyz/posts/MarkdownTypora的基本用法与常用操作\" target=\"_blank\">https://zero251.xyz/posts/MarkdownTypora的基本用法与常用操作</a> 阅读全文。</p>",
-            "url": "https://zero251.xyz/posts/MarkdownTypora的基本用法与常用操作",
+            "id": "https://blog.zero251.xyz/posts/MarkdownTypora的基本用法与常用操作",
+            "content_html": "<h3>常用操作</h3>\n<ul>\n<li>\n<h4>超链接：Ctrl + K</h4>\n<ul>\n<li><a href=\"https://zero251.xyz\">Zero_wyc的窝</a></li>\n</ul>\n</li>\n<li>\n<h4>文件内查找 / 替换：Ctrl + F / H</h4>\n</li>\n<li>\n<h4>清除样式：Ctrl + \\</h4>\n</li>\n</ul>\n<br/><p>访问 <a href=\"https://blog.zero251.xyz/posts/MarkdownTypora的基本用法与常用操作\" target=\"_blank\">https://blog.zero251.xyz/posts/MarkdownTypora的基本用法与常用操作</a> 阅读全文。</p>",
+            "url": "https://blog.zero251.xyz/posts/MarkdownTypora的基本用法与常用操作",
             "title": "Markdown/Typora的基本用法与常用操作",
             "date_modified": "2025-07-12T16:00:00.000Z",
             "date_published": "2025-08-03T16:00:00.000Z",
@@ -215,9 +263,9 @@
             }
         },
         {
-            "id": "https://zero251.xyz/posts/MToolBox 枫の美化工具箱 - Win美化的集大成者",
-            "content_html": "<blockquote>\n<p>我这里仅做推荐和功能展示，不讲使用教程了（很简单），也可以去作者的发布页看</p>\n</blockquote>\n<br/><p>访问 <a href=\"https://zero251.xyz/posts/MToolBox 枫の美化工具箱 - Win美化的集大成者\" target=\"_blank\">https://zero251.xyz/posts/MToolBox 枫の美化工具箱 - Win美化的集大成者</a> 阅读全文。</p>",
-            "url": "https://zero251.xyz/posts/MToolBox 枫の美化工具箱 - Win美化的集大成者",
+            "id": "https://blog.zero251.xyz/posts/MToolBox 枫の美化工具箱 - Win美化的集大成者",
+            "content_html": "<blockquote>\n<p>我这里仅做推荐和功能展示，不讲使用教程了（很简单），也可以去作者的发布页看</p>\n</blockquote>\n<br/><p>访问 <a href=\"https://blog.zero251.xyz/posts/MToolBox 枫の美化工具箱 - Win美化的集大成者\" target=\"_blank\">https://blog.zero251.xyz/posts/MToolBox 枫の美化工具箱 - Win美化的集大成者</a> 阅读全文。</p>",
+            "url": "https://blog.zero251.xyz/posts/MToolBox 枫の美化工具箱 - Win美化的集大成者",
             "title": "MToolBox 枫の美化工具箱 - Win美化的集大成者",
             "date_modified": "2025-07-13T16:00:00.000Z",
             "date_published": "2025-08-03T16:00:00.000Z",
@@ -227,9 +275,9 @@
             }
         },
         {
-            "id": "https://zero251.xyz/posts/MydockFinder MAC式的底栏和顶栏",
-            "content_html": "<blockquote>\n<p>MyDockFinder</p>\n<p>MyDockFinder是一款系统快速启动和控制查看系统功能的软件。可以拖拽添加自己喜好的程序或文件，拖拽直接使用程序打开文件。</p>\n</blockquote>\n<br/><p>访问 <a href=\"https://zero251.xyz/posts/MydockFinder MAC式的底栏和顶栏\" target=\"_blank\">https://zero251.xyz/posts/MydockFinder MAC式的底栏和顶栏</a> 阅读全文。</p>",
-            "url": "https://zero251.xyz/posts/MydockFinder MAC式的底栏和顶栏",
+            "id": "https://blog.zero251.xyz/posts/MydockFinder MAC式的底栏和顶栏",
+            "content_html": "<blockquote>\n<p>MyDockFinder</p>\n<p>MyDockFinder是一款系统快速启动和控制查看系统功能的软件。可以拖拽添加自己喜好的程序或文件，拖拽直接使用程序打开文件。</p>\n</blockquote>\n<br/><p>访问 <a href=\"https://blog.zero251.xyz/posts/MydockFinder MAC式的底栏和顶栏\" target=\"_blank\">https://blog.zero251.xyz/posts/MydockFinder MAC式的底栏和顶栏</a> 阅读全文。</p>",
+            "url": "https://blog.zero251.xyz/posts/MydockFinder MAC式的底栏和顶栏",
             "title": "MydockFinder MAC式的底栏和顶栏",
             "date_modified": "2025-07-13T16:00:00.000Z",
             "date_published": "2025-08-03T16:00:00.000Z",
@@ -239,9 +287,9 @@
             }
         },
         {
-            "id": "https://zero251.xyz/posts/Valaxy个人博客如何添加一个音乐播放器",
-            "content_html": "<h3>实际效果</h3>\n<p><img src=\"https://cdn.jsdelivr.net/gh/Zero-wyc/Image@main/myself/20250718180948060.gif\" alt=\"效果\"></p>\n<br/><p>访问 <a href=\"https://zero251.xyz/posts/Valaxy个人博客如何添加一个音乐播放器\" target=\"_blank\">https://zero251.xyz/posts/Valaxy个人博客如何添加一个音乐播放器</a> 阅读全文。</p>",
-            "url": "https://zero251.xyz/posts/Valaxy个人博客如何添加一个音乐播放器",
+            "id": "https://blog.zero251.xyz/posts/Valaxy个人博客如何添加一个音乐播放器",
+            "content_html": "<h3>实际效果</h3>\n<p><img src=\"https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250718180948060.gif\" alt=\"效果\"></p>\n<br/><p>访问 <a href=\"https://blog.zero251.xyz/posts/Valaxy个人博客如何添加一个音乐播放器\" target=\"_blank\">https://blog.zero251.xyz/posts/Valaxy个人博客如何添加一个音乐播放器</a> 阅读全文。</p>",
+            "url": "https://blog.zero251.xyz/posts/Valaxy个人博客如何添加一个音乐播放器",
             "title": "Valaxy个人博客如何添加一个音乐播放器 - 基于 APlayer 和 MetingJS 的全球音乐播放器",
             "date_modified": "2025-07-14T16:00:00.000Z",
             "date_published": "2025-08-03T16:00:00.000Z",
@@ -251,9 +299,9 @@
             }
         },
         {
-            "id": "https://zero251.xyz/posts/Zero-Typing - 一个美观的打字网站",
-            "content_html": "<blockquote>\n<p>[<a href=\"https://typing.zero251.xyz/\">https://typing.zero251.xyz/</a>]  FORK自Barneyzhao并加以修改了许多的东西</p>\n</blockquote>\n<br/><p>访问 <a href=\"https://zero251.xyz/posts/Zero-Typing - 一个美观的打字网站\" target=\"_blank\">https://zero251.xyz/posts/Zero-Typing - 一个美观的打字网站</a> 阅读全文。</p>",
-            "url": "https://zero251.xyz/posts/Zero-Typing - 一个美观的打字网站",
+            "id": "https://blog.zero251.xyz/posts/Zero-Typing - 一个美观的打字网站",
+            "content_html": "<blockquote>\n<p>[<a href=\"https://typing.zero251.xyz/\">https://typing.zero251.xyz/</a>]  FORK自Barneyzhao并加以修改了许多的东西</p>\n</blockquote>\n<br/><p>访问 <a href=\"https://blog.zero251.xyz/posts/Zero-Typing - 一个美观的打字网站\" target=\"_blank\">https://blog.zero251.xyz/posts/Zero-Typing - 一个美观的打字网站</a> 阅读全文。</p>",
+            "url": "https://blog.zero251.xyz/posts/Zero-Typing - 一个美观的打字网站",
             "title": "Zero-Typing - 一个美观的打字网站",
             "date_modified": "2025-04-12T16:00:00.000Z",
             "date_published": "2025-08-03T16:00:00.000Z",
@@ -263,9 +311,9 @@
             }
         },
         {
-            "id": "https://zero251.xyz/posts/使用Vercount替代不蒜子 - Valaxy",
-            "content_html": "<blockquote>\n<p>卜蒜子的访问自6月以来一直502，故更换计数器</p>\n<p>看到Evan Luo大佬的<a href=\"https://ohevan.com/vercount-website-counter-busuanzi-alternative.html\">Vercount: 一个比不蒜子更好的网站计数器 | EvanNotFound's Blog</a>，</p>\n</blockquote>\n<br/><p>访问 <a href=\"https://zero251.xyz/posts/使用Vercount替代不蒜子 - Valaxy\" target=\"_blank\">https://zero251.xyz/posts/使用Vercount替代不蒜子 - Valaxy</a> 阅读全文。</p>",
-            "url": "https://zero251.xyz/posts/使用Vercount替代不蒜子 - Valaxy",
+            "id": "https://blog.zero251.xyz/posts/使用Vercount替代不蒜子 - Valaxy",
+            "content_html": "<blockquote>\n<p>卜蒜子的访问自6月以来一直502，故更换计数器</p>\n<p>看到Evan Luo大佬的<a href=\"https://ohevan.com/vercount-website-counter-busuanzi-alternative.html\">Vercount: 一个比不蒜子更好的网站计数器 | EvanNotFound's Blog</a>，</p>\n</blockquote>\n<br/><p>访问 <a href=\"https://blog.zero251.xyz/posts/使用Vercount替代不蒜子 - Valaxy\" target=\"_blank\">https://blog.zero251.xyz/posts/使用Vercount替代不蒜子 - Valaxy</a> 阅读全文。</p>",
+            "url": "https://blog.zero251.xyz/posts/使用Vercount替代不蒜子 - Valaxy",
             "title": "使用Vercount替代不蒜子 - Valaxy",
             "date_modified": "2025-07-15T16:00:00.000Z",
             "date_published": "2025-08-03T16:00:00.000Z",
@@ -275,9 +323,9 @@
             }
         },
         {
-            "id": "https://zero251.xyz/posts/关于Steam AutoCrack的使用方法",
-            "content_html": "<ol>\n<li><s>SteamAutoCrack 的文件可谓简陋，但也因如此般的可读性获得了长久生存之道</s></li>\n<li>SteamAutoCrack是什么，Steam Auto Crack 是一款自动<s>破解</s>Steam 游戏的工具（不支持D加密，且有些游戏有dll问题，我无法解决）</li>\n</ol>\n<hr>\n<br/><p>访问 <a href=\"https://zero251.xyz/posts/关于Steam AutoCrack的使用方法\" target=\"_blank\">https://zero251.xyz/posts/关于Steam AutoCrack的使用方法</a> 阅读全文。</p>",
-            "url": "https://zero251.xyz/posts/关于Steam AutoCrack的使用方法",
+            "id": "https://blog.zero251.xyz/posts/关于Steam AutoCrack的使用方法",
+            "content_html": "<ol>\n<li><s>SteamAutoCrack 的文件可谓简陋，但也因如此般的可读性获得了长久生存之道</s></li>\n<li>SteamAutoCrack是什么，Steam Auto Crack 是一款自动<s>破解</s>Steam 游戏的工具（不支持D加密，且有些游戏有dll问题，我无法解决）</li>\n</ol>\n<hr>\n<br/><p>访问 <a href=\"https://blog.zero251.xyz/posts/关于Steam AutoCrack的使用方法\" target=\"_blank\">https://blog.zero251.xyz/posts/关于Steam AutoCrack的使用方法</a> 阅读全文。</p>",
+            "url": "https://blog.zero251.xyz/posts/关于Steam AutoCrack的使用方法",
             "title": "关于Steam AutoCrack的使用方法",
             "date_modified": "2025-07-12T16:00:00.000Z",
             "date_published": "2025-08-03T16:00:00.000Z",
@@ -287,9 +335,9 @@
             }
         },
         {
-            "id": "https://zero251.xyz/posts/如何自定义Typora的背景",
-            "content_html": "<p>找到主题文件夹</p>\n<ul>\n<li>前往Typora的导航栏—文件—偏好设置—外观—打开主题文件夹</li>\n</ul>\n<br/><p>访问 <a href=\"https://zero251.xyz/posts/如何自定义Typora的背景\" target=\"_blank\">https://zero251.xyz/posts/如何自定义Typora的背景</a> 阅读全文。</p>",
-            "url": "https://zero251.xyz/posts/如何自定义Typora的背景",
+            "id": "https://blog.zero251.xyz/posts/如何自定义Typora的背景",
+            "content_html": "<p>找到主题文件夹</p>\n<ul>\n<li>前往Typora的导航栏—文件—偏好设置—外观—打开主题文件夹</li>\n</ul>\n<br/><p>访问 <a href=\"https://blog.zero251.xyz/posts/如何自定义Typora的背景\" target=\"_blank\">https://blog.zero251.xyz/posts/如何自定义Typora的背景</a> 阅读全文。</p>",
+            "url": "https://blog.zero251.xyz/posts/如何自定义Typora的背景",
             "title": "如何自定义Typora的背景",
             "date_modified": "2025-07-21T16:00:00.000Z",
             "date_published": "2025-08-03T16:00:00.000Z",
@@ -299,9 +347,9 @@
             }
         },
         {
-            "id": "https://zero251.xyz/posts/如何让想要的软件在开机的时候自动启动",
-            "content_html": "<p>Win键＋r</p>\n<p>输入：</p>\n<pre><code class=\"language-toml\">shell:startup\n</code></pre>\n<br/><p>访问 <a href=\"https://zero251.xyz/posts/如何让想要的软件在开机的时候自动启动\" target=\"_blank\">https://zero251.xyz/posts/如何让想要的软件在开机的时候自动启动</a> 阅读全文。</p>",
-            "url": "https://zero251.xyz/posts/如何让想要的软件在开机的时候自动启动",
+            "id": "https://blog.zero251.xyz/posts/如何让想要的软件在开机的时候自动启动",
+            "content_html": "<p>Win键＋r</p>\n<p>输入：</p>\n<pre><code class=\"language-toml\">shell:startup\n</code></pre>\n<br/><p>访问 <a href=\"https://blog.zero251.xyz/posts/如何让想要的软件在开机的时候自动启动\" target=\"_blank\">https://blog.zero251.xyz/posts/如何让想要的软件在开机的时候自动启动</a> 阅读全文。</p>",
+            "url": "https://blog.zero251.xyz/posts/如何让想要的软件在开机的时候自动启动",
             "title": "如何让想要的软件在开机的时候自动启动",
             "date_modified": "2025-07-13T16:00:00.000Z",
             "date_published": "2025-08-03T16:00:00.000Z",
@@ -311,9 +359,9 @@
             }
         },
         {
-            "id": "https://zero251.xyz/posts/求生之路2之使用FRP反代获得低延迟体验",
-            "content_html": "<ul>\n<li>\n<h6>本篇文档算是故技重施，算是在先前的致命公司FRP的基础之上进行的相似操作**</h6>\n</li>\n</ul>\n<br/><p>访问 <a href=\"https://zero251.xyz/posts/求生之路2之使用FRP反代获得低延迟体验\" target=\"_blank\">https://zero251.xyz/posts/求生之路2之使用FRP反代获得低延迟体验</a> 阅读全文。</p>",
-            "url": "https://zero251.xyz/posts/求生之路2之使用FRP反代获得低延迟体验",
+            "id": "https://blog.zero251.xyz/posts/求生之路2之使用FRP反代获得低延迟体验",
+            "content_html": "<ul>\n<li>\n<h6>本篇文档算是故技重施，算是在先前的致命公司FRP的基础之上进行的相似操作**</h6>\n</li>\n</ul>\n<br/><p>访问 <a href=\"https://blog.zero251.xyz/posts/求生之路2之使用FRP反代获得低延迟体验\" target=\"_blank\">https://blog.zero251.xyz/posts/求生之路2之使用FRP反代获得低延迟体验</a> 阅读全文。</p>",
+            "url": "https://blog.zero251.xyz/posts/求生之路2之使用FRP反代获得低延迟体验",
             "title": "求生之路2之使用FRP反代获得低延迟体验",
             "date_modified": "2025-05-15T16:00:00.000Z",
             "date_published": "2025-08-03T16:00:00.000Z",
@@ -323,9 +371,9 @@
             }
         },
         {
-            "id": "https://zero251.xyz/posts/点读笔-如何在开机时自动启动WIFI热点",
-            "content_html": "<ul>\n<li>\n<p>众所周知在一个寄宿制高中，手机要么就是有一点点或没有</p>\n<p><s>那么如何解决在答案匮乏，而老师不愿讲评或自己不愿和老师对线或xx</s>**</p>\n</li>\n</ul>\n<br/><p>访问 <a href=\"https://zero251.xyz/posts/点读笔-如何在开机时自动启动WIFI热点\" target=\"_blank\">https://zero251.xyz/posts/点读笔-如何在开机时自动启动WIFI热点</a> 阅读全文。</p>",
-            "url": "https://zero251.xyz/posts/点读笔-如何在开机时自动启动WIFI热点",
+            "id": "https://blog.zero251.xyz/posts/点读笔-如何在开机时自动启动WIFI热点",
+            "content_html": "<ul>\n<li>\n<p>众所周知在一个寄宿制高中，手机要么就是有一点点或没有</p>\n<p><s>那么如何解决在答案匮乏，而老师不愿讲评或自己不愿和老师对线或xx</s>**</p>\n</li>\n</ul>\n<br/><p>访问 <a href=\"https://blog.zero251.xyz/posts/点读笔-如何在开机时自动启动WIFI热点\" target=\"_blank\">https://blog.zero251.xyz/posts/点读笔-如何在开机时自动启动WIFI热点</a> 阅读全文。</p>",
+            "url": "https://blog.zero251.xyz/posts/点读笔-如何在开机时自动启动WIFI热点",
             "title": "《在寄宿制学校中使用点读笔进行任何的答案的自由校对》---点读笔-如何在开机时自动启动WIFI热点",
             "date_modified": "2025-04-03T00:00:00.000Z",
             "date_published": "2025-08-03T16:00:00.000Z",
@@ -335,9 +383,9 @@
             }
         },
         {
-            "id": "https://zero251.xyz/posts/致命公司自建局域网服务器，反代联机（破解）",
-            "content_html": "<ul>\n<li>\n<h6>由于我们惊喜的发现，致命公司只在steam联机端的steam启动端进行了限制，而已经下载好的本地文件之中进行启动并不会占用steam的库，</h6>\n</li>\n</ul>\n<br/><p>访问 <a href=\"https://zero251.xyz/posts/致命公司自建局域网服务器，反代联机（破解）\" target=\"_blank\">https://zero251.xyz/posts/致命公司自建局域网服务器，反代联机（破解）</a> 阅读全文。</p>",
-            "url": "https://zero251.xyz/posts/致命公司自建局域网服务器，反代联机（破解）",
+            "id": "https://blog.zero251.xyz/posts/致命公司自建局域网服务器，反代联机（破解）",
+            "content_html": "<ul>\n<li>\n<h6>由于我们惊喜的发现，致命公司只在steam联机端的steam启动端进行了限制，而已经下载好的本地文件之中进行启动并不会占用steam的库，</h6>\n</li>\n</ul>\n<br/><p>访问 <a href=\"https://blog.zero251.xyz/posts/致命公司自建局域网服务器，反代联机（破解）\" target=\"_blank\">https://blog.zero251.xyz/posts/致命公司自建局域网服务器，反代联机（破解）</a> 阅读全文。</p>",
+            "url": "https://blog.zero251.xyz/posts/致命公司自建局域网服务器，反代联机（破解）",
             "title": "致命公司自建局域网服务器，内网穿透联机（免费使用）",
             "date_modified": "2025-05-16T00:00:00.000Z",
             "date_published": "2025-08-03T16:00:00.000Z",
@@ -347,9 +395,9 @@
             }
         },
         {
-            "id": "https://zero251.xyz/posts/解决npm或pnpm无法更新的问题",
-            "content_html": "<blockquote>\n<h4>在我们安装node的时候，会默认安装npm和pnpm</h4>\n<p>可是它安装不是最新的，甚至是pnpm@6.x.x的版本，可是用它推荐的升级指令**</p>\n</blockquote>\n<br/><p>访问 <a href=\"https://zero251.xyz/posts/解决npm或pnpm无法更新的问题\" target=\"_blank\">https://zero251.xyz/posts/解决npm或pnpm无法更新的问题</a> 阅读全文。</p>",
-            "url": "https://zero251.xyz/posts/解决npm或pnpm无法更新的问题",
+            "id": "https://blog.zero251.xyz/posts/解决npm或pnpm无法更新的问题",
+            "content_html": "<blockquote>\n<h4>在我们安装node的时候，会默认安装npm和pnpm</h4>\n<p>可是它安装不是最新的，甚至是pnpm@6.x.x的版本，可是用它推荐的升级指令**</p>\n</blockquote>\n<br/><p>访问 <a href=\"https://blog.zero251.xyz/posts/解决npm或pnpm无法更新的问题\" target=\"_blank\">https://blog.zero251.xyz/posts/解决npm或pnpm无法更新的问题</a> 阅读全文。</p>",
+            "url": "https://blog.zero251.xyz/posts/解决npm或pnpm无法更新的问题",
             "title": "解决pnpm或npm无法更新的问题",
             "date_modified": "2025-07-13T16:00:00.000Z",
             "date_published": "2025-08-03T16:00:00.000Z",
@@ -359,9 +407,9 @@
             }
         },
         {
-            "id": "https://zero251.xyz/posts/评论杂烩QAQ",
-            "content_html": "<h1>FRIGHT AGAIN ！</h1>\n<br/><p>访问 <a href=\"https://zero251.xyz/posts/评论杂烩QAQ\" target=\"_blank\">https://zero251.xyz/posts/评论杂烩QAQ</a> 阅读全文。</p>",
-            "url": "https://zero251.xyz/posts/评论杂烩QAQ",
+            "id": "https://blog.zero251.xyz/posts/评论杂烩QAQ",
+            "content_html": "<h1>FRIGHT AGAIN ！</h1>\n<br/><p>访问 <a href=\"https://blog.zero251.xyz/posts/评论杂烩QAQ\" target=\"_blank\">https://blog.zero251.xyz/posts/评论杂烩QAQ</a> 阅读全文。</p>",
+            "url": "https://blog.zero251.xyz/posts/评论杂烩QAQ",
             "title": "评论杂烩QAQ",
             "date_modified": "2025-04-03T00:00:00.000Z",
             "date_published": "2025-08-03T16:00:00.000Z",
