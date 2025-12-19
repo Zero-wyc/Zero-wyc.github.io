@@ -4,7 +4,7 @@ title: 一些DockerCompose配置
 date: 2025-11-29
 updated: 2025-11-29
 categories: 搞机日志
-cover: https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20251129232547423.webp
+cover: https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20251220001520721.webp
 codeHeightLimit: 300 # 代码块限高
 tags:
   - 搞机日志
