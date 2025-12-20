@@ -13,6 +13,10 @@ tags:
   - Daily life
 ---
 
+### 2025.12.21
+
+> Openlist域名添加为ipv4和ipv6双解析，自动识别
+
 ### 2025.12.20
 
 > 添加了投喂替换了无用的相册
@@ -75,6 +79,10 @@ tags:
 ### 2025.11.23
 
 > 主页添加站点状态[upptime](upptime.zero251.xyz)跳转链接
+>
+> 部署了一个[upptime](upptime.zero251.xyz)，一个站点可用性测试网站，完全依托于Github Action，Github总不至于又像最近CloudFlare断网吧，不会因为服务器宕机而无法查看服务器状态
+>
+> ~~我不会告诉你我因为Github密钥权限问题部署了2小时~~
 
 ### 2025.9.7
 

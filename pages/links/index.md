@@ -8,5 +8,5 @@ aside: false	# 关闭目录边栏
 ---
 
 
-1. Download：[http://OpenList.dx.zero251.xyz] IPV6最快
-2. Download：[http://OpenList.zero251.xyz] IPV4较慢
+1. Download：[http://OpenList.zero251.xyz] IPV4和IPV6自动选择
+2. Download：[http://OpenList.dx.zero251.xyz] 纯IPV6
