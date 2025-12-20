@@ -49,7 +49,7 @@ export default defineValaxyConfig<UserThemeConfig>({
       { text: 'OpenList', link: '/links/', icon: 'i-ri-triangle-line' },
       { text: '追番列表', link: '/Bangumi/', icon: 'i-ri-folder-video-line' },
       { text: '站点状态', link: '/status/', icon: 'i-ri-loader-2-line' },
-      { text: '喵~', link: '/love/', icon: 'i-ri-heart-add-line' },
+      { text: '投喂喵~', link: '/love/', icon: 'i-ri-heart-add-line' },
     ],
     
     pages: [
