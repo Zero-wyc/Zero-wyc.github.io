@@ -30,7 +30,10 @@ tags:
 11. XDF N1
 12. Zen浏览器
 13. 小米手环
-14. 
+14. VSCODE美化
+15. V2rayA安装
+16. ShellClash安装
+17. lucky安装
 
 ---
 
