@@ -116,7 +116,7 @@ export default defineValaxyConfig<UserThemeConfig>({
   addons: [
     //Bangumi页面配置
     addonBangumi({
-      api: 'https://yi_xiao_jiu-bangumi.web.val.run',
+      api: 'https://yixiaojiubangumi.zero251.xyz',
       //自配vercel https://bilibili-bangumi-component-tau.vercel.app/api
       bilibiliUid: '539775193',
       bgmEnabled: false,
