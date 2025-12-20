@@ -1,6 +1,6 @@
 ---
 hide: false # true 真隐藏 index 主页隐藏 false 不隐藏
-title: VMware25H2下载以及汉化
+title: VMware - 25H2下载以及汉化
 date: 2025-12-20
 updated: 2025-12-20
 categories: 搞机日志
