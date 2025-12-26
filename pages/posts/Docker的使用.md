@@ -1,0 +1,39 @@
+---
+hide: true # true 真隐藏 index 主页隐藏 false 不隐藏
+title: 模版
+date: 2025-10-2
+updated: 2025-10-2
+categories: 搞机日志
+cover: https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250804193109903.jpg
+top: 1	# 置顶
+nav: false	# 关闭页面导航
+aside: false	# 关闭目录边栏
+codeHeightLimit: 300 # 代码块限高
+comment: false	# 关闭评论
+tags:
+  - 搞机日志
+  - Daily life
+  - WEB
+  - 甘城なつき/Nachoneko
+  - Valaxy
+  - 软件推荐
+  - 美化
+  - Linux
+  - 经验
+  - Steam
+  - Game 
+  - 硬件
+---
+
+> 
+
+<!-- more -->
+
+---
+
+1. 
+2. 
+
+---
+
+引用链接：

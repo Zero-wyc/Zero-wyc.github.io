@@ -2,7 +2,7 @@
 hide: false
 title: 绕过WiFi的Web认证-使用3XUI面板搭建隧道-FZBZ
 date: 2025-9-20
-updated: 2025-12-6
+updated: 2025-12-26
 categories: 搞机日志
 cover: https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250920223900030.webp
 tags:
@@ -16,6 +16,8 @@ tags:
 > 我这个方法是我参考网络并自己研究出来的，~~这方法其实跟搭建VP*没区别~~，相较于网上流行的OpenVpn等，我认为我的方法更为简单，小白都可以学会，且可以Windows，安卓，苹果通用
 >
 > 经我测试，稳定运行3个月，~~在学校我甚至可以贩卖网络费~~，打游戏的话除非你能忍受100~300毫秒的延迟，刷视频看网页等对延迟没要求的就非常流畅
+
+> WARING : 阿里云已经全面封禁53端口个人使用，请使用其他云服务厂商
 
 > 原理说明：
 >
@@ -74,10 +76,13 @@ tags:
 
 2. ### 使用3X-UI面板进行隧道搭建
 
-   1. #### 方法1:使用宝塔以及docker的3xui面板方便后续管理
+   1. #### 方法1:
 
-      1. #### `docker-compose`
-
+      1. 使用宝塔以及docker的3xui面板方便后续管理
+      
+      2. #### `docker-compose`
+      
+   
    
       ```docker-compose
       services:
@@ -122,9 +127,9 @@ tags:
       1. 记得协议选vmess，传输协议选mkcp
       2. 伪装DNS可以不选，但如同上面的绑定域名般，可以提升成功率，但对大部分的web验证来说，足以通过
       3. ![image-20250920221642818](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250920221643074.webp)
-
+   
    5. ### 如果显示53端口被占用，先在终端查看是否真的被占用
-
+   
       1. ```bash
          sudo ss -ulnp | grep :53
          # udp53方向应该只出现Xray，若有出现其他程序占用则被占用
@@ -137,7 +142,7 @@ tags:
            ```
    
          - #### 写入内容
-
+   
          - ```bash
            [Resolve]
            DNSStubListener=no        # 关闭默认 UDP+TCP 混合监听
