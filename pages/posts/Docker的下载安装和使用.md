@@ -177,18 +177,16 @@ tags:
             docker compose config  #把变量全部展开后打印，有错会报错，当且仅当compose文件名字为docker-compose.yml时直接使用
             ```
 
-            
-
             ```bash
             docker compose -f docker-compose.yml config          # 自定义compose名字之后，自行修改docker-compose.yml的名字
             ```
-
+         
       3. 启动
 
          1. ```bash
             docker compose up -d           # -d = 后台运行；不加 -d 会挂在前台
             ```
-
+      
             首次会自动拉镜像、建网络、起容器，终端显示：
 
             ```bash
@@ -197,13 +195,13 @@ tags:
              ✔ Container myproj-web-1   Started
              ✔ Container myproj-redis-1 Started
             ```
-
+      
          2. 若自定义过文件名则，下文需自定义文件名的便不再赘述
 
             1. ```bash
                docker compose -f prod.yml up -d
                ```
-
+      
       4. 使用命令创建Docker（不推荐，仅部署一次的项目上使用；以frps为例）
 
          1. ```bash
@@ -215,7 +213,7 @@ tags:
               -v /data/ssl:/etc/frp/ssl \
               snowdreamtech/frps:latest
             ```
-
+      
          2. 说明：
 
             - `-p 宿主机:容器` 就是 compose 里的 `ports:`
@@ -224,7 +222,7 @@ tags:
             - `--restart` 对应 `restart:`
             - `--network` 对应 `networks:`
             - `-l` 就是 `labels:`
-
+      
          3. 常用后续命令
 
             1. ```bash
@@ -233,10 +231,36 @@ tags:
                docker rm frps #删除镜像
                docker image prune -f        # 清理无用镜像
                ```
-
+      
                
 
-5. 常用命令
+5. ### 建议安装Portainer（一个网页管理Docker的平台，十分好用）
+
+   1. 拉取镜像（得先在前面配置完加速器）
+
+      1. ```bash
+          docker pull 6053537/portainer-ce 
+         ```
+
+   2. ##### 创建数据卷
+
+      1. ```bash
+          docker volume create portainer_data 
+         ```
+
+   3. ##### 启动 Portainer
+
+      1. ```bash
+          docker run -d --name portainer -p 9000:9000 --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data 6053537/portainer-ce 
+         ```
+
+   4. ##### 访问 Portainer Web 界面
+
+      1. ```http
+          http://localhost:9000/ 
+         ```
+
+6. ### 常用命令
 
    1. | 含义                  | 命令                                          |
       | --------------------- | --------------------------------------------- |
@@ -248,6 +272,7 @@ tags:
       | 重启单个服务          | `docker compose restart xxx`                  |
       | 重编镜像              | `docker compose build` 或 `up --build`        |
       | 扩容                  | `docker compose up -d --scale web=3`          |
+      | 清理无用镜像          | `docker image prune -f`                       |
       | 进入容器              | `docker compose exec xxx bash`                |
 
    2. 关于`docker compose exec xxx bash`的延伸
@@ -255,7 +280,7 @@ tags:
       1. `docker exec`：在指定容器中运行命令。
       2. `-it`：`-i` 表示交互式（保持输入流打开），`-t` 表示分配伪终端（提供终端界面）。
       3. `xxx`：容器名称（必须是正在运行的容器）。
-      4. `sh`：启动 shell 程序（通常是 bash）。
+      4. `sh`：启动 shell 程序（通常是 bash）
 
 ---
 
