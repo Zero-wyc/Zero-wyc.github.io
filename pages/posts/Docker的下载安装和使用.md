@@ -8,6 +8,7 @@ cover: https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20251227212517919.
 tags:
   - 搞机日志
   - Linux
+  - 经验
 ---
 
 > Docker 是什么？
@@ -237,7 +238,7 @@ tags:
 
 5. 常用命令
 
-   1. | 任务                  | 命令                                          |
+   1. | 含义                  | 命令                                          |
       | --------------------- | --------------------------------------------- |
       | 看实时日志            | `docker compose logs -f`                      |
       | 停compose容器         | `docker compose stop `                        |

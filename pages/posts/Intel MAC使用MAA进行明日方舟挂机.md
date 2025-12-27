@@ -3,7 +3,7 @@ hide: false
 title: 咕咕咕 - Intel MAC使用MAA进行明日方舟挂机
 date: 2025-04-03
 updated: 2025-8-4
-categories: 搞机日志
+categories: Game
 cover: https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250718181314196.png
 tags:
   - 搞机日志

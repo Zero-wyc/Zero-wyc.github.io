@@ -3,7 +3,7 @@ hide: false
 title: 求生之路2之使用FRP反代获得低延迟体验
 date: 2025-5-16
 updated: 2025-8-4
-categories: 搞机日志
+categories: Game
 cover: https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/PixPin_2025-06-08_13-29-52.png
 tags:
   - 搞机日志
