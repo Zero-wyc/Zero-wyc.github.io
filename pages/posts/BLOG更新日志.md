@@ -13,6 +13,14 @@ tags:
   - Daily life
 ---
 
+### 2025.12.27
+
+> 重新创了一个专属的QQ群并更新BLOG里的链接
+>
+> 之前挂的群被朋友吐槽了…
+>
+> ![image-20251227212720493](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20251227212720581.webp)
+
 ### 2025.12.21
 
 > Openlist域名添加为ipv4和ipv6双解析，自动识别
