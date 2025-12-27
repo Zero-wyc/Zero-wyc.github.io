@@ -40,8 +40,8 @@ export default defineSiteConfig({
       color: '#FF8EB3',
     },
     {
-      name: 'QQ 群 717047754',
-      link: 'https://qm.qq.com/q/tr40uN8Aj6',
+      name: 'QQ 群 1077652464',
+      link: 'https://qm.qq.com/q/uGucReUpN0',
       icon: 'i-ri-qq-line',
       color: '#12B7F5',
     },
