@@ -242,19 +242,19 @@ tags:
           docker pull 6053537/portainer-ce 
          ```
 
-   2. ##### 创建数据卷
+   2. 创建数据卷
 
       1. ```bash
           docker volume create portainer_data 
          ```
 
-   3. ##### 启动 Portainer
+   3. 启动 Portainer
 
       1. ```bash
           docker run -d --name portainer -p 9000:9000 --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data 6053537/portainer-ce 
          ```
 
-   4. ##### 访问 Portainer Web 界面
+   4. 访问 Portainer Web 界面
 
       1. ```http
           http://localhost:9000/ 
