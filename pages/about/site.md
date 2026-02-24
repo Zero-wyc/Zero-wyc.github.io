@@ -9,3 +9,5 @@ aside: false	# 关闭目录边栏
 ---
 
 > PS:右下角的音乐歌单实时同步我哦~
+
+![image-20260225012033390](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20260225012040566.webp)
