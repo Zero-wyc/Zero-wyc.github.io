@@ -12,7 +12,7 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "valaxy": "0.27.0",
+    "valaxy": "0.26.10",
     "valaxy-addon-bangumi": "^0.2.2",
     "valaxy-addon-lightgallery": "^0.0.4",
     "valaxy-addon-live2d": "^0.4.0",
@@ -20,7 +20,7 @@
     "valaxy-addon-twikoo": "^0.0.3",
     "valaxy-addon-vercount": "^0.0.7",
     "valaxy-addon-waline": "^0.2.1",
-    "valaxy-theme-yun": "0.27.0"
+    "valaxy-theme-yun": "0.26.10"
   },
   "devDependencies": {
     "typescript": "^5.9.3"
