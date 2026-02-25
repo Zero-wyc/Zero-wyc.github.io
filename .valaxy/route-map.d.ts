@@ -166,9 +166,9 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/posts/使用Vercount替代不蒜子 - Valaxy': RouteRecordInfo<
-      '/posts/使用Vercount替代不蒜子 - Valaxy',
-      '/posts/%E4%BD%BF%E7%94%A8Vercount%E6%9B%BF%E4%BB%A3%E4%B8%8D%E8%92%9C%E5%AD%90%20-%20Valaxy',
+    '/posts/使用Vercount替代不蒜子Valaxy': RouteRecordInfo<
+      '/posts/使用Vercount替代不蒜子Valaxy',
+      '/posts/%E4%BD%BF%E7%94%A8Vercount%E6%9B%BF%E4%BB%A3%E4%B8%8D%E8%92%9C%E5%AD%90Valaxy',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -208,9 +208,9 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/posts/小米手环910 开启心率广播 投屏OBS直播': RouteRecordInfo<
-      '/posts/小米手环910 开启心率广播 投屏OBS直播',
-      '/posts/%E5%B0%8F%E7%B1%B3%E6%89%8B%E7%8E%AF910%20%E5%BC%80%E5%90%AF%E5%BF%83%E7%8E%87%E5%B9%BF%E6%92%AD%20%E6%8A%95%E5%B1%8FOBS%E7%9B%B4%E6%92%AD',
+    '/posts/小米手环910开启心率广播投屏OBS直播': RouteRecordInfo<
+      '/posts/小米手环910开启心率广播投屏OBS直播',
+      '/posts/%E5%B0%8F%E7%B1%B3%E6%89%8B%E7%8E%AF910%E5%BC%80%E5%90%AF%E5%BF%83%E7%8E%87%E5%B9%BF%E6%92%AD%E6%8A%95%E5%B1%8FOBS%E7%9B%B4%E6%92%AD',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -299,9 +299,9 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/posts/BLOG网页部署live2d小人 - 使用Vercount替代不蒜子 - Valaxy': RouteRecordInfo<
-      '/posts/BLOG网页部署live2d小人 - 使用Vercount替代不蒜子 - Valaxy',
-      '/posts/BLOG%E7%BD%91%E9%A1%B5%E9%83%A8%E7%BD%B2live2d%E5%B0%8F%E4%BA%BA%20-%20%E4%BD%BF%E7%94%A8Vercount%E6%9B%BF%E4%BB%A3%E4%B8%8D%E8%92%9C%E5%AD%90%20-%20Valaxy',
+    '/posts/BLOG网页部署live2d小人使用Vercount替代不蒜子': RouteRecordInfo<
+      '/posts/BLOG网页部署live2d小人使用Vercount替代不蒜子',
+      '/posts/BLOG%E7%BD%91%E9%A1%B5%E9%83%A8%E7%BD%B2live2d%E5%B0%8F%E4%BA%BA%E4%BD%BF%E7%94%A8Vercount%E6%9B%BF%E4%BB%A3%E4%B8%8D%E8%92%9C%E5%AD%90',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -313,9 +313,9 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/posts/Directory Opus': RouteRecordInfo<
-      '/posts/Directory Opus',
-      '/posts/Directory%20Opus',
+    '/posts/DirectoryOpus': RouteRecordInfo<
+      '/posts/DirectoryOpus',
+      '/posts/DirectoryOpus',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -383,16 +383,16 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/posts/MToolBox 枫の美化工具箱 - Win美化的集大成者': RouteRecordInfo<
-      '/posts/MToolBox 枫の美化工具箱 - Win美化的集大成者',
-      '/posts/MToolBox%20%E6%9E%AB%E3%81%AE%E7%BE%8E%E5%8C%96%E5%B7%A5%E5%85%B7%E7%AE%B1%20-%20Win%E7%BE%8E%E5%8C%96%E7%9A%84%E9%9B%86%E5%A4%A7%E6%88%90%E8%80%85',
+    '/posts/MToolBox枫の美化工具箱Win美化的集大成者': RouteRecordInfo<
+      '/posts/MToolBox枫の美化工具箱Win美化的集大成者',
+      '/posts/MToolBox%E6%9E%AB%E3%81%AE%E7%BE%8E%E5%8C%96%E5%B7%A5%E5%85%B7%E7%AE%B1Win%E7%BE%8E%E5%8C%96%E7%9A%84%E9%9B%86%E5%A4%A7%E6%88%90%E8%80%85',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/MydockFinder MAC式的底栏和顶栏': RouteRecordInfo<
-      '/posts/MydockFinder MAC式的底栏和顶栏',
-      '/posts/MydockFinder%20MAC%E5%BC%8F%E7%9A%84%E5%BA%95%E6%A0%8F%E5%92%8C%E9%A1%B6%E6%A0%8F',
+    '/posts/MydockFinderMAC式的底栏和顶栏': RouteRecordInfo<
+      '/posts/MydockFinderMAC式的底栏和顶栏',
+      '/posts/MydockFinderMAC%E5%BC%8F%E7%9A%84%E5%BA%95%E6%A0%8F%E5%92%8C%E9%A1%B6%E6%A0%8F',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -572,9 +572,9 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'pages/posts/使用Vercount替代不蒜子 - Valaxy.md': {
+    'pages/posts/使用Vercount替代不蒜子Valaxy.md': {
       routes:
-        | '/posts/使用Vercount替代不蒜子 - Valaxy'
+        | '/posts/使用Vercount替代不蒜子Valaxy'
       views:
         | never
     }
@@ -608,9 +608,9 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'pages/posts/小米手环910 开启心率广播 投屏OBS直播.md': {
+    'pages/posts/小米手环910开启心率广播投屏OBS直播.md': {
       routes:
-        | '/posts/小米手环910 开启心率广播 投屏OBS直播'
+        | '/posts/小米手环910开启心率广播投屏OBS直播'
       views:
         | never
     }
@@ -686,9 +686,9 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'pages/posts/BLOG网页部署live2d小人 - 使用Vercount替代不蒜子 - Valaxy.md': {
+    'pages/posts/BLOG网页部署live2d小人使用Vercount替代不蒜子.md': {
       routes:
-        | '/posts/BLOG网页部署live2d小人 - 使用Vercount替代不蒜子 - Valaxy'
+        | '/posts/BLOG网页部署live2d小人使用Vercount替代不蒜子'
       views:
         | never
     }
@@ -698,9 +698,9 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'pages/posts/Directory Opus.md': {
+    'pages/posts/DirectoryOpus.md': {
       routes:
-        | '/posts/Directory Opus'
+        | '/posts/DirectoryOpus'
       views:
         | never
     }
@@ -758,15 +758,15 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'pages/posts/MToolBox 枫の美化工具箱 - Win美化的集大成者.md': {
+    'pages/posts/MToolBox枫の美化工具箱Win美化的集大成者.md': {
       routes:
-        | '/posts/MToolBox 枫の美化工具箱 - Win美化的集大成者'
+        | '/posts/MToolBox枫の美化工具箱Win美化的集大成者'
       views:
         | never
     }
-    'pages/posts/MydockFinder MAC式的底栏和顶栏.md': {
+    'pages/posts/MydockFinderMAC式的底栏和顶栏.md': {
       routes:
-        | '/posts/MydockFinder MAC式的底栏和顶栏'
+        | '/posts/MydockFinderMAC式的底栏和顶栏'
       views:
         | never
     }
