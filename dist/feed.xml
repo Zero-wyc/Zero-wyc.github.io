@@ -4,7 +4,7 @@
         <title>Zero_wyc的窝</title>
         <link>https://blog.zero251.xyz/</link>
         <description>Zero_wyc的公式化</description>
-        <lastBuildDate>Fri, 19 Dec 2025 16:07:08 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 25 Feb 2026 04:24:13 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -12,87 +12,43 @@
             <url>https://github.cdn.zero251.xyz/Zero-wyc/Image/main/General/辛.webp</url>
             <link>https://blog.zero251.xyz/</link>
         </image>
-        <copyright>CC BY-NC-SA 4.0 2025 © Zero-无常</copyright>
+        <copyright>CC BY-NC-SA 4.0 2026 © Zero-无常</copyright>
         <atom:link href="https://blog.zero251.xyz/feed.xml" rel="self" type="application/rss+xml"/>
         <item>
-            <title><![CDATA[一些咕咕咕]]></title>
-            <link>https://blog.zero251.xyz/posts/一些咕咕咕JPG</link>
-            <guid isPermaLink="false">https://blog.zero251.xyz/posts/一些咕咕咕JPG</guid>
-            <pubDate>Fri, 19 Dec 2025 00:00:00 GMT</pubDate>
+            <title><![CDATA[需ROOT小米使用FCM(谷歌推送服务)-可以在无科学环境下离线接受外国APP的通知]]></title>
+            <link>https://blog.zero251.xyz/posts/需ROOT小米使用FCM</link>
+            <guid isPermaLink="false">https://blog.zero251.xyz/posts/需ROOT小米使用FCM</guid>
+            <pubDate>Fri, 13 Feb 2026 16:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<blockquote>
-<p>一些咕咕咕喽 : )</p>
+<p>众所周知，HyperOS和MIUI是有谷歌框架的，但是其并不完整，而且自带的DNS是无法接收到谷歌服务器的</p>
+<p>这里引用<a href="https://blog.minamigo.moe/archives/1022">MinaMiGo</a>大佬的教程和说明</p>
+<p>以及使用<a href="https://github.com/Goooler/systemless-fcm-hosts">systemless-fcm-hosts-magisk项目</a>（更换谷歌FCM推送的DNS以再无科学上网环境下离线接受外国APP的通知）</p>
 </blockquote>
-<br/><p>访问 <a href="https://blog.zero251.xyz/posts/一些咕咕咕JPG" target="_blank">https://blog.zero251.xyz/posts/一些咕咕咕JPG</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://blog.zero251.xyz/posts/需ROOT小米使用FCM" target="_blank">https://blog.zero251.xyz/posts/需ROOT小米使用FCM</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (Zero-无常)</author>
         </item>
         <item>
-            <title><![CDATA[BLOG网页部署live2d小人 - Valaxy]]></title>
-            <link>https://blog.zero251.xyz/posts/BLOG网页部署live2d小人 - 使用Vercount替代不蒜子 - Valaxy</link>
-            <guid isPermaLink="false">https://blog.zero251.xyz/posts/BLOG网页部署live2d小人 - 使用Vercount替代不蒜子 - Valaxy</guid>
-            <pubDate>Sun, 14 Dec 2025 00:00:00 GMT</pubDate>
+            <title><![CDATA[Docker的下载安装和使用]]></title>
+            <link>https://blog.zero251.xyz/posts/Docker的下载安装和使用</link>
+            <guid isPermaLink="false">https://blog.zero251.xyz/posts/Docker的下载安装和使用</guid>
+            <pubDate>Sat, 27 Dec 2025 00:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<blockquote>
-<p>刚部署BLOG的时候其实就已经把live2d放上去了，但是受困于如何查找live2d模型和配置文件，当我找到模型之后，如何部署又成为了问题，我尝试通过我的服务器直接挂载直链引用models.json文件，</p>
+<p>Docker 是什么？</p>
+<p>Docker 是一个 <strong>开源的容器化平台</strong>，核心作用是“<strong>把应用+运行环境一起打包成镜像</strong>”，解决环境问题无法部署的经典难题，且容器与宿主机完全隔离，容器内的事情不会影响到主机</p>
 </blockquote>
-<br/><p>访问 <a href="https://blog.zero251.xyz/posts/BLOG网页部署live2d小人 - 使用Vercount替代不蒜子 - Valaxy" target="_blank">https://blog.zero251.xyz/posts/BLOG网页部署live2d小人 - 使用Vercount替代不蒜子 - Valaxy</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://blog.zero251.xyz/posts/Docker的下载安装和使用" target="_blank">https://blog.zero251.xyz/posts/Docker的下载安装和使用</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (Zero-无常)</author>
         </item>
         <item>
-            <title><![CDATA[个人BLOG更新更新日志]]></title>
-            <link>https://blog.zero251.xyz/posts/个人BLOG更新更新日志</link>
-            <guid isPermaLink="false">https://blog.zero251.xyz/posts/个人BLOG更新更新日志</guid>
-            <pubDate>Sun, 14 Dec 2025 00:00:00 GMT</pubDate>
+            <title><![CDATA[VMware - 25H2下载以及汉化]]></title>
+            <link>https://blog.zero251.xyz/posts/VMware25H2下载以及汉化</link>
+            <guid isPermaLink="false">https://blog.zero251.xyz/posts/VMware25H2下载以及汉化</guid>
+            <pubDate>Sat, 20 Dec 2025 00:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<blockquote>
-<p>一切的缘起**</p>
+<p>众所周知，博通收购了VMware，而直接免费了VMware PRO</p>
+<p>可谓利好全人类，但是最新版的25H2默认安装却没有中文汉化，那么现在就来一个汉化教程</p>
 </blockquote>
-<br/><p>访问 <a href="https://blog.zero251.xyz/posts/个人BLOG更新更新日志" target="_blank">https://blog.zero251.xyz/posts/个人BLOG更新更新日志</a> 阅读全文。</p>]]></content:encoded>
-            <author>i@valaxy.site (Zero-无常)</author>
-        </item>
-        <item>
-            <title><![CDATA[硬件日志？]]></title>
-            <link>https://blog.zero251.xyz/posts/硬件日志</link>
-            <guid isPermaLink="false">https://blog.zero251.xyz/posts/硬件日志</guid>
-            <pubDate>Sun, 14 Dec 2025 00:00:00 GMT</pubDate>
-            <content:encoded><![CDATA[<h3>2025.11.28</h3>
-<blockquote>
-<p>购入一个弱水时砂寒武纪，网上吹的很响，实际到手却发现许多问题</p>
-<p>比如这个木质振膜，听起来有一种上世纪的感觉，或许是没煲久？</p>
-<p>正常环境下这个降噪确实很暴力，但是当到了汽车或者地铁这些有共振的地方，降噪就会完全不可用</p>
-<p>还会有刺耳的尖锐噪音</p>
-<p>这产品怎么说呢ENN</p>
-</blockquote>
-<p><img src="https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20251214001711676.webp" alt="MVIMG_20251128_190326"></p>
-<h3>2025.11.23</h3>
-<blockquote>
-<p>在社会实践回来后，换新的RX470D到货</p>
-<p>却又发现副机的500G msata疑似坏掉，时常无程序使用，占用100%</p>
-<p>拔下mstata转sata换NVME通道测试，仍如此，先凑合着吧，把MuMu模拟器迁移至另一个固态中，以继续完成每日的自动MAA工作</p>
-</blockquote>
-<p><img src="https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20251214001338235.webp" alt="MVIMG_20251123_104424"></p>
-<h3>2025.11.22</h3>
-<blockquote>
-<p>这该死的柚子社新作<s>逐光柠檬协奏曲</s>，让我竟然从国庆打到了现在才坎坎打完，我真是受不了了</p>
-<p>期间服务器都没怎么管，这几天才全面大修</p>
-</blockquote>
-<br/><p>访问 <a href="https://blog.zero251.xyz/posts/硬件日志" target="_blank">https://blog.zero251.xyz/posts/硬件日志</a> 阅读全文。</p>]]></content:encoded>
-            <author>i@valaxy.site (Zero-无常)</author>
-        </item>
-        <item>
-            <title><![CDATA[绕过WiFi的Web认证-使用3XUI面板搭建隧道-FZBZ]]></title>
-            <link>https://blog.zero251.xyz/posts/绕过WiFi的Web认证使用3XUI面板搭建隧道FZBZ</link>
-            <guid isPermaLink="false">https://blog.zero251.xyz/posts/绕过WiFi的Web认证使用3XUI面板搭建隧道FZBZ</guid>
-            <pubDate>Fri, 05 Dec 2025 16:00:00 GMT</pubDate>
-            <content:encoded><![CDATA[<blockquote>
-<h4><a href="https://www.bilibili.com/video/BV1Vg2XBnE7m/?share_source=copy_web&amp;vd_source=7a0f959e33c3900a64437993cfdb6999">视频版教程 绕过校园网Web网络认证限制，绕过…</a></h4>
-</blockquote>
-<blockquote>
-<p>我这个方法是我参考网络并自己研究出来的，<s>这方法其实跟搭建VP*没区别</s>，相较于网上流行的OpenVpn等，我认为我的方法更为简单，小白都可以学会，且可以Windows，安卓，苹果通用</p>
-<p>经我测试，稳定运行3个月，<s>在学校我甚至可以贩卖网络费</s>，打游戏的话除非你能忍受100~300毫秒的延迟，刷视频看网页等对延迟没要求的就非常流畅</p>
-</blockquote>
-<blockquote>
-<p>原理说明：</p>
-<p>当我们访问使用某个Web认证热点访问某个HTTP网站，网关会对这个<a href="https://so.csdn.net/so/search?q=HTTP%E5%93%8D%E5%BA%94&amp;spm=1001.2101.3001.7020">HTTP响应</a>报文劫持并纂改302重定向给我们一个web认证界面。网关（或者说交换机）都默认放行DHCP（用于分配IP）和DNS（用于劫持用户数据报）。</p>
-</blockquote>
-<br/><p>访问 <a href="https://blog.zero251.xyz/posts/绕过WiFi的Web认证使用3XUI面板搭建隧道FZBZ" target="_blank">https://blog.zero251.xyz/posts/绕过WiFi的Web认证使用3XUI面板搭建隧道FZBZ</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://blog.zero251.xyz/posts/VMware25H2下载以及汉化" target="_blank">https://blog.zero251.xyz/posts/VMware25H2下载以及汉化</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (Zero-无常)</author>
         </item>
         <item>
@@ -158,27 +114,49 @@
         </item>
         <item>
             <title><![CDATA[小米BE6500开SSH,开机自启,固化和安装ShellCrash开启全家代理，配置IPV6外网访问]]></title>
-            <link>https://blog.zero251.xyz/posts/小米BE6500开SSH开机自启固化和安装ShellCrash开启全家代理</link>
-            <guid isPermaLink="false">https://blog.zero251.xyz/posts/小米BE6500开SSH开机自启固化和安装ShellCrash开启全家代理</guid>
-            <pubDate>Fri, 03 Oct 2025 16:00:00 GMT</pubDate>
+            <link>https://blog.zero251.xyz/posts/小米BE6500开SSH固化和安装ShellCrash</link>
+            <guid isPermaLink="false">https://blog.zero251.xyz/posts/小米BE6500开SSH固化和安装ShellCrash</guid>
+            <pubDate>Wed, 01 Oct 2025 16:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<blockquote>
 <p>难蚌的预埋5类线，让我痛斥多年<br>
 光纤伟大，无需多言<br>
 顺带在这牵了光纤的时刻购入一台小米BE6500</p>
 </blockquote>
-<br/><p>访问 <a href="https://blog.zero251.xyz/posts/小米BE6500开SSH开机自启固化和安装ShellCrash开启全家代理" target="_blank">https://blog.zero251.xyz/posts/小米BE6500开SSH开机自启固化和安装ShellCrash开启全家代理</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://blog.zero251.xyz/posts/小米BE6500开SSH固化和安装ShellCrash" target="_blank">https://blog.zero251.xyz/posts/小米BE6500开SSH固化和安装ShellCrash</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Zero-无常)</author>
+        </item>
+        <item>
+            <title><![CDATA[绕过WiFi的Web认证-使用3XUI面板搭建隧道-FZBZ]]></title>
+            <link>https://blog.zero251.xyz/posts/绕过WiFi的Web认证使用3XUI面板搭建隧道FZBZ</link>
+            <guid isPermaLink="false">https://blog.zero251.xyz/posts/绕过WiFi的Web认证使用3XUI面板搭建隧道FZBZ</guid>
+            <pubDate>Fri, 19 Sep 2025 16:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<blockquote>
+<h4><a href="https://www.bilibili.com/video/BV1Vg2XBnE7m/?share_source=copy_web&amp;vd_source=7a0f959e33c3900a64437993cfdb6999">视频版教程 绕过校园网Web网络认证限制，绕过…</a></h4>
+</blockquote>
+<blockquote>
+<p>我这个方法是我参考网络并自己研究出来的，<s>这方法其实跟搭建VP*没区别</s>，相较于网上流行的OpenVpn等，我认为我的方法更为简单，小白都可以学会，且可以Windows，安卓，苹果通用</p>
+<p>经我测试，稳定运行3个月，<s>在学校我甚至可以贩卖网络费</s>，打游戏的话除非你能忍受100~300毫秒的延迟，刷视频看网页等对延迟没要求的就非常流畅</p>
+</blockquote>
+<blockquote>
+<p>WARING : 阿里云已经全面封禁53端口个人使用，请使用其他云服务厂商</p>
+</blockquote>
+<blockquote>
+<p>原理说明：</p>
+<p>当我们访问使用某个Web认证热点访问某个HTTP网站，网关会对这个<a href="https://so.csdn.net/so/search?q=HTTP%E5%93%8D%E5%BA%94&amp;spm=1001.2101.3001.7020">HTTP响应</a>报文劫持并纂改302重定向给我们一个web认证界面。网关（或者说交换机）都默认放行DHCP（用于分配IP）和DNS（用于劫持用户数据报）。</p>
+</blockquote>
+<br/><p>访问 <a href="https://blog.zero251.xyz/posts/绕过WiFi的Web认证使用3XUI面板搭建隧道FZBZ" target="_blank">https://blog.zero251.xyz/posts/绕过WiFi的Web认证使用3XUI面板搭建隧道FZBZ</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (Zero-无常)</author>
         </item>
         <item>
             <title><![CDATA[流量卡 - 授人以鱼不如授人以渔]]></title>
-            <link>https://blog.zero251.xyz/posts/流量卡-授人以鱼不如授人以渔</link>
-            <guid isPermaLink="false">https://blog.zero251.xyz/posts/流量卡-授人以鱼不如授人以渔</guid>
+            <link>https://blog.zero251.xyz/posts/流量卡授人以鱼不如授人以渔</link>
+            <guid isPermaLink="false">https://blog.zero251.xyz/posts/流量卡授人以鱼不如授人以渔</guid>
             <pubDate>Sat, 06 Sep 2025 16:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<blockquote>
 <p>流量自古以来都是一个难题，自从上个月我花了快五十块钱冲流量我就受不了了</p>
 <p>市面上有多卖流量卡的人，这是为什么呢？**</p>
 </blockquote>
-<br/><p>访问 <a href="https://blog.zero251.xyz/posts/流量卡-授人以鱼不如授人以渔" target="_blank">https://blog.zero251.xyz/posts/流量卡-授人以鱼不如授人以渔</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://blog.zero251.xyz/posts/流量卡授人以鱼不如授人以渔" target="_blank">https://blog.zero251.xyz/posts/流量卡授人以鱼不如授人以渔</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (Zero-无常)</author>
         </item>
         <item>
@@ -213,8 +191,8 @@
         </item>
         <item>
             <title><![CDATA[在直播/视频中显示心率让观众感同身受 小米手环9/10 开启心率广播 投屏OBS直播]]></title>
-            <link>https://blog.zero251.xyz/posts/小米手环910 开启心率广播 投屏OBS直播</link>
-            <guid isPermaLink="false">https://blog.zero251.xyz/posts/小米手环910 开启心率广播 投屏OBS直播</guid>
+            <link>https://blog.zero251.xyz/posts/小米手环910开启心率广播投屏OBS直播</link>
+            <guid isPermaLink="false">https://blog.zero251.xyz/posts/小米手环910开启心率广播投屏OBS直播</guid>
             <pubDate>Wed, 20 Aug 2025 16:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<blockquote>
 <p>准备材料：</p>
@@ -222,66 +200,19 @@
 <p>OBS软件</p>
 <p>支持心率广播的手表，这里以小米手环9为例</p>
 </blockquote>
-<br/><p>访问 <a href="https://blog.zero251.xyz/posts/小米手环910 开启心率广播 投屏OBS直播" target="_blank">https://blog.zero251.xyz/posts/小米手环910 开启心率广播 投屏OBS直播</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://blog.zero251.xyz/posts/小米手环910开启心率广播投屏OBS直播" target="_blank">https://blog.zero251.xyz/posts/小米手环910开启心率广播投屏OBS直播</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (Zero-无常)</author>
         </item>
         <item>
             <title><![CDATA[GRUB2配置以及自定义主题以及添加Windows引导 - 甘城なつき主题]]></title>
             <link>https://blog.zero251.xyz/posts/GRUB2配置以及自定义主题以及添加Windows引导</link>
             <guid isPermaLink="false">https://blog.zero251.xyz/posts/GRUB2配置以及自定义主题以及添加Windows引导</guid>
-            <pubDate>Mon, 18 Aug 2025 16:00:00 GMT</pubDate>
+            <pubDate>Sun, 03 Aug 2025 16:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<blockquote>
 <p>建议配合视频一起食用：<a href="https://www.bilibili.com/video/BV1xZtJzpEoq">简单易懂』主板BIOS开机动画图片更改，自定义你想要的角色LP吧！</a></p>
 <p>首先我们要拥有一个Linux系统，我这里以Ubuntu24.04 GUI版本为例，其他发行版同理</p>
 </blockquote>
 <br/><p>访问 <a href="https://blog.zero251.xyz/posts/GRUB2配置以及自定义主题以及添加Windows引导" target="_blank">https://blog.zero251.xyz/posts/GRUB2配置以及自定义主题以及添加Windows引导</a> 阅读全文。</p>]]></content:encoded>
-            <author>i@valaxy.site (Zero-无常)</author>
-        </item>
-        <item>
-            <title><![CDATA[主板BIOS开机动画更改 - 技嘉为例 - 甘城なつき主题]]></title>
-            <link>https://blog.zero251.xyz/posts/主板BIOS开机动画更改</link>
-            <guid isPermaLink="false">https://blog.zero251.xyz/posts/主板BIOS开机动画更改</guid>
-            <pubDate>Mon, 04 Aug 2025 16:00:00 GMT</pubDate>
-            <content:encoded><![CDATA[<blockquote>
-<p>这次BIOS开机动画以及GRUB2和Windows启动动画自定义联动是我很久以前就想做的，但一直卡在BIOS上，</p>
-<p><s>在手过4.5张主板且是碧海蓝天的原版BIOS之后也是过上好日子了</s></p>
-</blockquote>
-<br/><p>访问 <a href="https://blog.zero251.xyz/posts/主板BIOS开机动画更改" target="_blank">https://blog.zero251.xyz/posts/主板BIOS开机动画更改</a> 阅读全文。</p>]]></content:encoded>
-            <author>i@valaxy.site (Zero-无常)</author>
-        </item>
-        <item>
-            <title><![CDATA[更强大的可替代Win11的资源管理器的软件“Directory Opus 13” - 甘城なつき美化主题]]></title>
-            <link>https://blog.zero251.xyz/posts/Directory Opus</link>
-            <guid isPermaLink="false">https://blog.zero251.xyz/posts/Directory Opus</guid>
-            <pubDate>Sun, 03 Aug 2025 16:00:00 GMT</pubDate>
-            <content:encoded><![CDATA[<blockquote>
-<p>官网：<a href="https://www.gpsoft.com.au/">Directory Opus</a></p>
-<p>PJ版：<a href="https://pan.quark.cn/s/be4e111868d3?pwd=M44X">Directory Opus 夸克网盘</a></p>
-</blockquote>
-<br/><p>访问 <a href="https://blog.zero251.xyz/posts/Directory Opus" target="_blank">https://blog.zero251.xyz/posts/Directory Opus</a> 阅读全文。</p>]]></content:encoded>
-            <author>i@valaxy.site (Zero-无常)</author>
-        </item>
-        <item>
-            <title><![CDATA[FRP配置]]></title>
-            <link>https://blog.zero251.xyz/posts/FRP配置</link>
-            <guid isPermaLink="false">https://blog.zero251.xyz/posts/FRP配置</guid>
-            <pubDate>Sun, 03 Aug 2025 16:00:00 GMT</pubDate>
-            <content:encoded><![CDATA[<p>frp 是什么？<br>
-frp 是一款高性能的反向代理应用，专注于内网穿透。它支持多种协议，包括 TCP、UDP、HTTP、HTTPS 等，</p>
-<br/><p>访问 <a href="https://blog.zero251.xyz/posts/FRP配置" target="_blank">https://blog.zero251.xyz/posts/FRP配置</a> 阅读全文。</p>]]></content:encoded>
-            <author>i@valaxy.site (Zero-无常)</author>
-        </item>
-        <item>
-            <title><![CDATA[FZBZ - F****]]></title>
-            <link>https://blog.zero251.xyz/posts/FZBZ-F</link>
-            <guid isPermaLink="false">https://blog.zero251.xyz/posts/FZBZ-F</guid>
-            <pubDate>Sun, 03 Aug 2025 16:00:00 GMT</pubDate>
-            <content:encoded><![CDATA[<h3>关于元旦晚会体艺馆场控问题及使用报告</h3>
-<hr>
-<blockquote>
-<p><strong>PS</strong>： So FUCK FZBZ XXXX STUDENTS UNION</p>
-</blockquote>
-<br/><p>访问 <a href="https://blog.zero251.xyz/posts/FZBZ-F" target="_blank">https://blog.zero251.xyz/posts/FZBZ-F</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (Zero-无常)</author>
         </item>
         <item>
@@ -296,21 +227,126 @@ frp 是一款高性能的反向代理应用，专注于内网穿透。它支持�
             <author>i@valaxy.site (Zero-无常)</author>
         </item>
         <item>
-            <title><![CDATA[咕咕咕 - Intel MAC使用MAA进行明日方舟挂机]]></title>
-            <link>https://blog.zero251.xyz/posts/Intel MAC使用MAA进行明日方舟挂机</link>
-            <guid isPermaLink="false">https://blog.zero251.xyz/posts/Intel MAC使用MAA进行明日方舟挂机</guid>
+            <title><![CDATA[主板BIOS开机动画更改 - 技嘉为例 - 甘城なつき主题]]></title>
+            <link>https://blog.zero251.xyz/posts/主板BIOS开机动画更改</link>
+            <guid isPermaLink="false">https://blog.zero251.xyz/posts/主板BIOS开机动画更改</guid>
             <pubDate>Sun, 03 Aug 2025 16:00:00 GMT</pubDate>
-            <content:encoded><![CDATA[<ol>
-<li>前往此处下载最后支持Intel MAC的mumu模拟器</li>
-</ol>
-<br/><p>访问 <a href="https://blog.zero251.xyz/posts/Intel MAC使用MAA进行明日方舟挂机" target="_blank">https://blog.zero251.xyz/posts/Intel MAC使用MAA进行明日方舟挂机</a> 阅读全文。</p>]]></content:encoded>
+            <content:encoded><![CDATA[<blockquote>
+<p>这次BIOS开机动画以及GRUB2和Windows启动动画自定义联动是我很久以前就想做的，但一直卡在BIOS上，</p>
+<p><s>在手过4.5张主板且是碧海蓝天的原版BIOS之后也是过上好日子了</s></p>
+</blockquote>
+<br/><p>访问 <a href="https://blog.zero251.xyz/posts/主板BIOS开机动画更改" target="_blank">https://blog.zero251.xyz/posts/主板BIOS开机动画更改</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Zero-无常)</author>
+        </item>
+        <item>
+            <title><![CDATA[如何自定义Typora的背景]]></title>
+            <link>https://blog.zero251.xyz/posts/如何自定义Typora的背景</link>
+            <guid isPermaLink="false">https://blog.zero251.xyz/posts/如何自定义Typora的背景</guid>
+            <pubDate>Mon, 21 Jul 2025 16:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>找到主题文件夹</p>
+<ul>
+<li>前往Typora的导航栏—文件—偏好设置—外观—打开主题文件夹</li>
+</ul>
+<br/><p>访问 <a href="https://blog.zero251.xyz/posts/如何自定义Typora的背景" target="_blank">https://blog.zero251.xyz/posts/如何自定义Typora的背景</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Zero-无常)</author>
+        </item>
+        <item>
+            <title><![CDATA[BLOG网页部署live2d小人 - Valaxy]]></title>
+            <link>https://blog.zero251.xyz/posts/BLOG网页部署live2d小人使用Vercount替代不蒜子</link>
+            <guid isPermaLink="false">https://blog.zero251.xyz/posts/BLOG网页部署live2d小人使用Vercount替代不蒜子</guid>
+            <pubDate>Tue, 15 Jul 2025 16:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<blockquote>
+<p>刚部署BLOG的时候其实就已经把live2d放上去了，但是受困于如何查找live2d模型和配置文件，当我找到模型之后，如何部署又成为了问题，我尝试通过我的服务器直接挂载直链引用models.json文件，</p>
+</blockquote>
+<br/><p>访问 <a href="https://blog.zero251.xyz/posts/BLOG网页部署live2d小人使用Vercount替代不蒜子" target="_blank">https://blog.zero251.xyz/posts/BLOG网页部署live2d小人使用Vercount替代不蒜子</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Zero-无常)</author>
+        </item>
+        <item>
+            <title><![CDATA[使用Vercount替代不蒜子 - Valaxy]]></title>
+            <link>https://blog.zero251.xyz/posts/使用Vercount替代不蒜子Valaxy</link>
+            <guid isPermaLink="false">https://blog.zero251.xyz/posts/使用Vercount替代不蒜子Valaxy</guid>
+            <pubDate>Tue, 15 Jul 2025 16:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<blockquote>
+<p>卜蒜子的访问自6月以来一直502，故更换计数器</p>
+<p>看到Evan Luo大佬的<a href="https://ohevan.com/vercount-website-counter-busuanzi-alternative.html">Vercount: 一个比不蒜子更好的网站计数器 | EvanNotFound's Blog</a>，</p>
+</blockquote>
+<br/><p>访问 <a href="https://blog.zero251.xyz/posts/使用Vercount替代不蒜子Valaxy" target="_blank">https://blog.zero251.xyz/posts/使用Vercount替代不蒜子Valaxy</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Zero-无常)</author>
+        </item>
+        <item>
+            <title><![CDATA[Valaxy个人博客如何添加一个音乐播放器 - 基于 APlayer 和 MetingJS 的全球音乐播放器]]></title>
+            <link>https://blog.zero251.xyz/posts/Valaxy个人博客如何添加一个音乐播放器</link>
+            <guid isPermaLink="false">https://blog.zero251.xyz/posts/Valaxy个人博客如何添加一个音乐播放器</guid>
+            <pubDate>Mon, 14 Jul 2025 16:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h3>实际效果</h3>
+<p><img src="https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250718180948060.gif" alt="效果"></p>
+<br/><p>访问 <a href="https://blog.zero251.xyz/posts/Valaxy个人博客如何添加一个音乐播放器" target="_blank">https://blog.zero251.xyz/posts/Valaxy个人博客如何添加一个音乐播放器</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Zero-无常)</author>
+        </item>
+        <item>
+            <title><![CDATA[MToolBox 枫の美化工具箱 - Win美化的集大成者]]></title>
+            <link>https://blog.zero251.xyz/posts/MToolBox枫美化工具箱Win美化的集大成者</link>
+            <guid isPermaLink="false">https://blog.zero251.xyz/posts/MToolBox枫美化工具箱Win美化的集大成者</guid>
+            <pubDate>Sun, 13 Jul 2025 16:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<blockquote>
+<p>我这里仅做推荐和功能展示，不讲使用教程了（很简单），也可以去作者的发布页看</p>
+</blockquote>
+<br/><p>访问 <a href="https://blog.zero251.xyz/posts/MToolBox枫美化工具箱Win美化的集大成者" target="_blank">https://blog.zero251.xyz/posts/MToolBox枫美化工具箱Win美化的集大成者</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Zero-无常)</author>
+        </item>
+        <item>
+            <title><![CDATA[MydockFinder MAC式的底栏和顶栏]]></title>
+            <link>https://blog.zero251.xyz/posts/MydockFinderMAC式的底栏和顶栏</link>
+            <guid isPermaLink="false">https://blog.zero251.xyz/posts/MydockFinderMAC式的底栏和顶栏</guid>
+            <pubDate>Sun, 13 Jul 2025 16:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<blockquote>
+<p>MyDockFinder</p>
+<p>MyDockFinder是一款系统快速启动和控制查看系统功能的软件。可以拖拽添加自己喜好的程序或文件，拖拽直接使用程序打开文件。</p>
+</blockquote>
+<br/><p>访问 <a href="https://blog.zero251.xyz/posts/MydockFinderMAC式的底栏和顶栏" target="_blank">https://blog.zero251.xyz/posts/MydockFinderMAC式的底栏和顶栏</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Zero-无常)</author>
+        </item>
+        <item>
+            <title><![CDATA[如何让想要的软件在开机的时候自动启动 - Start Up]]></title>
+            <link>https://blog.zero251.xyz/posts/如何让软件在开机自动启动StartUp</link>
+            <guid isPermaLink="false">https://blog.zero251.xyz/posts/如何让软件在开机自动启动StartUp</guid>
+            <pubDate>Sun, 13 Jul 2025 16:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>Win键＋r</p>
+<p>输入：</p>
+<pre><code class="language-toml">shell:startup
+</code></pre>
+<br/><p>访问 <a href="https://blog.zero251.xyz/posts/如何让软件在开机自动启动StartUp" target="_blank">https://blog.zero251.xyz/posts/如何让软件在开机自动启动StartUp</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Zero-无常)</author>
+        </item>
+        <item>
+            <title><![CDATA[解决pnpm或npm无法更新的问题]]></title>
+            <link>https://blog.zero251.xyz/posts/解决npm或pnpm无法更新的问题</link>
+            <guid isPermaLink="false">https://blog.zero251.xyz/posts/解决npm或pnpm无法更新的问题</guid>
+            <pubDate>Sun, 13 Jul 2025 16:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<blockquote>
+<h4>在我们安装node的时候，会默认安装npm和pnpm</h4>
+<p>可是它安装不是最新的，甚至是pnpm@6.x.x的版本，可是用它推荐的升级指令**</p>
+</blockquote>
+<br/><p>访问 <a href="https://blog.zero251.xyz/posts/解决npm或pnpm无法更新的问题" target="_blank">https://blog.zero251.xyz/posts/解决npm或pnpm无法更新的问题</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Zero-无常)</author>
+        </item>
+        <item>
+            <title><![CDATA[更强大的可替代Win11的资源管理器的软件“Directory Opus 13” - 甘城なつき美化主题]]></title>
+            <link>https://blog.zero251.xyz/posts/DirectoryOpus</link>
+            <guid isPermaLink="false">https://blog.zero251.xyz/posts/DirectoryOpus</guid>
+            <pubDate>Sat, 12 Jul 2025 16:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<blockquote>
+<p>官网：<a href="https://www.gpsoft.com.au/">Directory Opus</a></p>
+<p>PJ版：<a href="https://pan.quark.cn/s/be4e111868d3?pwd=M44X">Directory Opus 夸克网盘</a></p>
+</blockquote>
+<br/><p>访问 <a href="https://blog.zero251.xyz/posts/DirectoryOpus" target="_blank">https://blog.zero251.xyz/posts/DirectoryOpus</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (Zero-无常)</author>
         </item>
         <item>
             <title><![CDATA[Markdown/Typora的基本用法与常用操作]]></title>
             <link>https://blog.zero251.xyz/posts/MarkdownTypora的基本用法与常用操作</link>
             <guid isPermaLink="false">https://blog.zero251.xyz/posts/MarkdownTypora的基本用法与常用操作</guid>
-            <pubDate>Sun, 03 Aug 2025 16:00:00 GMT</pubDate>
+            <pubDate>Sat, 12 Jul 2025 16:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<h3>常用操作</h3>
 <ul>
 <li>
@@ -330,103 +366,46 @@ frp 是一款高性能的反向代理应用，专注于内网穿透。它支持�
             <author>i@valaxy.site (Zero-无常)</author>
         </item>
         <item>
-            <title><![CDATA[MToolBox 枫の美化工具箱 - Win美化的集大成者]]></title>
-            <link>https://blog.zero251.xyz/posts/MToolBox 枫の美化工具箱 - Win美化的集大成者</link>
-            <guid isPermaLink="false">https://blog.zero251.xyz/posts/MToolBox 枫の美化工具箱 - Win美化的集大成者</guid>
-            <pubDate>Sun, 03 Aug 2025 16:00:00 GMT</pubDate>
-            <content:encoded><![CDATA[<blockquote>
-<p>我这里仅做推荐和功能展示，不讲使用教程了（很简单），也可以去作者的发布页看</p>
-</blockquote>
-<br/><p>访问 <a href="https://blog.zero251.xyz/posts/MToolBox 枫の美化工具箱 - Win美化的集大成者" target="_blank">https://blog.zero251.xyz/posts/MToolBox 枫の美化工具箱 - Win美化的集大成者</a> 阅读全文。</p>]]></content:encoded>
-            <author>i@valaxy.site (Zero-无常)</author>
-        </item>
-        <item>
-            <title><![CDATA[MydockFinder MAC式的底栏和顶栏]]></title>
-            <link>https://blog.zero251.xyz/posts/MydockFinder MAC式的底栏和顶栏</link>
-            <guid isPermaLink="false">https://blog.zero251.xyz/posts/MydockFinder MAC式的底栏和顶栏</guid>
-            <pubDate>Sun, 03 Aug 2025 16:00:00 GMT</pubDate>
-            <content:encoded><![CDATA[<blockquote>
-<p>MyDockFinder</p>
-<p>MyDockFinder是一款系统快速启动和控制查看系统功能的软件。可以拖拽添加自己喜好的程序或文件，拖拽直接使用程序打开文件。</p>
-</blockquote>
-<br/><p>访问 <a href="https://blog.zero251.xyz/posts/MydockFinder MAC式的底栏和顶栏" target="_blank">https://blog.zero251.xyz/posts/MydockFinder MAC式的底栏和顶栏</a> 阅读全文。</p>]]></content:encoded>
-            <author>i@valaxy.site (Zero-无常)</author>
-        </item>
-        <item>
-            <title><![CDATA[Valaxy个人博客如何添加一个音乐播放器 - 基于 APlayer 和 MetingJS 的全球音乐播放器]]></title>
-            <link>https://blog.zero251.xyz/posts/Valaxy个人博客如何添加一个音乐播放器</link>
-            <guid isPermaLink="false">https://blog.zero251.xyz/posts/Valaxy个人博客如何添加一个音乐播放器</guid>
-            <pubDate>Sun, 03 Aug 2025 16:00:00 GMT</pubDate>
-            <content:encoded><![CDATA[<h3>实际效果</h3>
-<p><img src="https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250718180948060.gif" alt="效果"></p>
-<br/><p>访问 <a href="https://blog.zero251.xyz/posts/Valaxy个人博客如何添加一个音乐播放器" target="_blank">https://blog.zero251.xyz/posts/Valaxy个人博客如何添加一个音乐播放器</a> 阅读全文。</p>]]></content:encoded>
-            <author>i@valaxy.site (Zero-无常)</author>
-        </item>
-        <item>
-            <title><![CDATA[Zero-Typing - 一个美观的打字网站]]></title>
-            <link>https://blog.zero251.xyz/posts/Zero-Typing - 一个美观的打字网站</link>
-            <guid isPermaLink="false">https://blog.zero251.xyz/posts/Zero-Typing - 一个美观的打字网站</guid>
-            <pubDate>Sun, 03 Aug 2025 16:00:00 GMT</pubDate>
-            <content:encoded><![CDATA[<blockquote>
-<p>[<a href="https://typing.zero251.xyz/">https://typing.zero251.xyz/</a>]  FORK自Barneyzhao并加以修改了许多的东西</p>
-</blockquote>
-<br/><p>访问 <a href="https://blog.zero251.xyz/posts/Zero-Typing - 一个美观的打字网站" target="_blank">https://blog.zero251.xyz/posts/Zero-Typing - 一个美观的打字网站</a> 阅读全文。</p>]]></content:encoded>
-            <author>i@valaxy.site (Zero-无常)</author>
-        </item>
-        <item>
-            <title><![CDATA[使用Vercount替代不蒜子 - Valaxy]]></title>
-            <link>https://blog.zero251.xyz/posts/使用Vercount替代不蒜子 - Valaxy</link>
-            <guid isPermaLink="false">https://blog.zero251.xyz/posts/使用Vercount替代不蒜子 - Valaxy</guid>
-            <pubDate>Sun, 03 Aug 2025 16:00:00 GMT</pubDate>
-            <content:encoded><![CDATA[<blockquote>
-<p>卜蒜子的访问自6月以来一直502，故更换计数器</p>
-<p>看到Evan Luo大佬的<a href="https://ohevan.com/vercount-website-counter-busuanzi-alternative.html">Vercount: 一个比不蒜子更好的网站计数器 | EvanNotFound's Blog</a>，</p>
-</blockquote>
-<br/><p>访问 <a href="https://blog.zero251.xyz/posts/使用Vercount替代不蒜子 - Valaxy" target="_blank">https://blog.zero251.xyz/posts/使用Vercount替代不蒜子 - Valaxy</a> 阅读全文。</p>]]></content:encoded>
-            <author>i@valaxy.site (Zero-无常)</author>
-        </item>
-        <item>
             <title><![CDATA[关于Steam AutoCrack的使用方法]]></title>
-            <link>https://blog.zero251.xyz/posts/关于Steam AutoCrack的使用方法</link>
-            <guid isPermaLink="false">https://blog.zero251.xyz/posts/关于Steam AutoCrack的使用方法</guid>
-            <pubDate>Sun, 03 Aug 2025 16:00:00 GMT</pubDate>
+            <link>https://blog.zero251.xyz/posts/关于SteamAutoCrack的使用方法</link>
+            <guid isPermaLink="false">https://blog.zero251.xyz/posts/关于SteamAutoCrack的使用方法</guid>
+            <pubDate>Sat, 12 Jul 2025 16:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<ol>
 <li><s>SteamAutoCrack 的文件可谓简陋，但也因如此般的可读性获得了长久生存之道</s></li>
 <li>SteamAutoCrack是什么，Steam Auto Crack 是一款自动<s>破解</s>Steam 游戏的工具（不支持D加密，且有些游戏有dll问题，我无法解决）</li>
 </ol>
 <hr>
-<br/><p>访问 <a href="https://blog.zero251.xyz/posts/关于Steam AutoCrack的使用方法" target="_blank">https://blog.zero251.xyz/posts/关于Steam AutoCrack的使用方法</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://blog.zero251.xyz/posts/关于SteamAutoCrack的使用方法" target="_blank">https://blog.zero251.xyz/posts/关于SteamAutoCrack的使用方法</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (Zero-无常)</author>
         </item>
         <item>
-            <title><![CDATA[如何自定义Typora的背景]]></title>
-            <link>https://blog.zero251.xyz/posts/如何自定义Typora的背景</link>
-            <guid isPermaLink="false">https://blog.zero251.xyz/posts/如何自定义Typora的背景</guid>
-            <pubDate>Sun, 03 Aug 2025 16:00:00 GMT</pubDate>
-            <content:encoded><![CDATA[<p>找到主题文件夹</p>
-<ul>
-<li>前往Typora的导航栏—文件—偏好设置—外观—打开主题文件夹</li>
+            <title><![CDATA[FRP配置]]></title>
+            <link>https://blog.zero251.xyz/posts/FRP配置</link>
+            <guid isPermaLink="false">https://blog.zero251.xyz/posts/FRP配置</guid>
+            <pubDate>Fri, 16 May 2025 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>frp 是什么？<br>
+frp 是一款高性能的反向代理应用，专注于内网穿透。它支持多种协议，包括 TCP、UDP、HTTP、HTTPS 等，</p>
+<br/><p>访问 <a href="https://blog.zero251.xyz/posts/FRP配置" target="_blank">https://blog.zero251.xyz/posts/FRP配置</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Zero-无常)</author>
+        </item>
+        <item>
+            <title><![CDATA[致命公司自建局域网服务器，内网穿透联机（免费使用）]]></title>
+            <link>https://blog.zero251.xyz/posts/致命公司自建局域网服务器</link>
+            <guid isPermaLink="false">https://blog.zero251.xyz/posts/致命公司自建局域网服务器</guid>
+            <pubDate>Fri, 16 May 2025 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<ul>
+<li>
+<h6>由于我们惊喜的发现，致命公司只在steam联机端的steam启动端进行了限制，而已经下载好的本地文件之中进行启动并不会占用steam的库，</h6>
+</li>
 </ul>
-<br/><p>访问 <a href="https://blog.zero251.xyz/posts/如何自定义Typora的背景" target="_blank">https://blog.zero251.xyz/posts/如何自定义Typora的背景</a> 阅读全文。</p>]]></content:encoded>
-            <author>i@valaxy.site (Zero-无常)</author>
-        </item>
-        <item>
-            <title><![CDATA[如何让想要的软件在开机的时候自动启动]]></title>
-            <link>https://blog.zero251.xyz/posts/如何让想要的软件在开机的时候自动启动</link>
-            <guid isPermaLink="false">https://blog.zero251.xyz/posts/如何让想要的软件在开机的时候自动启动</guid>
-            <pubDate>Sun, 03 Aug 2025 16:00:00 GMT</pubDate>
-            <content:encoded><![CDATA[<p>Win键＋r</p>
-<p>输入：</p>
-<pre><code class="language-toml">shell:startup
-</code></pre>
-<br/><p>访问 <a href="https://blog.zero251.xyz/posts/如何让想要的软件在开机的时候自动启动" target="_blank">https://blog.zero251.xyz/posts/如何让想要的软件在开机的时候自动启动</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://blog.zero251.xyz/posts/致命公司自建局域网服务器" target="_blank">https://blog.zero251.xyz/posts/致命公司自建局域网服务器</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (Zero-无常)</author>
         </item>
         <item>
             <title><![CDATA[求生之路2之使用FRP反代获得低延迟体验]]></title>
             <link>https://blog.zero251.xyz/posts/求生之路2之使用FRP反代获得低延迟体验</link>
             <guid isPermaLink="false">https://blog.zero251.xyz/posts/求生之路2之使用FRP反代获得低延迟体验</guid>
-            <pubDate>Sun, 03 Aug 2025 16:00:00 GMT</pubDate>
+            <pubDate>Thu, 15 May 2025 16:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<ul>
 <li>
 <h6>本篇文档算是故技重施，算是在先前的致命公司FRP的基础之上进行的相似操作**</h6>
@@ -436,10 +415,43 @@ frp 是一款高性能的反向代理应用，专注于内网穿透。它支持�
             <author>i@valaxy.site (Zero-无常)</author>
         </item>
         <item>
+            <title><![CDATA[Zero-Typing - 一个美观的打字网站]]></title>
+            <link>https://blog.zero251.xyz/posts/ZeroTyping一个美观的打字网站</link>
+            <guid isPermaLink="false">https://blog.zero251.xyz/posts/ZeroTyping一个美观的打字网站</guid>
+            <pubDate>Sat, 12 Apr 2025 16:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<blockquote>
+<p>[<a href="https://typing.zero251.xyz/">https://typing.zero251.xyz/</a>]  FORK自Barneyzhao并加以修改了许多的东西</p>
+</blockquote>
+<br/><p>访问 <a href="https://blog.zero251.xyz/posts/ZeroTyping一个美观的打字网站" target="_blank">https://blog.zero251.xyz/posts/ZeroTyping一个美观的打字网站</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Zero-无常)</author>
+        </item>
+        <item>
+            <title><![CDATA[咕咕咕 - Intel MAC使用MAA进行明日方舟挂机]]></title>
+            <link>https://blog.zero251.xyz/posts/IntelMAC使用MAA进行明日方舟挂机</link>
+            <guid isPermaLink="false">https://blog.zero251.xyz/posts/IntelMAC使用MAA进行明日方舟挂机</guid>
+            <pubDate>Thu, 03 Apr 2025 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<ol>
+<li>前往此处下载最后支持Intel MAC的mumu模拟器</li>
+</ol>
+<br/><p>访问 <a href="https://blog.zero251.xyz/posts/IntelMAC使用MAA进行明日方舟挂机" target="_blank">https://blog.zero251.xyz/posts/IntelMAC使用MAA进行明日方舟挂机</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Zero-无常)</author>
+        </item>
+        <item>
+            <title><![CDATA[一些咕咕咕]]></title>
+            <link>https://blog.zero251.xyz/posts/一些咕咕咕JPG</link>
+            <guid isPermaLink="false">https://blog.zero251.xyz/posts/一些咕咕咕JPG</guid>
+            <pubDate>Thu, 03 Apr 2025 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<blockquote>
+<p>一些咕咕咕喽 : )</p>
+</blockquote>
+<br/><p>访问 <a href="https://blog.zero251.xyz/posts/一些咕咕咕JPG" target="_blank">https://blog.zero251.xyz/posts/一些咕咕咕JPG</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Zero-无常)</author>
+        </item>
+        <item>
             <title><![CDATA[《在寄宿制学校中使用点读笔进行任何的答案的自由校对》---点读笔-如何在开机时自动启动WIFI热点]]></title>
             <link>https://blog.zero251.xyz/posts/点读笔-如何在开机时自动启动WIFI热点</link>
             <guid isPermaLink="false">https://blog.zero251.xyz/posts/点读笔-如何在开机时自动启动WIFI热点</guid>
-            <pubDate>Sun, 03 Aug 2025 16:00:00 GMT</pubDate>
+            <pubDate>Thu, 03 Apr 2025 00:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<ul>
 <li>
 <p>众所周知在一个寄宿制高中，手机要么就是有一点点或没有</p>
@@ -450,37 +462,110 @@ frp 是一款高性能的反向代理应用，专注于内网穿透。它支持�
             <author>i@valaxy.site (Zero-无常)</author>
         </item>
         <item>
-            <title><![CDATA[致命公司自建局域网服务器，内网穿透联机（免费使用）]]></title>
-            <link>https://blog.zero251.xyz/posts/致命公司自建局域网服务器，反代联机（破解）</link>
-            <guid isPermaLink="false">https://blog.zero251.xyz/posts/致命公司自建局域网服务器，反代联机（破解）</guid>
-            <pubDate>Sun, 03 Aug 2025 16:00:00 GMT</pubDate>
-            <content:encoded><![CDATA[<ul>
-<li>
-<h6>由于我们惊喜的发现，致命公司只在steam联机端的steam启动端进行了限制，而已经下载好的本地文件之中进行启动并不会占用steam的库，</h6>
-</li>
-</ul>
-<br/><p>访问 <a href="https://blog.zero251.xyz/posts/致命公司自建局域网服务器，反代联机（破解）" target="_blank">https://blog.zero251.xyz/posts/致命公司自建局域网服务器，反代联机（破解）</a> 阅读全文。</p>]]></content:encoded>
-            <author>i@valaxy.site (Zero-无常)</author>
-        </item>
-        <item>
-            <title><![CDATA[解决pnpm或npm无法更新的问题]]></title>
-            <link>https://blog.zero251.xyz/posts/解决npm或pnpm无法更新的问题</link>
-            <guid isPermaLink="false">https://blog.zero251.xyz/posts/解决npm或pnpm无法更新的问题</guid>
-            <pubDate>Sun, 03 Aug 2025 16:00:00 GMT</pubDate>
-            <content:encoded><![CDATA[<blockquote>
-<h4>在我们安装node的时候，会默认安装npm和pnpm</h4>
-<p>可是它安装不是最新的，甚至是pnpm@6.x.x的版本，可是用它推荐的升级指令**</p>
-</blockquote>
-<br/><p>访问 <a href="https://blog.zero251.xyz/posts/解决npm或pnpm无法更新的问题" target="_blank">https://blog.zero251.xyz/posts/解决npm或pnpm无法更新的问题</a> 阅读全文。</p>]]></content:encoded>
-            <author>i@valaxy.site (Zero-无常)</author>
-        </item>
-        <item>
             <title><![CDATA[评论杂烩QAQ]]></title>
             <link>https://blog.zero251.xyz/posts/评论杂烩QAQ</link>
             <guid isPermaLink="false">https://blog.zero251.xyz/posts/评论杂烩QAQ</guid>
-            <pubDate>Sun, 03 Aug 2025 16:00:00 GMT</pubDate>
+            <pubDate>Thu, 03 Apr 2025 00:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<h1>FRIGHT AGAIN ！</h1>
 <br/><p>访问 <a href="https://blog.zero251.xyz/posts/评论杂烩QAQ" target="_blank">https://blog.zero251.xyz/posts/评论杂烩QAQ</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Zero-无常)</author>
+        </item>
+        <item>
+            <title><![CDATA[BLOG更新日志]]></title>
+            <link>https://blog.zero251.xyz/posts/BLOG更新日志</link>
+            <guid isPermaLink="false">https://blog.zero251.xyz/posts/BLOG更新日志</guid>
+            <pubDate>Thu, 13 Mar 2025 16:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h3>2026.2.24</h3>
+<blockquote>
+<p>去年购买的域名和服务器都要到期了 azz</p>
+<p>我这不值钱的域名，为什么一年都要108块啊，阿里云去年买的时候不是显示续费68吗？靠北</p>
+<p>还有这去年买的福州的阿里云服务器，买了一年，然后半年之后跟我说2年后关停？？？</p>
+<p>不得已，没法续费，而且超贵！！！</p>
+<p>一年2H2G一台轻量一年居然要1K？</p>
+<p>但是重新创一个账号的新人优惠只要68一年，何乐而不为？</p>
+<p>于是，创了个新阿里云账号，并进行服务器搬迁工作</p>
+<hr>
+<p>于此同时 我将在25号开学（不要啊啊啊，这怎么寒假一年比一年短</p>
+</blockquote>
+<h3>2025.12.27</h3>
+<blockquote>
+<p>重新创了一个专属的QQ群并更新BLOG里的链接</p>
+<p>之前挂的群被朋友吐槽了…</p>
+<p><img src="https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20251227212720581.webp" alt="image-20251227212720493"></p>
+</blockquote>
+<h3>2025.12.21</h3>
+<blockquote>
+<p>Openlist域名添加为ipv4和ipv6双解析，自动识别</p>
+</blockquote>
+<h3>2025.12.20</h3>
+<blockquote>
+<p>添加了投喂替换了无用的相册</p>
+<p>投喂中添加了甘城的自我精选集~</p>
+</blockquote>
+<h3>2025.12.13</h3>
+<blockquote>
+<p>修复部分live2D链接错误</p>
+<p>使用EdgeOne配置加速Github图床，放弃JSDELIVER**</p>
+</blockquote>
+<br/><p>访问 <a href="https://blog.zero251.xyz/posts/BLOG更新日志" target="_blank">https://blog.zero251.xyz/posts/BLOG更新日志</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Zero-无常)</author>
+        </item>
+        <item>
+            <title><![CDATA[FZBZ - F****]]></title>
+            <link>https://blog.zero251.xyz/posts/FZBZF</link>
+            <guid isPermaLink="false">https://blog.zero251.xyz/posts/FZBZF</guid>
+            <pubDate>Tue, 31 Dec 2024 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h3>关于元旦晚会体艺馆场控问题及使用报告</h3>
+<hr>
+<blockquote>
+<p><strong>PS</strong>： So FUCK FZBZ XXXX STUDENTS UNION</p>
+</blockquote>
+<br/><p>访问 <a href="https://blog.zero251.xyz/posts/FZBZF" target="_blank">https://blog.zero251.xyz/posts/FZBZF</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Zero-无常)</author>
+        </item>
+        <item>
+            <title><![CDATA[硬件日志¿]]></title>
+            <link>https://blog.zero251.xyz/posts/硬件日志</link>
+            <guid isPermaLink="false">https://blog.zero251.xyz/posts/硬件日志</guid>
+            <pubDate>Fri, 17 Apr 2020 16:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h3>2026.2.13</h3>
+<blockquote>
+<p>亲戚又需要一台办公机ennn …</p>
+<p>用我的残羹剩饭，勉强能用（补了一张亮机卡和二手硬盘扔回老家去）</p>
+</blockquote>
+<p><img src="https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20260214004422875.webp" alt="image-20260214004422530"></p>
+<p><img src="https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20260214004628497.webp" alt="MVIMG_20260212_200512"></p>
+<p><img src="https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20260214004411179.webp" alt="x"></p>
+<h3>2026.2.10</h3>
+<blockquote>
+<p>​	神笔的我在十二月中把REDMI Buds6带回家之后，洗个澡出来就不见了？、</p>
+<p>​	应该真的是没带回来吧…但我有清晰的把耳机放在桌子上的印象</p>
+<p>​	在找了一个月无果后，使用一个月水月雨 Pill后，觉得耳夹式耳机的音质是在不行以及没有降噪（<s>其实后面发现我带的一个月都开了高增益音质劣化严重</s>），头戴式出门有不太方便，遂再买一个 水月雨太空漫游2 ULTRA</p>
+</blockquote>
+<p><img src="https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20260211001947550.webp" alt="image-20260211001935343"></p>
+<p><img src="https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20260211001944711.webp" alt="image-20260211001944020"></p>
+<h3>2025.11.28</h3>
+<blockquote>
+<p>购入一个弱水时砂寒武纪，网上吹的很响，实际到手却发现许多问题</p>
+<p>比如这个木质振膜，听起来有一种上世纪的感觉，或许是没煲久？</p>
+<p>正常环境下这个降噪确实很暴力，但是当到了汽车或者地铁这些有共振的地方，降噪就会完全不可用</p>
+<p>还会有刺耳的尖锐噪音</p>
+<p>这产品怎么说呢ENN</p>
+</blockquote>
+<p><img src="https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20251214001711676.webp" alt="MVIMG_20251128_190326"></p>
+<h3>2025.11.23</h3>
+<blockquote>
+<p>在社会实践回来后，换新的RX470D到货</p>
+<p>却又发现副机的500G msata疑似坏掉，时常无程序使用，占用100%</p>
+<p>拔下mstata转sata换NVME通道测试，仍如此，先凑合着吧，把MuMu模拟器迁移至另一个固态中，以继续完成每日的自动MAA工作</p>
+</blockquote>
+<p><img src="https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20251214001338235.webp" alt="MVIMG_20251123_104424"></p>
+<h3>2025.11.22</h3>
+<blockquote>
+<p>这该死的柚子社新作<s>逐光柠檬协奏曲</s>，让我竟然从国庆打到了现在才坎坎打完，我真是受不了了</p>
+<p>期间服务器都没怎么管，这几天才全面大修</p>
+</blockquote>
+<br/><p>访问 <a href="https://blog.zero251.xyz/posts/硬件日志" target="_blank">https://blog.zero251.xyz/posts/硬件日志</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (Zero-无常)</author>
         </item>
     </channel>

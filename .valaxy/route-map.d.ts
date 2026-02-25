@@ -180,9 +180,9 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/posts/关于Steam AutoCrack的使用方法': RouteRecordInfo<
-      '/posts/关于Steam AutoCrack的使用方法',
-      '/posts/%E5%85%B3%E4%BA%8ESteam%20AutoCrack%E7%9A%84%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95',
+    '/posts/关于SteamAutoCrack的使用方法': RouteRecordInfo<
+      '/posts/关于SteamAutoCrack的使用方法',
+      '/posts/%E5%85%B3%E4%BA%8ESteamAutoCrack%E7%9A%84%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -201,9 +201,9 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/posts/如何让想要的软件在开机的时候自动启动': RouteRecordInfo<
-      '/posts/如何让想要的软件在开机的时候自动启动',
-      '/posts/%E5%A6%82%E4%BD%95%E8%AE%A9%E6%83%B3%E8%A6%81%E7%9A%84%E8%BD%AF%E4%BB%B6%E5%9C%A8%E5%BC%80%E6%9C%BA%E7%9A%84%E6%97%B6%E5%80%99%E8%87%AA%E5%8A%A8%E5%90%AF%E5%8A%A8',
+    '/posts/如何让软件在开机自动启动StartUp': RouteRecordInfo<
+      '/posts/如何让软件在开机自动启动StartUp',
+      '/posts/%E5%A6%82%E4%BD%95%E8%AE%A9%E8%BD%AF%E4%BB%B6%E5%9C%A8%E5%BC%80%E6%9C%BA%E8%87%AA%E5%8A%A8%E5%90%AF%E5%8A%A8StartUp',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -215,9 +215,9 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/posts/小米BE6500开SSH开机自启固化和安装ShellCrash开启全家代理': RouteRecordInfo<
-      '/posts/小米BE6500开SSH开机自启固化和安装ShellCrash开启全家代理',
-      '/posts/%E5%B0%8F%E7%B1%B3BE6500%E5%BC%80SSH%E5%BC%80%E6%9C%BA%E8%87%AA%E5%90%AF%E5%9B%BA%E5%8C%96%E5%92%8C%E5%AE%89%E8%A3%85ShellCrash%E5%BC%80%E5%90%AF%E5%85%A8%E5%AE%B6%E4%BB%A3%E7%90%86',
+    '/posts/小米BE6500开SSH固化和安装ShellCrash': RouteRecordInfo<
+      '/posts/小米BE6500开SSH固化和安装ShellCrash',
+      '/posts/%E5%B0%8F%E7%B1%B3BE6500%E5%BC%80SSH%E5%9B%BA%E5%8C%96%E5%92%8C%E5%AE%89%E8%A3%85ShellCrash',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -236,9 +236,9 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/posts/流量卡-授人以鱼不如授人以渔': RouteRecordInfo<
-      '/posts/流量卡-授人以鱼不如授人以渔',
-      '/posts/%E6%B5%81%E9%87%8F%E5%8D%A1-%E6%8E%88%E4%BA%BA%E4%BB%A5%E9%B1%BC%E4%B8%8D%E5%A6%82%E6%8E%88%E4%BA%BA%E4%BB%A5%E6%B8%94',
+    '/posts/流量卡授人以鱼不如授人以渔': RouteRecordInfo<
+      '/posts/流量卡授人以鱼不如授人以渔',
+      '/posts/%E6%B5%81%E9%87%8F%E5%8D%A1%E6%8E%88%E4%BA%BA%E4%BB%A5%E9%B1%BC%E4%B8%8D%E5%A6%82%E6%8E%88%E4%BA%BA%E4%BB%A5%E6%B8%94',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -264,9 +264,9 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/posts/致命公司自建局域网服务器，反代联机（破解）': RouteRecordInfo<
-      '/posts/致命公司自建局域网服务器，反代联机（破解）',
-      '/posts/%E8%87%B4%E5%91%BD%E5%85%AC%E5%8F%B8%E8%87%AA%E5%BB%BA%E5%B1%80%E5%9F%9F%E7%BD%91%E6%9C%8D%E5%8A%A1%E5%99%A8%EF%BC%8C%E5%8F%8D%E4%BB%A3%E8%81%94%E6%9C%BA%EF%BC%88%E7%A0%B4%E8%A7%A3%EF%BC%89',
+    '/posts/致命公司自建局域网服务器': RouteRecordInfo<
+      '/posts/致命公司自建局域网服务器',
+      '/posts/%E8%87%B4%E5%91%BD%E5%85%AC%E5%8F%B8%E8%87%AA%E5%BB%BA%E5%B1%80%E5%9F%9F%E7%BD%91%E6%9C%8D%E5%8A%A1%E5%99%A8',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -285,9 +285,9 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/posts/需ROOT小米使用FCM(谷歌推送服务)': RouteRecordInfo<
-      '/posts/需ROOT小米使用FCM(谷歌推送服务)',
-      '/posts/%E9%9C%80ROOT%E5%B0%8F%E7%B1%B3%E4%BD%BF%E7%94%A8FCM(%E8%B0%B7%E6%AD%8C%E6%8E%A8%E9%80%81%E6%9C%8D%E5%8A%A1)',
+    '/posts/需ROOT小米使用FCM': RouteRecordInfo<
+      '/posts/需ROOT小米使用FCM',
+      '/posts/%E9%9C%80ROOT%E5%B0%8F%E7%B1%B3%E4%BD%BF%E7%94%A8FCM',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -341,9 +341,9 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/posts/FZBZ-F': RouteRecordInfo<
-      '/posts/FZBZ-F',
-      '/posts/FZBZ-F',
+    '/posts/FZBZF': RouteRecordInfo<
+      '/posts/FZBZF',
+      '/posts/FZBZF',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -369,9 +369,9 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/posts/Intel MAC使用MAA进行明日方舟挂机': RouteRecordInfo<
-      '/posts/Intel MAC使用MAA进行明日方舟挂机',
-      '/posts/Intel%20MAC%E4%BD%BF%E7%94%A8MAA%E8%BF%9B%E8%A1%8C%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E6%8C%82%E6%9C%BA',
+    '/posts/IntelMAC使用MAA进行明日方舟挂机': RouteRecordInfo<
+      '/posts/IntelMAC使用MAA进行明日方舟挂机',
+      '/posts/IntelMAC%E4%BD%BF%E7%94%A8MAA%E8%BF%9B%E8%A1%8C%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E6%8C%82%E6%9C%BA',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -383,9 +383,9 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/posts/MToolBox枫の美化工具箱Win美化的集大成者': RouteRecordInfo<
-      '/posts/MToolBox枫の美化工具箱Win美化的集大成者',
-      '/posts/MToolBox%E6%9E%AB%E3%81%AE%E7%BE%8E%E5%8C%96%E5%B7%A5%E5%85%B7%E7%AE%B1Win%E7%BE%8E%E5%8C%96%E7%9A%84%E9%9B%86%E5%A4%A7%E6%88%90%E8%80%85',
+    '/posts/MToolBox枫美化工具箱Win美化的集大成者': RouteRecordInfo<
+      '/posts/MToolBox枫美化工具箱Win美化的集大成者',
+      '/posts/MToolBox%E6%9E%AB%E7%BE%8E%E5%8C%96%E5%B7%A5%E5%85%B7%E7%AE%B1Win%E7%BE%8E%E5%8C%96%E7%9A%84%E9%9B%86%E5%A4%A7%E6%88%90%E8%80%85',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -418,9 +418,9 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/posts/Zero-Typing - 一个美观的打字网站': RouteRecordInfo<
-      '/posts/Zero-Typing - 一个美观的打字网站',
-      '/posts/Zero-Typing%20-%20%E4%B8%80%E4%B8%AA%E7%BE%8E%E8%A7%82%E7%9A%84%E6%89%93%E5%AD%97%E7%BD%91%E7%AB%99',
+    '/posts/ZeroTyping一个美观的打字网站': RouteRecordInfo<
+      '/posts/ZeroTyping一个美观的打字网站',
+      '/posts/ZeroTyping%E4%B8%80%E4%B8%AA%E7%BE%8E%E8%A7%82%E7%9A%84%E6%89%93%E5%AD%97%E7%BD%91%E7%AB%99',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -584,9 +584,9 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'pages/posts/关于Steam AutoCrack的使用方法.md': {
+    'pages/posts/关于SteamAutoCrack的使用方法.md': {
       routes:
-        | '/posts/关于Steam AutoCrack的使用方法'
+        | '/posts/关于SteamAutoCrack的使用方法'
       views:
         | never
     }
@@ -602,9 +602,9 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'pages/posts/如何让想要的软件在开机的时候自动启动.md': {
+    'pages/posts/如何让软件在开机自动启动StartUp.md': {
       routes:
-        | '/posts/如何让想要的软件在开机的时候自动启动'
+        | '/posts/如何让软件在开机自动启动StartUp'
       views:
         | never
     }
@@ -614,9 +614,9 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'pages/posts/小米BE6500开SSH开机自启固化和安装ShellCrash开启全家代理.md': {
+    'pages/posts/小米BE6500开SSH固化和安装ShellCrash.md': {
       routes:
-        | '/posts/小米BE6500开SSH开机自启固化和安装ShellCrash开启全家代理'
+        | '/posts/小米BE6500开SSH固化和安装ShellCrash'
       views:
         | never
     }
@@ -632,9 +632,9 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'pages/posts/流量卡-授人以鱼不如授人以渔.md': {
+    'pages/posts/流量卡授人以鱼不如授人以渔.md': {
       routes:
-        | '/posts/流量卡-授人以鱼不如授人以渔'
+        | '/posts/流量卡授人以鱼不如授人以渔'
       views:
         | never
     }
@@ -656,9 +656,9 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'pages/posts/致命公司自建局域网服务器，反代联机（破解）.md': {
+    'pages/posts/致命公司自建局域网服务器.md': {
       routes:
-        | '/posts/致命公司自建局域网服务器，反代联机（破解）'
+        | '/posts/致命公司自建局域网服务器'
       views:
         | never
     }
@@ -674,9 +674,9 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'pages/posts/需ROOT小米使用FCM(谷歌推送服务).md': {
+    'pages/posts/需ROOT小米使用FCM.md': {
       routes:
-        | '/posts/需ROOT小米使用FCM(谷歌推送服务)'
+        | '/posts/需ROOT小米使用FCM'
       views:
         | never
     }
@@ -722,9 +722,9 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'pages/posts/FZBZ-F.md': {
+    'pages/posts/FZBZF.md': {
       routes:
-        | '/posts/FZBZ-F'
+        | '/posts/FZBZF'
       views:
         | never
     }
@@ -746,9 +746,9 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'pages/posts/Intel MAC使用MAA进行明日方舟挂机.md': {
+    'pages/posts/IntelMAC使用MAA进行明日方舟挂机.md': {
       routes:
-        | '/posts/Intel MAC使用MAA进行明日方舟挂机'
+        | '/posts/IntelMAC使用MAA进行明日方舟挂机'
       views:
         | never
     }
@@ -758,9 +758,9 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'pages/posts/MToolBox枫の美化工具箱Win美化的集大成者.md': {
+    'pages/posts/MToolBox枫美化工具箱Win美化的集大成者.md': {
       routes:
-        | '/posts/MToolBox枫の美化工具箱Win美化的集大成者'
+        | '/posts/MToolBox枫美化工具箱Win美化的集大成者'
       views:
         | never
     }
@@ -788,9 +788,9 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'pages/posts/Zero-Typing - 一个美观的打字网站.md': {
+    'pages/posts/ZeroTyping一个美观的打字网站.md': {
       routes:
-        | '/posts/Zero-Typing - 一个美观的打字网站'
+        | '/posts/ZeroTyping一个美观的打字网站'
       views:
         | never
     }

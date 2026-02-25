@@ -1,6 +1,6 @@
 ---
 hide: false
-title: 如何让想要的软件在开机的时候自动启动
+title: 如何让想要的软件在开机的时候自动启动 - Start Up
 date: 2025-7-14
 updated: 2025-8-4
 categories: 搞机日志
