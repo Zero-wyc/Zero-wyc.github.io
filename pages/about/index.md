@@ -1,6 +1,6 @@
 ---
 title: 关于我
-aside: false	# 关闭目录边栏
+aside: true
 ---
 
 一个高二的学生
