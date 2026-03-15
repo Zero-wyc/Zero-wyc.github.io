@@ -30,17 +30,21 @@ tags:
 
 ---
 
-1. 安装Xposed模块，并在Xposed管理器中激活Xposed模块后重启。（如果使用lsposed，需要注意勾选所有推荐应用）
+1. #### 安装Xposed模块，并在Xposed管理器中激活Xposed模块后重启。（如果使用lsposed，需要注意勾选所有推荐应用）
+   
    1. ![image-20260214003506986](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20260214003514152.webp)
-2. 在MIUIGMS应用中勾选需要FCM推送的应用以保留后台
+2. #### 在MIUIGMS应用中勾选需要FCM推送的应用以保留后台
+   
    1. ![image-20260214003744791](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20260214003744900.webp)
-3. 刷入[systemless-fcm-hosts模块](https://github.com/Goooler/systemless-fcm-hosts)（可以使用Magisk、KernelSU、KernelSU-Next、SukiSU/ULTRA、Apatch）大部分的框架
+3. #### 刷入[systemless-fcm-hosts模块](https://github.com/Goooler/systemless-fcm-hosts)（可以使用Magisk、KernelSU、KernelSU-Next、SukiSU/ULTRA、Apatch）大部分的框架
+   
    1. ![image-20260214004015003](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20260214004015118.webp)
-4. 刷入完成之后重启手机，打开MIUIGMS，点击右上角的三个点，点击 打开FCM Diagnostics
+4. #### 刷入完成之后重启手机，打开MIUIGMS，点击右上角的三个点，点击 打开FCM Diagnostics
+   
    1. ![image-20260214004131601](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20260214004131700.webp)
-   2. 确认是否连接到了FCM推送服务，若connect则成功
+   2. #### 确认是否连接到了FCM推送服务，若connect则成功
    3. ![image-20260214004207155](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20260214004207233.webp)
-5. 现在去试试能不能收到推送吧（如推，纸飞机等）
+5. #### 现在去试试能不能收到推送吧（如推，纸飞机等）
 
 ---
 
