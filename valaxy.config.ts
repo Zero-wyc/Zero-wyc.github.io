@@ -78,6 +78,12 @@ export default defineValaxyConfig<UserThemeConfig>({
         color: '#1BA15A',
       },
       {
+        name: '站点更新日志',
+        url: '/update/',
+        icon: 'i-ri-arrow-up-long-fill',
+        color: '#43abee',
+      },
+      {
         name: '喵~',
         url: '/love/',
         icon: 'i-ri-heart-add-line',
