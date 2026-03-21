@@ -1,6 +1,6 @@
 ---
 hide: false
-title: BLOG更新日志
+title: Web日志
 date: 2025-3-14
 updated: 2026-3-22
 categories: 搞机日志
