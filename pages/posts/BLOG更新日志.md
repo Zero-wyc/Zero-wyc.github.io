@@ -2,7 +2,7 @@
 hide: false
 title: BLOG更新日志
 date: 2025-3-14
-updated: 2025-12-20
+updated: 2026-3-22
 categories: 搞机日志
 cover: https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250804192855060.jpg
 top: 1
@@ -12,6 +12,28 @@ tags:
   - Valaxy
   - Daily life
 ---
+
+### 2026.3.22
+
+> 对Openlist网盘进行更改结构
+>
+> 将原本的通过 NAS 使用FRP到VPS内网穿透的结构改成
+>
+> 在VPS搭建Openlist，并挂载NAS的Openlist实现同等效果
+>
+> 而且，因为我是中国移动的电话卡，我发现中国移动云盘不知道什么时候给了我1TB的空间
+>
+> 最重要的是中国移动云盘 不限速！！！ 且Openlist早有挂载并提供直链的教程
+>
+> 我将之前Openlist里共享的上传至中国移动云盘（NM，中国移动宽带上传限速5Mps让我传了2个星期）
+>
+> 于是现在的情况就变成了
+>
+> NAS做备用，中国移动云盘挂载并使用直链作为主下载方式 yee
+>
+> 下载链接变为（至于为什么是分享链接呢，因为中国移动云盘挂载并指定目录的Folder ID不能用了~~或许是我没找到正确的方法~~）
+>
+> http://server.zero251.xyz:5244/@s/FGGEv8oO
 
 ### 2026.2.24
 
