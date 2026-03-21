@@ -53,12 +53,14 @@ tags:
     npm install -g corepack
     ```
 
--  #### 启用corepack 并管理 pnpm
+- #### 启用corepack 并管理 pnpm
 
   - ```powershell
     corepack enable
     corepack prepare pnpm@x.x.x --activate
     #@后面写上最新/想要的pnpm版本
+    corepack prepare pnpm@latest --activate
+    #自动更新至最新版本
     ```
 
 - #### 验证是否成功
