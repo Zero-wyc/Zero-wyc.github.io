@@ -17,7 +17,8 @@ import type {
 
 declare module 'vue-router' {
   interface TypesConfig {
-    ParamParsers: never
+    ParamParsers:
+      | never
   }
 }
 
@@ -292,13 +293,6 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/posts/BLOG更新日志': RouteRecordInfo<
-      '/posts/BLOG更新日志',
-      '/posts/BLOG%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
     '/posts/BLOG网页部署live2d小人使用Vercount替代不蒜子': RouteRecordInfo<
       '/posts/BLOG网页部署live2d小人使用Vercount替代不蒜子',
       '/posts/BLOG%E7%BD%91%E9%A1%B5%E9%83%A8%E7%BD%B2live2d%E5%B0%8F%E4%BA%BA%E4%BD%BF%E7%94%A8Vercount%E6%9B%BF%E4%BB%A3%E4%B8%8D%E8%92%9C%E5%AD%90',
@@ -418,6 +412,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/Web日志': RouteRecordInfo<
+      '/posts/Web日志',
+      '/posts/Web%E6%97%A5%E5%BF%97',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/ZeroTyping一个美观的打字网站': RouteRecordInfo<
       '/posts/ZeroTyping一个美观的打字网站',
       '/posts/ZeroTyping%E4%B8%80%E4%B8%AA%E7%BE%8E%E8%A7%82%E7%9A%84%E6%89%93%E5%AD%97%E7%BD%91%E7%AB%99',
@@ -439,6 +440,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/update/': RouteRecordInfo<
+      '/update/',
+      '/update',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
   }
 
   /**
@@ -452,13 +460,13 @@ declare module 'vue-router/auto-routes' {
    * @internal
    */
   export interface _RouteFileInfoMap {
-    'node_modules/.pnpm/valaxy-theme-yun@0.27.0_vue@3.5.24_typescript@5.9.3_/node_modules/valaxy-theme-yun/pages/index.vue': {
+    'node_modules/.pnpm/valaxy-theme-yun@0.28.0-beta.6_vue@3.5.24_typescript@5.9.3_/node_modules/valaxy-theme-yun/pages/index.vue': {
       routes:
         | '/'
       views:
         | never
     }
-    'node_modules/.pnpm/valaxy@0.27.0_@babel+parser_0e0443622f2d813c9e028549b1bb88ac/node_modules/valaxy/client/pages/[...path].vue': {
+    'node_modules/.pnpm/valaxy@0.28.0-beta.6_@babel_feeb1415c28ea32f54af9216253a5f44/node_modules/valaxy/client/pages/[...path].vue': {
       routes:
         | '/[...path]'
       views:
@@ -542,13 +550,13 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'node_modules/.pnpm/valaxy-theme-yun@0.27.0_vue@3.5.24_typescript@5.9.3_/node_modules/valaxy-theme-yun/pages/page/[page].vue': {
+    'node_modules/.pnpm/valaxy-theme-yun@0.28.0-beta.6_vue@3.5.24_typescript@5.9.3_/node_modules/valaxy-theme-yun/pages/page/[page].vue': {
       routes:
         | '/page/[page]'
       views:
         | never
     }
-    'node_modules/.pnpm/valaxy-theme-yun@0.27.0_vue@3.5.24_typescript@5.9.3_/node_modules/valaxy-theme-yun/pages/posts/index.vue': {
+    'node_modules/.pnpm/valaxy-theme-yun@0.28.0-beta.6_vue@3.5.24_typescript@5.9.3_/node_modules/valaxy-theme-yun/pages/posts/index.vue': {
       routes:
         | '/posts/'
       views:
@@ -680,12 +688,6 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'pages/posts/BLOG更新日志.md': {
-      routes:
-        | '/posts/BLOG更新日志'
-      views:
-        | never
-    }
     'pages/posts/BLOG网页部署live2d小人使用Vercount替代不蒜子.md': {
       routes:
         | '/posts/BLOG网页部署live2d小人使用Vercount替代不蒜子'
@@ -788,6 +790,12 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
+    'pages/posts/Web日志.md': {
+      routes:
+        | '/posts/Web日志'
+      views:
+        | never
+    }
     'pages/posts/ZeroTyping一个美观的打字网站.md': {
       routes:
         | '/posts/ZeroTyping一个美观的打字网站'
@@ -803,6 +811,12 @@ declare module 'vue-router/auto-routes' {
     'pages/tags/index.md': {
       routes:
         | '/tags/'
+      views:
+        | never
+    }
+    'pages/update/index.md': {
+      routes:
+        | '/update/'
       views:
         | never
     }
