@@ -363,6 +363,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/hello-valaxy': RouteRecordInfo<
+      '/posts/hello-valaxy',
+      '/posts/hello-valaxy',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/IntelMAC使用MAA进行明日方舟挂机': RouteRecordInfo<
       '/posts/IntelMAC使用MAA进行明日方舟挂机',
       '/posts/IntelMAC%E4%BD%BF%E7%94%A8MAA%E8%BF%9B%E8%A1%8C%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E6%8C%82%E6%9C%BA',
@@ -460,13 +467,13 @@ declare module 'vue-router/auto-routes' {
    * @internal
    */
   export interface _RouteFileInfoMap {
-    'node_modules/.pnpm/valaxy-theme-yun@0.28.0-beta.6_vue@3.5.24_typescript@5.9.3_/node_modules/valaxy-theme-yun/pages/index.vue': {
+    'node_modules/.pnpm/valaxy-theme-yun@0.28.1_mag_ee88cb6358ff2ad755e81a5eae5820f3/node_modules/valaxy-theme-yun/pages/index.vue': {
       routes:
         | '/'
       views:
         | never
     }
-    'node_modules/.pnpm/valaxy@0.28.0-beta.6_@babel_feeb1415c28ea32f54af9216253a5f44/node_modules/valaxy/client/pages/[...path].vue': {
+    'node_modules/.pnpm/valaxy@0.28.1_@babel+parser_01ec04ba40d09428030781c7f18b9a5d/node_modules/valaxy/client/pages/[...path].vue': {
       routes:
         | '/[...path]'
       views:
@@ -550,13 +557,13 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'node_modules/.pnpm/valaxy-theme-yun@0.28.0-beta.6_vue@3.5.24_typescript@5.9.3_/node_modules/valaxy-theme-yun/pages/page/[page].vue': {
+    'node_modules/.pnpm/valaxy-theme-yun@0.28.1_mag_ee88cb6358ff2ad755e81a5eae5820f3/node_modules/valaxy-theme-yun/pages/page/[page].vue': {
       routes:
         | '/page/[page]'
       views:
         | never
     }
-    'node_modules/.pnpm/valaxy-theme-yun@0.28.0-beta.6_vue@3.5.24_typescript@5.9.3_/node_modules/valaxy-theme-yun/pages/posts/index.vue': {
+    'node_modules/.pnpm/valaxy-theme-yun@0.28.1_mag_ee88cb6358ff2ad755e81a5eae5820f3/node_modules/valaxy-theme-yun/pages/posts/index.vue': {
       routes:
         | '/posts/'
       views:
@@ -745,6 +752,12 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/HackBGRT更改Windows开机动画.md': {
       routes:
         | '/posts/HackBGRT更改Windows开机动画'
+      views:
+        | never
+    }
+    'pages/posts/hello-valaxy.md': {
+      routes:
+        | '/posts/hello-valaxy'
       views:
         | never
     }

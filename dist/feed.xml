@@ -4,7 +4,7 @@
         <title>Zero_wyc的窝</title>
         <link>https://blog.zero251.xyz/</link>
         <description>Zero_wyc的公式化</description>
-        <lastBuildDate>Sun, 22 Mar 2026 01:52:44 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 27 Mar 2026 16:35:03 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -534,6 +534,19 @@ frp 是一款高性能的反向代理应用，专注于内网穿透。它支持�
 <p><strong>PS</strong>： So FUCK FZBZ XXXX STUDENTS UNION</p>
 </blockquote>
 <br/><p>访问 <a href="https://blog.zero251.xyz/posts/FZBZF" target="_blank">https://blog.zero251.xyz/posts/FZBZF</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Zero-无常)</author>
+        </item>
+        <item>
+            <title><![CDATA[Hello, Valaxy!]]></title>
+            <link>https://blog.zero251.xyz/posts/hello-valaxy</link>
+            <guid isPermaLink="false">https://blog.zero251.xyz/posts/hello-valaxy</guid>
+            <pubDate>Fri, 01 Apr 2022 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>Valaxy</h2>
+<p>Next Generation Static Blog Framework.</p>
+<p>Write your first post!</p>
+<h2>Usage</h2>
+<p>Modify `valaxy</p>
+<br/><p>访问 <a href="https://blog.zero251.xyz/posts/hello-valaxy" target="_blank">https://blog.zero251.xyz/posts/hello-valaxy</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (Zero-无常)</author>
         </item>
         <item>

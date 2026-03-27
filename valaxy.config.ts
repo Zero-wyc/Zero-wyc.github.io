@@ -324,7 +324,7 @@ export default defineValaxyConfig<UserThemeConfig>({
             'https://summerscar.me/live2dDemo/assets/33.default/model.2017.valley.json',
             'https://summerscar.me/live2dDemo/assets/33.default/model.2017.vdays.json',
             'https://summerscar.me/live2dDemo/assets/33.default/model.2018.lover.json',
-            'https://summerscar.me/live2dDemo/assets/33.defaultmodel.2018.spring.json',
+            'https://summerscar.me/live2dDemo/assets/33.default/model.2018.spring.json',
           ],
         },
         mojiaduoer: {

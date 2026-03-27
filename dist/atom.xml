@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.zero251.xyz/</id>
     <title>Zero_wyc的窝</title>
-    <updated>2026-03-22T01:52:44.269Z</updated>
+    <updated>2026-03-27T16:35:03.272Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Zero-无常</name>
@@ -716,6 +716,24 @@ frp 是一款高性能的反向代理应用，专注于内网穿透。它支持�
             <uri>https://valaxy.site</uri>
         </author>
         <published>2024-12-31T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hello, Valaxy!]]></title>
+        <id>https://blog.zero251.xyz/posts/hello-valaxy</id>
+        <link href="https://blog.zero251.xyz/posts/hello-valaxy"/>
+        <updated>2022-04-01T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h2>Valaxy</h2>
+<p>Next Generation Static Blog Framework.</p>
+<p>Write your first post!</p>
+<h2>Usage</h2>
+<p>Modify `valaxy</p>
+<br/><p>访问 <a href="https://blog.zero251.xyz/posts/hello-valaxy" target="_blank">https://blog.zero251.xyz/posts/hello-valaxy</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Zero-无常</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2022-04-01T00:00:00.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[硬件日志¿]]></title>
