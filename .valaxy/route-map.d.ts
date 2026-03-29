@@ -146,184 +146,86 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/posts/一些咕咕咕JPG': RouteRecordInfo<
-      '/posts/一些咕咕咕JPG',
-      '/posts/%E4%B8%80%E4%BA%9B%E5%92%95%E5%92%95%E5%92%95JPG',
+    '/posts/bios-boot-animation-change': RouteRecordInfo<
+      '/posts/bios-boot-animation-change',
+      '/posts/bios-boot-animation-change',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/一些DockerCompose配置': RouteRecordInfo<
-      '/posts/一些DockerCompose配置',
-      '/posts/%E4%B8%80%E4%BA%9BDockerCompose%E9%85%8D%E7%BD%AE',
+    '/posts/blog-deploy-live2d-vercount': RouteRecordInfo<
+      '/posts/blog-deploy-live2d-vercount',
+      '/posts/blog-deploy-live2d-vercount',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/主板BIOS开机动画更改': RouteRecordInfo<
-      '/posts/主板BIOS开机动画更改',
-      '/posts/%E4%B8%BB%E6%9D%BFBIOS%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB%E6%9B%B4%E6%94%B9',
+    '/posts/bypass-wifi-auth-3xui-tunnel-fzbz': RouteRecordInfo<
+      '/posts/bypass-wifi-auth-3xui-tunnel-fzbz',
+      '/posts/bypass-wifi-auth-3xui-tunnel-fzbz',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/使用Vercount替代不蒜子Valaxy': RouteRecordInfo<
-      '/posts/使用Vercount替代不蒜子Valaxy',
-      '/posts/%E4%BD%BF%E7%94%A8Vercount%E6%9B%BF%E4%BB%A3%E4%B8%8D%E8%92%9C%E5%AD%90Valaxy',
+    '/posts/centos-dns-config': RouteRecordInfo<
+      '/posts/centos-dns-config',
+      '/posts/centos-dns-config',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/免费VPSClawCloudRun使用3XUI面板进行隧道搭建': RouteRecordInfo<
-      '/posts/免费VPSClawCloudRun使用3XUI面板进行隧道搭建',
-      '/posts/%E5%85%8D%E8%B4%B9VPSClawCloudRun%E4%BD%BF%E7%94%A83XUI%E9%9D%A2%E6%9D%BF%E8%BF%9B%E8%A1%8C%E9%9A%A7%E9%81%93%E6%90%AD%E5%BB%BA',
+    '/posts/comments-miscellaneous': RouteRecordInfo<
+      '/posts/comments-miscellaneous',
+      '/posts/comments-miscellaneous',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/关于SteamAutoCrack的使用方法': RouteRecordInfo<
-      '/posts/关于SteamAutoCrack的使用方法',
-      '/posts/%E5%85%B3%E4%BA%8ESteamAutoCrack%E7%9A%84%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95',
+    '/posts/custom-typora-background': RouteRecordInfo<
+      '/posts/custom-typora-background',
+      '/posts/custom-typora-background',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/域名被运营商阻断而不是被GFWGank': RouteRecordInfo<
-      '/posts/域名被运营商阻断而不是被GFWGank',
-      '/posts/%E5%9F%9F%E5%90%8D%E8%A2%AB%E8%BF%90%E8%90%A5%E5%95%86%E9%98%BB%E6%96%AD%E8%80%8C%E4%B8%8D%E6%98%AF%E8%A2%ABGFWGank',
+    '/posts/data-sim-guide': RouteRecordInfo<
+      '/posts/data-sim-guide',
+      '/posts/data-sim-guide',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/如何自定义Typora的背景': RouteRecordInfo<
-      '/posts/如何自定义Typora的背景',
-      '/posts/%E5%A6%82%E4%BD%95%E8%87%AA%E5%AE%9A%E4%B9%89Typora%E7%9A%84%E8%83%8C%E6%99%AF',
+    '/posts/default': RouteRecordInfo<
+      '/posts/default',
+      '/posts/default',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/如何让软件在开机自动启动StartUp': RouteRecordInfo<
-      '/posts/如何让软件在开机自动启动StartUp',
-      '/posts/%E5%A6%82%E4%BD%95%E8%AE%A9%E8%BD%AF%E4%BB%B6%E5%9C%A8%E5%BC%80%E6%9C%BA%E8%87%AA%E5%8A%A8%E5%90%AF%E5%8A%A8StartUp',
+    '/posts/directory-opus': RouteRecordInfo<
+      '/posts/directory-opus',
+      '/posts/directory-opus',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/小米手环910开启心率广播投屏OBS直播': RouteRecordInfo<
-      '/posts/小米手环910开启心率广播投屏OBS直播',
-      '/posts/%E5%B0%8F%E7%B1%B3%E6%89%8B%E7%8E%AF910%E5%BC%80%E5%90%AF%E5%BF%83%E7%8E%87%E5%B9%BF%E6%92%AD%E6%8A%95%E5%B1%8FOBS%E7%9B%B4%E6%92%AD',
+    '/posts/docker-compose-configs': RouteRecordInfo<
+      '/posts/docker-compose-configs',
+      '/posts/docker-compose-configs',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/小米BE6500开SSH固化和安装ShellCrash': RouteRecordInfo<
-      '/posts/小米BE6500开SSH固化和安装ShellCrash',
-      '/posts/%E5%B0%8F%E7%B1%B3BE6500%E5%BC%80SSH%E5%9B%BA%E5%8C%96%E5%92%8C%E5%AE%89%E8%A3%85ShellCrash',
+    '/posts/docker-install-usage': RouteRecordInfo<
+      '/posts/docker-install-usage',
+      '/posts/docker-install-usage',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/模版': RouteRecordInfo<
-      '/posts/模版',
-      '/posts/%E6%A8%A1%E7%89%88',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/求生之路2之使用FRP反代获得低延迟体验': RouteRecordInfo<
-      '/posts/求生之路2之使用FRP反代获得低延迟体验',
-      '/posts/%E6%B1%82%E7%94%9F%E4%B9%8B%E8%B7%AF2%E4%B9%8B%E4%BD%BF%E7%94%A8FRP%E5%8F%8D%E4%BB%A3%E8%8E%B7%E5%BE%97%E4%BD%8E%E5%BB%B6%E8%BF%9F%E4%BD%93%E9%AA%8C',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/流量卡授人以鱼不如授人以渔': RouteRecordInfo<
-      '/posts/流量卡授人以鱼不如授人以渔',
-      '/posts/%E6%B5%81%E9%87%8F%E5%8D%A1%E6%8E%88%E4%BA%BA%E4%BB%A5%E9%B1%BC%E4%B8%8D%E5%A6%82%E6%8E%88%E4%BA%BA%E4%BB%A5%E6%B8%94',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/点读笔-如何在开机时自动启动WIFI热点': RouteRecordInfo<
-      '/posts/点读笔-如何在开机时自动启动WIFI热点',
-      '/posts/%E7%82%B9%E8%AF%BB%E7%AC%94-%E5%A6%82%E4%BD%95%E5%9C%A8%E5%BC%80%E6%9C%BA%E6%97%B6%E8%87%AA%E5%8A%A8%E5%90%AF%E5%8A%A8WIFI%E7%83%AD%E7%82%B9',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/硬件日志': RouteRecordInfo<
-      '/posts/硬件日志',
-      '/posts/%E7%A1%AC%E4%BB%B6%E6%97%A5%E5%BF%97',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/穷球记': RouteRecordInfo<
-      '/posts/穷球记',
-      '/posts/%E7%A9%B7%E7%90%83%E8%AE%B0',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/绕过WiFi的Web认证使用3XUI面板搭建隧道FZBZ': RouteRecordInfo<
-      '/posts/绕过WiFi的Web认证使用3XUI面板搭建隧道FZBZ',
-      '/posts/%E7%BB%95%E8%BF%87WiFi%E7%9A%84Web%E8%AE%A4%E8%AF%81%E4%BD%BF%E7%94%A83XUI%E9%9D%A2%E6%9D%BF%E6%90%AD%E5%BB%BA%E9%9A%A7%E9%81%93FZBZ',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/致命公司自建局域网服务器': RouteRecordInfo<
-      '/posts/致命公司自建局域网服务器',
-      '/posts/%E8%87%B4%E5%91%BD%E5%85%AC%E5%8F%B8%E8%87%AA%E5%BB%BA%E5%B1%80%E5%9F%9F%E7%BD%91%E6%9C%8D%E5%8A%A1%E5%99%A8',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/解决npm或pnpm无法更新的问题': RouteRecordInfo<
-      '/posts/解决npm或pnpm无法更新的问题',
-      '/posts/%E8%A7%A3%E5%86%B3npm%E6%88%96pnpm%E6%97%A0%E6%B3%95%E6%9B%B4%E6%96%B0%E7%9A%84%E9%97%AE%E9%A2%98',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/评论杂烩QAQ': RouteRecordInfo<
-      '/posts/评论杂烩QAQ',
-      '/posts/%E8%AF%84%E8%AE%BA%E6%9D%82%E7%83%A9QAQ',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/需ROOT小米使用FCM': RouteRecordInfo<
-      '/posts/需ROOT小米使用FCM',
-      '/posts/%E9%9C%80ROOT%E5%B0%8F%E7%B1%B3%E4%BD%BF%E7%94%A8FCM',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/BLOG网页部署live2d小人使用Vercount替代不蒜子': RouteRecordInfo<
-      '/posts/BLOG网页部署live2d小人使用Vercount替代不蒜子',
-      '/posts/BLOG%E7%BD%91%E9%A1%B5%E9%83%A8%E7%BD%B2live2d%E5%B0%8F%E4%BA%BA%E4%BD%BF%E7%94%A8Vercount%E6%9B%BF%E4%BB%A3%E4%B8%8D%E8%92%9C%E5%AD%90',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/CentOS配置DNS': RouteRecordInfo<
-      '/posts/CentOS配置DNS',
-      '/posts/CentOS%E9%85%8D%E7%BD%AEDNS',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/DirectoryOpus': RouteRecordInfo<
-      '/posts/DirectoryOpus',
-      '/posts/DirectoryOpus',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/Docker的下载安装和使用': RouteRecordInfo<
-      '/posts/Docker的下载安装和使用',
-      '/posts/Docker%E7%9A%84%E4%B8%8B%E8%BD%BD%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8',
+    '/posts/domain-blocked-by-isp-not-gfw': RouteRecordInfo<
+      '/posts/domain-blocked-by-isp-not-gfw',
+      '/posts/domain-blocked-by-isp-not-gfw',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -335,9 +237,23 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/posts/FRP配置': RouteRecordInfo<
-      '/posts/FRP配置',
-      '/posts/FRP%E9%85%8D%E7%BD%AE',
+    '/posts/fix-npm-pnpm-update-issue': RouteRecordInfo<
+      '/posts/fix-npm-pnpm-update-issue',
+      '/posts/fix-npm-pnpm-update-issue',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/free-vps-clawcloudrun-3xui-tunnel': RouteRecordInfo<
+      '/posts/free-vps-clawcloudrun-3xui-tunnel',
+      '/posts/free-vps-clawcloudrun-3xui-tunnel',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/frp-config': RouteRecordInfo<
+      '/posts/frp-config',
+      '/posts/frp-config',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -356,86 +272,170 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/posts/GRUB2配置以及自定义主题以及添加Windows引导': RouteRecordInfo<
-      '/posts/GRUB2配置以及自定义主题以及添加Windows引导',
-      '/posts/GRUB2%E9%85%8D%E7%BD%AE%E4%BB%A5%E5%8F%8A%E8%87%AA%E5%AE%9A%E4%B9%89%E4%B8%BB%E9%A2%98%E4%BB%A5%E5%8F%8A%E6%B7%BB%E5%8A%A0Windows%E5%BC%95%E5%AF%BC',
+    '/posts/grub2-config-theme-windows': RouteRecordInfo<
+      '/posts/grub2-config-theme-windows',
+      '/posts/grub2-config-theme-windows',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/HackBGRT更改Windows开机动画': RouteRecordInfo<
-      '/posts/HackBGRT更改Windows开机动画',
-      '/posts/HackBGRT%E6%9B%B4%E6%94%B9Windows%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB',
+    '/posts/hackbgrt-windows-boot-animation': RouteRecordInfo<
+      '/posts/hackbgrt-windows-boot-animation',
+      '/posts/hackbgrt-windows-boot-animation',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/IntelMAC使用MAA进行明日方舟挂机': RouteRecordInfo<
-      '/posts/IntelMAC使用MAA进行明日方舟挂机',
-      '/posts/IntelMAC%E4%BD%BF%E7%94%A8MAA%E8%BF%9B%E8%A1%8C%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E6%8C%82%E6%9C%BA',
+    '/posts/hardware-log': RouteRecordInfo<
+      '/posts/hardware-log',
+      '/posts/hardware-log',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/LSPosedIT加入教程': RouteRecordInfo<
-      '/posts/LSPosedIT加入教程',
-      '/posts/LSPosedIT%E5%8A%A0%E5%85%A5%E6%95%99%E7%A8%8B',
+    '/posts/intel-mac-maa-arknights': RouteRecordInfo<
+      '/posts/intel-mac-maa-arknights',
+      '/posts/intel-mac-maa-arknights',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/MarkdownTypora的基本用法与常用操作': RouteRecordInfo<
-      '/posts/MarkdownTypora的基本用法与常用操作',
-      '/posts/MarkdownTypora%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95%E4%B8%8E%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C',
+    '/posts/l4d2-frp-low-latency': RouteRecordInfo<
+      '/posts/l4d2-frp-low-latency',
+      '/posts/l4d2-frp-low-latency',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/MToolBox枫美化工具箱Win美化的集大成者': RouteRecordInfo<
-      '/posts/MToolBox枫美化工具箱Win美化的集大成者',
-      '/posts/MToolBox%E6%9E%AB%E7%BE%8E%E5%8C%96%E5%B7%A5%E5%85%B7%E7%AE%B1Win%E7%BE%8E%E5%8C%96%E7%9A%84%E9%9B%86%E5%A4%A7%E6%88%90%E8%80%85',
+    '/posts/lethal-company-lan-server': RouteRecordInfo<
+      '/posts/lethal-company-lan-server',
+      '/posts/lethal-company-lan-server',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/MydockFinderMAC式的底栏和顶栏': RouteRecordInfo<
-      '/posts/MydockFinderMAC式的底栏和顶栏',
-      '/posts/MydockFinderMAC%E5%BC%8F%E7%9A%84%E5%BA%95%E6%A0%8F%E5%92%8C%E9%A1%B6%E6%A0%8F',
+    '/posts/LSPosedIT': RouteRecordInfo<
+      '/posts/LSPosedIT',
+      '/posts/LSPosedIT',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/Openlistalist的css美化自用': RouteRecordInfo<
-      '/posts/Openlistalist的css美化自用',
-      '/posts/Openlistalist%E7%9A%84css%E7%BE%8E%E5%8C%96%E8%87%AA%E7%94%A8',
+    '/posts/markdown-typora-guide': RouteRecordInfo<
+      '/posts/markdown-typora-guide',
+      '/posts/markdown-typora-guide',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/Valaxy个人博客如何添加一个音乐播放器': RouteRecordInfo<
-      '/posts/Valaxy个人博客如何添加一个音乐播放器',
-      '/posts/Valaxy%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0%E4%B8%80%E4%B8%AA%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8',
+    '/posts/mtoolbox-windows-beautification': RouteRecordInfo<
+      '/posts/mtoolbox-windows-beautification',
+      '/posts/mtoolbox-windows-beautification',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/VMware25H2下载以及汉化': RouteRecordInfo<
-      '/posts/VMware25H2下载以及汉化',
-      '/posts/VMware25H2%E4%B8%8B%E8%BD%BD%E4%BB%A5%E5%8F%8A%E6%B1%89%E5%8C%96',
+    '/posts/mydockfinder-mac-style': RouteRecordInfo<
+      '/posts/mydockfinder-mac-style',
+      '/posts/mydockfinder-mac-style',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/Web日志': RouteRecordInfo<
-      '/posts/Web日志',
-      '/posts/Web%E6%97%A5%E5%BF%97',
+    '/posts/openlist-css-beautification': RouteRecordInfo<
+      '/posts/openlist-css-beautification',
+      '/posts/openlist-css-beautification',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/ZeroTyping一个美观的打字网站': RouteRecordInfo<
-      '/posts/ZeroTyping一个美观的打字网站',
-      '/posts/ZeroTyping%E4%B8%80%E4%B8%AA%E7%BE%8E%E8%A7%82%E7%9A%84%E6%89%93%E5%AD%97%E7%BD%91%E7%AB%99',
+    '/posts/PoorBadminton': RouteRecordInfo<
+      '/posts/PoorBadminton',
+      '/posts/PoorBadminton',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/reading-pen-wifi-hotspot-auto-start': RouteRecordInfo<
+      '/posts/reading-pen-wifi-hotspot-auto-start',
+      '/posts/reading-pen-wifi-hotspot-auto-start',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/software-auto-startup': RouteRecordInfo<
+      '/posts/software-auto-startup',
+      '/posts/software-auto-startup',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/some-gugu-jpg': RouteRecordInfo<
+      '/posts/some-gugu-jpg',
+      '/posts/some-gugu-jpg',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/steamautocrack-usage': RouteRecordInfo<
+      '/posts/steamautocrack-usage',
+      '/posts/steamautocrack-usage',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/valaxy-music-player': RouteRecordInfo<
+      '/posts/valaxy-music-player',
+      '/posts/valaxy-music-player',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/vercount-replace-busuanzi-valaxy': RouteRecordInfo<
+      '/posts/vercount-replace-busuanzi-valaxy',
+      '/posts/vercount-replace-busuanzi-valaxy',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/vmware-25h2-download-chinese': RouteRecordInfo<
+      '/posts/vmware-25h2-download-chinese',
+      '/posts/vmware-25h2-download-chinese',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/Web-Log': RouteRecordInfo<
+      '/posts/Web-Log',
+      '/posts/Web-Log',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/xiaomi-band-heart-rate-obs': RouteRecordInfo<
+      '/posts/xiaomi-band-heart-rate-obs',
+      '/posts/xiaomi-band-heart-rate-obs',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/xiaomi-be6500-ssh-shellcrash': RouteRecordInfo<
+      '/posts/xiaomi-be6500-ssh-shellcrash',
+      '/posts/xiaomi-be6500-ssh-shellcrash',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/xiaomi-fcm-root': RouteRecordInfo<
+      '/posts/xiaomi-fcm-root',
+      '/posts/xiaomi-fcm-root',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/zerotyping-typing-website': RouteRecordInfo<
+      '/posts/zerotyping-typing-website',
+      '/posts/zerotyping-typing-website',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -576,159 +576,75 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'pages/posts/一些咕咕咕JPG.md': {
+    'pages/posts/bios-boot-animation-change.md': {
       routes:
-        | '/posts/一些咕咕咕JPG'
+        | '/posts/bios-boot-animation-change'
       views:
         | never
     }
-    'pages/posts/一些DockerCompose配置.md': {
+    'pages/posts/blog-deploy-live2d-vercount.md': {
       routes:
-        | '/posts/一些DockerCompose配置'
+        | '/posts/blog-deploy-live2d-vercount'
       views:
         | never
     }
-    'pages/posts/主板BIOS开机动画更改.md': {
+    'pages/posts/bypass-wifi-auth-3xui-tunnel-fzbz.md': {
       routes:
-        | '/posts/主板BIOS开机动画更改'
+        | '/posts/bypass-wifi-auth-3xui-tunnel-fzbz'
       views:
         | never
     }
-    'pages/posts/使用Vercount替代不蒜子Valaxy.md': {
+    'pages/posts/centos-dns-config.md': {
       routes:
-        | '/posts/使用Vercount替代不蒜子Valaxy'
+        | '/posts/centos-dns-config'
       views:
         | never
     }
-    'pages/posts/免费VPSClawCloudRun使用3XUI面板进行隧道搭建.md': {
+    'pages/posts/comments-miscellaneous.md': {
       routes:
-        | '/posts/免费VPSClawCloudRun使用3XUI面板进行隧道搭建'
+        | '/posts/comments-miscellaneous'
       views:
         | never
     }
-    'pages/posts/关于SteamAutoCrack的使用方法.md': {
+    'pages/posts/custom-typora-background.md': {
       routes:
-        | '/posts/关于SteamAutoCrack的使用方法'
+        | '/posts/custom-typora-background'
       views:
         | never
     }
-    'pages/posts/域名被运营商阻断而不是被GFWGank.md': {
+    'pages/posts/data-sim-guide.md': {
       routes:
-        | '/posts/域名被运营商阻断而不是被GFWGank'
+        | '/posts/data-sim-guide'
       views:
         | never
     }
-    'pages/posts/如何自定义Typora的背景.md': {
+    'pages/posts/default.md': {
       routes:
-        | '/posts/如何自定义Typora的背景'
+        | '/posts/default'
       views:
         | never
     }
-    'pages/posts/如何让软件在开机自动启动StartUp.md': {
+    'pages/posts/directory-opus.md': {
       routes:
-        | '/posts/如何让软件在开机自动启动StartUp'
+        | '/posts/directory-opus'
       views:
         | never
     }
-    'pages/posts/小米手环910开启心率广播投屏OBS直播.md': {
+    'pages/posts/docker-compose-configs.md': {
       routes:
-        | '/posts/小米手环910开启心率广播投屏OBS直播'
+        | '/posts/docker-compose-configs'
       views:
         | never
     }
-    'pages/posts/小米BE6500开SSH固化和安装ShellCrash.md': {
+    'pages/posts/docker-install-usage.md': {
       routes:
-        | '/posts/小米BE6500开SSH固化和安装ShellCrash'
+        | '/posts/docker-install-usage'
       views:
         | never
     }
-    'pages/posts/模版.md': {
+    'pages/posts/domain-blocked-by-isp-not-gfw.md': {
       routes:
-        | '/posts/模版'
-      views:
-        | never
-    }
-    'pages/posts/求生之路2之使用FRP反代获得低延迟体验.md': {
-      routes:
-        | '/posts/求生之路2之使用FRP反代获得低延迟体验'
-      views:
-        | never
-    }
-    'pages/posts/流量卡授人以鱼不如授人以渔.md': {
-      routes:
-        | '/posts/流量卡授人以鱼不如授人以渔'
-      views:
-        | never
-    }
-    'pages/posts/点读笔-如何在开机时自动启动WIFI热点.md': {
-      routes:
-        | '/posts/点读笔-如何在开机时自动启动WIFI热点'
-      views:
-        | never
-    }
-    'pages/posts/硬件日志.md': {
-      routes:
-        | '/posts/硬件日志'
-      views:
-        | never
-    }
-    'pages/posts/穷球记.md': {
-      routes:
-        | '/posts/穷球记'
-      views:
-        | never
-    }
-    'pages/posts/绕过WiFi的Web认证使用3XUI面板搭建隧道FZBZ.md': {
-      routes:
-        | '/posts/绕过WiFi的Web认证使用3XUI面板搭建隧道FZBZ'
-      views:
-        | never
-    }
-    'pages/posts/致命公司自建局域网服务器.md': {
-      routes:
-        | '/posts/致命公司自建局域网服务器'
-      views:
-        | never
-    }
-    'pages/posts/解决npm或pnpm无法更新的问题.md': {
-      routes:
-        | '/posts/解决npm或pnpm无法更新的问题'
-      views:
-        | never
-    }
-    'pages/posts/评论杂烩QAQ.md': {
-      routes:
-        | '/posts/评论杂烩QAQ'
-      views:
-        | never
-    }
-    'pages/posts/需ROOT小米使用FCM.md': {
-      routes:
-        | '/posts/需ROOT小米使用FCM'
-      views:
-        | never
-    }
-    'pages/posts/BLOG网页部署live2d小人使用Vercount替代不蒜子.md': {
-      routes:
-        | '/posts/BLOG网页部署live2d小人使用Vercount替代不蒜子'
-      views:
-        | never
-    }
-    'pages/posts/CentOS配置DNS.md': {
-      routes:
-        | '/posts/CentOS配置DNS'
-      views:
-        | never
-    }
-    'pages/posts/DirectoryOpus.md': {
-      routes:
-        | '/posts/DirectoryOpus'
-      views:
-        | never
-    }
-    'pages/posts/Docker的下载安装和使用.md': {
-      routes:
-        | '/posts/Docker的下载安装和使用'
+        | '/posts/domain-blocked-by-isp-not-gfw'
       views:
         | never
     }
@@ -738,9 +654,21 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'pages/posts/FRP配置.md': {
+    'pages/posts/fix-npm-pnpm-update-issue.md': {
       routes:
-        | '/posts/FRP配置'
+        | '/posts/fix-npm-pnpm-update-issue'
+      views:
+        | never
+    }
+    'pages/posts/free-vps-clawcloudrun-3xui-tunnel.md': {
+      routes:
+        | '/posts/free-vps-clawcloudrun-3xui-tunnel'
+      views:
+        | never
+    }
+    'pages/posts/frp-config.md': {
+      routes:
+        | '/posts/frp-config'
       views:
         | never
     }
@@ -756,75 +684,147 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'pages/posts/GRUB2配置以及自定义主题以及添加Windows引导.md': {
+    'pages/posts/grub2-config-theme-windows.md': {
       routes:
-        | '/posts/GRUB2配置以及自定义主题以及添加Windows引导'
+        | '/posts/grub2-config-theme-windows'
       views:
         | never
     }
-    'pages/posts/HackBGRT更改Windows开机动画.md': {
+    'pages/posts/hackbgrt-windows-boot-animation.md': {
       routes:
-        | '/posts/HackBGRT更改Windows开机动画'
+        | '/posts/hackbgrt-windows-boot-animation'
       views:
         | never
     }
-    'pages/posts/IntelMAC使用MAA进行明日方舟挂机.md': {
+    'pages/posts/hardware-log.md': {
       routes:
-        | '/posts/IntelMAC使用MAA进行明日方舟挂机'
+        | '/posts/hardware-log'
       views:
         | never
     }
-    'pages/posts/LSPosedIT加入教程.md': {
+    'pages/posts/intel-mac-maa-arknights.md': {
       routes:
-        | '/posts/LSPosedIT加入教程'
+        | '/posts/intel-mac-maa-arknights'
       views:
         | never
     }
-    'pages/posts/MarkdownTypora的基本用法与常用操作.md': {
+    'pages/posts/l4d2-frp-low-latency.md': {
       routes:
-        | '/posts/MarkdownTypora的基本用法与常用操作'
+        | '/posts/l4d2-frp-low-latency'
       views:
         | never
     }
-    'pages/posts/MToolBox枫美化工具箱Win美化的集大成者.md': {
+    'pages/posts/lethal-company-lan-server.md': {
       routes:
-        | '/posts/MToolBox枫美化工具箱Win美化的集大成者'
+        | '/posts/lethal-company-lan-server'
       views:
         | never
     }
-    'pages/posts/MydockFinderMAC式的底栏和顶栏.md': {
+    'pages/posts/LSPosedIT.md': {
       routes:
-        | '/posts/MydockFinderMAC式的底栏和顶栏'
+        | '/posts/LSPosedIT'
       views:
         | never
     }
-    'pages/posts/Openlistalist的css美化自用.md': {
+    'pages/posts/markdown-typora-guide.md': {
       routes:
-        | '/posts/Openlistalist的css美化自用'
+        | '/posts/markdown-typora-guide'
       views:
         | never
     }
-    'pages/posts/Valaxy个人博客如何添加一个音乐播放器.md': {
+    'pages/posts/mtoolbox-windows-beautification.md': {
       routes:
-        | '/posts/Valaxy个人博客如何添加一个音乐播放器'
+        | '/posts/mtoolbox-windows-beautification'
       views:
         | never
     }
-    'pages/posts/VMware25H2下载以及汉化.md': {
+    'pages/posts/mydockfinder-mac-style.md': {
       routes:
-        | '/posts/VMware25H2下载以及汉化'
+        | '/posts/mydockfinder-mac-style'
       views:
         | never
     }
-    'pages/posts/Web日志.md': {
+    'pages/posts/openlist-css-beautification.md': {
       routes:
-        | '/posts/Web日志'
+        | '/posts/openlist-css-beautification'
       views:
         | never
     }
-    'pages/posts/ZeroTyping一个美观的打字网站.md': {
+    'pages/posts/PoorBadminton.md': {
       routes:
-        | '/posts/ZeroTyping一个美观的打字网站'
+        | '/posts/PoorBadminton'
+      views:
+        | never
+    }
+    'pages/posts/reading-pen-wifi-hotspot-auto-start.md': {
+      routes:
+        | '/posts/reading-pen-wifi-hotspot-auto-start'
+      views:
+        | never
+    }
+    'pages/posts/software-auto-startup.md': {
+      routes:
+        | '/posts/software-auto-startup'
+      views:
+        | never
+    }
+    'pages/posts/some-gugu-jpg.md': {
+      routes:
+        | '/posts/some-gugu-jpg'
+      views:
+        | never
+    }
+    'pages/posts/steamautocrack-usage.md': {
+      routes:
+        | '/posts/steamautocrack-usage'
+      views:
+        | never
+    }
+    'pages/posts/valaxy-music-player.md': {
+      routes:
+        | '/posts/valaxy-music-player'
+      views:
+        | never
+    }
+    'pages/posts/vercount-replace-busuanzi-valaxy.md': {
+      routes:
+        | '/posts/vercount-replace-busuanzi-valaxy'
+      views:
+        | never
+    }
+    'pages/posts/vmware-25h2-download-chinese.md': {
+      routes:
+        | '/posts/vmware-25h2-download-chinese'
+      views:
+        | never
+    }
+    'pages/posts/Web-Log.md': {
+      routes:
+        | '/posts/Web-Log'
+      views:
+        | never
+    }
+    'pages/posts/xiaomi-band-heart-rate-obs.md': {
+      routes:
+        | '/posts/xiaomi-band-heart-rate-obs'
+      views:
+        | never
+    }
+    'pages/posts/xiaomi-be6500-ssh-shellcrash.md': {
+      routes:
+        | '/posts/xiaomi-be6500-ssh-shellcrash'
+      views:
+        | never
+    }
+    'pages/posts/xiaomi-fcm-root.md': {
+      routes:
+        | '/posts/xiaomi-fcm-root'
+      views:
+        | never
+    }
+    'pages/posts/zerotyping-typing-website.md': {
+      routes:
+        | '/posts/zerotyping-typing-website'
       views:
         | never
     }

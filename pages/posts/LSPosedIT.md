@@ -5,7 +5,6 @@ date: 2026-3-29
 updated: 2026-3-29
 categories: 搞机日志
 cover: https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20260329142543981.webp
-codeHeightLimit: 300 # 代码块限高
 tags:
   - 搞机日志
   - Root
