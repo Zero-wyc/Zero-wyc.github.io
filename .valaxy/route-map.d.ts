@@ -460,20 +460,28 @@ declare module 'vue-router/auto-routes' {
    */
   export interface _RouteFileInfoMap {
 <<<<<<< HEAD
+<<<<<<< HEAD
     'node_modules/.pnpm/valaxy-theme-yun@0.28.1_mag_ee88cb6358ff2ad755e81a5eae5820f3/node_modules/valaxy-theme-yun/pages/index.vue': {
 =======
     'node_modules/.pnpm/valaxy-theme-yun@0.27.0_vue@3.5.24_typescript@5.9.3_/node_modules/valaxy-theme-yun/pages/index.vue': {
 >>>>>>> parent of 327b370 (?)
+=======
+    'node_modules/.pnpm/valaxy-theme-yun@0.27.0_vue@3.5.24_typescript@5.9.3_/node_modules/valaxy-theme-yun/pages/index.vue': {
+>>>>>>> parent of 7c03127 (升级valaxy至28beta)
       routes:
         | '/'
       views:
         | never
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
     'node_modules/.pnpm/valaxy@0.28.1_@babel+parser_01ec04ba40d09428030781c7f18b9a5d/node_modules/valaxy/client/pages/[...path].vue': {
 =======
     'node_modules/.pnpm/valaxy@0.27.0_@babel+parser_0e0443622f2d813c9e028549b1bb88ac/node_modules/valaxy/client/pages/[...path].vue': {
 >>>>>>> parent of 327b370 (?)
+=======
+    'node_modules/.pnpm/valaxy@0.27.0_@babel+parser_0e0443622f2d813c9e028549b1bb88ac/node_modules/valaxy/client/pages/[...path].vue': {
+>>>>>>> parent of 7c03127 (升级valaxy至28beta)
       routes:
         | '/[...path]'
       views:
@@ -558,20 +566,28 @@ declare module 'vue-router/auto-routes' {
         | never
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
     'node_modules/.pnpm/valaxy-theme-yun@0.28.1_mag_ee88cb6358ff2ad755e81a5eae5820f3/node_modules/valaxy-theme-yun/pages/page/[page].vue': {
 =======
     'node_modules/.pnpm/valaxy-theme-yun@0.27.0_vue@3.5.24_typescript@5.9.3_/node_modules/valaxy-theme-yun/pages/page/[page].vue': {
 >>>>>>> parent of 327b370 (?)
+=======
+    'node_modules/.pnpm/valaxy-theme-yun@0.27.0_vue@3.5.24_typescript@5.9.3_/node_modules/valaxy-theme-yun/pages/page/[page].vue': {
+>>>>>>> parent of 7c03127 (升级valaxy至28beta)
       routes:
         | '/page/[page]'
       views:
         | never
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
     'node_modules/.pnpm/valaxy-theme-yun@0.28.1_mag_ee88cb6358ff2ad755e81a5eae5820f3/node_modules/valaxy-theme-yun/pages/posts/index.vue': {
 =======
     'node_modules/.pnpm/valaxy-theme-yun@0.27.0_vue@3.5.24_typescript@5.9.3_/node_modules/valaxy-theme-yun/pages/posts/index.vue': {
 >>>>>>> parent of 327b370 (?)
+=======
+    'node_modules/.pnpm/valaxy-theme-yun@0.27.0_vue@3.5.24_typescript@5.9.3_/node_modules/valaxy-theme-yun/pages/posts/index.vue': {
+>>>>>>> parent of 7c03127 (升级valaxy至28beta)
       routes:
         | '/posts/'
       views:
