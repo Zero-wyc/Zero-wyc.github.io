@@ -80,7 +80,7 @@ tags:
 
          ![https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20260329132057382.webp](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20260329132057382.webp)
 
-         ​	![Screenshot_2026-03-29-13-55-15-797_bin.mt.plus](C:\Users\Zero_\Downloads\Screenshot_2026-03-29-13-55-15-797_bin.mt.plus.jpg)
+         ​	![Screenshot_2026-03-29-13-55-15-797_bin.mt.plus](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20260329172304135.webp) 
 
          ![image-20260329134224107](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20260329134224353.webp)
 
