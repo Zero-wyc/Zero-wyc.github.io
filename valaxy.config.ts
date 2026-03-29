@@ -21,7 +21,7 @@ const safelist = [
 export default defineValaxyConfig<UserThemeConfig>({
   // site config see site.config.ts 
   // 站点配置请参阅site.config.ts
-
+  orderBy: 'updated', // 文章列表排序方式，date或者updated
   siteConfig: {
     // 启用评论
     comment: {
@@ -114,7 +114,6 @@ export default defineValaxyConfig<UserThemeConfig>({
       beian: {
         enable: true,
         icp: '闽ICP备2025091782号-1',
-        police: '',
       },
     },
   },
