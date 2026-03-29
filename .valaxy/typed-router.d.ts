@@ -58,6 +58,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/archives/': RouteRecordInfo<
+      '/archives/',
+      '/archives',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/Bangumi/': RouteRecordInfo<
       '/Bangumi/',
       '/Bangumi',
@@ -142,9 +149,9 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/posts/BLOG网页部署live2d小人 - 使用Vercount替代不蒜子 - Valaxy': RouteRecordInfo<
-      '/posts/BLOG网页部署live2d小人 - 使用Vercount替代不蒜子 - Valaxy',
-      '/posts/BLOG网页部署live2d小人 - 使用Vercount替代不蒜子 - Valaxy',
+    '/posts/BLOG网页部署live2d小人使用Vercount替代不蒜子': RouteRecordInfo<
+      '/posts/BLOG网页部署live2d小人使用Vercount替代不蒜子',
+      '/posts/BLOG网页部署live2d小人使用Vercount替代不蒜子',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -156,9 +163,16 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/posts/Directory Opus': RouteRecordInfo<
-      '/posts/Directory Opus',
-      '/posts/Directory Opus',
+    '/posts/DirectoryOpus': RouteRecordInfo<
+      '/posts/DirectoryOpus',
+      '/posts/DirectoryOpus',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/Docker的下载安装和使用': RouteRecordInfo<
+      '/posts/Docker的下载安装和使用',
+      '/posts/Docker的下载安装和使用',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -177,9 +191,9 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/posts/FZBZ-F': RouteRecordInfo<
-      '/posts/FZBZ-F',
-      '/posts/FZBZ-F',
+    '/posts/FZBZF': RouteRecordInfo<
+      '/posts/FZBZF',
+      '/posts/FZBZF',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -205,9 +219,16 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/posts/Intel MAC使用MAA进行明日方舟挂机': RouteRecordInfo<
-      '/posts/Intel MAC使用MAA进行明日方舟挂机',
-      '/posts/Intel MAC使用MAA进行明日方舟挂机',
+    '/posts/IntelMAC使用MAA进行明日方舟挂机': RouteRecordInfo<
+      '/posts/IntelMAC使用MAA进行明日方舟挂机',
+      '/posts/IntelMAC使用MAA进行明日方舟挂机',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/LSPosedIT加入教程': RouteRecordInfo<
+      '/posts/LSPosedIT加入教程',
+      '/posts/LSPosedIT加入教程',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -219,16 +240,16 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/posts/MToolBox 枫の美化工具箱 - Win美化的集大成者': RouteRecordInfo<
-      '/posts/MToolBox 枫の美化工具箱 - Win美化的集大成者',
-      '/posts/MToolBox 枫の美化工具箱 - Win美化的集大成者',
+    '/posts/MToolBox枫美化工具箱Win美化的集大成者': RouteRecordInfo<
+      '/posts/MToolBox枫美化工具箱Win美化的集大成者',
+      '/posts/MToolBox枫美化工具箱Win美化的集大成者',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/MydockFinder MAC式的底栏和顶栏': RouteRecordInfo<
-      '/posts/MydockFinder MAC式的底栏和顶栏',
-      '/posts/MydockFinder MAC式的底栏和顶栏',
+    '/posts/MydockFinderMAC式的底栏和顶栏': RouteRecordInfo<
+      '/posts/MydockFinderMAC式的底栏和顶栏',
+      '/posts/MydockFinderMAC式的底栏和顶栏',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -247,9 +268,16 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/posts/Zero-Typing - 一个美观的打字网站': RouteRecordInfo<
-      '/posts/Zero-Typing - 一个美观的打字网站',
-      '/posts/Zero-Typing - 一个美观的打字网站',
+    '/posts/VMware25H2下载以及汉化': RouteRecordInfo<
+      '/posts/VMware25H2下载以及汉化',
+      '/posts/VMware25H2下载以及汉化',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/ZeroTyping一个美观的打字网站': RouteRecordInfo<
+      '/posts/ZeroTyping一个美观的打字网站',
+      '/posts/ZeroTyping一个美观的打字网站',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -275,9 +303,9 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/posts/使用Vercount替代不蒜子 - Valaxy': RouteRecordInfo<
-      '/posts/使用Vercount替代不蒜子 - Valaxy',
-      '/posts/使用Vercount替代不蒜子 - Valaxy',
+    '/posts/使用Vercount替代不蒜子Valaxy': RouteRecordInfo<
+      '/posts/使用Vercount替代不蒜子Valaxy',
+      '/posts/使用Vercount替代不蒜子Valaxy',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -289,9 +317,9 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/posts/关于Steam AutoCrack的使用方法': RouteRecordInfo<
-      '/posts/关于Steam AutoCrack的使用方法',
-      '/posts/关于Steam AutoCrack的使用方法',
+    '/posts/关于SteamAutoCrack的使用方法': RouteRecordInfo<
+      '/posts/关于SteamAutoCrack的使用方法',
+      '/posts/关于SteamAutoCrack的使用方法',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -310,23 +338,23 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/posts/如何让想要的软件在开机的时候自动启动': RouteRecordInfo<
-      '/posts/如何让想要的软件在开机的时候自动启动',
-      '/posts/如何让想要的软件在开机的时候自动启动',
+    '/posts/如何让软件在开机自动启动StartUp': RouteRecordInfo<
+      '/posts/如何让软件在开机自动启动StartUp',
+      '/posts/如何让软件在开机自动启动StartUp',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/小米BE6500开SSH开机自启固化和安装ShellCrash开启全家代理': RouteRecordInfo<
-      '/posts/小米BE6500开SSH开机自启固化和安装ShellCrash开启全家代理',
-      '/posts/小米BE6500开SSH开机自启固化和安装ShellCrash开启全家代理',
+    '/posts/小米BE6500开SSH固化和安装ShellCrash': RouteRecordInfo<
+      '/posts/小米BE6500开SSH固化和安装ShellCrash',
+      '/posts/小米BE6500开SSH固化和安装ShellCrash',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/小米手环910 开启心率广播 投屏OBS直播': RouteRecordInfo<
-      '/posts/小米手环910 开启心率广播 投屏OBS直播',
-      '/posts/小米手环910 开启心率广播 投屏OBS直播',
+    '/posts/小米手环910开启心率广播投屏OBS直播': RouteRecordInfo<
+      '/posts/小米手环910开启心率广播投屏OBS直播',
+      '/posts/小米手环910开启心率广播投屏OBS直播',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -345,9 +373,9 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/posts/流量卡-授人以鱼不如授人以渔': RouteRecordInfo<
-      '/posts/流量卡-授人以鱼不如授人以渔',
-      '/posts/流量卡-授人以鱼不如授人以渔',
+    '/posts/流量卡授人以鱼不如授人以渔': RouteRecordInfo<
+      '/posts/流量卡授人以鱼不如授人以渔',
+      '/posts/流量卡授人以鱼不如授人以渔',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -373,9 +401,9 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/posts/致命公司自建局域网服务器，反代联机（破解）': RouteRecordInfo<
-      '/posts/致命公司自建局域网服务器，反代联机（破解）',
-      '/posts/致命公司自建局域网服务器，反代联机（破解）',
+    '/posts/致命公司自建局域网服务器': RouteRecordInfo<
+      '/posts/致命公司自建局域网服务器',
+      '/posts/致命公司自建局域网服务器',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -390,6 +418,13 @@ declare module 'vue-router/auto-routes' {
     '/posts/评论杂烩QAQ': RouteRecordInfo<
       '/posts/评论杂烩QAQ',
       '/posts/评论杂烩QAQ',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/需ROOT小米使用FCM': RouteRecordInfo<
+      '/posts/需ROOT小米使用FCM',
+      '/posts/需ROOT小米使用FCM',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -448,6 +483,12 @@ declare module 'vue-router/auto-routes' {
     'pages/about/site.md': {
       routes:
         | '/about/site'
+      views:
+        | never
+    }
+    'pages/archives/index.md': {
+      routes:
+        | '/archives/'
       views:
         | never
     }
@@ -523,9 +564,9 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'pages/posts/BLOG网页部署live2d小人 - 使用Vercount替代不蒜子 - Valaxy.md': {
+    'pages/posts/BLOG网页部署live2d小人使用Vercount替代不蒜子.md': {
       routes:
-        | '/posts/BLOG网页部署live2d小人 - 使用Vercount替代不蒜子 - Valaxy'
+        | '/posts/BLOG网页部署live2d小人使用Vercount替代不蒜子'
       views:
         | never
     }
@@ -535,9 +576,15 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'pages/posts/Directory Opus.md': {
+    'pages/posts/DirectoryOpus.md': {
       routes:
-        | '/posts/Directory Opus'
+        | '/posts/DirectoryOpus'
+      views:
+        | never
+    }
+    'pages/posts/Docker的下载安装和使用.md': {
+      routes:
+        | '/posts/Docker的下载安装和使用'
       views:
         | never
     }
@@ -553,9 +600,9 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'pages/posts/FZBZ-F.md': {
+    'pages/posts/FZBZF.md': {
       routes:
-        | '/posts/FZBZ-F'
+        | '/posts/FZBZF'
       views:
         | never
     }
@@ -577,9 +624,15 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'pages/posts/Intel MAC使用MAA进行明日方舟挂机.md': {
+    'pages/posts/IntelMAC使用MAA进行明日方舟挂机.md': {
       routes:
-        | '/posts/Intel MAC使用MAA进行明日方舟挂机'
+        | '/posts/IntelMAC使用MAA进行明日方舟挂机'
+      views:
+        | never
+    }
+    'pages/posts/LSPosedIT加入教程.md': {
+      routes:
+        | '/posts/LSPosedIT加入教程'
       views:
         | never
     }
@@ -589,15 +642,15 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'pages/posts/MToolBox 枫の美化工具箱 - Win美化的集大成者.md': {
+    'pages/posts/MToolBox枫美化工具箱Win美化的集大成者.md': {
       routes:
-        | '/posts/MToolBox 枫の美化工具箱 - Win美化的集大成者'
+        | '/posts/MToolBox枫美化工具箱Win美化的集大成者'
       views:
         | never
     }
-    'pages/posts/MydockFinder MAC式的底栏和顶栏.md': {
+    'pages/posts/MydockFinderMAC式的底栏和顶栏.md': {
       routes:
-        | '/posts/MydockFinder MAC式的底栏和顶栏'
+        | '/posts/MydockFinderMAC式的底栏和顶栏'
       views:
         | never
     }
@@ -613,9 +666,15 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'pages/posts/Zero-Typing - 一个美观的打字网站.md': {
+    'pages/posts/VMware25H2下载以及汉化.md': {
       routes:
-        | '/posts/Zero-Typing - 一个美观的打字网站'
+        | '/posts/VMware25H2下载以及汉化'
+      views:
+        | never
+    }
+    'pages/posts/ZeroTyping一个美观的打字网站.md': {
+      routes:
+        | '/posts/ZeroTyping一个美观的打字网站'
       views:
         | never
     }
@@ -637,9 +696,9 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'pages/posts/使用Vercount替代不蒜子 - Valaxy.md': {
+    'pages/posts/使用Vercount替代不蒜子Valaxy.md': {
       routes:
-        | '/posts/使用Vercount替代不蒜子 - Valaxy'
+        | '/posts/使用Vercount替代不蒜子Valaxy'
       views:
         | never
     }
@@ -649,9 +708,9 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'pages/posts/关于Steam AutoCrack的使用方法.md': {
+    'pages/posts/关于SteamAutoCrack的使用方法.md': {
       routes:
-        | '/posts/关于Steam AutoCrack的使用方法'
+        | '/posts/关于SteamAutoCrack的使用方法'
       views:
         | never
     }
@@ -667,21 +726,21 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'pages/posts/如何让想要的软件在开机的时候自动启动.md': {
+    'pages/posts/如何让软件在开机自动启动StartUp.md': {
       routes:
-        | '/posts/如何让想要的软件在开机的时候自动启动'
+        | '/posts/如何让软件在开机自动启动StartUp'
       views:
         | never
     }
-    'pages/posts/小米BE6500开SSH开机自启固化和安装ShellCrash开启全家代理.md': {
+    'pages/posts/小米BE6500开SSH固化和安装ShellCrash.md': {
       routes:
-        | '/posts/小米BE6500开SSH开机自启固化和安装ShellCrash开启全家代理'
+        | '/posts/小米BE6500开SSH固化和安装ShellCrash'
       views:
         | never
     }
-    'pages/posts/小米手环910 开启心率广播 投屏OBS直播.md': {
+    'pages/posts/小米手环910开启心率广播投屏OBS直播.md': {
       routes:
-        | '/posts/小米手环910 开启心率广播 投屏OBS直播'
+        | '/posts/小米手环910开启心率广播投屏OBS直播'
       views:
         | never
     }
@@ -697,9 +756,9 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'pages/posts/流量卡-授人以鱼不如授人以渔.md': {
+    'pages/posts/流量卡授人以鱼不如授人以渔.md': {
       routes:
-        | '/posts/流量卡-授人以鱼不如授人以渔'
+        | '/posts/流量卡授人以鱼不如授人以渔'
       views:
         | never
     }
@@ -721,9 +780,9 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'pages/posts/致命公司自建局域网服务器，反代联机（破解）.md': {
+    'pages/posts/致命公司自建局域网服务器.md': {
       routes:
-        | '/posts/致命公司自建局域网服务器，反代联机（破解）'
+        | '/posts/致命公司自建局域网服务器'
       views:
         | never
     }
@@ -736,6 +795,12 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/评论杂烩QAQ.md': {
       routes:
         | '/posts/评论杂烩QAQ'
+      views:
+        | never
+    }
+    'pages/posts/需ROOT小米使用FCM.md': {
+      routes:
+        | '/posts/需ROOT小米使用FCM'
       views:
         | never
     }
