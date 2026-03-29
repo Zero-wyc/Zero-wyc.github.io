@@ -219,13 +219,6 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/posts/LSPosedIT加入教程': RouteRecordInfo<
-      '/posts/LSPosedIT加入教程',
-      '/posts/LSPosedIT加入教程',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
     '/posts/MarkdownTypora的基本用法与常用操作': RouteRecordInfo<
       '/posts/MarkdownTypora的基本用法与常用操作',
       '/posts/MarkdownTypora的基本用法与常用操作',
@@ -628,12 +621,6 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/IntelMAC使用MAA进行明日方舟挂机.md': {
       routes:
         | '/posts/IntelMAC使用MAA进行明日方舟挂机'
-      views:
-        | never
-    }
-    'pages/posts/LSPosedIT加入教程.md': {
-      routes:
-        | '/posts/LSPosedIT加入教程'
       views:
         | never
     }
