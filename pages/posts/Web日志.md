@@ -19,7 +19,7 @@ tags:
 >
 > 将原本的通过 NAS 使用FRP到VPS内网穿透的结构改成
 >
-> 在VPS搭建Openlist，并挂载NAS的Openlist实现同等效果
+> 在VPS搭建Openlist，并挂载NAS的Openlist实现同等效果**<!-- more -->**
 >
 > 而且，因为我是中国移动的电话卡，我发现中国移动云盘不知道什么时候给了我1TB的空间
 >
@@ -77,7 +77,7 @@ tags:
 
 > 修复部分live2D链接错误
 >
-> 使用EdgeOne配置加速Github图床，放弃JSDELIVER**<!-- more -->**
+> 使用EdgeOne配置加速Github图床，放弃JSDELIVER
 >
 > 经测试速度极快，完全解决网站国内访问问题，遂也准备放弃使用服务器的EasyImage，全面拥抱EdgeOne加速的GitHub图床
 >
