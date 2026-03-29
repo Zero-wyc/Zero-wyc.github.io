@@ -17,7 +17,8 @@ import type {
 
 declare module 'vue-router' {
   interface TypesConfig {
-    ParamParsers: never
+    ParamParsers:
+      | never
   }
 }
 
@@ -257,6 +258,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/穷球记': RouteRecordInfo<
+      '/posts/穷球记',
+      '/posts/%E7%A9%B7%E7%90%83%E8%AE%B0',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/绕过WiFi的Web认证使用3XUI面板搭建隧道FZBZ': RouteRecordInfo<
       '/posts/绕过WiFi的Web认证使用3XUI面板搭建隧道FZBZ',
       '/posts/%E7%BB%95%E8%BF%87WiFi%E7%9A%84Web%E8%AE%A4%E8%AF%81%E4%BD%BF%E7%94%A83XUI%E9%9D%A2%E6%9D%BF%E6%90%AD%E5%BB%BA%E9%9A%A7%E9%81%93FZBZ',
@@ -288,13 +296,6 @@ declare module 'vue-router/auto-routes' {
     '/posts/需ROOT小米使用FCM': RouteRecordInfo<
       '/posts/需ROOT小米使用FCM',
       '/posts/%E9%9C%80ROOT%E5%B0%8F%E7%B1%B3%E4%BD%BF%E7%94%A8FCM',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/BLOG更新日志': RouteRecordInfo<
-      '/posts/BLOG更新日志',
-      '/posts/BLOG%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -369,16 +370,16 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/posts/hello-valaxy': RouteRecordInfo<
-      '/posts/hello-valaxy',
-      '/posts/hello-valaxy',
+    '/posts/IntelMAC使用MAA进行明日方舟挂机': RouteRecordInfo<
+      '/posts/IntelMAC使用MAA进行明日方舟挂机',
+      '/posts/IntelMAC%E4%BD%BF%E7%94%A8MAA%E8%BF%9B%E8%A1%8C%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E6%8C%82%E6%9C%BA',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/IntelMAC使用MAA进行明日方舟挂机': RouteRecordInfo<
-      '/posts/IntelMAC使用MAA进行明日方舟挂机',
-      '/posts/IntelMAC%E4%BD%BF%E7%94%A8MAA%E8%BF%9B%E8%A1%8C%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E6%8C%82%E6%9C%BA',
+    '/posts/LSPosedIT加入教程': RouteRecordInfo<
+      '/posts/LSPosedIT加入教程',
+      '/posts/LSPosedIT%E5%8A%A0%E5%85%A5%E6%95%99%E7%A8%8B',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -425,6 +426,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/Web日志': RouteRecordInfo<
+      '/posts/Web日志',
+      '/posts/Web%E6%97%A5%E5%BF%97',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/ZeroTyping一个美观的打字网站': RouteRecordInfo<
       '/posts/ZeroTyping一个美观的打字网站',
       '/posts/ZeroTyping%E4%B8%80%E4%B8%AA%E7%BE%8E%E8%A7%82%E7%9A%84%E6%89%93%E5%AD%97%E7%BD%91%E7%AB%99',
@@ -446,6 +454,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/update/': RouteRecordInfo<
+      '/update/',
+      '/update',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
   }
 
   /**
@@ -459,21 +474,13 @@ declare module 'vue-router/auto-routes' {
    * @internal
    */
   export interface _RouteFileInfoMap {
-<<<<<<< HEAD
-    'node_modules/.pnpm/valaxy-theme-yun@0.28.1_mag_ee88cb6358ff2ad755e81a5eae5820f3/node_modules/valaxy-theme-yun/pages/index.vue': {
-=======
-    'node_modules/.pnpm/valaxy-theme-yun@0.27.0_vue@3.5.24_typescript@5.9.3_/node_modules/valaxy-theme-yun/pages/index.vue': {
->>>>>>> parent of 327b370 (?)
+    'node_modules/.pnpm/valaxy-theme-yun@0.28.4_mag_b8aac48cfe0a00ef180c350c958dd5a3/node_modules/valaxy-theme-yun/pages/index.vue': {
       routes:
         | '/'
       views:
         | never
     }
-<<<<<<< HEAD
-    'node_modules/.pnpm/valaxy@0.28.1_@babel+parser_01ec04ba40d09428030781c7f18b9a5d/node_modules/valaxy/client/pages/[...path].vue': {
-=======
-    'node_modules/.pnpm/valaxy@0.27.0_@babel+parser_0e0443622f2d813c9e028549b1bb88ac/node_modules/valaxy/client/pages/[...path].vue': {
->>>>>>> parent of 327b370 (?)
+    'node_modules/.pnpm/valaxy@0.28.4_@babel+parser_91b5a8e5a76273ed0767438577afd8be/node_modules/valaxy/client/pages/[...path].vue': {
       routes:
         | '/[...path]'
       views:
@@ -557,21 +564,13 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-<<<<<<< HEAD
-    'node_modules/.pnpm/valaxy-theme-yun@0.28.1_mag_ee88cb6358ff2ad755e81a5eae5820f3/node_modules/valaxy-theme-yun/pages/page/[page].vue': {
-=======
-    'node_modules/.pnpm/valaxy-theme-yun@0.27.0_vue@3.5.24_typescript@5.9.3_/node_modules/valaxy-theme-yun/pages/page/[page].vue': {
->>>>>>> parent of 327b370 (?)
+    'node_modules/.pnpm/valaxy-theme-yun@0.28.4_mag_b8aac48cfe0a00ef180c350c958dd5a3/node_modules/valaxy-theme-yun/pages/page/[page].vue': {
       routes:
         | '/page/[page]'
       views:
         | never
     }
-<<<<<<< HEAD
-    'node_modules/.pnpm/valaxy-theme-yun@0.28.1_mag_ee88cb6358ff2ad755e81a5eae5820f3/node_modules/valaxy-theme-yun/pages/posts/index.vue': {
-=======
-    'node_modules/.pnpm/valaxy-theme-yun@0.27.0_vue@3.5.24_typescript@5.9.3_/node_modules/valaxy-theme-yun/pages/posts/index.vue': {
->>>>>>> parent of 327b370 (?)
+    'node_modules/.pnpm/valaxy-theme-yun@0.28.4_mag_b8aac48cfe0a00ef180c350c958dd5a3/node_modules/valaxy-theme-yun/pages/posts/index.vue': {
       routes:
         | '/posts/'
       views:
@@ -673,6 +672,12 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
+    'pages/posts/穷球记.md': {
+      routes:
+        | '/posts/穷球记'
+      views:
+        | never
+    }
     'pages/posts/绕过WiFi的Web认证使用3XUI面板搭建隧道FZBZ.md': {
       routes:
         | '/posts/绕过WiFi的Web认证使用3XUI面板搭建隧道FZBZ'
@@ -700,12 +705,6 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/需ROOT小米使用FCM.md': {
       routes:
         | '/posts/需ROOT小米使用FCM'
-      views:
-        | never
-    }
-    'pages/posts/BLOG更新日志.md': {
-      routes:
-        | '/posts/BLOG更新日志'
       views:
         | never
     }
@@ -769,15 +768,15 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'pages/posts/hello-valaxy.md': {
-      routes:
-        | '/posts/hello-valaxy'
-      views:
-        | never
-    }
     'pages/posts/IntelMAC使用MAA进行明日方舟挂机.md': {
       routes:
         | '/posts/IntelMAC使用MAA进行明日方舟挂机'
+      views:
+        | never
+    }
+    'pages/posts/LSPosedIT加入教程.md': {
+      routes:
+        | '/posts/LSPosedIT加入教程'
       views:
         | never
     }
@@ -817,6 +816,12 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
+    'pages/posts/Web日志.md': {
+      routes:
+        | '/posts/Web日志'
+      views:
+        | never
+    }
     'pages/posts/ZeroTyping一个美观的打字网站.md': {
       routes:
         | '/posts/ZeroTyping一个美观的打字网站'
@@ -832,6 +837,12 @@ declare module 'vue-router/auto-routes' {
     'pages/tags/index.md': {
       routes:
         | '/tags/'
+      views:
+        | never
+    }
+    'pages/update/index.md': {
+      routes:
+        | '/update/'
       views:
         | never
     }

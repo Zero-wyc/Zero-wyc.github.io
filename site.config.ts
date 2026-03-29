@@ -28,6 +28,12 @@ export default defineSiteConfig({
   
   social: [
     {
+      name: 'Telegram',
+      link: 'https://t.me/Zero_251',
+      icon: 'i-ri-telegram-line',
+      color: '#0088CC',
+    },
+    {
       name: 'GitHub',
       link: 'https://github.com/Zero-wyc',
       icon: 'i-ri-github-line',
@@ -68,12 +74,6 @@ export default defineSiteConfig({
       link: 'https://www.pixiv.net/users/59653138',
       icon: 'i-ri-parking-box-line',
       color: '#0096F9',
-    },
-    {
-      name: 'Telegram',
-      link: 'https://t.me/zero_wyc',
-      icon: 'i-ri-telegram-line',
-      color: '#0088CC',
     },
     {
       name: '酷安',

@@ -12,16 +12,16 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "valaxy": "0.28.1",
+    "valaxy": "0.28.4",
     "valaxy-addon-bangumi": "latest",
     "valaxy-addon-lightgallery": "latest",
     "valaxy-addon-live2d": "latest",
     "valaxy-addon-meting": "latest",
     "valaxy-addon-twikoo": "latest",
     "valaxy-addon-vercount": "latest",
-    "valaxy-theme-yun": "0.28.1"
+    "valaxy-theme-yun": "0.28.4"
   },
   "devDependencies": {
-    "typescript": "^5.9.3"
+    "typescript": "^6.0.2"
   }
 }
