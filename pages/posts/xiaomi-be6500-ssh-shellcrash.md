@@ -88,10 +88,12 @@ tags:
          ![image-20260405204539510](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20260405204539795.webp)
 
    4. ###### 安装完成之后登录`http://192.168.31.1:16601`，去下载新版本的安装包，升级到最新版本即可享受
+   
+   5. 我这里还遇到了使用ipv6地址可以访问，但是反代就不行了，可以参考下面`配置IPV6外网访问`
 
 ---
 
-# 以下作废
+# 以下作废(但可能有用？)
 
 1. #### 暂时开启SSH
 
@@ -170,7 +172,7 @@ curl -X POST "http://192.168.31.1/cgi-bin/luci/;stok=c871f402bd1ec23c01199c60eb4
 
    1. 安装ShellCrash网页面板，在SSH中输入clash，按下9然后按下4，进入安装面板界面，推荐安装zashboard，安装完成后进入`路由器ip:9999/ui`访问export url='https://fastly.jsdelivr.net/gh/juewuy/ShellCrash@master' && sh -c "$(curl -kfsSl $url/install.sh)" && source /etc/profile &> /dev/null
 
-5. 配置IPV6外网访问 （可能因为固件更新原因，在更新后就不需要这个操作了）
+5. 配置IPV6外网访问
 
    1. > BYD 小米开启IPV6后只提供外网Ping的服务，使得你以为你能在外网访问实则不行，又因为小米的系统是由OpenWRT 修改而来，所以放行端口的方式类似原版 OpenWRT,比较好配置~上天给你关了门，却给你了个窗户，这或许就是小米的浪漫~
 
