@@ -50,28 +50,28 @@ tags:
 
    2. #### 如果没有改过小米路由器ip的话就直接按2，解锁ssh，改过的按1自定义一下路由器地址
 
-      1. 出现`SSH server already installed and running (port = 22)`就说明已经解锁成功了，如果还有需要`ssh`固化的话，选择6进行固化即可
+      1. ###### 出现`SSH server already installed and running (port = 22)`就说明已经解锁成功了，如果还有需要`ssh`固化的话，选择6进行固化即可
       2. ![image-20260405203112802](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20260405203113057.webp)
 
    3. #### 此时已经解锁完成，使用ssh工具连接路由器，这里使用`finalshell`为例子（对，现在解锁ssh就是这么简单~~那我之前在干嘛ww~~）
 
-      1. 密码和用户名均为root,记得用`passwd root`登录后更改用户名
+      1. ###### 密码和用户名均为root,记得用`passwd root`登录后更改用户名
 
    4. ![image-20260405203403960](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20260405203404072.webp)
 
 2. ### 安装`lucky`,进行反代和域名绑定
 
-   1. #### lucky官网：[lucky](https://lucky666.cn/docs/install#%E8%87%AA%E5%8A%A8%E8%84%9A%E6%9C%AC%E5%AE%89%E8%A3%85)
+   1. ###### lucky官网：[lucky](https://lucky666.cn/docs/install#%E8%87%AA%E5%8A%A8%E8%84%9A%E6%9C%AC%E5%AE%89%E8%A3%85)
 
-   2. #### 因为be6500默认的剩余存储非常小，所以在安装之前建议恢复出厂设置一下，这样就会达到12mb的最大值，勉强能装上lucky的老版本
+   2. ###### 因为be6500默认的剩余存储非常小，所以在安装之前建议恢复出厂设置一下，这样就会达到12mb的最大值，勉强能装上lucky的老版本
 
       ![image-20260405203917446](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20260405203917552.webp)
 
    3. #### 如果使用luck官方的一键脚本安装任何一个版本都会，发现空间不够（~~在去年还不是这样的，新版本把空间涨了3mb就用不了，因为解压还要体积~~
 
-      1. 虽说不够，万一之后开发者龙场悟道，极大减小了体积呢(
+      1. ###### 虽说不够，万一之后开发者龙场悟道，极大减小了体积呢(
 
-         1. 官方脚本：
+         1. ###### 官方脚本：
 
             ```
             URL="http://release.66666.host"; curl -o /tmp/install.sh "$URL/install.sh" && sh /tmp/install.sh "$URL"
@@ -79,7 +79,7 @@ tags:
 
             
 
-      2. #### 这里我找到了一个安装老版本的luck脚本（更新日期为2025年2月）
+      2. ###### 这里我找到了一个安装老版本的luck脚本（更新日期为2025年2月）
 
          ```
          curl -o /tmp/install.sh  https://fastly.jsdelivr.net/gh/gdy666/lucky-files@main/golucky.sh  && sh /tmp/install.sh https://fastly.jsdelivr.net/gh/gdy666/lucky-files@main 2.15.7
@@ -87,7 +87,7 @@ tags:
 
          ![image-20260405204539510](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20260405204539795.webp)
 
-   4. #### 安装完成之后登录`http://192.168.31.1:16601`，去下载新版本的安装包，升级到最新版本即可享受
+   4. ###### 安装完成之后登录`http://192.168.31.1:16601`，去下载新版本的安装包，升级到最新版本即可享受
 
 ---
 
