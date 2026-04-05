@@ -5,7 +5,6 @@ date: 2020-4-18
 updated: 2026-2-14
 categories: 搞机日志
 cover: https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20251220001738113.webp
-top: 1
 tags:
   - 搞机日志
   - Daily life
