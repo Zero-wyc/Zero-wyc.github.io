@@ -90,6 +90,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/links/': RouteRecordInfo<
+      '/links/',
+      '/links',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/love/': RouteRecordInfo<
       '/love/',
       '/love',
@@ -525,6 +532,12 @@ declare module 'vue-router/auto-routes' {
     'pages/download/index.md': {
       routes:
         | '/download/'
+      views:
+        | never
+    }
+    'pages/links/index.md': {
+      routes:
+        | '/links/'
       views:
         | never
     }
