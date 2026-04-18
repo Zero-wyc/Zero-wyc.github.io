@@ -2,7 +2,7 @@
 hide: false
 title: 硬件日志¿
 date: 2020-4-18
-updated: 2026-2-14
+updated: 2026-4-19
 categories: 搞机日志
 cover: https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20251220001738113.webp
 top: 1
@@ -12,15 +12,13 @@ tags:
   - 硬件
 ---
 
-### 2026.2.13
-
 ### 2026.4.11
 
 > 在再一次心血来潮摆弄BE6500的痛苦之后，我深思熟虑，决定买一个AX3000T专门来搞Openwrt，BE6500的教程几乎没有，还是给我好好当主路由吧
 >
 > U1S1，BE6500的信号真的呢很好
 >
-> 至于买来AX3000T的结果嘛…自然是难搞，但是有趣（~~这不是我玩它一个月还没玩够的理由~~
+> 至于买来AX3000T的结果嘛…自然是难搞，但是有趣（~~这不是我玩它一个月没更新还没玩够的理由~~
 
 ![1776536633335](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20260419022417341.webp)
 
