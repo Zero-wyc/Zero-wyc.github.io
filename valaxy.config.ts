@@ -28,7 +28,9 @@ export default defineValaxyConfig<UserThemeConfig>({
       enable: true
     },
   },
-
+  llms: { //为你的博客生成 AI 可读的纯文本内容
+    enable: true,
+  },
   /*server: {
     allowedHosts: ['blog.zero251.xyz'], // 添加允许的域名
   },
