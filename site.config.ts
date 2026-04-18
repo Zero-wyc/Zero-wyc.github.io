@@ -94,12 +94,6 @@ export default defineSiteConfig({
       color: '#E6162D',
     },
     {
-      name: '知乎',
-      link: 'https://www.zhihu.com/people/yu-chen-98-28-85',
-      icon: 'i-ri-zhihu-line',
-      color: '#0084FF',
-    },
-    {
       name: 'E-Mail',
       link: 'https://blog.zero251.xyz/posts/Email',
       icon: 'i-ri-mail-line',

@@ -46,7 +46,7 @@ export default defineValaxyConfig<UserThemeConfig>({
     nav: [
       { text: '标签', link: '/tags/', icon: 'i-ri-price-tag-3-line' },
       { text: '分类', link: '/categories/', icon: 'i-ri-list-unordered' },
-      { text: 'OpenList', link: '/links/', icon: 'i-ri-triangle-line' },
+      { text: 'OpenList', link: '/download/', icon: 'i-ri-triangle-line' },
       { text: '追番列表', link: '/Bangumi/', icon: 'i-ri-folder-video-line' },
       { text: '站点状态', link: '/status/', icon: 'i-ri-loader-2-line' },
       { text: '投喂喵~', link: '/love/', icon: 'i-ri-heart-add-line' },

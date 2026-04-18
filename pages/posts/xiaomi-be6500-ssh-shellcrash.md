@@ -30,7 +30,7 @@ tags:
 
 ---
 
-### 2026-4-5 : 之前的我就是个SB，谢谢
+### 2026-4-5 : 之前的我就是个SB，谢谢（等下还没结案，截稿时发现安装完lucky后就无法使用ipv6了？为啥啊
 
 > 我在刷Github的时候偶然发现了这个项目[Firmware patcher for Xiaomi routers](https://github.com/openwrt-xiaomi/xmir-patcher)，小米wifi自动解锁工具
 >
