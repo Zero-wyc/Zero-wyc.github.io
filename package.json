@@ -14,6 +14,7 @@
   "dependencies": {
     "valaxy": "0.28.5",
     "valaxy-addon-bangumi": "latest",
+    "valaxy-addon-git-log": "^0.4.2",
     "valaxy-addon-lightgallery": "latest",
     "valaxy-addon-live2d": "latest",
     "valaxy-addon-meting": "latest",

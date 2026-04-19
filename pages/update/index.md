@@ -11,3 +11,6 @@ Github 提交日志：https://github.com/Zero-wyc/Zero-wyc.github.io/commits/mai
 
 Github 构建日志：https://github.com/Zero-wyc/Zero-wyc.github.io/actions
 
+<GitLogContributor />
+
+<GitLogChangelog />

@@ -6,6 +6,7 @@ import { addonBangumi } from 'valaxy-addon-bangumi'
 import { addonMeting } from 'valaxy-addon-meting'
 import { addonVercount } from 'valaxy-addon-vercount'
 import { addonTwikoo } from 'valaxy-addon-twikoo'
+import { addonGitLog } from 'valaxy-addon-git-log'
 
 // add icons what you will need 
 // 添加您需要的图标
@@ -63,8 +64,8 @@ export default defineValaxyConfig<UserThemeConfig>({
         color: '#43abee',
       },
       {
-        name: 'OpenList下载站',
-        url: '/links/',
+        name: '下载站',
+        url: '/download/',
         icon: 'i-ri-triangle-line',
         color: 'dodgerblue',
       },
@@ -129,6 +130,13 @@ export default defineValaxyConfig<UserThemeConfig>({
       //自配vercel https://bilibili-bangumi-component-tau.vercel.app/api
       bilibiliUid: '539775193',
       bgmEnabled: false,
+    }),
+
+    addonGitLog({
+      repositoryUrl: 'https://github.com/Zero-wyc/Zero-wyc.github.io.git',
+      contributor: {
+        strategy: 'prebuilt',  // 推荐 SSG 使用
+      },
     }),
 
     addonLightGallery(),//相册配置
