@@ -111,13 +111,25 @@ export default defineValaxyConfig<UserThemeConfig>({
       enable: true,
       url: "https://github.cdn.zero251.xyz/Zero-wyc/Image/main/General/甘城2白_1.webp",	// 白日模式背景
       dark: "https://github.cdn.zero251.xyz/Zero-wyc/Image/main/General/甘城主图290黑_1.webp",	// 夜间模式背景
+      opacity: 1,
     },
-    
+    //公告
+    notice: {
+      enable: true,
+      hideInPages: true, // 是否在 /pages/[page] 中隐藏
+      content: 'HELLO WORLD!',
+    },
+    //页脚
     footer: {
       since: 2025,
+      cloud: {
+        enable: true, // 页脚上方的流动云
+      },
+      powered: false, // 显示 "Powered by Valaxy & valaxy-theme-yun"
       beian: {
         enable: true,
         icp: '闽ICP备2025091782号-1',
+        icpLink: 'https://beian.miit.gov.cn/',
       },
     },
   },
