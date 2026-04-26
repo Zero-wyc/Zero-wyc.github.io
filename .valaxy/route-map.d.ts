@@ -188,6 +188,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/comic-software-recommendation': RouteRecordInfo<
+      '/posts/comic-software-recommendation',
+      '/posts/comic-software-recommendation',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/comments-miscellaneous': RouteRecordInfo<
       '/posts/comments-miscellaneous',
       '/posts/comments-miscellaneous',
@@ -377,9 +384,16 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/posts/PiliPlus-software-recommendation': RouteRecordInfo<
-      '/posts/PiliPlus-software-recommendation',
-      '/posts/PiliPlus-software-recommendation',
+    '/posts/piliplus-software-recommendation': RouteRecordInfo<
+      '/posts/piliplus-software-recommendation',
+      '/posts/piliplus-software-recommendation',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/pixez-software-recommendation': RouteRecordInfo<
+      '/posts/pixez-software-recommendation',
+      '/posts/pixez-software-recommendation',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -654,6 +668,12 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
+    'pages/posts/comic-software-recommendation.md': {
+      routes:
+        | '/posts/comic-software-recommendation'
+      views:
+        | never
+    }
     'pages/posts/comments-miscellaneous.md': {
       routes:
         | '/posts/comments-miscellaneous'
@@ -816,9 +836,15 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'pages/posts/PiliPlus-software-recommendation.md': {
+    'pages/posts/piliplus-software-recommendation.md': {
       routes:
-        | '/posts/PiliPlus-software-recommendation'
+        | '/posts/piliplus-software-recommendation'
+      views:
+        | never
+    }
+    'pages/posts/pixez-software-recommendation.md': {
+      routes:
+        | '/posts/pixez-software-recommendation'
       views:
         | never
     }
