@@ -1,6 +1,6 @@
 ---
 hide: false # true 真隐藏 index 主页隐藏 false 不隐藏
-title: 第三方Bilibili软件推荐 - PiliPlus
+title: 第三方Bilibili开源软件推荐 - PiliPlus
 date: 2026-4-26
 updated: 2026-4-26
 categories: 搞机日志
