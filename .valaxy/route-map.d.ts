@@ -153,6 +153,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/ani-software-recommendation': RouteRecordInfo<
+      '/posts/ani-software-recommendation',
+      '/posts/ani-software-recommendation',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/bios-boot-animation-change': RouteRecordInfo<
       '/posts/bios-boot-animation-change',
       '/posts/bios-boot-animation-change',
@@ -251,6 +258,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/flare-software-recommendation': RouteRecordInfo<
+      '/posts/flare-software-recommendation',
+      '/posts/flare-software-recommendation',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/free-vps-clawcloudrun-3xui-tunnel': RouteRecordInfo<
       '/posts/free-vps-clawcloudrun-3xui-tunnel',
       '/posts/free-vps-clawcloudrun-3xui-tunnel',
@@ -307,6 +321,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/kanade-software-recommendation': RouteRecordInfo<
+      '/posts/kanade-software-recommendation',
+      '/posts/kanade-software-recommendation',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/l4d2-frp-low-latency': RouteRecordInfo<
       '/posts/l4d2-frp-low-latency',
       '/posts/l4d2-frp-low-latency',
@@ -356,6 +377,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/PiliPlus-software-recommendation': RouteRecordInfo<
+      '/posts/PiliPlus-software-recommendation',
+      '/posts/PiliPlus-software-recommendation',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/PoorBadminton': RouteRecordInfo<
       '/posts/PoorBadminton',
       '/posts/PoorBadminton',
@@ -387,6 +415,13 @@ declare module 'vue-router/auto-routes' {
     '/posts/steamautocrack-usage': RouteRecordInfo<
       '/posts/steamautocrack-usage',
       '/posts/steamautocrack-usage',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/tiebalite-software-recommendation': RouteRecordInfo<
+      '/posts/tiebalite-software-recommendation',
+      '/posts/tiebalite-software-recommendation',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -589,6 +624,12 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
+    'pages/posts/ani-software-recommendation.md': {
+      routes:
+        | '/posts/ani-software-recommendation'
+      views:
+        | never
+    }
     'pages/posts/bios-boot-animation-change.md': {
       routes:
         | '/posts/bios-boot-animation-change'
@@ -673,6 +714,12 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
+    'pages/posts/flare-software-recommendation.md': {
+      routes:
+        | '/posts/flare-software-recommendation'
+      views:
+        | never
+    }
     'pages/posts/free-vps-clawcloudrun-3xui-tunnel.md': {
       routes:
         | '/posts/free-vps-clawcloudrun-3xui-tunnel'
@@ -721,6 +768,12 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
+    'pages/posts/kanade-software-recommendation.md': {
+      routes:
+        | '/posts/kanade-software-recommendation'
+      views:
+        | never
+    }
     'pages/posts/l4d2-frp-low-latency.md': {
       routes:
         | '/posts/l4d2-frp-low-latency'
@@ -763,6 +816,12 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
+    'pages/posts/PiliPlus-software-recommendation.md': {
+      routes:
+        | '/posts/PiliPlus-software-recommendation'
+      views:
+        | never
+    }
     'pages/posts/PoorBadminton.md': {
       routes:
         | '/posts/PoorBadminton'
@@ -790,6 +849,12 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/steamautocrack-usage.md': {
       routes:
         | '/posts/steamautocrack-usage'
+      views:
+        | never
+    }
+    'pages/posts/tiebalite-software-recommendation.md': {
+      routes:
+        | '/posts/tiebalite-software-recommendation'
       views:
         | never
     }
