@@ -10,8 +10,6 @@ tags:
   - 软件推荐
 ---
 
-> dddd
->
 > [Flare](https://github.com/DimensionDev/Flare)我第一次看到的时候真的被惊叹到了，聚合多平台
 >
 > 同时支持 Mastodon、Misskey、Bluesky、X、微博等多个平台

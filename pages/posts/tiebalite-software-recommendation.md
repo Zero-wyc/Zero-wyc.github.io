@@ -10,8 +10,6 @@ tags:
   - 软件推荐
 ---
 
-> dddd
->
 > 贴吧Lite最早的作者[HuanCheng65](https://github.com/HuanCheng65/TiebaLite)已经弃坑了，现在是[zzc10086](https://github.com/zzc10086/TiebaLite)在Fork后更新，修补bug
 >
 > 同样的，[贴吧Lite](https://github.com/zzc10086/TiebaLite)使用流畅，UI美观，功能精简，还具有自动签到功能，个人是完全将其平替那又卡又慢的贴吧安卓端使用
