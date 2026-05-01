@@ -2,7 +2,7 @@
 hide: false
 title: Web日志
 date: 2025-3-14
-updated: 2026-3-22
+updated: 2026-5-2
 categories: 搞机日志
 cover: https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250804192855060.jpg
 top: 1
@@ -12,6 +12,12 @@ tags:
   - Valaxy
   - Daily life
 ---
+
+### 2026.5.2
+
+> 因为将全部的文章的文件名更改为中文以获得更好的兼容性
+>
+> 但是因此原先的评论定位混乱，暂且评论先全都不见了azaz
 
 ### 2026.3.22
 

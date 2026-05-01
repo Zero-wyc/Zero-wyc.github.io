@@ -170,6 +170,7 @@ export default defineValaxyConfig<UserThemeConfig>({
         fixed: true, // 是否固定在页面底部
         lyricColor: '#4FBCCD', // 歌词颜色
         volume: 0.3, // 初始音量大小
+        api:'http://server.zero251.xyz:3000/api'
       },
       options: {
         lyricHidden: true,  // 是否默认隐藏歌词
