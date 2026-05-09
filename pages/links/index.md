@@ -1,7 +1,7 @@
 ---
 title: 我的小伙伴们
 links:
-  - url: https://blog.zero251.xyz
+  - url: https://t.me/Zero_251
     avatar: https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20260419024743053.webp
     name: Zero_wyc
     blog: 杏银隐杏珠的空间站

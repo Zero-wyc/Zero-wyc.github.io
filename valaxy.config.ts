@@ -158,19 +158,19 @@ export default defineValaxyConfig<UserThemeConfig>({
     }),
 
     addonMeting({
-      global: true, // 是否全局启用播放器
+      global: false, // 是否全局启用播放器
       props: {
         id: '5176495148',    // 音乐的 ID，可以是网易云或其他支持的平台
         server: 'netease',   // 支持 'netease' | 'tencent' | 'kugou' 等
         type: 'playlist',    // 类型可以是 'song', 'album', 'artist', 'playlist'
-        theme: "#4FBCCD", // 播放器主题色
-        preload: 'auto', // 是否预加载音乐
-        mutex: true, // 是否互斥播放
-        autoplay: false, // 是否自动播放
+        //theme: "#4FBCCD", // 播放器主题色
+        //preload: 'auto', // 是否预加载音乐
+        //mutex: true, // 是否互斥播放
+        //autoplay: false, // 是否自动播放
         fixed: true, // 是否固定在页面底部
-        lyricColor: '#4FBCCD', // 歌词颜色
-        volume: 0.3, // 初始音量大小
-        api:'http://server.zero251.xyz:3000/api'
+        //lyricColor: '#4FBCCD', // 歌词颜色
+        //volume: 0.3, // 初始音量大小
+        api:'http://server.zero251.xyz:3000/api?server=:server&type=:type&id=:id&r=:r'
       },
       options: {
         lyricHidden: true,  // 是否默认隐藏歌词
