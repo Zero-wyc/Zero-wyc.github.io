@@ -2,7 +2,7 @@
 hide: false
 title: 硬件日志¿
 date: 2020-4-18
-updated: 2026-4-19
+updated: 2026-5-22
 categories: 搞机日志
 cover: https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20251220001738113.webp
 top: 1

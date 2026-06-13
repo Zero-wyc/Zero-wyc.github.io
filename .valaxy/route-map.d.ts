@@ -443,6 +443,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/Use-docker-to-install-ArchiSteamFarm-for-steam-card-hanging-games': RouteRecordInfo<
+      '/posts/Use-docker-to-install-ArchiSteamFarm-for-steam-card-hanging-games',
+      '/posts/Use-docker-to-install-ArchiSteamFarm-for-steam-card-hanging-games',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/valaxy-music-player': RouteRecordInfo<
       '/posts/valaxy-music-player',
       '/posts/valaxy-music-player',
@@ -533,13 +540,13 @@ declare module 'vue-router/auto-routes' {
    * @internal
    */
   export interface _RouteFileInfoMap {
-    'node_modules/.pnpm/valaxy-theme-yun@0.28.7_mag_bc085ef5427229e91d5bd71487fe056d/node_modules/valaxy-theme-yun/pages/index.vue': {
+    'node_modules/.pnpm/valaxy-theme-yun@0.28.10_ma_e20074ac9672efa227365498cb8a4336/node_modules/valaxy-theme-yun/pages/index.vue': {
       routes:
         | '/'
       views:
         | never
     }
-    'node_modules/.pnpm/valaxy@0.28.7_@babel+parser_795fbac2c568b2cac75bf063f1616193/node_modules/valaxy/client/pages/[...path].vue': {
+    'node_modules/.pnpm/valaxy@0.28.10_@babel+parse_60266c0b39bfa94e1e7c54dfbbe7b034/node_modules/valaxy/client/pages/[...path].vue': {
       routes:
         | '/[...path]'
       views:
@@ -629,13 +636,13 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'node_modules/.pnpm/valaxy-theme-yun@0.28.7_mag_bc085ef5427229e91d5bd71487fe056d/node_modules/valaxy-theme-yun/pages/page/[page].vue': {
+    'node_modules/.pnpm/valaxy-theme-yun@0.28.10_ma_e20074ac9672efa227365498cb8a4336/node_modules/valaxy-theme-yun/pages/page/[page].vue': {
       routes:
         | '/page/[page]'
       views:
         | never
     }
-    'node_modules/.pnpm/valaxy-theme-yun@0.28.7_mag_bc085ef5427229e91d5bd71487fe056d/node_modules/valaxy-theme-yun/pages/posts/index.vue': {
+    'node_modules/.pnpm/valaxy-theme-yun@0.28.10_ma_e20074ac9672efa227365498cb8a4336/node_modules/valaxy-theme-yun/pages/posts/index.vue': {
       routes:
         | '/posts/'
       views:
@@ -884,6 +891,12 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/tiebalite-software-recommendation.md': {
       routes:
         | '/posts/tiebalite-software-recommendation'
+      views:
+        | never
+    }
+    'pages/posts/Use-docker-to-install-ArchiSteamFarm-for-steam-card-hanging-games.md': {
+      routes:
+        | '/posts/Use-docker-to-install-ArchiSteamFarm-for-steam-card-hanging-games'
       views:
         | never
     }
