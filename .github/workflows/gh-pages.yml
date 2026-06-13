@@ -8,7 +8,7 @@ on:
       - main
       - master
       - valaxy
-
+      - beta
 jobs:
   build:
     runs-on: ${{ matrix.os }}
