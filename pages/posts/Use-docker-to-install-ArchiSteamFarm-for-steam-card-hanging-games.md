@@ -1,5 +1,5 @@
 ---
-hide: true # true 真隐藏 index 主页隐藏 false 不隐藏
+hide: false # true 真隐藏 index 主页隐藏 false 不隐藏
 title: 使用docker安装ArchiSteamFarm进行steam挂卡挂游戏等
 date: 2026-6-13
 updated: 2026-6-13
@@ -160,9 +160,9 @@ tags:
             2. ![image-20260613103633696](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20260613103633858.webp)
 
 
-      
+​      
 
-      
+​      
 
 
 ---
