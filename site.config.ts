@@ -4,10 +4,10 @@ export default defineSiteConfig({
   url: 'https://blog.zero251.xyz/',
   favicon: "https://github.cdn.zero251.xyz/Zero-wyc/Image/main/General/甘城.svg", // 网页图标链接
   lang: 'zh-CN',
-  title: 'Zero_wyc的窝',
-  subtitle: '时终逝く', //副标题
+  title: '时终是区~',
+  subtitle: '时终逝く的公式化', //副标题
   author: {
-    name: 'Zero-无常',
+    name: '时终逝く',
     avatar: "https://github.cdn.zero251.xyz/Zero-wyc/Image/main/General/辛.webp",	//头像链接
     status: {
       emoji: '🖥️'	// 头像旁边的emoji
@@ -24,7 +24,7 @@ export default defineSiteConfig({
     time_warning: true,
   },
   
-  description: 'Zero_wyc的公式化',
+  description: 'Zero_wyc的窝',
   
   social: [
     {
