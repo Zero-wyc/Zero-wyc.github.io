@@ -19,7 +19,7 @@ tags:
 >
 > 但是因此原先的评论定位混乱，暂且评论先全都不见了azaz
 >
-> 因为Meting API默认的api不再提供导致右下的音乐插件无法访问，故[根据](https://cloud.tencent.com/developer/article/2430813)此文章自建了一个api并更新地址
+> 因为Meting API默认的api不再提供导致右下的音乐插件无法访问，故[根据](https://cloud.tencent.com/developer/article/2430813)此文章自建了一个api并更新地址（但是发现依旧有问题）
 
 ### 2026.3.22
 
