@@ -19,7 +19,7 @@ tags:
 >
 > 但是因此原先的评论定位混乱，暂且评论先全都不见了azaz
 >
-> 因为Meting API默认的api不再提供导致右下的音乐插件无法访问，故[根据](https://cloud.tencent.com/developer/article/2430813)此文章自建了一个api并更新地址（但是发现依旧有问题）
+> 因为Meting API默认的api不再提供导致右下的音乐插件无法访问，故[根据](https://cloud.tencent.com/developer/article/2430813)此文章自建了一个api并更新地址（但是发现依旧有问题）**<!-- more -->**
 
 ### 2026.3.22
 
@@ -27,7 +27,7 @@ tags:
 >
 > 将原本的通过 NAS 使用FRP到VPS内网穿透的结构改成
 >
-> 在VPS搭建Openlist，并挂载NAS的Openlist实现同等效果**<!-- more -->**
+> 在VPS搭建Openlist，并挂载NAS的Openlist实现同等效果
 >
 > 而且，因为我是中国移动的电话卡，我发现中国移动云盘不知道什么时候给了我1TB的空间
 >
