@@ -6,7 +6,6 @@ updated: 2026-6-13
 categories: 搞机日志
 cover: https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20260613090929040.webp
 codeHeightLimit: 300 # 代码块限高
-comment: false	# 关闭评论
 tags:
   - 搞机日志
   - Linux

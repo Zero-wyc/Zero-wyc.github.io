@@ -5,10 +5,6 @@ date: 2026-6-28
 updated: 2026-6-28
 categories: 搞机日志
 cover: https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20260628171124076.webp
-nav: false	# 关闭页面导航
-aside: false	# 关闭目录边栏
-codeHeightLimit: 300 # 代码块限高
-comment: false	# 关闭评论
 tags:
   - 搞机日志
   - 经验
