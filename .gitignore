@@ -3,7 +3,7 @@
 valaxy-fuse-list.json
 
 # vite-ssg
-
+.reasonix/
 .vite-ssg-dist
 .vite-ssg-temp
 
