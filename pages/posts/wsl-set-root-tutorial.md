@@ -1,10 +1,10 @@
 ---
 hide: false # true 真隐藏 index 主页隐藏 false 不隐藏
-title: 将 WSL2 默认登录账号设置为 Root 
+title: 将 WSL2 默认登录账号设置为 Root
 date: 2026-8-2
 updated: 2026-8-2
 categories: 搞机日志
-cover: https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250804192855060.jpg
+cover: https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20260803231001249.webp
 tags:
   - 搞机日志
   - 经验
@@ -30,7 +30,7 @@ wsl -l -v
 
 输出示例：
 
-```
+```text
   NAME              STATE           VERSION
 * Ubuntu-24.04      Running         2
 ```
@@ -50,7 +50,7 @@ wsl -d Ubuntu-24.04 -- cat /etc/wsl.conf
 > 如果文件不存在或为空，说明还没有进行过自定义配置，这是正常的。
 >
 > 如果已有内容，例如：
-> ```
+> ```ini
 > [boot]
 > systemd=true
 > ```
@@ -198,4 +198,4 @@ wsl -d Ubuntu-24.04 -- whoami
 
 ---
 
-DESIGN WRITE BY　ＧＬＭ５．２　经过自己测试
+DESIGN WRITE BY GLM5.2 经过自己测试

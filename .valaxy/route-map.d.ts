@@ -226,6 +226,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/default (copy)': RouteRecordInfo<
+      '/posts/default (copy)',
+      '/posts/default%20(copy)',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/directory-opus': RouteRecordInfo<
       '/posts/directory-opus',
       '/posts/directory-opus',
@@ -236,6 +243,13 @@ declare module 'vue-router/auto-routes' {
     '/posts/docker-compose-configs': RouteRecordInfo<
       '/posts/docker-compose-configs',
       '/posts/docker-compose-configs',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/docker-install-ArchiSteamFarm': RouteRecordInfo<
+      '/posts/docker-install-ArchiSteamFarm',
+      '/posts/docker-install-ArchiSteamFarm',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -443,13 +457,6 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/posts/Use-docker-to-install-ArchiSteamFarm-for-steam-card-hanging-games': RouteRecordInfo<
-      '/posts/Use-docker-to-install-ArchiSteamFarm-for-steam-card-hanging-games',
-      '/posts/Use-docker-to-install-ArchiSteamFarm-for-steam-card-hanging-games',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
     '/posts/valaxy-music-player': RouteRecordInfo<
       '/posts/valaxy-music-player',
       '/posts/valaxy-music-player',
@@ -478,6 +485,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/wsl-set-root-tutorial': RouteRecordInfo<
+      '/posts/wsl-set-root-tutorial',
+      '/posts/wsl-set-root-tutorial',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/xiaomi-band-heart-rate-obs': RouteRecordInfo<
       '/posts/xiaomi-band-heart-rate-obs',
       '/posts/xiaomi-band-heart-rate-obs',
@@ -495,6 +509,13 @@ declare module 'vue-router/auto-routes' {
     '/posts/xiaomi-fcm-root': RouteRecordInfo<
       '/posts/xiaomi-fcm-root',
       '/posts/xiaomi-fcm-root',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/Xiaomi-forcibly-solves-BLlock': RouteRecordInfo<
+      '/posts/Xiaomi-forcibly-solves-BLlock',
+      '/posts/Xiaomi-forcibly-solves-BLlock',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -540,13 +561,13 @@ declare module 'vue-router/auto-routes' {
    * @internal
    */
   export interface _RouteFileInfoMap {
-    'node_modules/.pnpm/valaxy-theme-yun@0.28.10_ma_e20074ac9672efa227365498cb8a4336/node_modules/valaxy-theme-yun/pages/index.vue': {
+    'node_modules/.pnpm/valaxy-theme-yun@1.0.0-rc.3_b611831c3b35a00e37753cd52b912d22/node_modules/valaxy-theme-yun/pages/index.vue': {
       routes:
         | '/'
       views:
         | never
     }
-    'node_modules/.pnpm/valaxy@0.28.10_@babel+parse_60266c0b39bfa94e1e7c54dfbbe7b034/node_modules/valaxy/client/pages/[...path].vue': {
+    'node_modules/.pnpm/valaxy@1.0.0-rc.3_@babel+pa_a910ad8f2c67ab3d797b674b69f20f5b/node_modules/valaxy/client/pages/[...path].vue': {
       routes:
         | '/[...path]'
       views:
@@ -636,13 +657,13 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'node_modules/.pnpm/valaxy-theme-yun@0.28.10_ma_e20074ac9672efa227365498cb8a4336/node_modules/valaxy-theme-yun/pages/page/[page].vue': {
+    'node_modules/.pnpm/valaxy-theme-yun@1.0.0-rc.3_b611831c3b35a00e37753cd52b912d22/node_modules/valaxy-theme-yun/pages/page/[page].vue': {
       routes:
         | '/page/[page]'
       views:
         | never
     }
-    'node_modules/.pnpm/valaxy-theme-yun@0.28.10_ma_e20074ac9672efa227365498cb8a4336/node_modules/valaxy-theme-yun/pages/posts/index.vue': {
+    'node_modules/.pnpm/valaxy-theme-yun@1.0.0-rc.3_b611831c3b35a00e37753cd52b912d22/node_modules/valaxy-theme-yun/pages/posts/index.vue': {
       routes:
         | '/posts/'
       views:
@@ -708,6 +729,12 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
+    'pages/posts/default (copy).md': {
+      routes:
+        | '/posts/default (copy)'
+      views:
+        | never
+    }
     'pages/posts/directory-opus.md': {
       routes:
         | '/posts/directory-opus'
@@ -717,6 +744,12 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/docker-compose-configs.md': {
       routes:
         | '/posts/docker-compose-configs'
+      views:
+        | never
+    }
+    'pages/posts/docker-install-ArchiSteamFarm.md': {
+      routes:
+        | '/posts/docker-install-ArchiSteamFarm'
       views:
         | never
     }
@@ -894,12 +927,6 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'pages/posts/Use-docker-to-install-ArchiSteamFarm-for-steam-card-hanging-games.md': {
-      routes:
-        | '/posts/Use-docker-to-install-ArchiSteamFarm-for-steam-card-hanging-games'
-      views:
-        | never
-    }
     'pages/posts/valaxy-music-player.md': {
       routes:
         | '/posts/valaxy-music-player'
@@ -924,6 +951,12 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
+    'pages/posts/wsl-set-root-tutorial.md': {
+      routes:
+        | '/posts/wsl-set-root-tutorial'
+      views:
+        | never
+    }
     'pages/posts/xiaomi-band-heart-rate-obs.md': {
       routes:
         | '/posts/xiaomi-band-heart-rate-obs'
@@ -939,6 +972,12 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/xiaomi-fcm-root.md': {
       routes:
         | '/posts/xiaomi-fcm-root'
+      views:
+        | never
+    }
+    'pages/posts/Xiaomi-forcibly-solves-BLlock.md': {
+      routes:
+        | '/posts/Xiaomi-forcibly-solves-BLlock'
       views:
         | never
     }

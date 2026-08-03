@@ -1,24 +1,144 @@
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": "Zero_wyc的窝",
+    "title": "时终是区~",
     "home_page_url": "https://blog.zero251.xyz/",
     "feed_url": "https://blog.zero251.xyz/feed.json",
-    "description": "Zero_wyc的公式化",
+    "description": "Zero_wyc的窝",
     "icon": "https://github.cdn.zero251.xyz/Zero-wyc/Image/main/General/辛.webp",
     "author": {
-        "name": "Zero-无常",
+        "name": "时终逝く",
         "url": "https://valaxy.site"
     },
     "items": [
         {
+            "id": "https://blog.zero251.xyz/posts/wsl-set-root-tutorial",
+            "content_html": "<h1>将 WSL2 默认登录账号设置为 Root 教程</h1>\n<h2>适用环境</h2>\n<ul>\n<li>操作系统：Windows 10/11</li>\n<li>已安装 WSL2 及至少一个 Linux 发行版（如 Ubuntu）</li>\n</ul>\n<hr>\n<br/><p>访问 <a href=\"https://blog.zero251.xyz/posts/wsl-set-root-tutorial\" target=\"_blank\">https://blog.zero251.xyz/posts/wsl-set-root-tutorial</a> 阅读全文。</p>",
+            "url": "https://blog.zero251.xyz/posts/wsl-set-root-tutorial",
+            "title": "将 WSL2 默认登录账号设置为 Root",
+            "date_modified": "2026-08-01T16:00:00.000Z",
+            "date_published": "2026-08-01T16:00:00.000Z",
+            "author": {
+                "name": "时终逝く",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://blog.zero251.xyz/posts/Xiaomi-forcibly-solves-BLlock",
+            "content_html": "<blockquote>\n<p>众所周知，小米在25年下旬彻底关闭了BL的解锁通道，导致米系手机完全无法解锁BL进行刷机吗？</p>\n</blockquote>\n<br/><p>访问 <a href=\"https://blog.zero251.xyz/posts/Xiaomi-forcibly-solves-BLlock\" target=\"_blank\">https://blog.zero251.xyz/posts/Xiaomi-forcibly-solves-BLlock</a> 阅读全文。</p>",
+            "url": "https://blog.zero251.xyz/posts/Xiaomi-forcibly-solves-BLlock",
+            "title": "小米强解BL锁，适用于澎湃2,3等高版本系统（8GEN3、8SGEN3、7+GEN3）, PAD7 ,Turbo4 Pro等",
+            "date_modified": "2026-06-27T16:00:00.000Z",
+            "date_published": "2026-06-27T16:00:00.000Z",
+            "author": {
+                "name": "时终逝く",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://blog.zero251.xyz/posts/docker-install-ArchiSteamFarm",
+            "content_html": "<blockquote>\n<p>CP From Github</p>\n<p>ASF 是一款 C#应用程序，其主要功能是从多个账户同时管理 Steam 游戏卡。与 Idle Master 不同，ASF  可以同时管理多个账户，无需在后台运行 Steam 客户端，也无需启动额外的进程来模拟“游戏玩法”。ASF  完全不需要在后台运行任何进程，能够同时处理无限数量的 Steam  账户。此外，它还可以运行在服务器或其他无桌面环境的设备上，并且支持跨操作系统运行，因此可以在 Windows、Linux 和 macOS  <a href=\"http://xn--fhqy5aq48b2ruc4b85dwz6b7sa.NET\">等操作系统上通过.NET</a> Core 运行时环境来运行。ASF 能够成功开发出来，得益于 SteamKit2 库所做出的巨大贡献。</p>\n<p>如今，ASF 已成为 Steam 平台上最实用的工具之一，它提供了许多随着时间而不断完善的功能。除了用于刷取 Steam 卡片之外，ASF  还具备许多其他功能，比如可以作为 Steam 身份验证器或聊天记录工具使用。此外，ASF  还拥有插件系统，因此任何人都可以根据自己需求对其进行扩展</p>\n</blockquote>\n<blockquote>\n<p>ASF确实好用，就是在Docker上部署有点难</p>\n<p>Github项目地址：<a href=\"https://github.com/JustArchiNET/ArchiSteamFarm\">ArchiSteamFarm</a></p>\n<p>对于主要教程，官方的文档已经相当完善，可以先看官方的教程再来看我，我仅作我踩的坑做补充</p>\n</blockquote>\n<br/><p>访问 <a href=\"https://blog.zero251.xyz/posts/docker-install-ArchiSteamFarm\" target=\"_blank\">https://blog.zero251.xyz/posts/docker-install-ArchiSteamFarm</a> 阅读全文。</p>",
+            "url": "https://blog.zero251.xyz/posts/docker-install-ArchiSteamFarm",
+            "title": "使用docker安装ArchiSteamFarm进行steam挂卡挂游戏等",
+            "date_modified": "2026-06-12T16:00:00.000Z",
+            "date_published": "2026-06-12T16:00:00.000Z",
+            "author": {
+                "name": "时终逝く",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://blog.zero251.xyz/posts/ani-software-recommendation",
+            "content_html": "<blockquote>\n<p>dddd</p>\n<p>昨天找软件的刷到了这三款宝藏软件，一下子让我释怀了</p>\n<p>分别是：<strong><a href=\"https://github.com/Sle2p/AniCh\">AniCh</a></strong>，<strong><a href=\"https://github.com/open-ani/animeko\">animeko</a></strong>，<strong><a href=\"https://github.com/Predidit/Kazumi\">Kazumi</a></strong></p>\n<p>这三个其实都大差不差</p>\n<p>且全都是Flutter跨平台开发，windows，安卓，mac，linux都支持</p>\n<p>都是作为一个播放器+聚合资源+弹幕聚合</p>\n<p>但是<a href=\"https://github.com/Sle2p/AniCh\">AniCh</a>还多了一个<a href=\"https://bangumi.tv/\">Bangumi</a>登录的选项，所以个人觉得<a href=\"https://github.com/Sle2p/AniCh\">AniCh</a>最好用</p>\n<p>有<a href=\"https://bangumi.tv/\">Bangumi</a>的好处就是，追番列表可以从<a href=\"https://bangumi.tv/\">Bangumi</a>同步，评论也可以直接从<a href=\"https://bangumi.tv/\">Bangumi</a>发出来</p>\n<p>因为可以同步</p>\n<p>但是从纯的加载速度上来讲<a href=\"https://github.com/Predidit/Kazumi\">Kazumi</a>最快</p>\n</blockquote>\n<br/><p>访问 <a href=\"https://blog.zero251.xyz/posts/ani-software-recommendation\" target=\"_blank\">https://blog.zero251.xyz/posts/ani-software-recommendation</a> 阅读全文。</p>",
+            "url": "https://blog.zero251.xyz/posts/ani-software-recommendation",
+            "title": "追番开源软件推荐 - Kazumi -animeko -AniCh",
+            "date_modified": "2026-04-25T16:00:00.000Z",
+            "date_published": "2026-04-25T16:00:00.000Z",
+            "author": {
+                "name": "时终逝く",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://blog.zero251.xyz/posts/comic-software-recommendation",
+            "content_html": "<blockquote>\n<p>Ehentai的手机版有很多：</p>\n<p>比如<a href=\"https://github.com/seven332/EhViewer\">seven332/EhViewer</a>，[Ehviewer_CN_S</p>\n</blockquote>\n<br/><p>访问 <a href=\"https://blog.zero251.xyz/posts/comic-software-recommendation\" target=\"_blank\">https://blog.zero251.xyz/posts/comic-software-recommendation</a> 阅读全文。</p>",
+            "url": "https://blog.zero251.xyz/posts/comic-software-recommendation",
+            "title": "Ehentai/噼卡/jm漫画第三方开源软件推荐 -JHenTai -pikapika -jasmine",
+            "date_modified": "2026-04-25T16:00:00.000Z",
+            "date_published": "2026-04-25T16:00:00.000Z",
+            "author": {
+                "name": "时终逝く",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://blog.zero251.xyz/posts/flare-software-recommendation",
+            "content_html": "<blockquote>\n<p><a href=\"https://github.com/DimensionDev/Flare\">Flare</a>我第一次看到的时候真的被惊叹到了，聚合多平台</p>\n<p>同时支持 Mastodon、Misskey、Bluesky、X、微博等多个平台</p>\n<p>支持RSS订阅，发贴</p>\n<p>还有混合时间线，将所以绑定过的平台推流聚合在一起看</p>\n<p>还支持自动翻译（比原版x好多了）</p>\n</blockquote>\n<br/><p>访问 <a href=\"https://blog.zero251.xyz/posts/flare-software-recommendation\" target=\"_blank\">https://blog.zero251.xyz/posts/flare-software-recommendation</a> 阅读全文。</p>",
+            "url": "https://blog.zero251.xyz/posts/flare-software-recommendation",
+            "title": "第三方X/微博/RSS/帖子聚合开源软件推荐 - Flare",
+            "date_modified": "2026-04-25T16:00:00.000Z",
+            "date_published": "2026-04-25T16:00:00.000Z",
+            "author": {
+                "name": "时终逝く",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://blog.zero251.xyz/posts/kanade-software-recommendation",
+            "content_html": "<blockquote>\n<p>这些年找一个第三方的安卓网易云是真不容易啊</p>\n<p>电脑上的第三方网易云一大堆，手机上的极少了</p>\n<p>其实这个作者在去年还有一个同类第三方作品的<a href=\"https://github.com/rcmiku/JetMelo\">JetMelo</a></p>\n<p>UI整体上没什么区别</p>\n<p>功能上新出的这个更加强大</p>\n</blockquote>\n<br/><p>访问 <a href=\"https://blog.zero251.xyz/posts/kanade-software-recommendation\" target=\"_blank\">https://blog.zero251.xyz/posts/kanade-software-recommendation</a> 阅读全文。</p>",
+            "url": "https://blog.zero251.xyz/posts/kanade-software-recommendation",
+            "title": "第三方网易云开源软件推荐 - kanade",
+            "date_modified": "2026-04-25T16:00:00.000Z",
+            "date_published": "2026-04-25T16:00:00.000Z",
+            "author": {
+                "name": "时终逝く",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://blog.zero251.xyz/posts/piliplus-software-recommendation",
+            "content_html": "<blockquote>\n<p><a href=\"https://github.com/bggRGjQaUbCoE/PiliPlus\">PiliPlus</a> 伟大，无需多言</p>\n<p>使用Flutter开发，多端兼容</p>\n<p>支持安卓，windows，苹果，linux</p>\n</blockquote>\n<br/><p>访问 <a href=\"https://blog.zero251.xyz/posts/piliplus-software-recommendation\" target=\"_blank\">https://blog.zero251.xyz/posts/piliplus-software-recommendation</a> 阅读全文。</p>",
+            "url": "https://blog.zero251.xyz/posts/piliplus-software-recommendation",
+            "title": "第三方Bilibili开源软件推荐 - PiliPlus",
+            "date_modified": "2026-04-25T16:00:00.000Z",
+            "date_published": "2026-04-25T16:00:00.000Z",
+            "author": {
+                "name": "时终逝く",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://blog.zero251.xyz/posts/pixez-software-recommendation",
+            "content_html": "<blockquote>\n<p><a href=\"https://github.com/Notsfsssf/pixez-flutter\">Pixez</a> 多年的pixiv软件，功能和原版pixv有过之而无不及</p>\n<p>支持中国大陆地区直连</p>\n</blockquote>\n<br/><p>访问 <a href=\"https://blog.zero251.xyz/posts/pixez-software-recommendation\" target=\"_blank\">https://blog.zero251.xyz/posts/pixez-software-recommendation</a> 阅读全文。</p>",
+            "url": "https://blog.zero251.xyz/posts/pixez-software-recommendation",
+            "title": "第三方pixiv开源软件推荐 - Pixez",
+            "date_modified": "2026-04-25T16:00:00.000Z",
+            "date_published": "2026-04-25T16:00:00.000Z",
+            "author": {
+                "name": "时终逝く",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://blog.zero251.xyz/posts/tiebalite-software-recommendation",
+            "content_html": "<blockquote>\n<p>贴吧Lite最早的作者<a href=\"https://github.com/HuanCheng65/TiebaLite\">HuanCheng65</a>已经弃坑了，现在是<a href=\"https://github.com/zzc10086/TiebaLite\">zzc10086</a>在Fork后更新，修补bug</p>\n<p>同样的，<a href=\"https://github.com/zzc10086/TiebaLite\">贴吧Lite</a>使用流畅，UI美观，功能精简，还具有自动签到功能，个人是完全将其平替那又卡又慢的贴吧安卓端使用</p>\n<p><s>tips：其实在没贴吧lite之前我都不怎么刷贴吧的，因为原版贴吧真的太卡了</s></p>\n</blockquote>\n<br/><p>访问 <a href=\"https://blog.zero251.xyz/posts/tiebalite-software-recommendation\" target=\"_blank\">https://blog.zero251.xyz/posts/tiebalite-software-recommendation</a> 阅读全文。</p>",
+            "url": "https://blog.zero251.xyz/posts/tiebalite-software-recommendation",
+            "title": "第三方贴吧开源软件推荐 - tiebalite",
+            "date_modified": "2026-04-25T16:00:00.000Z",
+            "date_published": "2026-04-25T16:00:00.000Z",
+            "author": {
+                "name": "时终逝く",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
             "id": "https://blog.zero251.xyz/posts/LSPosedIT",
-            "content_html": "<blockquote>\n<p>LSPosed IT 群组是什么？ 想必看到的都知道这是什么了</p>\n<p>自从2年前lsposed关闭公开发版 ，转入推特的私有群组发版</p>\n<p>目前能公开下载的都是泄露的版本，这些版本的安全性无法知晓，甚至会有人在里面投毒，在闭源之后，也不是没有人使用之前的lsp仓库继续修复使用，但终归还是lsp的本体版本最好使</p>\n<p>至于为什么我在lsp闭源2年后才写这个，其实是因为我昨天才成功进入群组（</p>\n</blockquote>\n<br/><p>访问 <a href=\"https://blog.zero251.xyz/posts/LSPosedIT\" target=\"_blank\">https://blog.zero251.xyz/posts/LSPosedIT</a> 阅读全文。</p>",
+            "content_html": "<blockquote>\n<p>LSPosed IT 群组是什么？ 想必看到的都知道这是什么了</p>\n<p>自从2年前lsposed关闭公开发版 ，转入推特的私有群组发版</p>\n</blockquote>\n<br/><p>访问 <a href=\"https://blog.zero251.xyz/posts/LSPosedIT\" target=\"_blank\">https://blog.zero251.xyz/posts/LSPosedIT</a> 阅读全文。</p>",
             "url": "https://blog.zero251.xyz/posts/LSPosedIT",
             "title": "LSPosed IT 群组加入教程",
             "date_modified": "2026-03-28T16:00:00.000Z",
             "date_published": "2026-03-28T16:00:00.000Z",
             "author": {
-                "name": "Zero-无常",
+                "name": "时终逝く",
                 "url": "https://valaxy.site"
             }
         },
@@ -30,7 +150,7 @@
             "date_modified": "2026-02-13T16:00:00.000Z",
             "date_published": "2026-02-13T16:00:00.000Z",
             "author": {
-                "name": "Zero-无常",
+                "name": "时终逝く",
                 "url": "https://valaxy.site"
             }
         },
@@ -42,7 +162,7 @@
             "date_modified": "2025-12-27T00:00:00.000Z",
             "date_published": "2025-12-27T00:00:00.000Z",
             "author": {
-                "name": "Zero-无常",
+                "name": "时终逝く",
                 "url": "https://valaxy.site"
             }
         },
@@ -54,7 +174,7 @@
             "date_modified": "2025-12-20T00:00:00.000Z",
             "date_published": "2025-12-20T00:00:00.000Z",
             "author": {
-                "name": "Zero-无常",
+                "name": "时终逝く",
                 "url": "https://valaxy.site"
             }
         },
@@ -66,7 +186,7 @@
             "date_modified": "2025-11-29T00:00:00.000Z",
             "date_published": "2025-11-29T00:00:00.000Z",
             "author": {
-                "name": "Zero-无常",
+                "name": "时终逝く",
                 "url": "https://valaxy.site"
             }
         },
@@ -78,7 +198,7 @@
             "date_modified": "2025-11-01T16:00:00.000Z",
             "date_published": "2025-11-01T16:00:00.000Z",
             "author": {
-                "name": "Zero-无常",
+                "name": "时终逝く",
                 "url": "https://valaxy.site"
             }
         },
@@ -90,7 +210,7 @@
             "date_modified": "2025-10-25T00:00:00.000Z",
             "date_published": "2025-10-25T00:00:00.000Z",
             "author": {
-                "name": "Zero-无常",
+                "name": "时终逝く",
                 "url": "https://valaxy.site"
             }
         },
@@ -102,7 +222,7 @@
             "date_modified": "2025-10-01T16:00:00.000Z",
             "date_published": "2025-10-01T16:00:00.000Z",
             "author": {
-                "name": "Zero-无常",
+                "name": "时终逝く",
                 "url": "https://valaxy.site"
             }
         },
@@ -114,7 +234,7 @@
             "date_modified": "2025-09-19T16:00:00.000Z",
             "date_published": "2025-09-19T16:00:00.000Z",
             "author": {
-                "name": "Zero-无常",
+                "name": "时终逝く",
                 "url": "https://valaxy.site"
             }
         },
@@ -126,7 +246,7 @@
             "date_modified": "2025-09-06T16:00:00.000Z",
             "date_published": "2025-09-06T16:00:00.000Z",
             "author": {
-                "name": "Zero-无常",
+                "name": "时终逝く",
                 "url": "https://valaxy.site"
             }
         },
@@ -138,19 +258,19 @@
             "date_modified": "2025-08-22T16:00:00.000Z",
             "date_published": "2025-08-22T16:00:00.000Z",
             "author": {
-                "name": "Zero-无常",
+                "name": "时终逝く",
                 "url": "https://valaxy.site"
             }
         },
         {
             "id": "https://blog.zero251.xyz/posts/free-vps-clawcloudrun-3xui-tunnel",
-            "content_html": "<blockquote>\n<p>​\t==CLAW CLOUD RUN 云服务商如果使用Github超过180天的账户注册可以获得每月5美刀的服务器额度，额度十分充裕且无需绑定银行卡==</p>\n<p>​\t每月10GB高速流量，之后限速，但是在我这仍然能跑到10MB+（据说到70GB为上限，但如果单一时间过量使用可能导致限速1mps，但是几小时之后就恢复了），十分能用，而且是对单个容器进行限速，也就是说创建多个容器可让流量翻翻</p>\n</blockquote>\n<br/><p>访问 <a href=\"https://blog.zero251.xyz/posts/free-vps-clawcloudrun-3xui-tunnel\" target=\"_blank\">https://blog.zero251.xyz/posts/free-vps-clawcloudrun-3xui-tunnel</a> 阅读全文。</p>",
+            "content_html": "<blockquote>\n<p>==WARNING==</p>\n<p>CLAW CLOUD RUN 已经关闭，故无法使用</p>\n</blockquote>\n<br/><p>访问 <a href=\"https://blog.zero251.xyz/posts/free-vps-clawcloudrun-3xui-tunnel\" target=\"_blank\">https://blog.zero251.xyz/posts/free-vps-clawcloudrun-3xui-tunnel</a> 阅读全文。</p>",
             "url": "https://blog.zero251.xyz/posts/free-vps-clawcloudrun-3xui-tunnel",
             "title": "免费VPS ClawCloudRun使用3XUI面板进行隧道搭建",
             "date_modified": "2025-08-22T16:00:00.000Z",
             "date_published": "2025-08-22T16:00:00.000Z",
             "author": {
-                "name": "Zero-无常",
+                "name": "时终逝く",
                 "url": "https://valaxy.site"
             }
         },
@@ -162,7 +282,7 @@
             "date_modified": "2025-08-20T16:00:00.000Z",
             "date_published": "2025-08-20T16:00:00.000Z",
             "author": {
-                "name": "Zero-无常",
+                "name": "时终逝く",
                 "url": "https://valaxy.site"
             }
         },
@@ -174,7 +294,7 @@
             "date_modified": "2025-08-03T16:00:00.000Z",
             "date_published": "2025-08-03T16:00:00.000Z",
             "author": {
-                "name": "Zero-无常",
+                "name": "时终逝く",
                 "url": "https://valaxy.site"
             }
         },
@@ -186,7 +306,7 @@
             "date_modified": "2025-08-03T16:00:00.000Z",
             "date_published": "2025-08-03T16:00:00.000Z",
             "author": {
-                "name": "Zero-无常",
+                "name": "时终逝く",
                 "url": "https://valaxy.site"
             }
         },
@@ -198,7 +318,7 @@
             "date_modified": "2025-08-03T16:00:00.000Z",
             "date_published": "2025-08-03T16:00:00.000Z",
             "author": {
-                "name": "Zero-无常",
+                "name": "时终逝く",
                 "url": "https://valaxy.site"
             }
         },
@@ -210,7 +330,7 @@
             "date_modified": "2025-07-21T16:00:00.000Z",
             "date_published": "2025-07-21T16:00:00.000Z",
             "author": {
-                "name": "Zero-无常",
+                "name": "时终逝く",
                 "url": "https://valaxy.site"
             }
         },
@@ -222,7 +342,7 @@
             "date_modified": "2025-07-15T16:00:00.000Z",
             "date_published": "2025-07-15T16:00:00.000Z",
             "author": {
-                "name": "Zero-无常",
+                "name": "时终逝く",
                 "url": "https://valaxy.site"
             }
         },
@@ -234,7 +354,7 @@
             "date_modified": "2025-07-15T16:00:00.000Z",
             "date_published": "2025-07-15T16:00:00.000Z",
             "author": {
-                "name": "Zero-无常",
+                "name": "时终逝く",
                 "url": "https://valaxy.site"
             }
         },
@@ -246,7 +366,7 @@
             "date_modified": "2025-07-14T16:00:00.000Z",
             "date_published": "2025-07-14T16:00:00.000Z",
             "author": {
-                "name": "Zero-无常",
+                "name": "时终逝く",
                 "url": "https://valaxy.site"
             }
         },
@@ -258,7 +378,7 @@
             "date_modified": "2025-07-13T16:00:00.000Z",
             "date_published": "2025-07-13T16:00:00.000Z",
             "author": {
-                "name": "Zero-无常",
+                "name": "时终逝く",
                 "url": "https://valaxy.site"
             }
         },
@@ -270,7 +390,7 @@
             "date_modified": "2025-07-13T16:00:00.000Z",
             "date_published": "2025-07-13T16:00:00.000Z",
             "author": {
-                "name": "Zero-无常",
+                "name": "时终逝く",
                 "url": "https://valaxy.site"
             }
         },
@@ -282,7 +402,7 @@
             "date_modified": "2025-07-13T16:00:00.000Z",
             "date_published": "2025-07-13T16:00:00.000Z",
             "author": {
-                "name": "Zero-无常",
+                "name": "时终逝く",
                 "url": "https://valaxy.site"
             }
         },
@@ -294,7 +414,7 @@
             "date_modified": "2025-07-13T16:00:00.000Z",
             "date_published": "2025-07-13T16:00:00.000Z",
             "author": {
-                "name": "Zero-无常",
+                "name": "时终逝く",
                 "url": "https://valaxy.site"
             }
         },
@@ -306,7 +426,7 @@
             "date_modified": "2025-07-12T16:00:00.000Z",
             "date_published": "2025-07-12T16:00:00.000Z",
             "author": {
-                "name": "Zero-无常",
+                "name": "时终逝く",
                 "url": "https://valaxy.site"
             }
         },
@@ -318,7 +438,7 @@
             "date_modified": "2025-07-12T16:00:00.000Z",
             "date_published": "2025-07-12T16:00:00.000Z",
             "author": {
-                "name": "Zero-无常",
+                "name": "时终逝く",
                 "url": "https://valaxy.site"
             }
         },
@@ -330,7 +450,7 @@
             "date_modified": "2025-07-12T16:00:00.000Z",
             "date_published": "2025-07-12T16:00:00.000Z",
             "author": {
-                "name": "Zero-无常",
+                "name": "时终逝く",
                 "url": "https://valaxy.site"
             }
         },
@@ -342,7 +462,7 @@
             "date_modified": "2025-05-16T00:00:00.000Z",
             "date_published": "2025-05-16T00:00:00.000Z",
             "author": {
-                "name": "Zero-无常",
+                "name": "时终逝く",
                 "url": "https://valaxy.site"
             }
         },
@@ -354,7 +474,7 @@
             "date_modified": "2025-05-16T00:00:00.000Z",
             "date_published": "2025-05-16T00:00:00.000Z",
             "author": {
-                "name": "Zero-无常",
+                "name": "时终逝く",
                 "url": "https://valaxy.site"
             }
         },
@@ -366,7 +486,7 @@
             "date_modified": "2025-05-15T16:00:00.000Z",
             "date_published": "2025-05-15T16:00:00.000Z",
             "author": {
-                "name": "Zero-无常",
+                "name": "时终逝く",
                 "url": "https://valaxy.site"
             }
         },
@@ -378,7 +498,7 @@
             "date_modified": "2025-04-12T16:00:00.000Z",
             "date_published": "2025-04-12T16:00:00.000Z",
             "author": {
-                "name": "Zero-无常",
+                "name": "时终逝く",
                 "url": "https://valaxy.site"
             }
         },
@@ -390,7 +510,7 @@
             "date_modified": "2025-04-03T00:00:00.000Z",
             "date_published": "2025-04-03T00:00:00.000Z",
             "author": {
-                "name": "Zero-无常",
+                "name": "时终逝く",
                 "url": "https://valaxy.site"
             }
         },
@@ -402,7 +522,7 @@
             "date_modified": "2025-04-03T00:00:00.000Z",
             "date_published": "2025-04-03T00:00:00.000Z",
             "author": {
-                "name": "Zero-无常",
+                "name": "时终逝く",
                 "url": "https://valaxy.site"
             }
         },
@@ -414,7 +534,7 @@
             "date_modified": "2025-04-03T00:00:00.000Z",
             "date_published": "2025-04-03T00:00:00.000Z",
             "author": {
-                "name": "Zero-无常",
+                "name": "时终逝く",
                 "url": "https://valaxy.site"
             }
         },
@@ -426,19 +546,19 @@
             "date_modified": "2025-04-03T00:00:00.000Z",
             "date_published": "2025-04-03T00:00:00.000Z",
             "author": {
-                "name": "Zero-无常",
+                "name": "时终逝く",
                 "url": "https://valaxy.site"
             }
         },
         {
             "id": "https://blog.zero251.xyz/posts/Web-Log",
-            "content_html": "<h3>2026.3.22</h3>\n<blockquote>\n<p>对Openlist网盘进行更改结构</p>\n<p>将原本的通过 NAS 使用FRP到VPS内网穿透的结构改成</p>\n<p>在VPS搭建Openlist，并挂载NAS的Openlist实现同等效果**</p>\n</blockquote>\n<br/><p>访问 <a href=\"https://blog.zero251.xyz/posts/Web-Log\" target=\"_blank\">https://blog.zero251.xyz/posts/Web-Log</a> 阅读全文。</p>",
+            "content_html": "<h3>2026.5.2</h3>\n<blockquote>\n<p>因为将全部的文章的文件名更改为中文以获得更好的兼容性</p>\n<p>但是因此原先的评论定位混乱，暂且评论先全都不见了azaz</p>\n<p>因为Meting API默认的api不再提供导致右下的音乐插件无法访问，故<a href=\"https://cloud.tencent.com/developer/article/2430813\">根据</a>此文章自建了一个api并更新地址（但是发现依旧有问题）**</p>\n</blockquote>\n<br/><p>访问 <a href=\"https://blog.zero251.xyz/posts/Web-Log\" target=\"_blank\">https://blog.zero251.xyz/posts/Web-Log</a> 阅读全文。</p>",
             "url": "https://blog.zero251.xyz/posts/Web-Log",
             "title": "Web日志",
             "date_modified": "2025-03-13T16:00:00.000Z",
             "date_published": "2025-03-13T16:00:00.000Z",
             "author": {
-                "name": "Zero-无常",
+                "name": "时终逝く",
                 "url": "https://valaxy.site"
             }
         },
@@ -450,19 +570,19 @@
             "date_modified": "2024-12-31T00:00:00.000Z",
             "date_published": "2024-12-31T00:00:00.000Z",
             "author": {
-                "name": "Zero-无常",
+                "name": "时终逝く",
                 "url": "https://valaxy.site"
             }
         },
         {
             "id": "https://blog.zero251.xyz/posts/hardware-log",
-            "content_html": "<h3>2026.4.11</h3>\n<blockquote>\n<p>在再一次心血来潮摆弄BE6500的痛苦之后，我深思熟虑，决定买一个AX3000T专门来搞Openwrt，BE6500的教程几乎没有，还是给我好好当主路由吧</p>\n<p>U1S1，BE6500的信号真的呢很好</p>\n<p>至于买来AX3000T的结果嘛…自然是难搞，但是有趣（<s>这不是我玩它一个月没更新还没玩够的理由</s></p>\n</blockquote>\n<p><img src=\"https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20260419022417341.webp\" alt=\"1776536633335\"></p>\n<h3>2026.2.13</h3>\n<blockquote>\n<p>用我的残羹剩饭，勉强能用（补了一张亮机卡和二手硬盘扔回老家去）</p>\n</blockquote>\n<p><img src=\"https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20260214004422875.webp\" alt=\"image-20260214004422530\"></p>\n<p><img src=\"https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20260214004628497.webp\" alt=\"MVIMG_20260212_200512\"></p>\n<p><img src=\"https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20260214004411179.webp\" alt=\"x\"></p>\n<h3>2026.2.10</h3>\n<blockquote>\n<p>​\t神笔的我在十二月中把REDMI Buds6带回家之后，洗个澡出来就不见了？、</p>\n<p>​\t应该真的是没带回来吧…但我有清晰的把耳机放在桌子上的印象</p>\n<p>​\t在找了一个月无果后，使用一个月水月雨 Pill后，觉得耳夹式耳机的音质是在不行以及没有降噪（<s>其实后面发现我带的半年都开了高增益导致音质劣化严重</s>），头戴式出门有不太方便，遂再买一个 水月雨太空漫游2 ULTRA</p>\n<p>评价：颜值高，音质不错，保真度极好，降噪不行，佩戴稳定性不太行</p>\n</blockquote>\n<p><img src=\"https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20260211001947550.webp\" alt=\"image-20260211001935343\"></p>\n<p><img src=\"https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20260211001944711.webp\" alt=\"image-20260211001944020\"></p>\n<h3>2025.11.28</h3>\n<blockquote>\n<p>购入一个弱水时砂寒武纪，网上吹的很响，实际到手却发现许多问题</p>\n<p>比如这个木质振膜，听起来有一种上世纪的感觉，或许是没煲久？</p>\n<p>正常环境下这个降噪确实很暴力，但是当到了汽车或者地铁这些有共振的地方，降噪就会完全不可用</p>\n<p>还会有刺耳的尖锐噪音</p>\n<p>这产品怎么说呢ENN</p>\n<p>后续：吃灰</p>\n</blockquote>\n<p><img src=\"https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20251214001711676.webp\" alt=\"MVIMG_20251128_190326\"></p>\n<h3>2025.11.23</h3>\n<blockquote>\n<p>在社会实践回来后，换新的RX470D到货</p>\n<p>却又发现副机的500G msata疑似坏掉，时常无程序使用，占用100%</p>\n<p>拔下mstata转sata换NVME通道测试，仍如此，先凑合着吧，把MuMu模拟器迁移至另一个固态中，以继续完成每日的自动MAA工作</p>\n</blockquote>\n<p><img src=\"https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20251214001338235.webp\" alt=\"MVIMG_20251123_104424\"></p>\n<h3>2025.11.22</h3>\n<blockquote>\n<p>这该死的柚子社新作<s>逐光柠檬协奏曲</s>，让我竟然从国庆打到了现在才坎坎打完，我真是受不了了</p>\n<p>期间服务器都没怎么管，这几天才全面大修</p>\n</blockquote>\n<br/><p>访问 <a href=\"https://blog.zero251.xyz/posts/hardware-log\" target=\"_blank\">https://blog.zero251.xyz/posts/hardware-log</a> 阅读全文。</p>",
+            "content_html": "<h3>2026.5.22</h3>\n<blockquote>\n<p>神奇吧<br>\n又得吃了<br>\nmom自以为华为freebus se2百亿补贴说降120很好使<br>\n但其实是个🐷</p>\n</blockquote>\n<br/><p>访问 <a href=\"https://blog.zero251.xyz/posts/hardware-log\" target=\"_blank\">https://blog.zero251.xyz/posts/hardware-log</a> 阅读全文。</p>",
             "url": "https://blog.zero251.xyz/posts/hardware-log",
             "title": "硬件日志¿",
             "date_modified": "2020-04-17T16:00:00.000Z",
             "date_published": "2020-04-17T16:00:00.000Z",
             "author": {
-                "name": "Zero-无常",
+                "name": "时终逝く",
                 "url": "https://valaxy.site"
             }
         }
