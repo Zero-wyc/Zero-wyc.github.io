@@ -1,12 +1,12 @@
 import type { UserThemeConfig } from 'valaxy-theme-yun'
 import { addonLightGallery } from 'valaxy-addon-lightgallery'
 import { defineValaxyConfig } from 'valaxy'
-import { addonLive2d } from 'valaxy-addon-live2d'
+//import { addonLive2d } from 'valaxy-addon-live2d'
 import { addonBangumi } from 'valaxy-addon-bangumi'
 import { addonMeting } from 'valaxy-addon-meting'
 import { addonVercount } from 'valaxy-addon-vercount'
 import { addonTwikoo } from 'valaxy-addon-twikoo'
-import { addonGitLog } from 'valaxy-addon-git-log'
+//import { addonGitLog } from 'valaxy-addon-git-log'
 
 // add icons what you will need 
 // 添加您需要的图标
@@ -134,14 +134,14 @@ export default defineValaxyConfig<UserThemeConfig>({
       bilibiliUid: '539775193',
       bgmEnabled: false,
     }),
-
+/*
     addonGitLog({
       repositoryUrl: 'https://github.com/Zero-wyc/Zero-wyc.github.io.git',
       contributor: {
         strategy: 'prebuilt',  // 推荐 SSG 使用
       },
     }),
-
+*/
     addonLightGallery(),//相册配置
       
     addonTwikoo({ 
@@ -173,7 +173,7 @@ export default defineValaxyConfig<UserThemeConfig>({
     addonVercount({
       api: 'cn'
     }),
-    
+/*    
     addonLive2d({
       skipHello: false, // 是否跳过控制台的初始问候
       widthLimit: 400, // 设置 Live2D 宽度限制
@@ -742,6 +742,7 @@ export default defineValaxyConfig<UserThemeConfig>({
         },
       },
     }),
+    */
   ],  
 })
 
