@@ -13,7 +13,7 @@ categories: Game
 5. **ZenlessZoneZero：16084430**
 6. **Honkai Impact 3RD：274406689**
 7. **Blue Archive：yli94ea**
-8. **Arknights: Endfield：1845009843**
+8. **Arknights:Endfield：1845009843**
 
 **More are coming**
 

@@ -22,16 +22,13 @@ const safelist = [
 export default defineValaxyConfig<UserThemeConfig>({
   // site config see site.config.ts 
   // 站点配置请参阅site.config.ts
-  orderBy: 'updated', // 文章列表排序方式，date或者updated
   siteConfig: {
     // 启用评论
     comment: {
       enable: true
     },
   },
-  llms: { //为你的博客生成 AI 可读的纯文本内容
-    enable: true,
-  },
+
   /*server: {
     allowedHosts: ['blog.zero251.xyz'], // 添加允许的域名
   },

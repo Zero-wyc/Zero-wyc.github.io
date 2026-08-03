@@ -25,7 +25,8 @@ export default defineSiteConfig({
   },
   
   description: 'Zero_wyc的窝',
-  
+  orderBy: 'updated', // 文章列表排序方式，date或者updated
+
   social: [
     {
       name: 'Telegram',
@@ -41,7 +42,7 @@ export default defineSiteConfig({
     },
     {
       name: 'Bilibili',
-      link: 'https://space.bilibili.com/539775193',
+      link: 'https://space.bilibili.com/2071082896',
       icon: 'i-ri-bilibili-line',
       color: '#FF8EB3',
     },
@@ -111,7 +112,7 @@ export default defineSiteConfig({
 
   search: {
     enable: true,
-    type: 'fuse',	//"algolia"或"engine"或"fuse"，代码有注释
+    provider: 'fuse',	//"algolia"或"engine"或"fuse"或"local"
   },
 
   /**

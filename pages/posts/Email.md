@@ -7,6 +7,6 @@ categories: Email
 ---
 
 1. **Zero_wyc@qq.com**<!-- more -->
-2. **wyc13809518956@163.com**
-3. **wyc13809518956@gmail.com**
+2. **Zerowyc0721@gmail.com**
+
 
