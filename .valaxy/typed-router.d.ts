@@ -142,13 +142,6 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/posts/BLOG更新日志': RouteRecordInfo<
-      '/posts/BLOG更新日志',
-      '/posts/BLOG更新日志',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
     '/posts/BLOG网页部署live2d小人使用Vercount替代不蒜子': RouteRecordInfo<
       '/posts/BLOG网页部署live2d小人使用Vercount替代不蒜子',
       '/posts/BLOG网页部署live2d小人使用Vercount替代不蒜子',
@@ -226,6 +219,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/LSPosedIT加入教程': RouteRecordInfo<
+      '/posts/LSPosedIT加入教程',
+      '/posts/LSPosedIT加入教程',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/MarkdownTypora的基本用法与常用操作': RouteRecordInfo<
       '/posts/MarkdownTypora的基本用法与常用操作',
       '/posts/MarkdownTypora的基本用法与常用操作',
@@ -264,6 +264,13 @@ declare module 'vue-router/auto-routes' {
     '/posts/VMware25H2下载以及汉化': RouteRecordInfo<
       '/posts/VMware25H2下载以及汉化',
       '/posts/VMware25H2下载以及汉化',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/Web日志': RouteRecordInfo<
+      '/posts/Web日志',
+      '/posts/Web日志',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -436,6 +443,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/update/': RouteRecordInfo<
+      '/update/',
+      '/update',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
   }
 
   /**
@@ -551,12 +565,6 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'pages/posts/BLOG更新日志.md': {
-      routes:
-        | '/posts/BLOG更新日志'
-      views:
-        | never
-    }
     'pages/posts/BLOG网页部署live2d小人使用Vercount替代不蒜子.md': {
       routes:
         | '/posts/BLOG网页部署live2d小人使用Vercount替代不蒜子'
@@ -623,6 +631,12 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
+    'pages/posts/LSPosedIT加入教程.md': {
+      routes:
+        | '/posts/LSPosedIT加入教程'
+      views:
+        | never
+    }
     'pages/posts/MarkdownTypora的基本用法与常用操作.md': {
       routes:
         | '/posts/MarkdownTypora的基本用法与常用操作'
@@ -656,6 +670,12 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/VMware25H2下载以及汉化.md': {
       routes:
         | '/posts/VMware25H2下载以及汉化'
+      views:
+        | never
+    }
+    'pages/posts/Web日志.md': {
+      routes:
+        | '/posts/Web日志'
       views:
         | never
     }
@@ -800,6 +820,12 @@ declare module 'vue-router/auto-routes' {
     'pages/tags/index.md': {
       routes:
         | '/tags/'
+      views:
+        | never
+    }
+    'pages/update/index.md': {
+      routes:
+        | '/update/'
       views:
         | never
     }

@@ -12,6 +12,7 @@
     "serve": "vite preview"
   },
   "dependencies": {
+<<<<<<< HEAD
     "valaxy": "0.26.10",
     "valaxy-addon-bangumi": "^0.2.2",
     "valaxy-addon-lightgallery": "^0.0.4",
@@ -21,8 +22,19 @@
     "valaxy-addon-vercount": "^0.0.7",
     "valaxy-addon-waline": "^0.2.1",
     "valaxy-theme-yun": "0.26.10"
+=======
+    "valaxy": "1.0.0-rc.3",
+    "valaxy-addon-bangumi": "latest",
+    "valaxy-addon-git-log": "^0.7.0",
+    "valaxy-addon-lightgallery": "latest",
+    "valaxy-addon-live2d": "latest",
+    "valaxy-addon-meting": "latest",
+    "valaxy-addon-twikoo": "latest",
+    "valaxy-addon-vercount": "latest",
+    "valaxy-theme-yun": "1.0.0-rc.3"
+>>>>>>> beta
   },
   "devDependencies": {
-    "typescript": "^5.9.3"
+    "typescript": "^7.0.2"
   }
 }

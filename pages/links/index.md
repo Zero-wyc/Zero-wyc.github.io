@@ -1,15 +1,15 @@
 ---
-title: OpenList下载站
-keywords: 链接
-description: Some good things
-links: http://openlist.zero251.xyz/@s/FGGEv8oO
+title: 我的小伙伴们
+links:
+  - url: https://t.me/Zero_251
+    avatar: https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20260419024743053.webp
+    name: Zero_wyc
+    blog: 杏银隐杏珠的空间站
+    desc: 想挂友链的话，可以直接在下方评论区里发
+    color: "#0078e7"
+# 也可以是一个 JSON 链接
+# links: https://friends.yunyoujun.cn/links.json
 random: true
-aside: false	# 关闭目录边栏
 ---
 
-Download：[http://openlist.zero251.xyz/@s/FGGEv8oO]
-
----
-
-2026.3.22 更新 Openlist - NAS做备用，中国移动云盘挂载并使用直链作为主下载方式，不再限速也不会有NAS关机无法下载的问题，详情见Web日志
-
+<YunLinks :links="frontmatter.links" :random="frontmatter.random" />

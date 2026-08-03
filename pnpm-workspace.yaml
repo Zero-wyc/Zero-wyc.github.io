@@ -1,2 +1,6 @@
 onlyBuiltDependencies:
   - '@parcel/watcher'
+<<<<<<< HEAD
+=======
+  - vue-demi
+>>>>>>> beta

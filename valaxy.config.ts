@@ -6,6 +6,7 @@ import { addonBangumi } from 'valaxy-addon-bangumi'
 import { addonMeting } from 'valaxy-addon-meting'
 import { addonVercount } from 'valaxy-addon-vercount'
 import { addonTwikoo } from 'valaxy-addon-twikoo'
+import { addonGitLog } from 'valaxy-addon-git-log'
 
 // add icons what you will need 
 // 添加您需要的图标
@@ -21,7 +22,6 @@ const safelist = [
 export default defineValaxyConfig<UserThemeConfig>({
   // site config see site.config.ts 
   // 站点配置请参阅site.config.ts
-
   siteConfig: {
     // 启用评论
     comment: {
@@ -46,9 +46,10 @@ export default defineValaxyConfig<UserThemeConfig>({
     nav: [
       { text: '标签', link: '/tags/', icon: 'i-ri-price-tag-3-line' },
       { text: '分类', link: '/categories/', icon: 'i-ri-list-unordered' },
-      { text: 'OpenList', link: '/links/', icon: 'i-ri-triangle-line' },
+      { text: 'OpenList', link: '/download/', icon: 'i-ri-triangle-line' },
       { text: '追番列表', link: '/Bangumi/', icon: 'i-ri-folder-video-line' },
       { text: '站点状态', link: '/status/', icon: 'i-ri-loader-2-line' },
+      { text: 'LINKS', link: '/links/', icon: 'i-ri-user-line' },
       { text: '投喂喵~', link: '/love/', icon: 'i-ri-heart-add-line' },
     ],
     
@@ -60,8 +61,8 @@ export default defineValaxyConfig<UserThemeConfig>({
         color: '#43abee',
       },
       {
-        name: 'OpenList下载站',
-        url: '/links/',
+        name: '下载站',
+        url: '/download/',
         icon: 'i-ri-triangle-line',
         color: 'dodgerblue',
       },
@@ -101,14 +102,25 @@ export default defineValaxyConfig<UserThemeConfig>({
       enable: true,
       url: "https://github.cdn.zero251.xyz/Zero-wyc/Image/main/General/甘城2白_1.webp",	// 白日模式背景
       dark: "https://github.cdn.zero251.xyz/Zero-wyc/Image/main/General/甘城主图290黑_1.webp",	// 夜间模式背景
+      opacity: 1,
     },
-    
+    //公告
+    notice: {
+      enable: true,
+      hideInPages: true, // 是否在 /pages/[page] 中隐藏
+      content: 'TIPS:点击名字有惊喜 | 马上就要高三了,更新频率会很低...但t.me/Zero_251还是会发的w',
+    },
+    //页脚
     footer: {
       since: 2025,
+      cloud: {
+        enable: true, // 页脚上方的流动云
+      },
+      powered: false, // 显示 "Powered by Valaxy & valaxy-theme-yun"
       beian: {
         enable: true,
         icp: '闽ICP备2025091782号-1',
-        police: '闽公网安备 35020302000100号',
+        icpLink: 'https://beian.miit.gov.cn/',
       },
     },
   },
@@ -123,6 +135,13 @@ export default defineValaxyConfig<UserThemeConfig>({
       bgmEnabled: false,
     }),
 
+    addonGitLog({
+      repositoryUrl: 'https://github.com/Zero-wyc/Zero-wyc.github.io.git',
+      contributor: {
+        strategy: 'prebuilt',  // 推荐 SSG 使用
+      },
+    }),
+
     addonLightGallery(),//相册配置
       
     addonTwikoo({ 
@@ -130,18 +149,19 @@ export default defineValaxyConfig<UserThemeConfig>({
     }),
 
     addonMeting({
-      global: true, // 是否全局启用播放器
+      global: false, // 是否全局启用播放器
       props: {
         id: '5176495148',    // 音乐的 ID，可以是网易云或其他支持的平台
         server: 'netease',   // 支持 'netease' | 'tencent' | 'kugou' 等
         type: 'playlist',    // 类型可以是 'song', 'album', 'artist', 'playlist'
-        theme: "#4FBCCD", // 播放器主题色
-        preload: 'auto', // 是否预加载音乐
-        mutex: true, // 是否互斥播放
-        autoplay: false, // 是否自动播放
+        //theme: "#4FBCCD", // 播放器主题色
+        //preload: 'auto', // 是否预加载音乐
+        //mutex: true, // 是否互斥播放
+        //autoplay: false, // 是否自动播放
         fixed: true, // 是否固定在页面底部
-        lyricColor: '#4FBCCD', // 歌词颜色
-        volume: 0.3, // 初始音量大小
+        //lyricColor: '#4FBCCD', // 歌词颜色
+        //volume: 0.3, // 初始音量大小
+        api:'http://server.zero251.xyz:3000/api?server=:server&type=:type&id=:id&r=:r'
       },
       options: {
         lyricHidden: true,  // 是否默认隐藏歌词

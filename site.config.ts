@@ -4,10 +4,10 @@ export default defineSiteConfig({
   url: 'https://blog.zero251.xyz/',
   favicon: "https://github.cdn.zero251.xyz/Zero-wyc/Image/main/General/甘城.svg", // 网页图标链接
   lang: 'zh-CN',
-  title: 'Zero_wyc的窝',
-  subtitle: '二向无常', //副标题
+  title: '时终是区~',
+  subtitle: '时终逝く的公式化', //副标题
   author: {
-    name: 'Zero-无常',
+    name: '时终逝く',
     avatar: "https://github.cdn.zero251.xyz/Zero-wyc/Image/main/General/辛.webp",	//头像链接
     status: {
       emoji: '🖥️'	// 头像旁边的emoji
@@ -24,9 +24,16 @@ export default defineSiteConfig({
     time_warning: true,
   },
   
-  description: 'Zero_wyc的公式化',
-  
+  description: 'Zero_wyc的窝',
+  orderBy: 'updated', // 文章列表排序方式，date或者updated
+
   social: [
+    {
+      name: 'Telegram',
+      link: 'https://t.me/Zero_251',
+      icon: 'i-ri-telegram-line',
+      color: '#0088CC',
+    },
     {
       name: 'GitHub',
       link: 'https://github.com/Zero-wyc',
@@ -35,7 +42,7 @@ export default defineSiteConfig({
     },
     {
       name: 'Bilibili',
-      link: 'https://space.bilibili.com/539775193',
+      link: 'https://space.bilibili.com/2071082896',
       icon: 'i-ri-bilibili-line',
       color: '#FF8EB3',
     },
@@ -70,12 +77,6 @@ export default defineSiteConfig({
       color: '#0096F9',
     },
     {
-      name: 'Telegram',
-      link: 'https://t.me/zero_wyc',
-      icon: 'i-ri-telegram-line',
-      color: '#0088CC',
-    },
-    {
       name: '酷安',
       link: 'https://www.coolapk.com/u/7056601',
       icon: 'i-ri-infinity-line',
@@ -92,12 +93,6 @@ export default defineSiteConfig({
       link: 'https://weibo.com/u/7395123860',
       icon: 'i-ri-weibo-line',
       color: '#E6162D',
-    },
-    {
-      name: '知乎',
-      link: 'https://www.zhihu.com/people/yu-chen-98-28-85',
-      icon: 'i-ri-zhihu-line',
-      color: '#0084FF',
     },
     {
       name: 'E-Mail',
@@ -117,7 +112,7 @@ export default defineSiteConfig({
 
   search: {
     enable: true,
-    type: 'fuse',	//"algolia"或"engine"或"fuse"，代码有注释
+    provider: 'fuse',	//"algolia"或"engine"或"fuse"或"local"
   },
 
   /**
