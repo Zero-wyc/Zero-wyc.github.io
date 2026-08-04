@@ -1,31 +1,82 @@
 ---
-hide: true # true 真隐藏 index 主页隐藏 false 不隐藏
-title: WSL2/Linux一些快捷命令和短教程
-date: 2026-3-15
-updated: 2026-3-15
+hide: false # true 真隐藏 index 主页隐藏 false 不隐藏
+title: 命令行的一些快捷命令和短教程
+date: 2026-7-20
+updated: 2026-8-4
 categories: 搞机日志
-cover: https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250804193109903.jpg
+cover: https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20260804235439025.webp
 tags:
-  - 搞机日志
-  - Daily life
-  - WEB
-  - 甘城なつき/Nachoneko
-  - Valaxy
-  - 软件推荐
-  - 美化
   - Linux
   - 经验
-  - Steam
-  - Game 
-  - 硬件
-  - Root
 ---
 
-> 
+> 纯一些经验之谈
 
 <!-- more -->
 
 ---
+
+- ### Windows查看特定占用端口的程序
+- #### 方法一：使用 `netstat`（最常用）
+
+  打开 **命令提示符（CMD）** 或 **PowerShell**，输入：
+
+  ```cmd
+  netstat -ano | findstr :端口号
+  ```
+
+  **示例** — 查看 8080 端口：
+
+  ```cmd
+  netstat -ano | findstr :8080
+  ```
+
+  ```plain
+    TCP    0.0.0.0:8080           0.0.0.0:0              LISTENING       12345
+  ```
+
+  最后一列 `12345` 就是 **PID（进程ID）**。
+
+  然后查看是哪个程序占用了该 PID：
+
+  ```cmd
+  tasklist | findstr 12345
+  ```
+
+  ------
+
+  #### 方法二：直接查看进程名（PowerShell）
+
+  ```powershell
+  Get-Process -Id (Get-NetTCPConnection -LocalPort 8080).OwningProcess
+  ```
+
+  将 `8080` 替换为你要查询的端口号，一行命令直接显示进程名。
+
+  ------
+
+  #### 方法三：资源监视器（图形界面）
+
+  1. 按 `Win + R`，输入 `resmon`，回车
+  2. 切换到 **"网络"** 标签页
+  3. 展开 **"监听端口"** 区域
+  4. 在 **"本地端口"** 列中查找你要的端口号，右侧会显示对应的进程名和 PID
+
+  ------
+
+  #### 方法四：强制结束占用端口的进程
+
+  找到 PID 后，如果确认可以关闭，执行：
+
+  ```cmd
+  taskkill /PID 12345 /F
+  ```
+
+  `/F` 表示强制结束。
+
+---
+
+
 
 - ### **Ubuntu 24.04 及更新版本**更换成阿里云源
 
@@ -216,7 +267,7 @@ tags:
     | `chmod -R 777 文件夹` | 所有人读写执行（**不安全，慎用**）     |
     | `chmod -R +x 文件夹`  | 仅添加执行权限，不改变读写权限         |
     | `chmod -R u+x 文件夹` | 仅给**所有者**添加执行权限             |
-  
+
 - ### 更换默认Shell（fish为例）
 
   - #### Linux
