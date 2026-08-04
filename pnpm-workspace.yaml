@@ -1,5 +1,6 @@
 onlyBuiltDependencies:
   - '@parcel/watcher'
+  - esbuild
   - vue-demi
 
 # 禁用包发布年龄检查，避免 CI 构建时因时间差触发 minimumReleaseAge 策略
