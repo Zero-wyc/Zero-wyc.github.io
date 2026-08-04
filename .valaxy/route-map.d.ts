@@ -226,13 +226,6 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/posts/default (copy)': RouteRecordInfo<
-      '/posts/default (copy)',
-      '/posts/default%20(copy)',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
     '/posts/directory-opus': RouteRecordInfo<
       '/posts/directory-opus',
       '/posts/directory-opus',
@@ -401,9 +394,9 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/posts/piliplus-software-recommendation': RouteRecordInfo<
-      '/posts/piliplus-software-recommendation',
-      '/posts/piliplus-software-recommendation',
+    '/posts/PiliPlus-software-recommendation': RouteRecordInfo<
+      '/posts/PiliPlus-software-recommendation',
+      '/posts/PiliPlus-software-recommendation',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -488,6 +481,13 @@ declare module 'vue-router/auto-routes' {
     '/posts/wsl-set-root-tutorial': RouteRecordInfo<
       '/posts/wsl-set-root-tutorial',
       '/posts/wsl-set-root-tutorial',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/WSL2-Linux-Some-quick-commands-and-short-tutorials': RouteRecordInfo<
+      '/posts/WSL2-Linux-Some-quick-commands-and-short-tutorials',
+      '/posts/WSL2-Linux-Some-quick-commands-and-short-tutorials',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -729,12 +729,6 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'pages/posts/default (copy).md': {
-      routes:
-        | '/posts/default (copy)'
-      views:
-        | never
-    }
     'pages/posts/directory-opus.md': {
       routes:
         | '/posts/directory-opus'
@@ -879,9 +873,9 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'pages/posts/piliplus-software-recommendation.md': {
+    'pages/posts/PiliPlus-software-recommendation.md': {
       routes:
-        | '/posts/piliplus-software-recommendation'
+        | '/posts/PiliPlus-software-recommendation'
       views:
         | never
     }
@@ -954,6 +948,12 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/wsl-set-root-tutorial.md': {
       routes:
         | '/posts/wsl-set-root-tutorial'
+      views:
+        | never
+    }
+    'pages/posts/WSL2-Linux-Some-quick-commands-and-short-tutorials.md': {
+      routes:
+        | '/posts/WSL2-Linux-Some-quick-commands-and-short-tutorials'
       views:
         | never
     }
