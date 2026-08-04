@@ -8,24 +8,36 @@ import { addonVercount } from 'valaxy-addon-vercount'
 import { addonTwikoo } from 'valaxy-addon-twikoo'
 //import { addonGitLog } from 'valaxy-addon-git-log'
 
-// add icons what you will need 
+// add icons what you will need
 // 添加您需要的图标
 const safelist = [
   'i-ri-home-line',
 ]
 
+async function loadIconCollection(name: string) {
+  const mod = await import(`@iconify-json/${name}`)
+  return mod.icons
+}
 
 /**
-  User Config 
+  User Config
   用户配置
  */
 export default defineValaxyConfig<UserThemeConfig>({
-  // site config see site.config.ts 
+  // site config see site.config.ts
   // 站点配置请参阅site.config.ts
   siteConfig: {
     // 启用评论
     comment: {
       enable: true
+    },
+  },
+
+  unocssPresets: {
+    icons: {
+      collections: {
+        ri: () => loadIconCollection('ri'),
+      },
     },
   },
 
