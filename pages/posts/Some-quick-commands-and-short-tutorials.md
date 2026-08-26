@@ -103,6 +103,7 @@ tags:
   ```bash
   sudo apt update
   ```
+  
 - ### 强制结束进程
 
   - ```
@@ -140,6 +141,7 @@ tags:
   mkdir -p project/src/lib    # 递归创建多层目录
   mkdir folder1 folder2       # 同时创建多个文件夹
   ```
+  
 - ShellClash一键安装脚本
 
   - ```
@@ -302,10 +304,4 @@ tags:
 
     输出应包含 `fish`。
 
-- ### 设置默认登录账户
-
----
-
-
-
-引用链接：
+  

@@ -47,13 +47,15 @@ tags:
 
 ---
 
-- 首先先在NAS上创建一个域名动态指向IPV6地址服务（这里以Lucky为例）
+- #### 首先先在NAS上创建一个域名动态指向IPV6地址服务（这里以Lucky为例）
+  
   - ![image-20260813183720537](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20260813183720811.webp)
-- 接下来直接来到EdgeOne
+- #### 接下来直接来到EdgeOne
+  
   - ![image-20260813183936927](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20260813183937219.webp)
-  - 记得打开IPV6访问和WebSocket（WebSocket用于持续连接，大部分的网页有用到）
+  - #### 记得打开IPV6访问和WebSocket（WebSocket用于持续连接，大部分的网页有用到）
   - ![image-20260813184056172](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20260813184056374.webp)
-  - 等待一会，部署完成，也可选择部署一个证书以https访问
+  - #### 等待一会，部署完成，也可选择部署一个证书以https访问
   - ![image-20260813184237378](https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20260813184237623.webp)
-- 好了，去测试一下吧（EdgeOne对于持续访问有限速5mb/s的限速，但也无妨，因为宽带的限速就是5mb/s）
+- #### 好了，去测试一下吧（EdgeOne对于持续访问有限速5mb/s的限速，但也无妨，因为宽带的限速就是5mb/s）
 
