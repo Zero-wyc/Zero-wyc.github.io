@@ -1,7 +1,7 @@
 ---
 title: 如何快速安装jdk/java与快速切换版本
-date: 2026-8-13
-updated: 2026-8-13
+date: 2026-8-27
+updated: 2026-8-27
 categories: 搞机日志
 cover: https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20260827010624060.webp
 tags:
