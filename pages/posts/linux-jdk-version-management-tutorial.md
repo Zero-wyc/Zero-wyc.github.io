@@ -352,6 +352,7 @@ SDKMAN! 和 jEnv 都会设置 `JAVA_HOME`，IDEA/Eclipse 通常能自动识别�
 
 ---
 
-> DESIGN BY KIMI K2.6 | 并由作者亲自实测，亲测好用👌
+> WRITE BY KIMI K2.6 | 并由作者亲自实测，亲测好用👌
 > - SDKMAN! 官网：https://sdkman.io/
 > - jEnv GitHub：https://github.com/jenv/jenv
+

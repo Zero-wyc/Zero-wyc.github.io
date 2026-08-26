@@ -198,4 +198,4 @@ wsl -d Ubuntu-24.04 -- whoami
 
 ---
 
-DESIGN WRITE BY GLM5.2 经过自己测试
+> WRITE WRITE BY GLM5.2 经过自己测试
