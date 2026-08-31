@@ -7,6 +7,12 @@ links:
     blog: 杏银隐杏珠的空间站
     desc: 想挂友链的话，可以直接在下方评论区里发
     color: "#0078e7"
+  - url: https://teaclearinkii.pages.dev/assets/home/TeaClearInkII.webp
+    avatar: https://teaclearinkii.pages.dev/assets/home/TeaClearInkII.webp
+    name: 茶清墨
+    blog: 茶清墨刂
+    desc: 茶茶的小茶亭
+    color: "#0078e7"
 # 也可以是一个 JSON 链接
 # links: https://friends.yunyoujun.cn/links.json
 random: true
