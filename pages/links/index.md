@@ -1,5 +1,5 @@
 ---
-title: 我的小伙伴们
+title: My Friends
 links:
   - url: https://t.me/Zero_251
     avatar: https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20260419024743053.webp
