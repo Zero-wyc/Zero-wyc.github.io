@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html  lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="https://github.cdn.zero251.xyz/Zero-wyc/Image/main/General/甘城.svg">
+    <script>
+    ;(function () {
+      const prefersDark =
+        window.matchMedia &&
+        window.matchMedia('(prefers-color-scheme: dark)').matches
+      const setting = localStorage.getItem('vueuse-color-scheme') || 'auto'
+      if (setting === 'dark' || (prefersDark && setting !== 'light'))
+        document.documentElement.classList.toggle('dark', true)
+    })()
+    </script>
+  <style type="text/css">
+    :root { color-scheme: light dark; --va-c-bg: #fff; }
+    html.dark { --va-c-bg: #000; }
+    html { background-color: var(--va-c-bg); }
+  </style><style id="valaxy-fouc">body{opacity:0!important}</style><style>body{transition:opacity .15s ease}</style><noscript><style>body{opacity:1!important}</style></noscript><script>(function foucGuardScript(maxDuration) {
+  var done = 0;
+  function reveal() {
+    if (done) return;
+    done = 1;
+    var s = document.getElementById("valaxy-fouc");
+    if (s) s.remove();
+  }
+  function check() {
+    var links = document.querySelectorAll('link[rel="stylesheet"]');
+    for (var i = 0; i < links.length; i++) {
+      if (!links[i].sheet) return;
+    }
+    reveal();
+  }
+  new MutationObserver(check).observe(document.head, {
+    childList: true,
+    attributes: true,
+    attributeFilter: ["media", "rel"]
+  });
+  addEventListener("load", reveal);
+  if (maxDuration)
+    setTimeout(reveal, maxDuration);
+})(5000)</script>
+    <script>
+    const locale = localStorage.getItem('valaxy-locale') || 'zh-CN';
+    document.documentElement.setAttribute('lang', locale);
+    </script>
+    
+  <script type="module" crossorigin src="/assets/index.Dg8il5Jz.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/rolldown-runtime.B0Z9INg1.js">
+  <link rel="modulepreload" crossorigin href="/assets/framework.BMIuY3VN.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/vue-i18n.CDwBN_av.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/vue-router.BoC7-FiT.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/dayjs.BxTxcchl.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/pinia.BnAc0ZKs.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/@vueuse/motion.DmrXO9EW.js">
+  <link rel="modulepreload" crossorigin href="/assets/theme.CIVISDRb.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/nprogress.CwIlWzim.js">
+  <link rel="stylesheet" crossorigin href="/assets/style.DWGo1jvk.css">
+<link rel="preload" href="/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_AMS-Regular.DMm9YOAa.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Bold.Dq_IR9rO.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Bold.BEiXGLvX.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Regular.Di6jR-x-.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Regular.CTRA-rTL.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Bold.CL6g_b3V.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Bold.BsDP51OF.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Regular.CTYiF6lA.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Regular.Dxdc4cR9.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Bold.Cx986IdX.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Bold.Jm3AIy58.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-BoldItalic.DxDJ3AOS.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-BoldItalic.SpSLRI95.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Italic.NWA7e6Wa.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Italic.BMLOBm91.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Regular.B22Nviop.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Regular.Dr94JaBh.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-BoldItalic.CZnvNsCZ.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-BoldItalic.iY-2wyZ7.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-Italic.t53AETM-.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-Italic.DA0__PXp.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Bold.D1sUS0GD.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Bold.DbIhKOiC.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Italic.C3H0VqGB.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Italic.DN2j7dab.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Regular.DDBCnlJ7.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Regular.CS6fqUqJ.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Script-Regular.D3wIWfF6.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Script-Regular.D5yQViql.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size1-Regular.mCD8mA8B.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size1-Regular.C195tn64.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size2-Regular.Dy4dx90m.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size2-Regular.oD1tc_U0.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size3-Regular.CTq5MqoE.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size4-Regular.Dl5lxZxV.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size4-Regular.BF-4gkZK.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Typewriter-Regular.CO6r4hn1.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Typewriter-Regular.C0xS9mPB.woff" as="font" type="font/woff" crossorigin>
+<link rel="modulepreload" crossorigin href="/assets/theme.CIVISDRb.js">
+<link rel="preload" href="/assets/none.DLM1AMsD.jpg" as="image">
+<link rel="preload" href="/assets/bg-img.kXdNMxcF.jpg" as="image">
+<link rel="preload" href="/assets/sidebar-bg-img.mp54gEws.webp" as="image">
+<link rel="preload" href="/assets/lg.CosQH4Cu.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/lg.B0dIV2BS.svg" as="image">
+<link rel="preload" href="/assets/loading.BZOHaeKn.gif" as="image">
+<link rel="modulepreload" crossorigin href="/assets/FZBZF.yg2raHSf.js">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FZBZ - F**** - 时终是区~</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@900&display=swap">
+<meta property="og:locale:alternate" content="en">
+<meta name="description" content="Zero_wyc的窝">
+<meta property="og:description" content="Zero_wyc的窝">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:site_name" content="时终是区~">
+<meta property="og:title" content="FZBZ - F****">
+<meta property="og:image" content="https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250804194104561.jpg">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://blog.zero251.xyz/">
+<link rel="icon" href="https://github.cdn.zero251.xyz/Zero-wyc/Image/main/General/甘城.svg" type="image/svg+xml">
+<meta name="generator" content="Valaxy 1.0.0-rc.3">
+<meta name="theme-color" content="#fff">
+<meta name="msapplication-TileColor" content="#fff">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+<body>
+  <div id="app"><!--[--><!--[--><!--[--><!--v-if--><!--v-if--><div class="yun-page-header-gradient"></div><div class="yun-nav-menu z-$yun-z-nav-menu fixed bg-transparent" data-v-d6d4f858><!--  --><div class="inline-flex justify-start items-center flex-1" data-v-d6d4f858><button type="button" class="vt-hamburger menu-btn sidebar-toggle leading-4 size-12 lg:hidden" aria-label="mobile navigation" aria-expanded="false" inline-flex cursor="pointer" hover="bg-white/80 dark:bg-black/80" z="$yun-z-menu-btn" data-v-d6d4f858><span class="vt-hamburger-container"><span class="vt-hamburger-top"></span><span class="vt-hamburger-middle"></span><span class="vt-hamburger-bottom"></span></span></button><a href="/" class="va-link size-12 inline-flex-center cursor-pointer z-$yun-z-nav-menu text-$va-c-text" hover="bg-white/80 dark:bg-black/80 op-100" op-80 data-v-d6d4f858><!--[--><div class="size-6 i-ri-home-4-line"></div><!--]--></a><div class="hidden lg:contents" data-v-d6d4f858><!--[--><a href="/tags/" class="va-link size-12 inline-flex-center cursor-pointer z-$yun-z-nav-menu text-$va-c-text" hover="bg-white/80 dark:bg-black/80 op-100" op-80 title="标签" data-v-d6d4f858><!--[--><div class="size-6 i-ri-price-tag-3-line"></div><!--]--></a><a href="/categories/" class="va-link size-12 inline-flex-center cursor-pointer z-$yun-z-nav-menu text-$va-c-text" hover="bg-white/80 dark:bg-black/80 op-100" op-80 title="分类" data-v-d6d4f858><!--[--><div class="size-6 i-ri-list-unordered"></div><!--]--></a><a href="/download/" class="va-link size-12 inline-flex-center cursor-pointer z-$yun-z-nav-menu text-$va-c-text" hover="bg-white/80 dark:bg-black/80 op-100" op-80 title="OpenList" data-v-d6d4f858><!--[--><div class="size-6 i-ri-triangle-line"></div><!--]--></a><a href="/Bangumi/" class="va-link size-12 inline-flex-center cursor-pointer z-$yun-z-nav-menu text-$va-c-text" hover="bg-white/80 dark:bg-black/80 op-100" op-80 title="追番列表" data-v-d6d4f858><!--[--><div class="size-6 i-ri-folder-video-line"></div><!--]--></a><a href="/status/" class="va-link size-12 inline-flex-center cursor-pointer z-$yun-z-nav-menu text-$va-c-text" hover="bg-white/80 dark:bg-black/80 op-100" op-80 title="站点状态" data-v-d6d4f858><!--[--><div class="size-6 i-ri-loader-2-line"></div><!--]--></a><a href="/links/" class="va-link size-12 inline-flex-center cursor-pointer z-$yun-z-nav-menu text-$va-c-text" hover="bg-white/80 dark:bg-black/80 op-100" op-80 title="LINKS" data-v-d6d4f858><!--[--><div class="size-6 i-ri-user-line"></div><!--]--></a><a href="/love/" class="va-link size-12 inline-flex-center cursor-pointer z-$yun-z-nav-menu text-$va-c-text" hover="bg-white/80 dark:bg-black/80 op-100" op-80 title="投喂喵~" data-v-d6d4f858><!--[--><div class="size-6 i-ri-heart-add-line"></div><!--]--></a><!--]--></div></div><div class="flex flex-1 flex-center" data-v-d6d4f858><div flex="~ center col h-full" class="nav-menu-title-container cursor-pointer" data-v-d6d4f858><!----><span class="font-light truncate">时终是区~</span></div></div><div class="inline-flex-center justify-end items-center flex-1" data-v-d6d4f858><!-- <template v-if="!app.isMobile && themeConfig.nav">
+          <template v-for="item in themeConfig.nav" :key="item.text">
+            <AppLink
+              v-if="'link' in item"
+              :to="item.link"
+              class="menu-btn inline-flex-center p-2 transition text-$va-c-text"
+              inline-flex cursor="pointer"
+              hover="bg-white/80 dark:bg-black/80"
+              z="$yun-z-menu-btn"
+            >
+              {{ item.text }}
+            </AppLink>
+            <template v-else-if="'items' in item" />
+          </template>
+        </template> --><button class="yun-icon-btn rounded-none! hidden sm:inline-flex" title="切换语言" style="color:var(--va-c-text);" data-v-d6d4f858><div i-ri-translate class="transition transform"></div></button><button class="yun-icon-btn yun-toggle-dark rounded-none!" title="切换深色模式" data-v-d6d4f858><div i="ri-sun-line dark:ri-moon-line"></div></button><!--[--><button class="yun-search-btn yun-icon-btn popup-trigger rounded-none! size-12 inline-flex justify-center items-center" text="xl $va-c-text" title="搜索"><div i-ri-search-line op-80 hover="op-100"></div></button><!----><!--]--></div></div><!----><!--v-if--><!----><!--[--><div class="yun-bg"></div><!--]--><!----><a href="#" class="back-to-top yun-icon-btn bg-$va-c-bg-soft shadow-md"><div class="size-8" i-ri-arrow-up-s-line></div><svg class="progress-circle-container" viewBox="0 0 100 100"><circle stroke-dasharray="301.59289474462014 301.59289474462014" stroke-dashoffset="301.59289474462014" stroke="currentColor" stroke-width="2" stroke-linecap="round" class="progress-circle" cx="50" cy="50" r="48" fill="none"></circle></svg></a><!--]--><!--[--><!--]--><!----><!--]--><div class="min-h-screen flex flex-col"><div class="mt-12 md:mt-24 yun-layout-wrapper__content"><!--[--><div class="yun-layout-left gap-4 sticky top-$yun-margin-top w-80"><!--[--><div class="yun-card flex-center rounded-2 overflow-hidden p-4 min-h-sm" flex="~ col gap-1" min-h="100px" bg="$va-c-bg-light"><!----><!----><div class="yun-card-body relative" w="full" flex="~ col" items="center"><!--[--><div class="site-info gap-1 items-center text-center" flex="~ col" p="t-8"><a href="/about" class="site-author-avatar inline-flex-center"><div class="relative yun-author-avatar"><div class="absolute size-full avatar-bg bg-image-$yun-home-hero-image-background-image filter-blur-2xl op-30"></div><img class="rounded-full size-full bg-white dark:bg-white/20 p-1 m-0 absolute" src="https://github.cdn.zero251.xyz/Zero-wyc/Image/main/General/辛.webp" alt="avatar"><span class="site-author-status absolute" title="The moonlight is beautiful.">🖥️</span></div></a><a href="/about" class="site-author-name font-black font-serif text-$va-c-text op-80 hover:op-100 flex-center">时终逝く</a><a href="/about/site" class="site-name text-lg leading-loose">时终是区~</a><h4 class="site-subtitle block op-70" text="xs">时终逝く的公式化</h4><div class="site-description">Zero_wyc的窝</div></div><div class="yun-gradient-line my-2 op-20"></div><nav class="site-nav" text-xl mt-2><a href="/archives/" class="post-classify-nav-item gap-1 w-20 p-2 rounded transition op-80" flex="~ col center" title="归档" hover="bg-$va-c-bg-soft op-100"><div flex="~ col" class="text-$va-c-text inline-flex-center gap-1"><!-- Use CSS to toggle icons based on router-link-active class to avoid SSR hydration mismatch --><div class="text-2xl icon-default i-ri-archive-line"></div><div class="text-2xl icon-active i-ri-archive-fill"></div><span class="text-xs">归档</span></div><span class="count text-base text-black/80 dark:text-white/80">53</span></a><a href="/categories/" class="post-classify-nav-item gap-1 w-20 p-2 rounded transition op-80" flex="~ col center" title="分类" hover="bg-$va-c-bg-soft op-100"><div flex="~ col" class="text-$va-c-text inline-flex-center gap-1"><!-- Use CSS to toggle icons based on router-link-active class to avoid SSR hydration mismatch --><div class="text-2xl icon-default i-ri-folder-2-line"></div><div class="text-2xl icon-active i-ri-folder-2-fill"></div><span class="text-xs">分类</span></div><span class="count text-base text-black/80 dark:text-white/80">4</span></a><a href="/tags/" class="post-classify-nav-item gap-1 w-20 p-2 rounded transition op-80" flex="~ col center" title="标签" hover="bg-$va-c-bg-soft op-100"><div flex="~ col" class="text-$va-c-text inline-flex-center gap-1"><!-- Use CSS to toggle icons based on router-link-active class to avoid SSR hydration mismatch --><div class="text-2xl icon-default i-ri-price-tag-3-line"></div><div class="text-2xl icon-active i-ri-price-tag-3-fill"></div><span class="text-xs">标签</span></div><span class="count text-base text-black/80 dark:text-white/80">19</span></a></nav><div class="yun-gradient-line my-2 op-20"></div><div class="links-of-author"><!--[--><a class="links-of-author-item yun-icon-btn" rel="noopener" href="https://t.me/Zero_251" title="Telegram" target="_blank" style="color:#0088CC;"><div class="i-ri-telegram-line icon"></div></a><a class="links-of-author-item yun-icon-btn" rel="noopener" href="https://github.com/Zero-wyc" title="GitHub" target="_blank" style="color:#6e5494;"><div class="i-ri-github-line icon"></div></a><a class="links-of-author-item yun-icon-btn" rel="noopener" href="https://space.bilibili.com/2071082896" title="Bilibili" target="_blank" style="color:#FF8EB3;"><div class="i-ri-bilibili-line icon"></div></a><a class="links-of-author-item yun-icon-btn" rel="noopener" href="https://qm.qq.com/q/uGucReUpN0" title="QQ 群 1077652464" target="_blank" style="color:#12B7F5;"><div class="i-ri-qq-line icon"></div></a><a class="links-of-author-item yun-icon-btn" rel="noopener" href="https://steamcommunity.com/profiles/76561199062579234/" title="Steam" target="_blank" style="color:#137FAF;"><div class="i-ri-steam-line icon"></div></a><a class="links-of-author-item yun-icon-btn" rel="noopener" href="https://music.163.com/#/user/home?id=3728464360" title="网易云音乐" target="_blank" style="color:#C20C0C;"><div class="i-ri-netease-cloud-music-line icon"></div></a><a class="links-of-author-item yun-icon-btn social-link-invert-in-dark" rel="noopener" href="https://x.com/Zero_wyc0721" title="Twitter" target="_blank" style="color:black;"><div class="i-ri-twitter-x-fill icon"></div></a><a class="links-of-author-item yun-icon-btn" rel="noopener" href="https://www.pixiv.net/users/59653138" title="Pixiv" target="_blank" style="color:#0096F9;"><div class="i-ri-parking-box-line icon"></div></a><a class="links-of-author-item yun-icon-btn" rel="noopener" href="https://www.coolapk.com/u/7056601" title="酷安" target="_blank" style="color:#409A45;"><div class="i-ri-infinity-line icon"></div></a><a class="links-of-author-item yun-icon-btn" rel="noopener" href="https://blog.zero251.xyz/posts/Game" title="GAME Account" target="_blank" style="color:#409A45;"><div class="i-ri-gamepad-line icon"></div></a><a class="links-of-author-item yun-icon-btn" rel="noopener" href="https://weibo.com/u/7395123860" title="微博" target="_blank" style="color:#E6162D;"><div class="i-ri-weibo-line icon"></div></a><a class="links-of-author-item yun-icon-btn" rel="noopener" href="https://blog.zero251.xyz/posts/Email" title="E-Mail" target="_blank" style="color:#8E71C1;"><div class="i-ri-mail-line icon"></div></a><a class="links-of-author-item yun-icon-btn" rel="noopener" href="/atom.xml" title="RSS" target="_blank" style="color:orange;"><div class="i-ri-rss-line icon"></div></a><!--]--></div><div class="yun-gradient-line my-2 op-20"></div><div class="links flex-center"><!--[--><a href="/tags/" class="va-link link-item yun-icon-btn" inline-flex title="标签" style="color:#43abee;"><!--[--><div class="i-ri-price-tag-3-line icon size-6"></div><!--]--></a><a href="/download/" class="va-link link-item yun-icon-btn" inline-flex title="下载站" style="color:dodgerblue;"><!--[--><div class="i-ri-triangle-line icon size-6"></div><!--]--></a><a href="/Bangumi/" class="va-link link-item yun-icon-btn" inline-flex title="追番列表" style="color:#05AEEC;"><!--[--><div class="i-ri-folder-video-line icon size-6"></div><!--]--></a><a href="/status/" class="va-link link-item yun-icon-btn" inline-flex title="站点状态" style="color:#1BA15A;"><!--[--><div class="i-ri-loader-2-line icon size-6"></div><!--]--></a><a href="/love/" class="va-link link-item yun-icon-btn" inline-flex title="喵~" style="color:#43abee;"><!--[--><div class="i-ri-heart-add-line icon size-6"></div><!--]--></a><!--]--></div><!--]--></div><!----></div><!--[--><!--
+    Empty placeholder, meant to be overridden by the user (see demo/yun/components/YunAdBoard.vue).
+    `v-if="false"` renders a comment node instead of a real element: this avoids the SSR hydration
+    crash a raw `<template>` causes (#711), while still adding no gap to the parent flex layout,
+    which an empty `<div>` would (ab57216f).
+  --><!----><!--]--><!--]--></div><main class="yun-main lt-md:w-full" flex="~ center"><!--[--><div class="content w-full md:w-3xl lg:w-2xl xl:w-2xl 2xl:w-4xl" flex="~ col grow" p="lt-md:0"><div class="yun-card flex-center rounded-2 overflow-hidden" flex="col" min-h="100px" bg="$va-c-bg-light" m="0"><img width="640" height="360" class="yun-cover object-cover select-none" h="64 md:sm" w="full" src="https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250804194104561.jpg" loading="lazy" alt><!----><div class="yun-card-body relative" w="full" flex="~ col" items="center"><!--[--><!----><div class="mt-8 mb-4"><!--[--><header class="post-header" cover="https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250804194104561.jpg"><h1 p="2" text="2xl center" font="serif black" style="color:" class="post-title flex-center"><!----><span inline-flex class="leading-none">FZBZ - F****</span></h1></header><!--]--></div><!--[--><!--[--><!--[--><!--[--><!----><div flex="~ center" text="sm" class="post-meta-col post-meta gap-4"><div class="post-time flex items-center gap-4"><span class="posted-time inline-flex-center gap-1" title="发表于2024-12-31 08:00:00"><div class="inline-block" i-ri-calendar-line></div><time class="op-80">2024-12-31</time></span><span class="edited-time inline-flex-center gap-1" title="更新于2025-08-04 00:00:00"><div i-ri-calendar-2-line></div><time class="op-80">2025-08-04</time></span></div><!--[--><!--]--><div class="inline-flex-center gap-4"><div class="inline-flex-center post-counter gap-4"><span class="word-count inline-flex-center gap-1" title="本文字数"><div class="inline-block" i-ri-file-word-line></div><span class="op-80">1.7k</span></span><span class="reading-time inline-flex-center gap-1" title="阅读时长"><div i-ri-timer-line></div><time class="op-80">7m</time></span></div><!----><!----></div></div><!--]--><!----><div class="inline-flex mt-2" text="sm" py="1"><a href="/categories?category=FZBZ" class="transition post-category inline-flex-center text-xs border-$va-c-divider" px-2 h="7" border rounded-full hover="bg-blue-500 text-white"><div m="x-1" inline-flex i-ri-folder-2-line></div><span>FZBZ</span></a><span mx="2"></span><div class="post-tags inline-flex" items="center" gap="1" flex="wrap 1" justify="end"><!--[--><a href="/tags/?tag=FZBZ" class="transition post-tag inline-flex-center text-xs border-$va-c-divider" px-2 h="7" rounded-full border hover="bg-blue-500"><span>FZBZ</span></a><!--]--></div></div><!--]--><!--]--><!--]--><div p="x-4 b-8" class="sm:px-6 lg:px-12 xl:px-16" w="full"><!--[--><!--]--><!--[--><!-- <Transition appear> --><article class="markdown-body"><!--[--><!----><!----><!--[--><!--]--><!--[--><h3 id="关于元旦晚会体艺馆场控问题及使用报告" tabindex="-1">关于元旦晚会体艺馆场控问题及使用报告 <a class="header-anchor" href="#关于元旦晚会体艺馆场控问题及使用报告" aria-label="Permalink to &quot;关于元旦晚会体艺馆场控问题及使用报告&quot;">​</a></h3><hr><blockquote><p><strong>PS</strong>： So FUCK FZBZ XXXX STUDENTS UNION<!-- more --></p><ul><li>本文包含操作指南与问题解决方案</li><li><s>人工操作问题将重点标注并尝试解决</s></li></ul></blockquote><h2 id="一、场控硬件及组织架构" tabindex="-1">一、场控硬件及组织架构 <a class="header-anchor" href="#一、场控硬件及组织架构" aria-label="Permalink to &quot;一、场控硬件及组织架构&quot;">​</a></h2><h3 id="_1-主机配置" tabindex="-1">1. 主机配置 <a class="header-anchor" href="#_1-主机配置" aria-label="Permalink to &quot;1. 主机配置&quot;">​</a></h3><figure><img src="https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250718181140432.png" alt="" loading="lazy" decoding="async"></figure><ul><li><strong>职责</strong>：使用Hirender编辑节目工程</li><li><strong>稳定性保障</strong>：禁止运行其他程序</li></ul><h3 id="_2-副机配置" tabindex="-1">2. 副机配置 <a class="header-anchor" href="#_2-副机配置" aria-label="Permalink to &quot;2. 副机配置&quot;">​</a></h3><ul><li><strong>设备要求</strong>：任意可用电脑</li><li><strong>核心职责</strong>： <ul><li>话剧类节目对稿</li><li>文件传输中转</li></ul></li></ul><h3 id="_3-大屏幕管理" tabindex="-1">3. 大屏幕管理 <a class="header-anchor" href="#_3-大屏幕管理" aria-label="Permalink to &quot;3. 大屏幕管理&quot;">​</a></h3><ul><li><strong>启动流程</strong>： <ol><li>前往后台启动屏幕服务器</li><li>热机等待约20分钟</li></ol></li></ul><h3 id="_4-应急支持" tabindex="-1">4. 应急支持 <a class="header-anchor" href="#_4-应急支持" aria-label="Permalink to &quot;4. 应急支持&quot;">​</a></h3><ul><li><strong>备用设备</strong>：至少1台备用电脑</li><li><strong>人员配置</strong>： <ul><li>故障处理专员</li><li>视频剪辑师</li><li>现场对接员</li></ul></li></ul><h3 id="_5-系统架构图" tabindex="-1">5. 系统架构图 <a class="header-anchor" href="#_5-系统架构图" aria-label="Permalink to &quot;5. 系统架构图&quot;">​</a></h3><figure><img src="https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250718181143305.png" alt="" loading="lazy" decoding="async"></figure><hr><h2 id="二、软件系统详解" tabindex="-1">二、软件系统详解 <a class="header-anchor" href="#二、软件系统详解" aria-label="Permalink to &quot;二、软件系统详解&quot;">​</a></h2><h3 id="_1-主控软件-hiredner" tabindex="-1">1. 主控软件 Hiredner <a class="header-anchor" href="#_1-主控软件-hiredner" aria-label="Permalink to &quot;1. 主控软件 Hiredner&quot;">​</a></h3><p><img src="https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250718181146214.png" alt=""><em>（2024元旦晚会放映工程示意图)</em></p><h4 id="关键操作指南" tabindex="-1">关键操作指南 <a class="header-anchor" href="#关键操作指南" aria-label="Permalink to &quot;关键操作指南&quot;">​</a></h4><ol><li><p><strong>节目衔接</strong><br><img src="https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250718181151457.png" alt=""></p><ul><li>使用预监功能提前准备下个节目</li><li>建议在节目播放至80%时启动预加载</li></ul></li><li><p><strong>PPT处理规范</strong><br><img src="https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250718181154448.png" alt=""></p><ul><li>必须勾选&quot;从头播放PPT&quot;</li><li>推荐导出为图片格式（避免字体/兼容性问题）</li><li>动画需求时选择动画模式</li></ul></li><li><p><strong>播放设置</strong><br><img src="https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250718181156553.png" alt=""></p><ul><li>触发结束动作 → 停止播放</li><li>播放模式选择 → 按需使用定格/停止</li></ul></li><li><p><strong>显示输出</strong><br><img src="https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250718181158394.png" alt=""></p><ul><li>三屏输出验证</li><li><code>Win + P</code> 切换扩展模式</li></ul></li><li><p><strong>工程保存</strong><br><img src="https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250718181159871.png" alt=""></p><ul><li>手动保存：<code>Ctrl + S</code> 每5分钟</li><li>自动备份：10分钟间隔存档</li></ul></li></ol><blockquote><p><strong>资源下载</strong>：<br><a href="https://pan.quark.cn/s/ba352a83ed5a" target="_blank" rel="noreferrer">Hirender工程模板</a><br><a href="https://hirender.com/docs" target="_blank" rel="noreferrer">官方文档</a>（150页操作手册）</p></blockquote><hr><h3 id="_2-文件传输系统" tabindex="-1">2. 文件传输系统 <a class="header-anchor" href="#_2-文件传输系统" aria-label="Permalink to &quot;2. 文件传输系统&quot;">​</a></h3><h4 id="chfsgui-解决方案" tabindex="-1">CHFSGUI 解决方案 <a class="header-anchor" href="#chfsgui-解决方案" aria-label="Permalink to &quot;CHFSGUI 解决方案&quot;">​</a></h4><figure><img src="https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250718181201985.png" alt="" loading="lazy" decoding="async"></figure><p><strong>优势特性</strong>：</p><ul><li>零配置快速部署</li><li>多平台兼容</li><li>可视化传输监控</li></ul><blockquote><p><strong>下载地址</strong>：<br><a href="https://pan.quark.cn/s/2edc171a624e" target="_blank" rel="noreferrer">CHFSGUI v3.0</a></p></blockquote><h4 id="传输方案对比" tabindex="-1">传输方案对比 <a class="header-anchor" href="#传输方案对比" aria-label="Permalink to &quot;传输方案对比&quot;">​</a></h4><table><thead><tr><th>方案</th><th>速度</th><th>稳定性</th><th>适用场景</th></tr></thead><tbody><tr><td>Windows热点</td><td>★★☆</td><td>★★☆</td><td>小型文件临时传输</td></tr><tr><td>路由器DHCP</td><td>★★★</td><td>★★★☆</td><td>多人协作环境</td></tr><tr><td>网线直连</td><td>★★★★</td><td>★★★★</td><td>大文件紧急传输</td></tr><tr><td>NVME移动硬盘</td><td>★★★★☆</td><td>★★★★☆</td><td>超大文件传输</td></tr></tbody></table><hr><h3 id="_3-视频处理套件" tabindex="-1">3. 视频处理套件 <a class="header-anchor" href="#_3-视频处理套件" aria-label="Permalink to &quot;3. 视频处理套件&quot;">​</a></h3><h4 id="格式工厂-去水印" tabindex="-1">格式工厂（去水印） <a class="header-anchor" href="#格式工厂-去水印" aria-label="Permalink to &quot;格式工厂（去水印）&quot;">​</a></h4><figure><img src="https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250718181204425.png" alt="" loading="lazy" decoding="async"></figure><ul><li><strong>推荐设置</strong>： <ul><li>输出格式：MP4/H.264</li><li>分辨率：1920x1080</li><li>码率：8Mbps</li></ul></li></ul><h4 id="剪映-视频剪辑" tabindex="-1">剪映（视频剪辑） <a class="header-anchor" href="#剪映-视频剪辑" aria-label="Permalink to &quot;剪映（视频剪辑）&quot;">​</a></h4><ul><li><strong>工作流优化</strong>： <ol><li>创建标准化工程模板</li><li>预置转场特效库</li><li>音频波形自动对齐</li></ol></li></ul><hr><h2 id="三、操作问题分析" tabindex="-1">三、操作问题分析 <a class="header-anchor" href="#三、操作问题分析" aria-label="Permalink to &quot;三、操作问题分析&quot;">​</a></h2><h3 id="重点问题解决矩阵" tabindex="-1">重点问题解决矩阵 <a class="header-anchor" href="#重点问题解决矩阵" aria-label="Permalink to &quot;重点问题解决矩阵&quot;">​</a></h3><table><thead><tr><th>问题类型</th><th>现象描述</th><th>解决方案</th><th>负责人</th></tr></thead><tbody><tr><td>字幕不同步</td><td>演员台词与字幕偏差&gt;2s</td><td>双屏监看+无线麦信号触发</td><td>技术组组长</td></tr><tr><td>PPT跳页</td><td>非预期页面起始</td><td>强制图片导出+预加载测试</td><td>场控操作员</td></tr><tr><td>网络中断</td><td>传输速率&lt;10MB/s</td><td>启用应急有线传输通道</td><td>网络保障组</td></tr><tr><td>资源延迟</td><td>开场后临时更换素材</td><td>建立素材提交deadline机制</td><td>节目统筹组</td></tr></tbody></table><hr><h2 id="四、应急预案清单" tabindex="-1">四、应急预案清单 <a class="header-anchor" href="#四、应急预案清单" aria-label="Permalink to &quot;四、应急预案清单&quot;">​</a></h2><ol><li><p><strong>硬件故障</strong>：</p><ul><li>备用电脑热备</li><li>关键线材双备份</li></ul></li><li><p><strong>软件崩溃</strong>：</p><ul><li>自动保存工程定期导出</li><li>PotPlayer应急启动方案</li></ul></li><li><p><strong>网络中断</strong>：</p><ul><li>4G热点应急路由</li><li>本地NAS临时存储</li></ul></li><li><p><strong>人为失误</strong>：</p><ul><li>操作日志实时记录</li><li>双人校验关键步骤</li></ul></li></ol><div class="language-markdown max-h-10px"><button title="Copy code" class="copy"></button><span class="lang">markdown</span><pre class="shiki shiki-themes github-light github-dark vp-code"><code v-pre><span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">茫然的，无所事事的，堕落的，无能的，无力的</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">人很忙，忙着活着</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">为了存在，为了那虚无缥缈的关系，逃避那寒尖刻薄的眼神，徘徊着，彷徨着，迷茫着，不知前方是何路，打击着，陷落着，想着不如一了百了，人际的浅薄，搞不好的关系，孤身一人的空空如也，摒弃了曾经灿烂的光彩，默默无闻</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">到头来，自己所坚守的终究只是一团废纸</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">而自己更是打自生来便道差百里</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">不再盘问而确凿的选拔</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">他人间不过鸡毛蒜皮的小事</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">可为何</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">如此伤痛</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">以至于无法忘却</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">是他们太过优秀</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">还是自己尘封压抑的释放太过强烈</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">狂滥的情绪</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">太过的表现努力和频繁</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">招致了反感</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">没有朋友</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">没有知己</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">只剩孤独</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">独自酣畅</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">却不知</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">何处是希望</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">那些</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">鸡毛蒜皮</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">又为何</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">迟滞淋伤</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">这唯一的坦荡</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">也就此</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">蔽了锋芒</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">我将自己封闭</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">我将自己唾弃</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">我是一个不服连消息都不敢提的懦弱之人</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">我是不懂装懂的孤高自傲</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">我是一界外人</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">当初就不应该自视清高</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">怎罢这了还休</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">却不知何处释放</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">对未来的期待</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">也就此顷刻崩塌</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">是啊</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">如果有一个知底的朋友</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">事情又该怎样</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">可现在</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">无人知晓</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">只有自己</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">暗自悲伤</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">或许在不久的将来</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">这将变成顷刻的谈笑</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">可又有谁知</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">彼时自己的心情</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">没有人能真正的切身体会</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">除非一同经历</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">曾经的努力的我已经死了</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">现在活着的</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">不过是一副不知去向</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">不知何做的躯壳</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">失去了一切的积极性</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">留下的</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">只有无尽的空虚与颓废</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">否定</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">否定</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">再否定</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">封闭</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">封闭</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">在封闭</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">将希望寄托在那以为白用功也可以成功的自以为是上</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">精神压力之洪流</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">好似一切都将爆炸</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">无论怎么用劲</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">都只会剩下异地鸡毛</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">于是</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">我开始自己骗自己</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">仍是那份清高</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">保护着我那fw不能再fw的自尊</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">可这有什么用</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">飘得了一时</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">骗得了结果吗</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">于是那股市</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">便只剩下惨烈的绿色</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">俩点一线的生活</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">我忘记了活着的意义</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">曾经探寻到的无比坚定的信仰</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">也在那无底彷徨中</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">消失殆尽</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">是啊</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">我是怎么在一年内作息全换的呢</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">又是怎么一直在打破曾经我的下线的呢</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">想叫醒一个装糊涂而清醒的人是无论用什么办法都解决不了的</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">难道原生家庭吗？</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">其实我很讨厌这个词</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">因为这不就是家境的包装吗</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">你本就无可奈何</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">又何谈怪罪？</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#005CC5;--shiki-light-font-weight:bold;--shiki-dark:#79B8FF;--shiki-dark-font-weight:bold;">---</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">死吧死吧死吧死吧</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">艹</span></span></code></pre><button class="code-block-unfold-btn"></button></div><!--]--><!--]--><!----><!----></article><!-- </Transition> --><!--]--><!--[--><!--[--><!--[--><div class="yun-sponsor-container flex-center flex-col" m="t-6"><button class="sponsor-button yun-icon-btn shadow hover:shadow-md" title="打赏" text="red-400"><div class="mt-2px" i-ri-heart-fill></div></button><div m="y-4" class="qrcode-container qrcode flex-center flex-col"><div class="sponsor-description" mb="4" text="sm">这是关于赞助的一些描述</div><div class="flex justify-around"><!--[--><!--]--></div></div></div><ul class="post-copyright" m="y-4"><li class="post-copyright-author"><strong>本文作者：</strong><span>时终逝く</span></li><li class="post-copyright-link"><strong>本文链接：</strong><a href="https://blog.zero251.xyz/posts/FZBZF" target="_blank" title="本文链接">https://blog.zero251.xyz/posts/FZBZF</a></li><li class="post-copyright-license"><strong>版权声明：</strong><span>本博客所有文章除特别声明外，均默认采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="noopener" title="CC BY-NC-SA 4.0 ">CC BY-NC-SA</a> 许可协议。</span></li></ul><!--]--><!--]--><!--]--></div><!--]--></div><!----></div><!--[--><!--]--><!--[--><div class="post-nav"><div class="post-nav-item"><a href="/posts/bios-boot-animation-change" class="post-nav-prev" title="主板BIOS开机动画更改 - 技嘉为例 - 甘城なつき主题"><div class="icon" i-ri-arrow-left-s-line></div><span class="title truncate" text="sm">主板BIOS开机动画更改 - 技嘉为例 - 甘城なつき主题</span></a></div><div class="post-nav-item"><a href="/posts/comments-miscellaneous" class="post-nav-next" title="评论杂烩QAQ"><span class="title truncate" text="sm">评论杂烩QAQ</span><div class="icon" i-ri-arrow-right-s-line></div></a></div></div><!--]--><!--[--><!--]--><!--[--><div class="yun-card flex-center rounded-2 overflow-hidden comment yun-comment sm:p-6 lg:px-12 xl:px-16" flex="col" min-h="100px" bg="$va-c-bg-light" w="full" p="4"><!----><!----><div class="yun-card-body relative" w="full" flex="~ col" items="center"><!--[--><!----><!--]--></div><!----></div><!--]--><!--[--><!--
+    Empty placeholder, meant to be overridden by the user (see demo/yun/components/YunAdBoard.vue).
+    `v-if="false"` renders a comment node instead of a real element: this avoids the SSR hydration
+    crash a raw `<template>` causes (#711), while still adding no gap to the parent flex layout,
+    which an empty `<div>` would (ab57216f).
+  --><!----><!--]--><!--[--><!--]--><!--[--><!--]--></div><!--]--></main><!--[--><button class="xl:hidden toc-btn shadow-md fixed yun-icon-btn z-20 bg-$va-c-bg-soft" opacity="75" right="4" bottom="19"><div i-ri-file-list-line></div></button><!----><aside flex="~ col" class="va-card yun-aside min-h-sm rounded-2" text="center" overflow="auto"><div class="w-full" flex="~ col" pb-2><!--[--><h2 m="t-6 b-2" font="serif black">文章目录</h2><div style="display:none;" data-v-ff9cbeb6><div class="content" data-v-ff9cbeb6><div class="outline-title" data-v-ff9cbeb6>本页</div><div class="outline-marker" data-v-ff9cbeb6></div><nav aria-labelledby="doc-outline-aria-label" data-v-ff9cbeb6><span id="doc-outline-aria-label" class="visually-hidden" data-v-ff9cbeb6> Table of Contents for current page </span><ul class="root va-toc relative z-1 css-i18n-toc" data-v-ff9cbeb6 data-v-45869caa><!--[--><!--]--></ul></nav></div></div><!--]--><div class="flex-grow"></div><!----></div></aside><!--]--><!--]--></div><footer flex="~ col" class="relative yun-footer va-footer px-4 py-4 pt-0 text-$va-c-text-light w-full mt-14" bg="white dark:$va-c-bg-soft" text="center sm"><div class="yun-cloud absolute top--10 left-0 right-0"><svg class="waves" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto"><defs><path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" fill="var(--yun-c-cloud)"></path></defs><g class="parallax"><use xlink:href="#gentle-wave" x="48" y="0"></use><use xlink:href="#gentle-wave" x="48" y="3"></use><use xlink:href="#gentle-wave" x="48" y="5"></use><use xlink:href="#gentle-wave" x="48" y="7"></use></g></svg></div><div class="beian" m="y-2"><a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener">闽ICP备2025091782号-1</a><!----></div><div class="copyright flex justify-center items-center gap-2" p="1"><span> © <!--[-->2025 - <!--]--> 2026</span><a class="animate-pulse inline-flex" href="https://www.yunyoujun.cn/sponsors/" target="_blank" title="Sponsor YunYouJun"><div class="i-ri-cloud-line"></div></a><span>时终逝く</span></div><!----><!--[--><span>本站总访问量 -</span><span>本站总访客数 -</span><!--]--><div class="yun-footer-gradient"></div></footer></div><!--]--></div><script>window.__INITIAL_STATE__='{"pinia":{"yun-app":{"bannerAnimationDone":false},"app":{"showLoading":true},"site":{},"routerStore":{}}}'</script><script type="application/ld+json" data-hid="schema-org-graph">{"@context":"https://schema.org","@graph":[{"@id":"https://blog.zero251.xyz/#identity","@type":"Person","name":"时终逝く","url":"https://blog.zero251.xyz/","image":{"@id":"https://blog.zero251.xyz/#/schema/image/1"},"sameAs":["https://t.me/Zero_251","https://github.com/Zero-wyc","https://space.bilibili.com/2071082896","https://qm.qq.com/q/uGucReUpN0","https://steamcommunity.com/profiles/76561199062579234/","https://music.163.com/#/user/home?id=3728464360","https://x.com/Zero_wyc0721","https://www.pixiv.net/users/59653138","https://www.coolapk.com/u/7056601","https://blog.zero251.xyz/posts/Game","https://weibo.com/u/7395123860","https://blog.zero251.xyz/posts/Email","/atom.xml"]},{"@id":"https://blog.zero251.xyz/#website","@type":"WebSite","dateModified":"2025-08-03T16:00:00.000Z","datePublished":"2024-12-31","inLanguage":"zh-CN","name":"FZBZ - F****","url":"https://blog.zero251.xyz/","publisher":{"@id":"https://blog.zero251.xyz/#identity"}},{"@id":"https://blog.zero251.xyz/#webpage","@type":"WebPage","dateModified":"2025-08-03T16:00:00.000Z","datePublished":"2024-12-30T16:00:00.000Z","description":"Zero_wyc的窝","name":"FZBZ - F****","url":"https://blog.zero251.xyz/","about":{"@id":"https://blog.zero251.xyz/#identity"},"isPartOf":{"@id":"https://blog.zero251.xyz/#website"},"potentialAction":[{"@type":"ReadAction","target":["https://blog.zero251.xyz/"]}]},{"@id":"https://blog.zero251.xyz/#article","dateModified":"2025-08-03T16:00:00.000Z","datePublished":"2024-12-30T16:00:00.000Z","description":"Zero_wyc的窝","headline":"FZBZ - F****","inLanguage":"zh-CN","thumbnailUrl":"https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250804194104561.jpg","@type":["Article","BlogPosting"],"author":{"@id":"https://blog.zero251.xyz/#/schema/person/1"},"image":{"@id":"https://blog.zero251.xyz/#/schema/image/2"},"isPartOf":{"@id":"https://blog.zero251.xyz/#webpage"},"mainEntityOfPage":{"@id":"https://blog.zero251.xyz/#webpage"},"publisher":{"@id":"https://blog.zero251.xyz/#identity"}},{"@id":"https://blog.zero251.xyz/#/schema/person/1","@type":"Person","name":"时终逝く","url":"https://valaxy.site"},{"@id":"https://blog.zero251.xyz/#/schema/image/1","@type":"ImageObject","contentUrl":"https://github.cdn.zero251.xyz/Zero-wyc/Image/main/General/辛.webp","inLanguage":"zh-CN","url":"https://github.cdn.zero251.xyz/Zero-wyc/Image/main/General/辛.webp"},{"@id":"https://blog.zero251.xyz/#/schema/image/2","@type":"ImageObject","contentUrl":"https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250804194104561.jpg","inLanguage":"zh-CN","url":"https://github.cdn.zero251.xyz/Zero-wyc/Image/main/All/20250804194104561.jpg"}]}</script>
+  
+</body>
+</html>
