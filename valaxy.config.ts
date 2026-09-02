@@ -120,7 +120,7 @@ export default defineValaxyConfig<UserThemeConfig>({
     notice: {
       enable: true,
       hideInPages: true, // 是否在 /pages/[page] 中隐藏
-      content: 'TIPS:点击名字有惊喜 | 马上就要高三了,更新频率会很低...但t.me/Zero_251还是会发的w',
+      content: 'TIPS:点击名字有惊喜 | 高三ING,更新频率会很低...但t.me/Zero_251还是会发的w',
     },
     //页脚
     footer: {
