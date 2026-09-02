@@ -9,6 +9,12 @@ links:
     color: "#0078e7"
   - url: https://teaclearinkii.pages.dev/assets/home/TeaClearInkII.webp
     avatar: https://teaclearinkii.pages.dev/assets/home/TeaClearInkII.webp
+    name: ShoKo
+    blog: ShoKo
+    desc: 建这个博客没啥宏大的目标，存点好玩的，写点想写的。总之很菜又爱玩。
+    color: "#0078e7"
+  - url: https://www.wlw301.top/upload/b_6e82f413de7b2eee87d23ad29cf65e6b.jpg?width=1600
+    avatar: https://www.wlw301.top/upload/b_6e82f413de7b2eee87d23ad29cf65e6b.jpg
     name: 茶清墨
     blog: 茶清墨刂
     desc: 茶茶的小茶亭
